@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="Catalog.Валюты" id="3100852b-983c-47c1-901e-cded92db0cc4" configVersion="f03f170ff9bff4803deaefaf34a4ac722f623de7"/>
+		<Metadata name="Catalog.Номенклатура" id="30570ae2-0ae9-4f3f-b90b-8e1c1c050b62" configVersion="26fda4bbe9e9faf3d3b5ac96aad7987cb957377d"/>
+		<Metadata name="Catalog.Организации" id="2bae7256-5e06-4e19-a5a9-b5908e5fea74" configVersion="0c99a7eff009c22e56ab8158fe87fbddedade18f"/>
+		<Metadata name="Catalog.Склады" id="88ca91e5-be7c-493d-9bb7-61dad62b0944" configVersion="4bcec4ba75aaeddc3109ee6a4cc721de800d197e"/>
+		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый" id="158e129f-9a5a-4770-a64d-553d9d649027" configVersion="4227c7ebae0e853c9e7f4f9e0513cac5e07241cb"/>
+		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый.Module" id="158e129f-9a5a-4770-a64d-553d9d649027.0" configVersion="064868cfa6b1fbdb3a59ce29ddcc45a4a6c2cab6"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="d2ec875cb77a6f660949d32e499b7ad92a93423d"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d" configVersion="24d95ece84373faafe72c820bb69420519dd3e0f"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="964c6d700510de79a06db378c54e775e079a48fe"/>
+		<Metadata name="Configuration.Кодерлайн_интеграция_ЕРП" id="23e112b2-49a1-4272-abd1-75b72c5fec13" configVersion="a8427945365300a8d29294e428291865828ed5b9"/>
+		<Metadata name="Constant.ксп_УзелОбменаБП" id="c12b02bf-2846-480c-a040-c6a722597cc6" configVersion="207480330b265844ddc30b822a5d4e72f4627e62"/>
+		<Metadata name="Constant.ксп_УзелОбменаРозница" id="8069bffd-c08e-4683-893b-8a9f172968e1" configVersion="cfad732cb33206f86bd6b6ac4826b1c3af633a92"/>
+		<Metadata name="Constant.ксп_УзелОбменаУТ" id="4ab3d3d5-199e-4db6-82d1-d6a664366bb0" configVersion="a3a3204d1768dff2eb5b0694114089acce52672b"/>
+		<Metadata name="Document.ЗаказКлиента" id="b20d7375-d3a4-4d7e-b2d0-e4834db68fb7" configVersion="c030dcd08712250029e7687ece8650a2bf8e3c35"/>
+		<Metadata name="Document.ЗаказНаПеремещение" id="f4843593-0120-48a2-81a1-683987479490" configVersion="65e4dbcb7f45ff7763e0cde9f5daaaf43e4f0b45"/>
+		<Metadata name="Document.ИзменениеАссортимента" id="b47875fe-a0be-42e7-b07b-42bc495fbfd7" configVersion="96763c5c6a6342090a84158c42c9e1e1e896382d"/>
+		<Metadata name="Document.ПеремещениеТоваров" id="efeda1ee-66e3-415a-867d-0d97cf661c5c" configVersion="4b20fb6b11c45124cb4372be28c6dce231fccf54"/>
+		<Metadata name="Document.УстановкаЦенНоменклатуры" id="6627ed55-2e7d-472e-94bc-c58c98444b27" configVersion="1cb7f1f1ff04eb80d9f21343f88ef51e0fb62461"/>
+		<Metadata name="ExchangePlan.Кодерлайн_интеграция_с_БП" id="a6e038f6-a806-435b-841b-0555dac0d5c5" configVersion="71d923b692a42b430556dff9fd9c872612951039"/>
+		<Metadata name="ExchangePlan.Кодерлайн_интеграция_с_Розница" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3" configVersion="1cc4d8cc9e96585d4a0c2b896832dae635c07516"/>
+		<Metadata name="ExchangePlan.Кодерлайн_интеграция_с_Розница.Content" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3.1" configVersion="44effcd856e243d466a80da89a661aa33a444c34"/>
+		<Metadata name="ExchangePlan.Кодерлайн_интеграция_с_УТ" id="e277b49c-5539-41b2-9592-ca8d406ae162" configVersion="fdd1d30eec6ab523b13ff5b0dfe9326f10fe8d1c"/>
+		<Metadata name="InformationRegister.НастройкиКонстанты" id="ac804946-a11e-4f41-b4c4-6d044d6b2f6e" configVersion="90c4f33f80bcc4998f535b14c134dbdb4889d9c6">
+			<Metadata name="InformationRegister.НастройкиКонстанты.Dimension.ИмяНастройки" id="9a3fe605-0c74-46c9-95ff-5ce369ae1783"/>
+			<Metadata name="InformationRegister.НастройкиКонстанты.Resource.ЗначениеНастройки" id="c2c41b16-f0c4-4568-85bb-2e7b613d121e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.НастройкиКонстанты.ManagerModule" id="ac804946-a11e-4f41-b4c4-6d044d6b2f6e.2" configVersion="50e0e63b7eed4b2c14539cbf39f45d38f95151d3"/>
+		<Metadata name="InformationRegister.ПодстановкаРеквизитов" id="5cbdea46-c1f5-469c-8859-2252ddf0e1af" configVersion="09b564384f1f19280e1db4fedc1d099f71480dee">
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Dimension.ИмяТабЧасти" id="0bbcbcc7-7402-4826-bdfc-85a0a6795e16"/>
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Dimension.УзелОбмена" id="0ea27daa-e827-4ab2-a0c6-fa3732a3a664"/>
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Resource.ЗначениеРеквизита" id="24e2632a-2b48-4de9-b55d-6a0caa33c340"/>
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Resource.Условие" id="4b463d23-5fde-417c-a268-e557ae940328"/>
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Dimension.ИмяМетаданыхОбъекта" id="4ca91c57-dcb2-4e12-bc47-3b917d1b9da3"/>
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Dimension.ИмяРеквизитаШапки" id="602d014c-ca46-4693-8945-266713514f48"/>
+			<Metadata name="InformationRegister.ПодстановкаРеквизитов.Dimension.ИмяРеквизитаТЧ" id="715d0c5b-f5ef-421f-894c-5d23276524f6"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ШтрихкодыНоменклатуры" id="02ae02a6-6383-48c0-9c67-4156361641ea" configVersion="0636633d66059164f30acd84601a7ebd98dd322c"/>
+		<Metadata name="Language.Русский" id="6a553a57-42d9-43d8-8062-0216896a7b9f" configVersion="6d9544a78ea89ed04c009e4a3a7efc3880277cb9"/>
+		<Metadata name="Role.ксп_ОсновнаяРоль" id="3dc04873-3c24-4a35-8fd8-4b31801c791a" configVersion="e713ba078ca4c442196563e924ec137f33eaa05f"/>
+		<Metadata name="Subsystem.ИнтеграцияКодерлайн" id="acbdfa66-9deb-4aa8-bf72-24eaa2d3d85e" configVersion="7d6d283fecbfad1307955709313b2b3b04a0c553"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
