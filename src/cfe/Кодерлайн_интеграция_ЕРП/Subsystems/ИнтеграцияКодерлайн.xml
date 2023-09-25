@@ -24,6 +24,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаРозница</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаУТ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаБП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКонтрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникСклады</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ОтложенноеПроведение</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="42f00f10-6687-4f90-92bf-54f1f78271b8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриходныйКассовыйОрдер" category="Object">
+				<xr:TypeId>905b77f0-abc0-4b06-9c61-c733cb56a686</xr:TypeId>
+				<xr:ValueId>739e1d20-de7d-40c4-92ed-ed255bd7d770</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриходныйКассовыйОрдер" category="Ref">
+				<xr:TypeId>60915fff-abe9-4b65-8589-ccc6743b8534</xr:TypeId>
+				<xr:ValueId>a9af9742-c650-4b56-8e73-a934027a71c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриходныйКассовыйОрдер" category="Selection">
+				<xr:TypeId>32e187bb-0b1b-4d5d-9ba2-b6ce22091285</xr:TypeId>
+				<xr:ValueId>b00ad5e0-9518-435c-9d9f-606325fb2a2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриходныйКассовыйОрдер" category="List">
+				<xr:TypeId>e7458c48-4204-4713-b952-a6223037b977</xr:TypeId>
+				<xr:ValueId>c09f8e33-a833-4e2c-acc1-d0a2599d68e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриходныйКассовыйОрдер" category="Manager">
+				<xr:TypeId>c1c04d94-c4c8-47d4-900c-7ea843aaf2cd</xr:TypeId>
+				<xr:ValueId>c4c2fe17-641c-42b5-bd34-d14a1453bb36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриходныйКассовыйОрдер</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e16b931a-86b3-413f-a330-7b6f835e2da7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

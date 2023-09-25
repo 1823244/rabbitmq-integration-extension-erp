@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="301b3f0c-d3b6-47cb-af9d-d0b0554a17f8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ФорматыМагазинов" category="Object">
+				<xr:TypeId>401b0fb1-a50f-428c-b2c8-fe85466d54cc</xr:TypeId>
+				<xr:ValueId>b3d83869-49e1-4e55-98d0-89d1ff4ed302</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ФорматыМагазинов" category="Ref">
+				<xr:TypeId>b5735bb6-ba5e-4a3b-8ffa-a7275c69ad9e</xr:TypeId>
+				<xr:ValueId>ade7a7fe-bbf9-4290-8f62-10d5a01ef438</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ФорматыМагазинов" category="Selection">
+				<xr:TypeId>3a539d87-2bd3-476f-83ac-69a731b80660</xr:TypeId>
+				<xr:ValueId>b198226f-a73d-4b2f-afbd-a9bda15b24e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ФорматыМагазинов" category="List">
+				<xr:TypeId>3896dc45-cc4b-49bd-8c80-b83bb59744d5</xr:TypeId>
+				<xr:ValueId>7baa59c1-d8be-4d54-becd-be65ce6a5420</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ФорматыМагазинов" category="Manager">
+				<xr:TypeId>447a893a-004e-45ba-9886-a7a2cedf4e7b</xr:TypeId>
+				<xr:ValueId>18bb58fe-1620-435c-ada2-a19113383d67</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФорматыМагазинов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e6e2f63a-efcd-4e45-94e8-6eb494a2464d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

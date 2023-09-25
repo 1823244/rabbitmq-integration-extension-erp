@@ -70,6 +70,7 @@
 			<CommonModule>ксп_ЭкспортСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
+			<CommonModule>ксп_ИмпортСлужебный</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция_с_БП</ExchangePlan>
 			<ExchangePlan>Кодерлайн_интеграция_с_УТ</ExchangePlan>
 			<ExchangePlan>Кодерлайн_интеграция_с_Розница</ExchangePlan>
@@ -80,14 +81,48 @@
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>ВидыЦен</Catalog>
+			<Catalog>ВидыНоменклатуры</Catalog>
+			<Catalog>ХарактеристикиНоменклатуры</Catalog>
+			<Catalog>Кассы</Catalog>
+			<Catalog>КассыККМ</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ФорматыМагазинов</Catalog>
+			<Catalog>КартыЛояльности</Catalog>
+			<Catalog>ПричиныОтменыЗаказовКлиентов</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>ИзменениеАссортимента</Document>
 			<Document>ЗаказНаПеремещение</Document>
 			<Document>ЗаказКлиента</Document>
 			<Document>УстановкаЦенНоменклатуры</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>ВозвратТоваровОтКлиента</Document>
+			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
+			<Document>ВыемкаДенежныхСредствИзКассыККМ</Document>
+			<Document>ОперацияПоПлатежнойКарте</Document>
+			<Document>ОтчетОРозничныхПродажах</Document>
+			<Document>ПриходныйКассовыйОрдер</Document>
+			<Document>РасходныйКассовыйОрдер</Document>
+			<Document>ЧекККМ</Document>
+			<Document>ЧекККМКоррекции</Document>
+			<Document>ОприходованиеИзлишковТоваров</Document>
+			<Document>СписаниеНедостачТоваров</Document>
+			<Document>ПересортицаТоваров</Document>
+			<Document>ПередачаТоваровМеждуОрганизациями</Document>
+			<Document>РасходныйОрдерНаТовары</Document>
+			<Enum>ксп_СтатусыКачестваДокументов</Enum>
+			<Enum>ксп_ВидыПроблемКачестваДокументов</Enum>
 			<InformationRegister>ПодстановкаРеквизитов</InformationRegister>
 			<InformationRegister>НастройкиКонстанты</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникКонтрагенты</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
+			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>
+			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
+			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
