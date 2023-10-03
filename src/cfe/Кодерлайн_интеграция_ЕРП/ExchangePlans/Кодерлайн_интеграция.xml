@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<ExchangePlan uuid="e277b49c-5539-41b2-9592-ca8d406ae162">
+	<ExchangePlan uuid="7c904c61-d43e-4f57-8202-ae28b3d56ec3">
 		<InternalInfo>
-			<xr:ThisNode>31094852-877d-4d87-812d-0c62dc00fe01</xr:ThisNode>
-			<xr:GeneratedType name="ExchangePlanObject.Кодерлайн_интеграция_с_УТ" category="Object">
-				<xr:TypeId>5f621ff6-ca60-4bc9-a66b-f342d6dd853c</xr:TypeId>
-				<xr:ValueId>835b7a26-e0d0-4ac6-805c-1360766db8df</xr:ValueId>
+			<xr:ThisNode>4096d9e3-39b2-40bb-adba-3a21f218deab</xr:ThisNode>
+			<xr:GeneratedType name="ExchangePlanObject.Кодерлайн_интеграция" category="Object">
+				<xr:TypeId>3e7dd999-6803-4372-91fd-219bdc559fd0</xr:TypeId>
+				<xr:ValueId>11251708-b057-46ad-8f59-6d9b7bcecd19</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExchangePlanRef.Кодерлайн_интеграция_с_УТ" category="Ref">
-				<xr:TypeId>5aba6566-88d5-4247-9a0b-05fdbdc0bdd5</xr:TypeId>
-				<xr:ValueId>5bcd78fd-9954-454e-8e33-af3cb162d56a</xr:ValueId>
+			<xr:GeneratedType name="ExchangePlanRef.Кодерлайн_интеграция" category="Ref">
+				<xr:TypeId>0b86f9f5-f279-4ff5-a272-9b49f43a64ea</xr:TypeId>
+				<xr:ValueId>9682e672-ac0e-4c88-be29-ddd0be8eeb7f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExchangePlanSelection.Кодерлайн_интеграция_с_УТ" category="Selection">
-				<xr:TypeId>b13ffe38-9119-4f93-a55a-10bd01fef402</xr:TypeId>
-				<xr:ValueId>b7f0cbe5-4d3a-4b34-92ef-eb2bbbea5e40</xr:ValueId>
+			<xr:GeneratedType name="ExchangePlanSelection.Кодерлайн_интеграция" category="Selection">
+				<xr:TypeId>7fa2c892-9f91-4458-9560-bac7abae590b</xr:TypeId>
+				<xr:ValueId>3ced0721-ab3e-4484-8442-9bce52b8a549</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExchangePlanList.Кодерлайн_интеграция_с_УТ" category="List">
-				<xr:TypeId>4aff27e5-e032-4cfc-8519-a1185873d682</xr:TypeId>
-				<xr:ValueId>8563470d-69fc-4514-b04b-27434890b353</xr:ValueId>
+			<xr:GeneratedType name="ExchangePlanList.Кодерлайн_интеграция" category="List">
+				<xr:TypeId>63e01e1e-ee0d-4cba-a566-47a415068c65</xr:TypeId>
+				<xr:ValueId>9f0a383f-d9b3-4317-ab95-8db1d2535ec8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExchangePlanManager.Кодерлайн_интеграция_с_УТ" category="Manager">
-				<xr:TypeId>46648b3e-2cb1-4920-b4ae-03fd962be5d2</xr:TypeId>
-				<xr:ValueId>5f5fc951-159b-4ab1-a9bb-9d2a03190108</xr:ValueId>
+			<xr:GeneratedType name="ExchangePlanManager.Кодерлайн_интеграция" category="Manager">
+				<xr:TypeId>bcd82604-f2b0-49d4-8041-a058b136fa9f</xr:TypeId>
+				<xr:ValueId>788224ff-0512-4c2a-8b44-300b2caf0463</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Кодерлайн_интеграция_с_УТ</Name>
+			<Name>Кодерлайн_интеграция</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>План обмена: Интеграция с УТ</v8:content>
+					<v8:content>План обмена: Интеграция</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>УТ</Comment>
+			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<CodeLength>9</CodeLength>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
@@ -42,8 +42,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>ExchangePlan.Кодерлайн_интеграция_с_УТ.StandardAttribute.Description</xr:Field>
-				<xr:Field>ExchangePlan.Кодерлайн_интеграция_с_УТ.StandardAttribute.Code</xr:Field>
+				<xr:Field>ExchangePlan.Кодерлайн_интеграция.StandardAttribute.Description</xr:Field>
+				<xr:Field>ExchangePlan.Кодерлайн_интеграция.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

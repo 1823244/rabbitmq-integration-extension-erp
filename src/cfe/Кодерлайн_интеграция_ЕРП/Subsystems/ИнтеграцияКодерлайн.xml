@@ -16,14 +16,14 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПодстановкаРеквизитов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Кодерлайн_интеграция_с_БП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5cbdea46-c1f5-469c-8859-2252ddf0e1af</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a6e038f6-a806-435b-841b-0555dac0d5c5</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиКонстанты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Кодерлайн_интеграция_с_УТ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Кодерлайн_интеграция_с_Розница</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаРозница</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаУТ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаБП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e277b49c-5539-41b2-9592-ca8d406ae162</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Кодерлайн_интеграция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8069bffd-c08e-4683-893b-8a9f172968e1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4ab3d3d5-199e-4db6-82d1-d6a664366bb0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c12b02bf-2846-480c-a040-c6a722597cc6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКонтрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникСклады</xr:Item>

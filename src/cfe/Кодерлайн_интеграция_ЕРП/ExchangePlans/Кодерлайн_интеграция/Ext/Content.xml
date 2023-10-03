@@ -81,6 +81,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.КартыЛояльности</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.Склады</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
@@ -90,6 +94,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.Контрагенты</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПричиныОтменыЗаказовКлиентов</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>

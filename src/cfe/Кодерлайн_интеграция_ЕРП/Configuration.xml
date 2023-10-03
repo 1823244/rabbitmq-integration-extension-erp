@@ -71,12 +71,8 @@
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
 			<CommonModule>ксп_ИмпортСлужебный</CommonModule>
-			<ExchangePlan>Кодерлайн_интеграция_с_БП</ExchangePlan>
-			<ExchangePlan>Кодерлайн_интеграция_с_УТ</ExchangePlan>
-			<ExchangePlan>Кодерлайн_интеграция_с_Розница</ExchangePlan>
-			<Constant>ксп_УзелОбменаБП</Constant>
-			<Constant>ксп_УзелОбменаУТ</Constant>
-			<Constant>ксп_УзелОбменаРозница</Constant>
+			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
+			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Catalog>Склады</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
@@ -114,7 +110,6 @@
 			<Document>РасходныйОрдерНаТовары</Document>
 			<Enum>ксп_СтатусыКачестваДокументов</Enum>
 			<Enum>ксп_ВидыПроблемКачестваДокументов</Enum>
-			<InformationRegister>ПодстановкаРеквизитов</InformationRegister>
 			<InformationRegister>НастройкиКонстанты</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
