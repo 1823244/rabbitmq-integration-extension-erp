@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ПанельОсновная" id="91">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ПанельОсновнаяРасширеннаяПодсказка" id="92"/>
+			<ChildItems>
+				<Page name="СтраницаРаспределение" id="93">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Распределение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница распределение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаРаспределениеРасширеннаяПодсказка" id="94"/>
+					<ChildItems>
+						<Table name="Распределение" id="1">
+							<Representation>Tree</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Распределение</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>HierarchicalList</ExcludedCommand>
+								<ExcludedCommand>List</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>Tree</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>CommandBar</SearchStringLocation>
+							<ContextMenu name="РаспределениеКонтекстноеМеню" id="2"/>
+							<AutoCommandBar name="РаспределениеКоманднаяПанель" id="3">
+								<ChildItems>
+									<Button name="РаспределениеЗаписатьИзменения" id="86">
+										<Type>CommandBarButton</Type>
+										<DefaultButton>true</DefaultButton>
+										<CommandName>Form.Command.ЗаписатьИзменения</CommandName>
+										<ExtendedTooltip name="РаспределениеЗаписатьИзмененияРасширеннаяПодсказка" id="87"/>
+									</Button>
+									<Button name="РаспределениеПеречитатьДанные" id="84">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПеречитатьДанные</CommandName>
+										<ExtendedTooltip name="РаспределениеПеречитатьДанныеРасширеннаяПодсказка" id="85"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РаспределениеРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="РаспределениеСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>Распределение</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РаспределениеСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="РаспределениеСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РаспределениеСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>Распределение</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РаспределениеСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="РаспределениеСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РаспределениеУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>Распределение</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РаспределениеУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="РаспределениеУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">РаспределениеВыбор</Event>
+								<Event name="BeforeRowChange">РаспределениеПередНачаломИзменения</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="РаспределениеНоменклатураХарактеристика" id="14">
+									<DataPath>Объект.Распределение.НоменклатураХарактеристика</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номенклатура</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<FixingInTable>Left</FixingInTable>
+									<ContextMenu name="РаспределениеНоменклатураХарактеристикаКонтекстноеМеню" id="15"/>
+									<ExtendedTooltip name="РаспределениеНоменклатураХарактеристикаРасширеннаяПодсказка" id="16"/>
+								</InputField>
+								<ColumnGroup name="РаспределениеГруппаПланРаспределения" id="59">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>План распределения по каналам продаж</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="РаспределениеГруппаПланРаспределенияРасширеннаяПодсказка" id="60"/>
+									<ChildItems>
+										<ColumnGroup name="РаспределениеГруппаПланОпт" id="61">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Оптовый бизнес</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="РаспределениеГруппаПланОптРасширеннаяПодсказка" id="62"/>
+											<ChildItems>
+												<ColumnGroup name="РаспределениеГруппаПланОптЛевая" id="67">
+													<ExtendedTooltip name="РаспределениеГруппаПланОптЛеваяРасширеннаяПодсказка" id="68"/>
+													<ChildItems>
+														<InputField name="РаспределениеКоличествоПлановоеОпт" id="23">
+															<DataPath>Объект.Распределение.КоличествоПлановоеОпт</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Плановое кол-во</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РаспределениеКоличествоПлановоеОптКонтекстноеМеню" id="24"/>
+															<ExtendedTooltip name="РаспределениеКоличествоПлановоеОптРасширеннаяПодсказка" id="25"/>
+														</InputField>
+														<InputField name="РаспределениеКоличествоРаспределеноОпт" id="32">
+															<DataPath>Объект.Распределение.КоличествоРаспределеноОпт</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Уже распределено</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РаспределениеКоличествоРаспределеноОптКонтекстноеМеню" id="33"/>
+															<ExtendedTooltip name="РаспределениеКоличествоРаспределеноОптРасширеннаяПодсказка" id="34"/>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<ColumnGroup name="РаспределениеГруппаПланОптПравая" id="69">
+													<ExtendedTooltip name="РаспределениеГруппаПланОптПраваяРасширеннаяПодсказка" id="70"/>
+													<ChildItems>
+														<InputField name="РаспределениеПроцентОбеспеченияОпт" id="41">
+															<DataPath>Объект.Распределение.ПроцентОбеспеченияОпт</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>% обеспечения</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>ЧФ=Ч%</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>ЧФ=Ч%</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ContextMenu name="РаспределениеПроцентОбеспеченияОптКонтекстноеМеню" id="42"/>
+															<ExtendedTooltip name="РаспределениеПроцентОбеспеченияОптРасширеннаяПодсказка" id="43"/>
+														</InputField>
+														<InputField name="РаспределениеКоличествоДоступноОпт" id="50">
+															<DataPath>Объект.Распределение.КоличествоДоступноОпт</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доступное кол-во</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>Directly</EditMode>
+															<ContextMenu name="РаспределениеКоличествоДоступноОптКонтекстноеМеню" id="51"/>
+															<ExtendedTooltip name="РаспределениеКоличествоДоступноОптРасширеннаяПодсказка" id="52"/>
+															<Events>
+																<Event name="OnChange">РаспределениеКоличествоДоступноОптПриИзменении</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РаспределениеГруппаПланРозница" id="63">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Розничный бизнес</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="РаспределениеГруппаПланРозницаРасширеннаяПодсказка" id="64"/>
+											<ChildItems>
+												<ColumnGroup name="РаспределениеГруппаПланРозницаЛевая" id="71">
+													<ExtendedTooltip name="РаспределениеГруппаПланРозницаЛеваяРасширеннаяПодсказка" id="72"/>
+													<ChildItems>
+														<InputField name="РаспределениеКоличествоПлановоеРозница" id="26">
+															<DataPath>Объект.Распределение.КоличествоПлановоеРозница</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Плановое кол-во</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РаспределениеКоличествоПлановоеРозницаКонтекстноеМеню" id="27"/>
+															<ExtendedTooltip name="РаспределениеКоличествоПлановоеРозницаРасширеннаяПодсказка" id="28"/>
+														</InputField>
+														<InputField name="РаспределениеКоличествоРаспределеноРозница" id="35">
+															<DataPath>Объект.Распределение.КоличествоРаспределеноРозница</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Уже распределено</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РаспределениеКоличествоРаспределеноРозницаКонтекстноеМеню" id="36"/>
+															<ExtendedTooltip name="РаспределениеКоличествоРаспределеноРозницаРасширеннаяПодсказка" id="37"/>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<ColumnGroup name="РаспределениеГруппаПланРозницаПравая" id="73">
+													<ExtendedTooltip name="РаспределениеГруппаПланРозницаПраваяРасширеннаяПодсказка" id="74"/>
+													<ChildItems>
+														<InputField name="РаспределениеПроцентОбеспеченияРозница" id="44">
+															<DataPath>Объект.Распределение.ПроцентОбеспеченияРозница</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>% обеспечения</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Ч%</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Ч%</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ContextMenu name="РаспределениеПроцентОбеспеченияРозницаКонтекстноеМеню" id="45"/>
+															<ExtendedTooltip name="РаспределениеПроцентОбеспеченияРозницаРасширеннаяПодсказка" id="46"/>
+														</InputField>
+														<InputField name="РаспределениеКоличествоДоступноРозница" id="53">
+															<DataPath>Объект.Распределение.КоличествоДоступноРозница</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доступное кол-во</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>Directly</EditMode>
+															<ContextMenu name="РаспределениеКоличествоДоступноРозницаКонтекстноеМеню" id="54"/>
+															<ExtendedTooltip name="РаспределениеКоличествоДоступноРозницаРасширеннаяПодсказка" id="55"/>
+															<Events>
+																<Event name="OnChange">РаспределениеКоличествоДоступноРозницаПриИзменении</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РаспределениеГруппаПланECOM" id="65">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ECOM</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="РаспределениеГруппаПланECOMРасширеннаяПодсказка" id="66"/>
+											<ChildItems>
+												<ColumnGroup name="РаспределениеГруппаПланECOMЛевая" id="75">
+													<ExtendedTooltip name="РаспределениеГруппаПланECOMЛеваяРасширеннаяПодсказка" id="76"/>
+													<ChildItems>
+														<InputField name="РаспределениеКоличествоПлановоеECOM" id="29">
+															<DataPath>Объект.Распределение.КоличествоПлановоеECOM</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Плановое кол-во</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РаспределениеКоличествоПлановоеECOMКонтекстноеМеню" id="30"/>
+															<ExtendedTooltip name="РаспределениеКоличествоПлановоеECOMРасширеннаяПодсказка" id="31"/>
+														</InputField>
+														<InputField name="РаспределениеКоличествоРаспределеноECOM" id="38">
+															<DataPath>Объект.Распределение.КоличествоРаспределеноECOM</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Уже распределено</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РаспределениеКоличествоРаспределеноECOMКонтекстноеМеню" id="39"/>
+															<ExtendedTooltip name="РаспределениеКоличествоРаспределеноECOMРасширеннаяПодсказка" id="40"/>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<ColumnGroup name="РаспределениеГруппаПланECOMПравая" id="77">
+													<ExtendedTooltip name="РаспределениеГруппаПланECOMПраваяРасширеннаяПодсказка" id="78"/>
+													<ChildItems>
+														<InputField name="РаспределениеПроцентОбеспеченияECOM" id="47">
+															<DataPath>Объект.Распределение.ПроцентОбеспеченияECOM</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>% обеспечения</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Ч%</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ContextMenu name="РаспределениеПроцентОбеспеченияECOMКонтекстноеМеню" id="48"/>
+															<ExtendedTooltip name="РаспределениеПроцентОбеспеченияECOMРасширеннаяПодсказка" id="49"/>
+														</InputField>
+														<InputField name="РаспределениеКоличествоДоступноECOM" id="56">
+															<DataPath>Объект.Распределение.КоличествоДоступноECOM</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доступное кол-во</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>Directly</EditMode>
+															<ContextMenu name="РаспределениеКоличествоДоступноECOMКонтекстноеМеню" id="57"/>
+															<ExtendedTooltip name="РаспределениеКоличествоДоступноECOMРасширеннаяПодсказка" id="58"/>
+															<Events>
+																<Event name="OnChange">РаспределениеКоличествоДоступноECOMПриИзменении</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РаспределениеГруппаНаСкладе" id="79">
+									<FixingInTable>Right</FixingInTable>
+									<ExtendedTooltip name="РаспределениеГруппаНаСкладеРасширеннаяПодсказка" id="80"/>
+									<ChildItems>
+										<InputField name="РаспределениеКоличествоОстаток" id="17">
+											<DataPath>Объект.Распределение.КоличествоОстаток</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="РаспределениеКоличествоОстатокКонтекстноеМеню" id="18"/>
+											<ExtendedTooltip name="РаспределениеКоличествоОстатокРасширеннаяПодсказка" id="19"/>
+										</InputField>
+										<InputField name="РаспределениеКоличествоДоступно" id="20">
+											<DataPath>Объект.Распределение.КоличествоДоступно</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="РаспределениеКоличествоДоступноКонтекстноеМеню" id="21"/>
+											<ExtendedTooltip name="РаспределениеКоличествоДоступноРасширеннаяПодсказка" id="22"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНастройки" id="95">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаНастройкиРасширеннаяПодсказка" id="96"/>
+					<ChildItems>
+						<InputField name="Организация" id="88">
+							<DataPath>Объект.Организация</DataPath>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="90"/>
+						</InputField>
+						<InputField name="СкладОстатков" id="81">
+							<DataPath>Объект.СкладОстатков</DataPath>
+							<ContextMenu name="СкладОстатковКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="СкладОстатковРасширеннаяПодсказка" id="83"/>
+							<Events>
+								<Event name="OnChange">СкладОстатковПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="СценарийПланирования" id="106">
+							<DataPath>Объект.СценарийПланирования</DataPath>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="СценарийПланированияКонтекстноеМеню" id="107"/>
+							<ExtendedTooltip name="СценарийПланированияРасширеннаяПодсказка" id="108"/>
+						</InputField>
+						<InputField name="ПодразделениеОпт" id="97">
+							<DataPath>Объект.ПодразделениеОпт</DataPath>
+							<ContextMenu name="ПодразделениеОптКонтекстноеМеню" id="98"/>
+							<ExtendedTooltip name="ПодразделениеОптРасширеннаяПодсказка" id="99"/>
+						</InputField>
+						<InputField name="ПодразделениеРозница" id="100">
+							<DataPath>Объект.ПодразделениеРозница</DataPath>
+							<ContextMenu name="ПодразделениеРозницаКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="ПодразделениеРозницаРасширеннаяПодсказка" id="102"/>
+						</InputField>
+						<InputField name="ПодразделениеECOM" id="103">
+							<DataPath>Объект.ПодразделениеECOM</DataPath>
+							<ContextMenu name="ПодразделениеECOMКонтекстноеМеню" id="104"/>
+							<ExtendedTooltip name="ПодразделениеECOMРасширеннаяПодсказка" id="105"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КСП_ДиспетчерРаспределенияГотовойПродукции</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>Объект.Организация</Field>
+				<Field>Объект.ПодразделениеECOM</Field>
+				<Field>Объект.ПодразделениеОпт</Field>
+				<Field>Объект.ПодразделениеРозница</Field>
+				<Field>Объект.СкладОстатков</Field>
+				<Field>Объект.СценарийПланирования</Field>
+			</Save>
+			<Columns>
+				<AdditionalColumns table="Объект.Распределение">
+					<Column name="НоменклатураХарактеристика" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Номенклатура характеристика</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+						</Type>
+					</Column>
+					<Column name="КоличествоОстаток" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Осталось на складе</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоДоступно" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Осталось распределить</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоПлановоеОпт" id="4">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кол-во план. опт</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоПлановоеРозница" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кол-во план. розн.</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоПлановоеECOM" id="6">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кол-во план. ECOM</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоРаспределеноОпт" id="7">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кол-во распределено опт</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоРаспределеноРозница" id="8">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кол-во распределено розн.</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоРаспределеноECOM" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кол-во распределено ECOM</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="ПроцентОбеспеченияОпт" id="10">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>% обеспечения опт</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="ПроцентОбеспеченияРозница" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>% обеспечения розн.</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="ПроцентОбеспеченияECOM" id="12">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>% обеспечения ECOM</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоДоступноОпт" id="13">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступное кол-во опт</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоДоступноРозница" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступное кол-во розн.</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоличествоДоступноECOM" id="15">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступное кол-во ECOM</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="Уровень" id="16">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Уровень</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>1</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="КоллекцияНоменклатуры" id="17">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Коллекция номенклатуры</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:CatalogRef.КоллекцииНоменклатуры</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Распределение</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>РаспределениеКоличествоДоступно</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>РаспределениеКоличествоДоступноОпт</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>РаспределениеКоличествоДоступноРозница</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>РаспределениеКоличествоДоступноECOM</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Распределение.Уровень</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:LemonChiffon</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РаспределениеКоличествоПлановоеОпт</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеКоличествоПлановоеРозница</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеКоличествоПлановоеECOM</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеКоличествоРаспределеноОпт</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеКоличествоРаспределеноРозница</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеКоличествоРаспределеноECOM</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеПроцентОбеспеченияОпт</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеПроцентОбеспеченияРозница</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РаспределениеПроцентОбеспеченияECOM</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Распределение.Уровень</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:TableHeaderBackColor</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ПеречитатьДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечитать данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПеречитатьДанные</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗаписатьИзменения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать изменения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Write</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаписатьИзменения</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

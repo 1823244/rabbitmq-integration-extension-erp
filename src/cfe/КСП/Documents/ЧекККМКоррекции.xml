@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="009075f5-f713-46c3-8ab6-5c4e296388c1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекККМКоррекции" category="Object">
+				<xr:TypeId>793ec6cc-79bf-443d-b81c-4b7af57d3cd3</xr:TypeId>
+				<xr:ValueId>bbb13c91-1413-4d6a-8619-63c088a32de8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекККМКоррекции" category="Ref">
+				<xr:TypeId>2aeffec8-76be-44a7-be0a-80bce8dd8586</xr:TypeId>
+				<xr:ValueId>0992a766-e96e-42ec-b05f-1064a82d96b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекККМКоррекции" category="Selection">
+				<xr:TypeId>c5093f92-8605-4866-814b-edb7aff61c30</xr:TypeId>
+				<xr:ValueId>fd573828-5e0b-4e8f-bad9-2b9503870494</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекККМКоррекции" category="List">
+				<xr:TypeId>5e9f59b5-5fa2-4e70-9d29-903a194e9315</xr:TypeId>
+				<xr:ValueId>611abd1f-f214-43ab-983b-ae44b277111b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекККМКоррекции" category="Manager">
+				<xr:TypeId>9ff2cf37-5760-4d7c-862c-f83533d8e46f</xr:TypeId>
+				<xr:ValueId>83e95df5-03d3-41e2-8cb5-91ffff314d8d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЧекККМКоррекции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cab8e6cd-62a2-492b-b82a-0ecf62cbd56d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
