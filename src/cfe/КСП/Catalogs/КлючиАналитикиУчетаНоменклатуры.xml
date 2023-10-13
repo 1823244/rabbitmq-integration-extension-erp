@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="dfc57130-0a13-4c8d-9897-2310a995513f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаНоменклатуры" category="Object">
+				<xr:TypeId>c094bc7d-75af-420e-971a-9986182c4245</xr:TypeId>
+				<xr:ValueId>96ef6d5d-5801-4e5a-b766-f74f630be4b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаНоменклатуры" category="Ref">
+				<xr:TypeId>b558f1e9-a018-44fd-a3bc-397bce9c9188</xr:TypeId>
+				<xr:ValueId>9fc5a785-c2ea-4a32-a408-1b16770318d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаНоменклатуры" category="Selection">
+				<xr:TypeId>46750e94-fa9b-4d76-a398-31c2a56fe00d</xr:TypeId>
+				<xr:ValueId>7a039983-2135-46b6-a445-5150dc4f63b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаНоменклатуры" category="List">
+				<xr:TypeId>ff0b1dfe-9598-44ef-b9fc-25b3cf3d16a5</xr:TypeId>
+				<xr:ValueId>0ed90d4d-011e-4d02-ad40-6fa836c9788b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаНоменклатуры" category="Manager">
+				<xr:TypeId>b448ffb3-e2b7-4a15-b889-3bab6cbebfe1</xr:TypeId>
+				<xr:ValueId>3e645cb3-8583-49a8-91a0-df05e682b1a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлючиАналитикиУчетаНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>16147cb5-b2fd-4e31-b481-8cc3e96b4ae0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e13e5396-3590-4f28-99e0-be4e9bb1e890">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МестоХранения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ac27de05-2dcf-41a4-825e-959ac84d264b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f519d202-c298-43d5-b0e5-09282163a40d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f131cbbf-0763-47e8-83ff-577359b8e229</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0f7edace-5d70-4490-a2cc-c8d41d2fd07f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>45f5ce5c-cc40-4274-8912-e399b396e413</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4f5c3da3-3eff-4211-8368-3e49a400eaf7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипМестаХранения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>897746aa-17bc-467b-a5bf-c9d4fa4fce9c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыМестХранения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1b6a5c12-436c-4373-895e-9959c3df8aac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладскаяТерритория</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f9012b42-f503-4396-8113-22cd459557f6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

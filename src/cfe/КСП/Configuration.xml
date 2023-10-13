@@ -86,38 +86,40 @@
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>Цена</DefinedType>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
-			<Catalog>Склады</Catalog>
-			<Catalog>КоллекцииНоменклатуры</Catalog>
-			<Catalog>НоменклатураКонтрагентов</Catalog>
-			<Catalog>Партнеры</Catalog>
-			<Catalog>НаправленияДеятельности</Catalog>
 			<Catalog>Валюты</Catalog>
-			<Catalog>Организации</Catalog>
-			<Catalog>ДоговорыКонтрагентов</Catalog>
-			<Catalog>Номенклатура</Catalog>
-			<Catalog>СтавкиНДС</Catalog>
-			<Catalog>КонтактныеЛицаПартнеров</Catalog>
-			<Catalog>ВидыЦен</Catalog>
-			<Catalog>СделкиСКлиентами</Catalog>
-			<Catalog>Приоритеты</Catalog>
-			<Catalog>СоглашенияСКлиентами</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
-			<Catalog>ХарактеристикиНоменклатуры</Catalog>
-			<Catalog>СтруктураПредприятия</Catalog>
-			<Catalog>СерииНоменклатуры</Catalog>
-			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
+			<Catalog>ВидыЦен</Catalog>
+			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>ЗоныДоставки</Catalog>
+			<Catalog>КартыЛояльности</Catalog>
 			<Catalog>Кассы</Catalog>
 			<Catalog>КассыККМ</Catalog>
+			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
+			<Catalog>КоллекцииНоменклатуры</Catalog>
+			<Catalog>КонтактныеЛицаПартнеров</Catalog>
 			<Catalog>Контрагенты</Catalog>
-			<Catalog>ЗоныДоставки</Catalog>
+			<Catalog>НаправленияДеятельности</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>НоменклатураКонтрагентов</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>Партнеры</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
-			<Catalog>СценарииТоварногоПланирования</Catalog>
+			<Catalog>Приоритеты</Catalog>
+			<Catalog>ПричиныОтменыЗаказовКлиентов</Catalog>
+			<Catalog>СделкиСКлиентами</Catalog>
+			<Catalog>СерииНоменклатуры</Catalog>
+			<Catalog>СкидкиНаценки</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>СоглашенияСКлиентами</Catalog>
+			<Catalog>СтавкиНДС</Catalog>
 			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
+			<Catalog>СтруктураПредприятия</Catalog>
+			<Catalog>СценарииТоварногоПланирования</Catalog>
+			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ФорматыМагазинов</Catalog>
-			<Catalog>КартыЛояльности</Catalog>
-			<Catalog>ПричиныОтменыЗаказовКлиентов</Catalog>
+			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродаж</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
@@ -151,15 +153,18 @@
 			<Enum>КСП_ТипДокументаСлужебногоРезерва</Enum>
 			<Enum>ксп_СтатусыКачестваДокументов</Enum>
 			<Enum>ксп_ВидыПроблемКачестваДокументов</Enum>
+			<Enum>ТипыМестХранения</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
-			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
-			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникКонтрагенты</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
 			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникВидыЦен</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникКонтрагенты</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникСкидкиНаценки</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
+			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
+			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

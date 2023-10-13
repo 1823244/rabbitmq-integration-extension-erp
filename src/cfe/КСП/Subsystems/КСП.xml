@@ -20,6 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_ПланПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ПланыПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыЦен</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
