@@ -154,7 +154,9 @@
 			<Enum>ксп_СтатусыКачестваДокументов</Enum>
 			<Enum>ксп_ВидыПроблемКачестваДокументов</Enum>
 			<Enum>ТипыМестХранения</Enum>
+			<Enum>СтавкиНДС</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
+			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникВидыЦен</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникКонтрагенты</InformationRegister>
@@ -165,6 +167,8 @@
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
+			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

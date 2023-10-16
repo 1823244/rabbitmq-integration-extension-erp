@@ -29,6 +29,19 @@
 			<Comment/>
 			<ExtendedConfigurationObject>c5ecf75c-face-47dc-af39-22056a5212f4</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="5f244a6a-f7ed-4f4e-9e4c-7e57ba1eb858">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПеречислениеСтавкаНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>55df6802-1b31-4456-9dee-12a3f95e242f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
