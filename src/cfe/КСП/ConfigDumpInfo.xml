@@ -253,7 +253,7 @@
 			<Metadata name="InformationRegister.ксп_МэппингМагазинСклад.Attribute.МагазинНаименование" id="b0dd6da0-5b45-4add-a131-5f939a325238"/>
 			<Metadata name="InformationRegister.ксп_МэппингМагазинСклад.Dimension.МагазинГУИД" id="d3e6c167-1c2f-48ea-adf5-42cea48721fc"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ксп_МэппингМагазинСклад.ManagerModule" id="4ef60a48-e2d9-4de2-a1df-a0838cebe113.2" configVersion="ff110cfed48e59a251815b4b8036015c66dcd856"/>
+		<Metadata name="InformationRegister.ксп_МэппингМагазинСклад.ManagerModule" id="4ef60a48-e2d9-4de2-a1df-a0838cebe113.2" configVersion="b14d758afa4c331a36638b8556090b00d7243076"/>
 		<Metadata name="InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента" id="fcd95eed-72dc-45f4-b883-94dcb0bf52fe" configVersion="85c396e34991226651b436f5d7af0d82feceb0fd">
 			<Metadata name="InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента.Resource.Наименование" id="5ed3df23-9c8e-4140-84b8-509f67fcaeb3"/>
 			<Metadata name="InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента.Dimension.GUID" id="8067743a-9e59-416b-941a-9ede80a483de"/>
