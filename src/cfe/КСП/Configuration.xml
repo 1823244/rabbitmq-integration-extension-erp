@@ -120,6 +120,7 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ФорматыМагазинов</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
+			<Catalog>ЭквайринговыеТерминалы</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродаж</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
