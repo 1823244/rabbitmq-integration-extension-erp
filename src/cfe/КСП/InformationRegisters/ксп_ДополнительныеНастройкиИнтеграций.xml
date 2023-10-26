@@ -85,6 +85,7 @@
 						<v8:Type>cfg:CatalogRef.СценарииТоварногоПланирования</v8:Type>
 						<v8:Type>cfg:CatalogRef.КонтактныеЛицаПартнеров</v8:Type>
 						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+						<v8:Type>cfg:CatalogRef.СоглашенияСПоставщиками</v8:Type>
 						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
 						<v8:Type>cfg:CatalogRef.СделкиСКлиентами</v8:Type>
 						<v8:Type>cfg:EnumRef.ксп_СтатусыКачестваДокументов</v8:Type>
@@ -95,6 +96,7 @@
 						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПричиныОтменыЗаказовКлиентов</v8:Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+						<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
 						<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
 						<v8:Type>cfg:CatalogRef.ЗоныДоставки</v8:Type>
 						<v8:Type>cfg:EnumRef.СпособыДоставки</v8:Type>
