@@ -171,6 +171,12 @@
 			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникКассы</InformationRegister>
+			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

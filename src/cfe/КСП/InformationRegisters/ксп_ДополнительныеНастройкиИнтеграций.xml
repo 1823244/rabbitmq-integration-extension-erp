@@ -75,9 +75,11 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
 						<v8:Type>cfg:CatalogRef.ГруппыФинансовогоУчетаРасчетов</v8:Type>
 						<v8:Type>cfg:ExchangePlanRef.Кодерлайн_интеграция</v8:Type>
 						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов</v8:Type>
 						<v8:Type>cfg:CatalogRef.СтавкиНДС</v8:Type>
 						<v8:Type>cfg:EnumRef.ксп_ВидыПроблемКачестваДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.СценарииТоварногоПланирования</v8:Type>
@@ -106,6 +108,7 @@
 						<v8:Type>cfg:CatalogRef.НоменклатураКонтрагентов</v8:Type>
 						<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
 						<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ВидыСубконтоХозрасчетные</v8:Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
@@ -117,6 +120,7 @@
 						<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаНоменклатуры</v8:Type>
 						<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
 						<v8:Type>cfg:EnumRef.СтатусыЗаказовКлиентов</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
@@ -124,9 +128,12 @@
 						<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 						<v8:Type>cfg:CatalogRef.СоглашенияСКлиентами</v8:Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЭквайринговыеТерминалы</v8:Type>
 						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
 						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 						<v8:NumberQualifiers>
 							<v8:Digits>20</v8:Digits>
 							<v8:FractionDigits>4</v8:FractionDigits>

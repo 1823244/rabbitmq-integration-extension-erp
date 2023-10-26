@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<ChartOfCharacteristicTypes uuid="d1521661-f29e-4dd9-9403-542f155e1e3c">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ВидыСубконтоХозрасчетные" category="Object">
+				<xr:TypeId>26198790-11c9-451a-9d9f-e6bab656182b</xr:TypeId>
+				<xr:ValueId>163215a0-2ec3-43a1-8210-208224b0adef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ВидыСубконтоХозрасчетные" category="Ref">
+				<xr:TypeId>99365edd-e30f-4eb7-b871-3ef5e29b0419</xr:TypeId>
+				<xr:ValueId>4a3344ec-13eb-42ee-869a-25db846a21b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ВидыСубконтоХозрасчетные" category="Selection">
+				<xr:TypeId>00ede1e8-ccbc-49de-b314-14dc51fb2969</xr:TypeId>
+				<xr:ValueId>79d428a7-f7a7-4a6c-ba51-0c301fa64c9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ВидыСубконтоХозрасчетные" category="List">
+				<xr:TypeId>80a9755c-3dcb-4812-8b7c-370c560a9a93</xr:TypeId>
+				<xr:ValueId>137fea99-ee66-4e94-90b0-a5ca1185aa86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ВидыСубконтоХозрасчетные" category="Characteristic">
+				<xr:TypeId>81dbd201-9cad-446f-a35c-42bc7441ff51</xr:TypeId>
+				<xr:ValueId>dd43fdee-6d4f-4a0e-9f9a-83d2479188bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ВидыСубконтоХозрасчетные" category="Manager">
+				<xr:TypeId>2850c457-2c8d-463f-99ae-fab2a4d6460f</xr:TypeId>
+				<xr:ValueId>0ff38f11-cc36-454e-9e8c-940087cd54d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыСубконтоХозрасчетные</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>46d9709b-4192-401b-bf2f-12b93eb1842b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

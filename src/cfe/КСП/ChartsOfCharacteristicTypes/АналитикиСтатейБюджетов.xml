@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<ChartOfCharacteristicTypes uuid="d2d8daed-e0bf-4498-b448-9cc541d57973">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.АналитикиСтатейБюджетов" category="Object">
+				<xr:TypeId>17f2e216-8e51-43d5-9721-221e3a8b7238</xr:TypeId>
+				<xr:ValueId>0b14da28-08e6-44d1-8c5b-fc60c6ce1eed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов" category="Ref">
+				<xr:TypeId>f50d1c82-2e10-4330-8d8e-aa9169fe08d2</xr:TypeId>
+				<xr:ValueId>0385e41f-e623-4602-a354-511ac01c21eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.АналитикиСтатейБюджетов" category="Selection">
+				<xr:TypeId>337171e9-6361-4aa6-b2cf-0168473c9494</xr:TypeId>
+				<xr:ValueId>2bcf2e39-fb35-4176-9640-ad8c58cffffb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.АналитикиСтатейБюджетов" category="List">
+				<xr:TypeId>f7e3dbe2-a9c9-49bd-9840-2f0be2284600</xr:TypeId>
+				<xr:ValueId>80cf32b2-409e-4d02-aab0-096a282d4e5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.АналитикиСтатейБюджетов" category="Characteristic">
+				<xr:TypeId>b45a7cbc-6448-4529-9eea-413f91d99773</xr:TypeId>
+				<xr:ValueId>1289dbde-0853-48ec-a67d-ad08a16e082a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.АналитикиСтатейБюджетов" category="Manager">
+				<xr:TypeId>5659dd55-fc66-4045-96bf-bea1fc483f8d</xr:TypeId>
+				<xr:ValueId>3d24472a-5b41-4a9c-8450-81c6198b4531</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитикиСтатейБюджетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>857bff9e-b96e-4c2c-95c3-f74af3b54e2e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>
