@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="0943ec3d-bfce-4ce0-a456-0f9718223bd0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыРасчетовСПартнерами" category="Ref">
+				<xr:TypeId>b03a8e49-0dc3-43a4-8594-62f75b941b46</xr:TypeId>
+				<xr:ValueId>024f8f73-c152-429d-abd9-028b36d3408c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыРасчетовСПартнерами" category="Manager">
+				<xr:TypeId>b9871612-4e6a-4260-88d0-6bd651661438</xr:TypeId>
+				<xr:ValueId>70f600aa-491f-46a5-9944-05b248be0184</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыРасчетовСПартнерами" category="List">
+				<xr:TypeId>acae8b68-7061-465f-8afd-556f4e7df158</xr:TypeId>
+				<xr:ValueId>3d27f87d-ee71-4317-8e22-829998a6fb04</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыРасчетовСПартнерами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0d6d53c9-63ee-44f8-8520-8cb643b1df21</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0495a323-eb4a-46c1-a0d0-67f92dda4b20">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетыСПоставщиком</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>115f7bfa-174a-4de6-8149-8a0aa21cb6ea</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6e88d21b-768d-43c4-9f47-098dfaaf70ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетыСКлиентом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2efefc30-c158-4305-8f41-1131dfd4b818</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2c324522-ca02-4060-955d-abbca64fc1be">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетыСКредитором</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e1f10ee7-cb41-46f2-8d8a-82889b2a782f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="50644b2a-aba9-4947-ad27-7f6682d884cd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетыСДебитором</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70c5dace-142c-4901-b17d-c85639f2e8f1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="83a64c47-96a1-4a63-a560-dd162cafabc1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетыСАрендодателем</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c90f7a26-7568-4f1e-8d81-ca948159737f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

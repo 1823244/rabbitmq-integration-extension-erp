@@ -123,6 +123,8 @@
 			<Catalog>ЭквайринговыеТерминалы</Catalog>
 			<Catalog>СоглашенияСПоставщиками</Catalog>
 			<Catalog>БонусныеПрограммыЛояльности</Catalog>
+			<Catalog>ВидыЗапасов</Catalog>
+			<Catalog>ОбъектыРасчетов</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродаж</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
@@ -159,6 +161,9 @@
 			<Enum>ТипыМестХранения</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>ПорядокРасчетов</Enum>
+			<Enum>ТипыЗапасов</Enum>
+			<Enum>ТипыРасчетовСПартнерами</Enum>
+			<Enum>ТипыОбъектовРасчетов</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>

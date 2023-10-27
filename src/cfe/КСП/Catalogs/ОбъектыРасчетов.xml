@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="a684edee-5bbb-410a-b41e-3aa52c345b45">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбъектыРасчетов" category="Object">
+				<xr:TypeId>443baf93-5fda-47f4-bba2-f6c96afc37c3</xr:TypeId>
+				<xr:ValueId>f6c34c9a-a977-47b3-93df-f955f00b4ef2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбъектыРасчетов" category="Ref">
+				<xr:TypeId>98641fb3-b4d5-4402-b060-c281949cdb15</xr:TypeId>
+				<xr:ValueId>51bb1d44-a785-41e4-9f3a-96280825a930</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбъектыРасчетов" category="Selection">
+				<xr:TypeId>a5273f23-8737-4652-a966-223055b84c08</xr:TypeId>
+				<xr:ValueId>46e6a584-f624-4917-a439-4f61fb6a6816</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбъектыРасчетов" category="List">
+				<xr:TypeId>6462d1da-33ea-4fa5-b931-f2388d457945</xr:TypeId>
+				<xr:ValueId>29d3adec-b96c-474d-b95a-2c439b2eb085</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбъектыРасчетов" category="Manager">
+				<xr:TypeId>40753efe-c7b4-4969-bc59-584943ade878</xr:TypeId>
+				<xr:ValueId>44998f21-87f6-4382-873b-9fd49bd6ce18</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектыРасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0c588f17-899d-4631-99f3-44aaf039357e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="577ee41f-0da7-4b5a-a072-0a3e34ffc8b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>94d4e501-abf4-4c5a-8bf3-d3697afe1386</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыРасчетовСПартнерами</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="174c27ea-d653-4f01-bf8c-85db2c1170c3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>957d3235-0cdf-400e-805a-7b213bf67e7d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a7796d7b-db3e-4d40-91d3-173122959ec4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипОбъектаРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a28042d0-ac2f-4aa1-b696-457f660fa5c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыОбъектовРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
