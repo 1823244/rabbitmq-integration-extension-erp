@@ -180,6 +180,7 @@
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникКассы</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникБонусныеПрограммы</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
