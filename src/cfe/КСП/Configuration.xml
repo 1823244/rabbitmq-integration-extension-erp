@@ -166,21 +166,21 @@
 			<Enum>ТипыОбъектовРасчетов</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
+			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
+			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
 			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникБонусныеПрограммы</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникВидыЦен</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникКассы</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникКонтрагенты</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСкидкиНаценки</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
-			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникКассы</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникБонусныеПрограммы</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

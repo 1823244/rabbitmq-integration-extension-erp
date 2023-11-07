@@ -17,6 +17,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.ДоговорыКонтрагентов</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ОприходованиеИзлишковТоваров</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
@@ -29,6 +33,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.СделкиСКлиентами</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ПричиныОтменыЗаказовКлиентов</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
@@ -37,11 +45,23 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.СоглашенияСПоставщиками</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ЗаказКлиента</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.Партнеры</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ФорматыМагазинов</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СоглашенияСКлиентами</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
@@ -54,6 +74,10 @@
 	</Item>
 	<Item>
 		<Metadata>Document.ЧекККМ</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ЭквайринговыеТерминалы</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
@@ -73,11 +97,31 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.ВидыЗапасов</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.КоллекцииНоменклатуры</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.РасходныйОрдерНаТовары</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Document.ОперацияПоПлатежнойКарте</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СкидкиНаценки</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.БонусныеПрограммыЛояльности</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.УпаковкиЕдиницыИзмерения</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
@@ -101,6 +145,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.НаправленияДеятельности</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.Номенклатура</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
@@ -109,7 +157,19 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.ГруппыФинансовогоУчетаРасчетов</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ОтчетОРозничныхПродажах</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.КонтактныеЛицаПартнеров</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ЗоныДоставки</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
@@ -125,7 +185,15 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.СтавкиНДС</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.Организации</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Приоритеты</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
@@ -142,6 +210,10 @@
 	</Item>
 	<Item>
 		<Metadata>Document.ЗаказНаПеремещение</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СерииНоменклатуры</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 </ExchangePlanContent>
