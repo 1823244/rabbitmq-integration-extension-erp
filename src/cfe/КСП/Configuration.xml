@@ -166,12 +166,14 @@
 			<Enum>ТипыРасчетовСПартнерами</Enum>
 			<Enum>ТипыОбъектовРасчетов</Enum>
 			<Enum>ТипыСкладскихЯчеек</Enum>
+			<Enum>ТипыПлатежнойСистемыККТ</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>УправлениеПоступлением</DataProcessor>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>ксп_ИсходныеДанныеСообщений</InformationRegister>
 			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
+			<InformationRegister>ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</InformationRegister>
 			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникБонусныеПрограммы</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникВидыЦен</InformationRegister>

@@ -37,6 +37,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникБонусныеПрограммы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникСтатьиДДС</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеПоступлением</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

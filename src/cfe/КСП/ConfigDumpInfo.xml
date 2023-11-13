@@ -77,7 +77,7 @@
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
-		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="c14b2c9590c50011f41b56bf20490eaa083cb221"/>
+		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="f48487002e3357349761e732f24603a0f5c106c3"/>
 		<Metadata name="Constant.ксп_УзелОбменаRabbit" id="0ec26924-bfed-4106-87f1-dcdb373b01dd" configVersion="a7c986e8780a9e24acfff6adf970feb8c5b0b8ab"/>
 		<Metadata name="DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции" id="c94ebbea-dddf-4858-ad64-c076c3737722" configVersion="7d0acc09b8a19b75da861edc11be923c2fb8d4b2">
 			<Metadata name="DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции.Attribute.ПодразделениеECOM" id="39700c2f-ae07-4abd-966d-eb02fcc51a5d"/>
@@ -256,6 +256,7 @@
 			<Metadata name="Enum.ТипыОбъектовРасчетов.EnumValue.Договор" id="98c291ba-8781-4edd-94bb-223543db5f13"/>
 			<Metadata name="Enum.ТипыОбъектовРасчетов.EnumValue.ПлатежВозврат" id="da0db727-ba88-4a61-80bf-3cd528809517"/>
 		</Metadata>
+		<Metadata name="Enum.ТипыПлатежнойСистемыККТ" id="ef8b481f-42b7-41a4-83dc-0df31bd11820" configVersion="6dcaf357efb4ac3c2201fd00e3194defed9c986b"/>
 		<Metadata name="Enum.ТипыРасчетовСПартнерами" id="0943ec3d-bfce-4ce0-a456-0f9718223bd0" configVersion="8e9af6a07bd340a57327c904220486fdebdd57d5">
 			<Metadata name="Enum.ТипыРасчетовСПартнерами.EnumValue.РасчетыСПоставщиком" id="0495a323-eb4a-46c1-a0d0-67f92dda4b20"/>
 			<Metadata name="Enum.ТипыРасчетовСПартнерами.EnumValue.РасчетыСКредитором" id="2c324522-ca02-4060-955d-abbca64fc1be"/>
@@ -313,6 +314,13 @@
 			<Metadata name="InformationRegister.ксп_МэппингМагазинСклад.Dimension.МагазинГУИД" id="d3e6c167-1c2f-48ea-adf5-42cea48721fc"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ксп_МэппингМагазинСклад.ManagerModule" id="4ef60a48-e2d9-4de2-a1df-a0838cebe113.2" configVersion="b14d758afa4c331a36638b8556090b00d7243076"/>
+		<Metadata name="InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ" id="accca800-c6c7-4be7-a335-c79fe84de146" configVersion="3cbf15f02277e3ddd51d675d642b0b1dc3a4a462">
+			<Metadata name="InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ.Resource.Наименование" id="00afb11d-73b3-4963-a98f-d652beb4ebd0"/>
+			<Metadata name="InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ.Dimension.ВнешняяСистема" id="62a1686e-e704-4387-ad1e-f78b4be8f918"/>
+			<Metadata name="InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ.Resource.ТипОплаты" id="6f7ff88d-b2ad-4f87-9a39-3ab3ce5b2ab8"/>
+			<Metadata name="InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ.Dimension.GUID" id="ad68bd99-9bc0-48ff-8691-f70db223534e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ.ManagerModule" id="accca800-c6c7-4be7-a335-c79fe84de146.2" configVersion="686dc0203e7f96e0b58e356678897312ba5bdeb3"/>
 		<Metadata name="InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента" id="fcd95eed-72dc-45f4-b883-94dcb0bf52fe" configVersion="85c396e34991226651b436f5d7af0d82feceb0fd">
 			<Metadata name="InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента.Resource.Наименование" id="5ed3df23-9c8e-4140-84b8-509f67fcaeb3"/>
 			<Metadata name="InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента.Dimension.GUID" id="8067743a-9e59-416b-941a-9ede80a483de"/>
@@ -396,6 +404,6 @@
 		<Metadata name="StyleItem.ИтогиФон" id="226be8df-dd25-4be0-bbc1-1a213d467ce7" configVersion="c979899808481ad6a77e919655763d22600b3751"/>
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="d3f250c74c419931241530b222d9744832f035dd"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="bd00301b51f9899ccecfa101efecee8aabc22e65"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
