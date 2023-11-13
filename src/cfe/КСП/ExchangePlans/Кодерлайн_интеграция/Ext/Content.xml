@@ -216,4 +216,8 @@
 		<Metadata>Catalog.СерииНоменклатуры</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
+	<Item>
+		<Metadata>Document.КассоваяСмена</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
 </ExchangePlanContent>

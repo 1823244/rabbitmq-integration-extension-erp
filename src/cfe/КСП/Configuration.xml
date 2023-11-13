@@ -148,6 +148,7 @@
 			<Document>ПересортицаТоваров</Document>
 			<Document>ПередачаТоваровМеждуОрганизациями</Document>
 			<Document>РасходныйОрдерНаТовары</Document>
+			<Document>КассоваяСмена</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
