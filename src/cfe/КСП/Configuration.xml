@@ -81,7 +81,10 @@
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
 			<CommonModule>ксп_ИмпортСлужебный</CommonModule>
+			<CommonModule>ксп_ПодпискиНаСобытия</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
+			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
+			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
