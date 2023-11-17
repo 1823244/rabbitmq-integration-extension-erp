@@ -67,13 +67,13 @@
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый" id="158e129f-9a5a-4770-a64d-553d9d649027" configVersion="4227c7ebae0e853c9e7f4f9e0513cac5e07241cb"/>
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый.Module" id="158e129f-9a5a-4770-a64d-553d9d649027.0" configVersion="064868cfa6b1fbdb3a59ce29ddcc45a4a6c2cab6"/>
 		<Metadata name="CommonModule.ксп_ИмпортСлужебный" id="2badf495-f58f-47e7-9e91-472a2bee47a7" configVersion="4d31cd70471c815916019cd6128121be32a92337"/>
-		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="a2360f6811125df46122bfa96a80b1531985da38"/>
+		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="d83a262c85b3c784f5ee691f29a7b7e107770f98"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия" id="09b456c4-724e-4c62-b972-02e0a02a4258" configVersion="fe1efabddec5246b04e666f6ee24f80906c9d4c4"/>
-		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия.Module" id="09b456c4-724e-4c62-b972-02e0a02a4258.0" configVersion="6660247223df0fe7e7df7b0b90d610b4b36f57b1"/>
+		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия.Module" id="09b456c4-724e-4c62-b972-02e0a02a4258.0" configVersion="82188c4176866da014a7614f04fa9c403da844fc"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
-		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="5e6a3c5dfab59eedf973b1cc0112974797a9e771"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="def93603eff419d289ab4a8f82fb504cbfc798c4"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d" configVersion="24d95ece84373faafe72c820bb69420519dd3e0f"/>
-		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="964c6d700510de79a06db378c54e775e079a48fe"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="b9ab83081aa0eec6a8336a15d11efb82ad2c87cb"/>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="69e75475-bef2-47c8-8f90-da236bb528be" configVersion="18b072cbcfb94bd77c5e113d43ab2d1a9cdb0209"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="07dcc9da-47a8-43ca-a109-2efdf5f88527" configVersion="25eacc5b34d134444505fe2c653bc51ac6c0e0f6"/>
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
@@ -285,7 +285,7 @@
 			<Metadata name="Enum.ксп_СтатусыКачестваДокументов.EnumValue.ОК" id="e26af3fa-2cc6-42d4-a27f-56beaceeb995"/>
 		</Metadata>
 		<Metadata name="EventSubscription.ксп_ПриЗаписиДокумента" id="e64fcf50-35ab-409f-8eb5-8dfc5c1a9bdf" configVersion="b395dfaf25564a6f1607dd64d18a8961c4447f70"/>
-		<Metadata name="EventSubscription.ксп_ПриЗаписиСправочника" id="5b6556d8-454c-4d3b-bf37-b7e862503d3e" configVersion="e66c8138e8f02dd4ca9835a820c4cb0642b27153"/>
+		<Metadata name="EventSubscription.ксп_ПриЗаписиСправочника" id="5b6556d8-454c-4d3b-bf37-b7e862503d3e" configVersion="42d5eeb92bf19838eb9960fa0c3204b393f989ab"/>
 		<Metadata name="ExchangePlan.Кодерлайн_интеграция" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3" configVersion="efaee5f989bcb60da21c32c41e2f12c67c2ac38c"/>
 		<Metadata name="ExchangePlan.Кодерлайн_интеграция.Content" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3.1" configVersion="81357877497bcb1b3efd79c1e4dafb75c63754c1"/>
 		<Metadata name="InformationRegister.КСП_ПланыПродаж" id="70053c2b-4932-41f8-ae45-28ac8da569a9" configVersion="08ab6e2cf982550499a1abfcbd82f05a6cae7fec">
@@ -353,7 +353,7 @@
 			<Metadata name="InformationRegister.ксп_МэппингСправочникКассы.Dimension.ВнешняяСистема" id="49e84977-a4fa-4cdd-ad39-c9944287dfb0"/>
 			<Metadata name="InformationRegister.ксп_МэппингСправочникКассы.Resource.Касса" id="551f0e5d-fa39-4ae6-947c-4a56cbf23cdb"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ксп_МэппингСправочникКассы.ManagerModule" id="69498ca6-cbcc-455d-b63f-385b8391ca8f.2" configVersion="e09c87c8b831df663174151898b338884a810a7a"/>
+		<Metadata name="InformationRegister.ксп_МэппингСправочникКассы.ManagerModule" id="69498ca6-cbcc-455d-b63f-385b8391ca8f.2" configVersion="2d112d87208968ae7ffc5facdc4911ce9f1530dd"/>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникКонтрагенты" id="b38be4b5-578d-4d3b-b675-00d4f23d3b75" configVersion="a02cf8e71025d8dbd53a6b178e0dc244ed5eb03b">
 			<Metadata name="InformationRegister.ксп_МэппингСправочникКонтрагенты.Dimension.ВнешняяСистема" id="154c2f49-eac3-48cf-aa89-1c85c58333ba"/>
 			<Metadata name="InformationRegister.ксп_МэппингСправочникКонтрагенты.Dimension.GUID" id="2cd16980-bece-4c57-94df-2ea6b2456407"/>
@@ -374,7 +374,7 @@
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСкидкиНаценки.Resource.Наименование" id="6789c512-39b6-4928-bf28-242fe398600f"/>
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСкидкиНаценки.Dimension.ВнешняяСистема" id="a706b63b-d1cd-446f-92b5-bf5d99421354"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ксп_МэппингСправочникСкидкиНаценки.ManagerModule" id="32f44ba6-d7cf-47f0-9433-5e98a026a07f.2" configVersion="85b29e42a4b9963026200495980b68a64659d340"/>
+		<Metadata name="InformationRegister.ксп_МэппингСправочникСкидкиНаценки.ManagerModule" id="32f44ba6-d7cf-47f0-9433-5e98a026a07f.2" configVersion="5ea0d98ed77bc8b6d55810fb1c69be443307ce6d"/>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникСклады" id="9fedf104-02f2-4db2-883d-a831986f7504" configVersion="50262de254c1e35888e5732c50665abf575c48bf">
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСклады.Resource.Склад" id="27d02e6f-dbec-46ab-a492-5b9148faefe4"/>
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСклады.Dimension.GUID" id="3d7949a9-d070-4aab-ba80-fc6897e07a53"/>
@@ -389,7 +389,7 @@
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.Resource.Наименование" id="feb9e328-469a-49b4-8054-217bcdd18bb0"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.ManagerModule" id="ade82a02-8b2a-42df-b570-cc514e707900.2" configVersion="dfb04d21ac8f1ae03dbdf7207fdda6d25de663c5"/>
-		<Metadata name="InformationRegister.ксп_ОтложенноеПроведение" id="a2640bbd-4f84-40da-8853-b2dab48fb8ff" configVersion="86b35ef037f69e6efef34b63151bdfa30e650f04">
+		<Metadata name="InformationRegister.ксп_ОтложенноеПроведение" id="a2640bbd-4f84-40da-8853-b2dab48fb8ff" configVersion="e6786833f52bc3747ed806606a6424072d18524c">
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Resource.СтатусОбъекта" id="9dd6df71-d0bd-4fd5-b0e3-596d79337061"/>
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Dimension.ДокументСсылка" id="e41a935e-d8f6-4076-b6b9-92a320d02764"/>
 		</Metadata>

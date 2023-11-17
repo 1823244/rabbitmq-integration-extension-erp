@@ -18,17 +18,12 @@
 				<v8:Type>cfg:CatalogObject.ЗоныДоставки</v8:Type>
 				<v8:Type>cfg:CatalogObject.ФорматыМагазинов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ФизическиеЛица</v8:Type>
-				<v8:Type>cfg:CatalogObject.ОбъектыРасчетов</v8:Type>
 				<v8:Type>cfg:CatalogObject.КассыККМ</v8:Type>
-				<v8:Type>cfg:CatalogObject.НоменклатураКонтрагентов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ГруппыФинансовогоУчетаРасчетов</v8:Type>
-				<v8:Type>cfg:CatalogObject.СтруктураПредприятия</v8:Type>
 				<v8:Type>cfg:CatalogObject.НаправленияДеятельности</v8:Type>
 				<v8:Type>cfg:CatalogObject.Валюты</v8:Type>
-				<v8:Type>cfg:CatalogObject.СценарииТоварногоПланирования</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЭквайринговыеТерминалы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыНоменклатуры</v8:Type>
-				<v8:Type>cfg:CatalogObject.Пользователи</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыЦен</v8:Type>
 				<v8:Type>cfg:CatalogObject.СделкиСКлиентами</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПричиныОтменыЗаказовКлиентов</v8:Type>
@@ -39,7 +34,6 @@
 				<v8:Type>cfg:CatalogObject.Номенклатура</v8:Type>
 				<v8:Type>cfg:CatalogObject.СерииНоменклатуры</v8:Type>
 				<v8:Type>cfg:CatalogObject.Склады</v8:Type>
-				<v8:Type>cfg:CatalogObject.КлючиАналитикиУчетаНоменклатуры</v8:Type>
 				<v8:Type>cfg:CatalogObject.УпаковкиЕдиницыИзмерения</v8:Type>
 				<v8:Type>cfg:CatalogObject.КоллекцииНоменклатуры</v8:Type>
 				<v8:Type>cfg:CatalogObject.Партнеры</v8:Type>
