@@ -82,6 +82,7 @@
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
 			<CommonModule>ксп_ИмпортСлужебный</CommonModule>
 			<CommonModule>ксп_ПодпискиНаСобытия</CommonModule>
+			<CommonModule>ксп_Блокировки</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
