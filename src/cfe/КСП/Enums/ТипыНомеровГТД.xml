@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="d1d6b285-ccb3-4004-9e7c-39b5861bf163">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыНомеровГТД" category="Ref">
+				<xr:TypeId>1cc419ce-a78e-43c5-bd1a-6485815d1e15</xr:TypeId>
+				<xr:ValueId>88fa7683-a734-4566-a5f5-5db79d80ac3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыНомеровГТД" category="Manager">
+				<xr:TypeId>7779a6ba-3bf2-4a6c-b119-8ba76cde33e8</xr:TypeId>
+				<xr:ValueId>cd90f624-6793-4581-b4c9-861d96e55662</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыНомеровГТД" category="List">
+				<xr:TypeId>34a989c9-c5ee-40cf-85af-540653c542e2</xr:TypeId>
+				<xr:ValueId>1941a680-bc64-4482-b9a3-ff2e2216d135</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыНомеровГТД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5b87dbb4-dc7e-4281-9772-e649f89a0800</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

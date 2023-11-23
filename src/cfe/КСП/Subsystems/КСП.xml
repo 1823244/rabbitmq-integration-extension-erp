@@ -17,7 +17,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.КСП_ОсновнаяРоль</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_ПланПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_ПланПродажПоКоллекциям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ПланыПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыЦен</xr:Item>
@@ -33,11 +33,18 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаRabbit</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Кодерлайн_интеграция</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКассы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКоллекцииНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ИсторияИзмененийКоллекцииНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ИсходныеДанныеСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникБонусныеПрограммы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКассы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникСтатьиДДС</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеПоступлением</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ЖурналИзмененийСлужебногоРезерва</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_КурсовыеСоглашения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_RetailCRM_СтатусыЗаказаКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ИсторияСтатусов_ЗаказКлиента_RetailCRM</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

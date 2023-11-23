@@ -29,6 +29,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
+			<Form>Форма1</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

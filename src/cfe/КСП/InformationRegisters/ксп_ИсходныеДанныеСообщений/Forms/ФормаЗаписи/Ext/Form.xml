@@ -5,19 +5,16 @@
 	<ChildItems>
 		<InputField name="СсылкаНаОбъект" id="1">
 			<DataPath>Запись.СсылкаНаОбъект</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СсылкаНаОбъектКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="СсылкаНаОбъектРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="ПериодМс" id="4">
 			<DataPath>Запись.ПериодМс</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ПериодМсКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ПериодМсРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="МоментВремениЗаписи" id="10">
 			<DataPath>Запись.МоментВремениЗаписи</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="МоментВремениЗаписиКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="МоментВремениЗаписиРасширеннаяПодсказка" id="12"/>
 		</InputField>
@@ -25,7 +22,6 @@
 			<DataPath>Запись.ТекстJson</DataPath>
 			<MultiLine>true</MultiLine>
 			<ExtendedEdit>true</ExtendedEdit>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ТекстJsonКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ТекстJsonРасширеннаяПодсказка" id="9"/>
 		</InputField>

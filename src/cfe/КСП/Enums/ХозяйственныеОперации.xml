@@ -40,6 +40,24 @@
 					<ExtendedConfigurationObject>9d87a84a-b1f7-4247-b3d8-1f752e128561</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="d06289b9-43dd-495a-89b9-023fa7598f95">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияТоваровВДругуюОрганизацию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2b01e97-1813-41c5-b0eb-6b83f051112e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f5694bb7-5108-472b-a1ed-929f1fef2668">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередачаНаКомиссиюВДругуюОрганизацию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>78509f7a-915a-43a7-86c1-17662de8fc3c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

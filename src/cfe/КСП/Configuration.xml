@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.КСП_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version/>
+			<Version>1.0.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -70,6 +70,8 @@
 			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<CommonPicture>Набор</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
@@ -90,6 +92,7 @@
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>Цена</DefinedType>
+			<DefinedType>ИНН</DefinedType>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -130,8 +133,13 @@
 			<Catalog>БонусныеПрограммыЛояльности</Catalog>
 			<Catalog>ВидыЗапасов</Catalog>
 			<Catalog>ОбъектыРасчетов</Catalog>
+			<Catalog>СтраныМира</Catalog>
+			<Catalog>НомераГТД</Catalog>
+			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
+			<Catalog>Назначения</Catalog>
+			<Catalog>КСП_RetailCRM_СтатусыЗаказаКлиента</Catalog>
 			<Document>ПеремещениеТоваров</Document>
-			<Document>КСП_ПланПродаж</Document>
+			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
 			<Document>ИзменениеАссортимента</Document>
 			<Document>ЗаказНаПеремещение</Document>
@@ -152,7 +160,9 @@
 			<Document>ПересортицаТоваров</Document>
 			<Document>ПередачаТоваровМеждуОрганизациями</Document>
 			<Document>РасходныйОрдерНаТовары</Document>
+			<Document>КСП_КурсовоеСоглашение</Document>
 			<Document>КассоваяСмена</Document>
+			<Document>ТаможеннаяДекларацияЭкспорт</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -172,6 +182,7 @@
 			<Enum>ТипыОбъектовРасчетов</Enum>
 			<Enum>ТипыСкладскихЯчеек</Enum>
 			<Enum>ТипыПлатежнойСистемыККТ</Enum>
+			<Enum>ТипыНомеровГТД</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>УправлениеПоступлением</DataProcessor>
@@ -187,11 +198,18 @@
 			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСкидкиНаценки</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
+			<InformationRegister>КСП_КурсовыеСоглашения</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникВидыНоменклатуры</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникКоллекцииНоменклатуры</InformationRegister>
+			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
+			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
+			<InformationRegister>КСП_ИсторияСтатусов_ЗаказКлиента_RetailCRM</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

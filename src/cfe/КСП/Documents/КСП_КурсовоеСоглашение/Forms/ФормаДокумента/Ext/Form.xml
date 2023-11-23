@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Коллекция" id="7">
+			<DataPath>Объект.Коллекция</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КоллекцияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КоллекцияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="41">
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="ПроцентПредоплаты1" id="49">
+					<DataPath>Объект.ПроцентПредоплаты1</DataPath>
+					<ContextMenu name="ПроцентПредоплаты1КонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ПроцентПредоплаты1РасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="ПроцентПредоплаты2" id="46">
+					<DataPath>Объект.ПроцентПредоплаты2</DataPath>
+					<ContextMenu name="ПроцентПредоплаты2КонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ПроцентПредоплаты2РасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="ПроцентПредоплаты3" id="43">
+					<DataPath>Объект.ПроцентПредоплаты3</DataPath>
+					<ContextMenu name="ПроцентПредоплаты3КонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ПроцентПредоплаты3РасширеннаяПодсказка" id="45"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Соглашение" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Соглашение</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СоглашениеКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="СоглашениеКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="СоглашениеРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="СоглашениеСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Соглашение</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СоглашениеСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СоглашениеСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СоглашениеСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Соглашение</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СоглашениеСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СоглашениеСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СоглашениеУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Соглашение</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СоглашениеУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СоглашениеУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnStartEdit">СоглашениеПриНачалеРедактирования</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="СоглашениеНомерСтроки" id="23">
+					<DataPath>Объект.Соглашение.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СоглашениеНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="СоглашениеКурсОт" id="26">
+					<DataPath>Объект.Соглашение.КурсОт</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеКурсОтКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СоглашениеКурсОтРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="СоглашениеКурсДо" id="29">
+					<DataPath>Объект.Соглашение.КурсДо</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеКурсДоКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СоглашениеКурсДоРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="СоглашениеПроцентПредоплатыСоСвободногоСклада" id="52">
+					<DataPath>Объект.Соглашение.ПроцентПредоплатыСоСвободногоСклада</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеПроцентПредоплатыСоСвободногоСкладаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="СоглашениеПроцентПредоплатыСоСвободногоСкладаРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="СоглашениеЦена1" id="32">
+					<DataPath>Объект.Соглашение.Цена1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеЦена1КонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СоглашениеЦена1РасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СоглашениеЦена2" id="35">
+					<DataPath>Объект.Соглашение.Цена2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеЦена2КонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СоглашениеЦена2РасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="СоглашениеЦена3" id="38">
+					<DataPath>Объект.Соглашение.Цена3</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоглашениеЦена3КонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СоглашениеЦена3РасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.КСП_КурсовоеСоглашение</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

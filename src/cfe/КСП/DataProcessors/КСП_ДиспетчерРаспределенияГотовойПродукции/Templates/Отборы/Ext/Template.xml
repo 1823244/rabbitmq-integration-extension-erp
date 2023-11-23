@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Номенклатура</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристика</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОстаток</dataPath>
+			<field>КоличествоОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДоступно</dataPath>
+			<field>КоличествоДоступно</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество доступно</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПлановоеОпт</dataPath>
+			<field>КоличествоПлановоеОпт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество плановое опт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентОбеспеченияОпт</dataPath>
+			<field>ПроцентОбеспеченияОпт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент обеспечения опт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоРаспределеноРозница</dataPath>
+			<field>КоличествоРаспределеноРозница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество распределено розница</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентОбеспеченияРозница</dataPath>
+			<field>ПроцентОбеспеченияРозница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент обеспечения розница</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПлановоеECOM</dataPath>
+			<field>КоличествоПлановоеECOM</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество плановое ECOM</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПлановоеРозница</dataPath>
+			<field>КоличествоПлановоеРозница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество плановое розница</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоРаспределеноОпт</dataPath>
+			<field>КоличествоРаспределеноОпт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество распределено опт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоРаспределеноECOM</dataPath>
+			<field>КоличествоРаспределеноECOM</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество распределено ECOM</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентОбеспеченияECOM</dataPath>
+			<field>ПроцентОбеспеченияECOM</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент обеспечения ECOM</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДоступноОпт</dataPath>
+			<field>КоличествоДоступноОпт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество доступно опт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДоступноРозница</dataPath>
+			<field>КоличествоДоступноРозница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество доступно розница</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДоступноECOM</dataPath>
+			<field>КоличествоДоступноECOM</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество доступно ECOM</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЗаписи</dataPath>
+			<field>НомерЗаписи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер записи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВЫРАЗИТЬ(Рас.Номенклатура КАК Справочник.Номенклатура) КАК Номенклатура,
+	ВЫРАЗИТЬ(Рас.Характеристика КАК Справочник.ХарактеристикиНоменклатуры) КАК Характеристика,
+	ВЫРАЗИТЬ(Рас.КоличествоОстаток КАК ЧИСЛО(10, 0)) КАК КоличествоОстаток,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступно КАК ЧИСЛО(10, 0)) КАК КоличествоДоступно,
+	ВЫРАЗИТЬ(Рас.КоличествоПлановоеОпт КАК ЧИСЛО(10, 0)) КАК КоличествоПлановоеОпт,
+	ВЫРАЗИТЬ(Рас.КоличествоПлановоеРозница КАК ЧИСЛО(10, 0)) КАК КоличествоПлановоеРозница,
+	ВЫРАЗИТЬ(Рас.КоличествоПлановоеECOM КАК ЧИСЛО(10, 0)) КАК КоличествоПлановоеECOM,
+	ВЫРАЗИТЬ(Рас.КоличествоРаспределеноОпт КАК ЧИСЛО(10, 0)) КАК КоличествоРаспределеноОпт,
+	ВЫРАЗИТЬ(Рас.КоличествоРаспределеноРозница КАК ЧИСЛО(10, 0)) КАК КоличествоРаспределеноРозница,
+	ВЫРАЗИТЬ(Рас.КоличествоРаспределеноECOM КАК ЧИСЛО(10, 0)) КАК КоличествоРаспределеноECOM,
+	ВЫРАЗИТЬ(Рас.ПроцентОбеспеченияОпт КАК ЧИСЛО(15, 3)) КАК ПроцентОбеспеченияОпт,
+	ВЫРАЗИТЬ(Рас.ПроцентОбеспеченияРозница КАК ЧИСЛО(15, 3)) КАК ПроцентОбеспеченияРозница,
+	ВЫРАЗИТЬ(Рас.ПроцентОбеспеченияECOM КАК ЧИСЛО(15, 3)) КАК ПроцентОбеспеченияECOM,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступноОпт КАК ЧИСЛО(10, 0)) КАК КоличествоДоступноОпт,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступноРозница КАК ЧИСЛО(10, 0)) КАК КоличествоДоступноРозница,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступноECOM КАК ЧИСЛО(10, 0)) КАК КоличествоДоступноECOM,
+	ВЫРАЗИТЬ(Рас.НомерЗаписи КАК ЧИСЛО(10, 0)) КАК НомерЗаписи
+{ВЫБРАТЬ
+	Номенклатура.* КАК Номенклатура,
+	Характеристика.* КАК Характеристика,
+	КоличествоОстаток,
+	КоличествоДоступно,
+	КоличествоПлановоеОпт,
+	КоличествоПлановоеРозница,
+	КоличествоПлановоеECOM,
+	КоличествоРаспределеноОпт,
+	КоличествоРаспределеноРозница,
+	КоличествоРаспределеноECOM,
+	ПроцентОбеспеченияОпт,
+	ПроцентОбеспеченияРозница,
+	ПроцентОбеспеченияECOM,
+	КоличествоДоступноОпт,
+	КоличествоДоступноРозница,
+	КоличествоДоступноECOM,
+	НомерЗаписи}
+ИЗ
+	втРаспределение КАК Рас
+{ГДЕ
+	ВЫРАЗИТЬ(Рас.Номенклатура КАК Справочник.Номенклатура).* КАК Номенклатура,
+	ВЫРАЗИТЬ(Рас.Характеристика КАК Справочник.ХарактеристикиНоменклатуры).* КАК Характеристика,
+	ВЫРАЗИТЬ(Рас.КоличествоОстаток КАК ЧИСЛО(10, 0)) КАК КоличествоОстаток,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступно КАК ЧИСЛО(10, 0)) КАК КоличествоДоступно,
+	ВЫРАЗИТЬ(Рас.КоличествоПлановоеОпт КАК ЧИСЛО(10, 0)) КАК КоличествоПлановоеОпт,
+	ВЫРАЗИТЬ(Рас.КоличествоПлановоеРозница КАК ЧИСЛО(10, 0)) КАК КоличествоПлановоеРозница,
+	ВЫРАЗИТЬ(Рас.КоличествоПлановоеECOM КАК ЧИСЛО(10, 0)) КАК КоличествоПлановоеECOM,
+	ВЫРАЗИТЬ(Рас.КоличествоРаспределеноОпт КАК ЧИСЛО(10, 0)) КАК КоличествоРаспределеноОпт,
+	ВЫРАЗИТЬ(Рас.КоличествоРаспределеноРозница КАК ЧИСЛО(10, 0)) КАК КоличествоРаспределеноРозница,
+	ВЫРАЗИТЬ(Рас.КоличествоРаспределеноECOM КАК ЧИСЛО(10, 0)) КАК КоличествоРаспределеноECOM,
+	ВЫРАЗИТЬ(Рас.ПроцентОбеспеченияОпт КАК ЧИСЛО(15, 3)) КАК ПроцентОбеспеченияОпт,
+	ВЫРАЗИТЬ(Рас.ПроцентОбеспеченияРозница КАК ЧИСЛО(15, 3)) КАК ПроцентОбеспеченияРозница,
+	ВЫРАЗИТЬ(Рас.ПроцентОбеспеченияECOM КАК ЧИСЛО(15, 3)) КАК ПроцентОбеспеченияECOM,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступноОпт КАК ЧИСЛО(10, 0)) КАК КоличествоДоступноОпт,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступноРозница КАК ЧИСЛО(10, 0)) КАК КоличествоДоступноРозница,
+	ВЫРАЗИТЬ(Рас.КоличествоДоступноECOM КАК ЧИСЛО(10, 0)) КАК КоличествоДоступноECOM,
+	ВЫРАЗИТЬ(Рас.НомерЗаписи КАК ЧИСЛО(10, 0)) КАК НомерЗаписи}</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Уровень</dataPath>
+		<expression>1</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Уровень</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>1</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>КоличествоОстаток</dataPath>
+		<expression>Сумма(КоличествоОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДоступно</dataPath>
+		<expression>Сумма(КоличествоДоступно)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДоступноECOM</dataPath>
+		<expression>Сумма(КоличествоДоступноECOM)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДоступноОпт</dataPath>
+		<expression>Сумма(КоличествоДоступноОпт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДоступноРозница</dataPath>
+		<expression>Сумма(КоличествоДоступноРозница)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПлановоеECOM</dataPath>
+		<expression>Сумма(КоличествоПлановоеECOM)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПлановоеОпт</dataPath>
+		<expression>Сумма(КоличествоПлановоеОпт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПлановоеРозница</dataPath>
+		<expression>Сумма(КоличествоПлановоеРозница)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоРаспределеноECOM</dataPath>
+		<expression>Сумма(КоличествоРаспределеноECOM)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоРаспределеноОпт</dataPath>
+		<expression>Сумма(КоличествоРаспределеноОпт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоРаспределеноРозница</dataPath>
+		<expression>Сумма(КоличествоРаспределеноРозница)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентОбеспеченияECOM</dataPath>
+		<expression>Среднее(ПроцентОбеспеченияECOM)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентОбеспеченияОпт</dataPath>
+		<expression>Среднее(ПроцентОбеспеченияОпт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентОбеспеченияРозница</dataPath>
+		<expression>Среднее(ПроцентОбеспеченияРозница)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Уровень</dataPath>
+		<expression>0</expression>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>Уровень</dataPath>
+		<expression>1</expression>
+		<group>НомерЗаписи</group>
+		<group>Характеристика</group>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Характеристика</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерЗаписи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДоступно</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПлановоеОпт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПлановоеРозница</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПлановоеECOM</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоРаспределеноОпт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоРаспределеноРозница</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоРаспределеноECOM</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентОбеспеченияОпт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентОбеспеченияРозница</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентОбеспеченияECOM</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДоступноОпт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДоступноРозница</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДоступноECOM</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уровень</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>59ccca4a-4b45-4606-a20c-7b23a1b8b71d</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:userSettingID>dc1c499f-117f-4f9d-b5c0-be53a4fd5233</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Номенклатура</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Характеристика</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>НомерЗаписи</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

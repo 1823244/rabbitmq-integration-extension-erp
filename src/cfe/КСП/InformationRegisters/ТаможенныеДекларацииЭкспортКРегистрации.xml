@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<InformationRegister uuid="3d2b9cb3-a46b-404e-a926-a29f1a758c06">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ТаможенныеДекларацииЭкспортКРегистрации" category="Record">
+				<xr:TypeId>6d891a27-2fb3-4faf-b7b5-da4680506e1b</xr:TypeId>
+				<xr:ValueId>04c6df02-de48-470d-bca9-295a1da25da6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ТаможенныеДекларацииЭкспортКРегистрации" category="Manager">
+				<xr:TypeId>3d4ddfbc-bffe-4266-b672-d6f4c5574574</xr:TypeId>
+				<xr:ValueId>c648333e-d4a6-45b6-9761-bb2e52933098</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ТаможенныеДекларацииЭкспортКРегистрации" category="Selection">
+				<xr:TypeId>8c149d2b-6ca1-47b5-bde2-be567748b106</xr:TypeId>
+				<xr:ValueId>0aa1b8a3-f6ba-4989-9550-c02304461b29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ТаможенныеДекларацииЭкспортКРегистрации" category="List">
+				<xr:TypeId>c0343168-176d-4148-8254-edf9cb9df47a</xr:TypeId>
+				<xr:ValueId>9fe5a157-8a3c-466c-a818-4ad6897648db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ТаможенныеДекларацииЭкспортКРегистрации" category="RecordSet">
+				<xr:TypeId>1621d845-d216-4269-9ef6-26849c65dc9b</xr:TypeId>
+				<xr:ValueId>b05b9fd0-ca21-425f-a8e9-648ea0ca8a94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ТаможенныеДекларацииЭкспортКРегистрации" category="RecordKey">
+				<xr:TypeId>5979b793-cd3c-4537-9e2b-c026ca99205a</xr:TypeId>
+				<xr:ValueId>b9249c86-683c-4dea-9806-9e349752f22d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ТаможенныеДекларацииЭкспортКРегистрации" category="RecordManager">
+				<xr:TypeId>2f8469d0-5790-4ee4-ac41-70c4e3c76bf7</xr:TypeId>
+				<xr:ValueId>aad5cd0e-d1b0-457a-adfc-b1656f851302</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТаможенныеДекларацииЭкспортКРегистрации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1377a6a0-7861-4e4d-9178-c5f17046534f</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

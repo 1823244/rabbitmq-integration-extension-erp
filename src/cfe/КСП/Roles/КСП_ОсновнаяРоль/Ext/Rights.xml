@@ -4,6 +4,33 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.КСП_ЖурналИзмененийСлужебногоРезерва</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.КСП_ПланыПродаж</name>
 		<right>
 			<name>TotalsControl</name>
@@ -74,7 +101,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.КСП_ПланПродаж</name>
+		<name>Document.КСП_ПланПродажПоКоллекциям</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>

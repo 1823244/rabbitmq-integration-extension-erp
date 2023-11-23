@@ -57,6 +57,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="146f7a5b-68f7-42c2-89fd-70c222ba9350">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиницаИзмеренияТНВЭД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>13dd1676-d9c6-415f-a4e1-cb9414a09577</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
