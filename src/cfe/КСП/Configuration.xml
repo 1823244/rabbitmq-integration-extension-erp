@@ -187,29 +187,30 @@
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>УправлениеПоступлением</DataProcessor>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
+			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
+			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
+			<InformationRegister>КСП_ИсторияСтатусов_ЗаказКлиента_RetailCRM</InformationRegister>
 			<InformationRegister>ксп_ИсходныеДанныеСообщений</InformationRegister>
+			<InformationRegister>КСП_КурсовыеСоглашения</InformationRegister>
 			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
 			<InformationRegister>ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</InformationRegister>
 			<InformationRegister>ксп_МэппингПричинаОтменыЗаказаКлиента</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникБонусныеПрограммы</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникВидыНоменклатуры</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникВидыЦен</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникКассы</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникКассыККМ</InformationRegister>
+			<InformationRegister>ксп_МэппингСправочникКоллекцииНоменклатуры</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникКонтрагенты</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникОрганизации</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСкидкиНаценки</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
-			<InformationRegister>КСП_КурсовыеСоглашения</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникВидыНоменклатуры</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникКоллекцииНоменклатуры</InformationRegister>
-			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
-			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
-			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
-			<InformationRegister>КСП_ИсторияСтатусов_ЗаказКлиента_RetailCRM</InformationRegister>
+			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
