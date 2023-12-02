@@ -1,0 +1,40 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://service.profashionsolutions.ru/fe770">
+	<valueType name="stPaymentStatus" base="xs:string" variety="Atomic">
+		<enumeration>PaidUp</enumeration>
+		<enumeration>NotPaid</enumeration>
+	</valueType>
+	<valueType name="stReturnType" base="xs:string" variety="Atomic">
+		<enumeration>client</enumeration>
+		<enumeration>postal</enumeration>
+		<enumeration>partial</enumeration>
+	</valueType>
+	<objectType name="ctDocument">
+		<property name="date" type="xs:dateTime"/>
+		<property name="number" type="xs:string"/>
+		<property name="name" type="xs:string"/>
+	</objectType>
+	<objectType name="ctItem">
+		<property name="name" type="xs:string"/>
+		<property name="size" type="xs:string"/>
+		<property name="ean" type="xs:string"/>
+		<property name="price" type="xs:decimal"/>
+	</objectType>
+	<objectType name="ctLabel">
+		<property name="labelCode" type="xs:string"/>
+		<property name="operationType" type="xs:nonNegativeInteger"/>
+		<property name="operationDate" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe770" name="document" type="d3p1:ctDocument" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe770" name="item" type="d3p1:ctItem"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe770" name="order" type="d3p1:ctOrder"/>
+		<property name="parcelNumber" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe770" name="returnType" type="d3p1:stReturnType" lowerBound="0"/>
+	</objectType>
+	<objectType name="ctOrder">
+		<property name="date" type="xs:dateTime"/>
+		<property name="number" type="xs:string"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe770" name="paymentStatus" type="d3p1:stPaymentStatus"/>
+	</objectType>
+	<objectType name="labelsRequest">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe770" name="labels" type="d3p1:ctLabel" upperBound="-1"/>
+	</objectType>
+</package>

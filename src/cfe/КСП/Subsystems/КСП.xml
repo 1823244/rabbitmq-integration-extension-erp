@@ -43,11 +43,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ЖурналИзмененийСлужебногоРезерва</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_КурсовыеСоглашения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_RetailCRM_СтатусыЗаказаКлиента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ИсторияСтатусов_ЗаказКлиента_RetailCRM</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКассыККМ</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>Фулфилмент</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -1,0 +1,50 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://service.profashionsolutions.ru/fe720_r002">
+	<property xmlns:d2p1="http://service.profashionsolutions.ru/fe720_r002" name="shipmentAnnouncementRequest" type="d2p1:shipmentAnnouncementRequest"/>
+	<property xmlns:d2p1="http://service.profashionsolutions.ru/fe720_r002" name="shipmentAnnouncementResponse" type="d2p1:shipmentAnnouncementResponse"/>
+	<objectType name="ctFaultHandler">
+		<property name="errorCode" type="xs:int"/>
+		<property name="errorMessage" type="xs:string"/>
+	</objectType>
+	<objectType name="ctItemFingerprint">
+		<property name="uuid" type="xs:string" nillable="true"/>
+		<property name="size" type="xs:string" nillable="true"/>
+		<property name="ean" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe720_r002" name="ctItemRequest" base="d2p1:ctItemFingerprint">
+		<property name="quantity" type="xs:decimal"/>
+		<property name="price" type="xs:decimal" lowerBound="0"/>
+		<property name="labelCodes" type="d2p1:ctlabelCodes" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe720_r002" name="ctItemResponse" base="d2p1:ctItemFingerprint">
+		<property name="successful" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="indexNumber" type="xs:nonNegativeInteger" lowerBound="1" form="Attribute"/>
+		<property name="faultHandler" type="d2p1:ctFaultHandler" lowerBound="0"/>
+	</objectType>
+	<objectType name="ctItemsRequest">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe720_r002" name="item" type="d3p1:ctItemRequest" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctItemsResponse">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe720_r002" name="item" type="d3p1:ctItemResponse" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctService">
+		<property name="shop" type="xs:nonNegativeInteger"/>
+		<property name="token" type="xs:string"/>
+		<property name="messageDate" type="xs:duration"/>
+		<property name="messageId" type="xs:string"/>
+	</objectType>
+	<objectType name="ctStandardResponse">
+		<property name="successful" type="xs:boolean"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe720_r002" name="faultHandler" type="d3p1:ctFaultHandler" lowerBound="0"/>
+	</objectType>
+	<objectType name="ctlabelCodes">
+		<property name="labelCode" type="xs:string" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="shipmentAnnouncementRequest">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe720_r002" name="service" type="d3p1:ctService"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe720_r002" name="items" type="d3p1:ctItemsRequest"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe720_r002" name="shipmentAnnouncementResponse" base="d2p1:ctStandardResponse">
+		<property name="service" type="d2p1:ctService"/>
+		<property name="items" type="d2p1:ctItemsResponse" lowerBound="0"/>
+	</objectType>
+</package>

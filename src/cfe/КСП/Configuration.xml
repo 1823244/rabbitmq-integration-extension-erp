@@ -85,15 +85,25 @@
 			<CommonModule>ксп_ИмпортСлужебный</CommonModule>
 			<CommonModule>ксп_ПодпискиНаСобытия</CommonModule>
 			<CommonModule>ксп_Блокировки</CommonModule>
+			<CommonModule>ОбменСФулфилментСервер</CommonModule>
+			<CommonModule>ксп_Элис_ОбщегоНазначения</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
+			<XDTOPackage>PFS_FE_714</XDTOPackage>
+			<XDTOPackage>PFS_FE_720</XDTOPackage>
+			<XDTOPackage>PFS_FE_708</XDTOPackage>
+			<XDTOPackage>PFS_FE_770</XDTOPackage>
 			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
+			<ScheduledJob>ЗагрузкаДанныхКМФулфилмент</ScheduledJob>
+			<FunctionalOption>ИспользоватьОбменСФулфилмент</FunctionalOption>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>Цена</DefinedType>
 			<DefinedType>ИНН</DefinedType>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
+			<Constant>ИспользоватьОбменСФулфилмент</Constant>
+			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
 			<Catalog>ВидыЦен</Catalog>
@@ -137,7 +147,6 @@
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
 			<Catalog>Назначения</Catalog>
-			<Catalog>КСП_RetailCRM_СтатусыЗаказаКлиента</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
@@ -163,6 +172,7 @@
 			<Document>КСП_КурсовоеСоглашение</Document>
 			<Document>КассоваяСмена</Document>
 			<Document>ТаможеннаяДекларацияЭкспорт</Document>
+			<Document>ДвиженияКМФулфилмент</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -183,13 +193,17 @@
 			<Enum>ТипыСкладскихЯчеек</Enum>
 			<Enum>ТипыПлатежнойСистемыККТ</Enum>
 			<Enum>ТипыНомеровГТД</Enum>
+			<Enum>ВидыДвиженийКМФулфилмент</Enum>
+			<Report>ВедомостьПоОстаткамФулфилмент</Report>
+			<Report>ДвиженияТоваровФулфилмент</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
-			<DataProcessor>УправлениеПоступлением</DataProcessor>
+			<DataProcessor>ксп_ОбменСФулфилмент</DataProcessor>
+			<DataProcessor>ксп_ФормированиеФайлаXMLПоФормату_FE714</DataProcessor>
+			<DataProcessor>ксп_АнонсПоставки</DataProcessor>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
-			<InformationRegister>КСП_ИсторияСтатусов_ЗаказКлиента_RetailCRM</InformationRegister>
 			<InformationRegister>ксп_ИсходныеДанныеСообщений</InformationRegister>
 			<InformationRegister>КСП_КурсовыеСоглашения</InformationRegister>
 			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
@@ -211,12 +225,17 @@
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
 			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
+			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
+			<InformationRegister>ОстаткиТоваровНаСкладеФулфилмента</InformationRegister>
+			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>КСП_НастройкиФулфилмент</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

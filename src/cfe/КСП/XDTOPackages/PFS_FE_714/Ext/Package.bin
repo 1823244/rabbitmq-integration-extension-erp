@@ -1,0 +1,208 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://service.profashionsolutions.ru/fe714_r002">
+	<property xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="productMasterDataRequest" type="d2p1:productMasterDataRequest"/>
+	<property xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="productMasterDataResponse" type="d2p1:productMasterDataResponse"/>
+	<valueType name="stAddFieldListValueTypes" base="xs:string" variety="Atomic">
+		<enumeration>boolean</enumeration>
+		<enumeration>decimal</enumeration>
+		<enumeration>string</enumeration>
+	</valueType>
+	<valueType name="stAddFieldTypes" base="xs:string" variety="Atomic">
+		<enumeration>boolean</enumeration>
+		<enumeration>decimal</enumeration>
+		<enumeration>string</enumeration>
+		<enumeration>list</enumeration>
+	</valueType>
+	<valueType name="stCurrency" base="xs:string" variety="Atomic">
+		<enumeration>EUR</enumeration>
+		<enumeration>RUB</enumeration>
+		<enumeration>USD</enumeration>
+	</valueType>
+	<valueType name="stStringIsNotEmpty" base="xs:string" variety="Atomic" minLength="1"/>
+	<valueType name="stVatCode" base="xs:string" variety="Atomic">
+		<enumeration>vc_18</enumeration>
+		<enumeration>vc_18_118</enumeration>
+		<enumeration>vc_10</enumeration>
+		<enumeration>vc_10_110</enumeration>
+		<enumeration>vc_20</enumeration>
+		<enumeration>vc_20_120</enumeration>
+		<enumeration>vc_0</enumeration>
+		<enumeration>vc_WithoutVAT</enumeration>
+		<enumeration>Unknown</enumeration>
+	</valueType>
+	<objectType name="ctAddField">
+		<property name="id" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="type" type="d3p1:stAddFieldTypes" lowerBound="1" form="Attribute"/>
+		<property name="multiple" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="parentId" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="name" type="d3p1:stStringIsNotEmpty"/>
+		<property name="defaultValue" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="values" type="d3p1:ctValuesList" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ctAddFieldValue">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="id" type="d3p1:stStringIsNotEmpty" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="__content" type="d3p1:stStringIsNotEmpty" form="Text"/>
+	</objectType>
+	<objectType name="ctAddFieldValues">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="field" type="d3p1:ctAddFieldValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctAddFields">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="field" type="d3p1:ctAddField" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="ctAddFieldsItem" base="d2p1:ctAddFields"/>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="ctAddFieldsSize" base="d2p1:ctAddFields"/>
+	<objectType name="ctBasicUnit">
+		<property name="code" type="xs:nonNegativeInteger" lowerBound="1" form="Attribute"/>
+		<property name="fullName" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="intAbbr" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="ctBuyWithThisItem">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="item" type="d3p1:ctItemBuyWithThisItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="ctCommonAddFieldsItem" base="d2p1:ctAddFields"/>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="ctCommonAddFieldsSize" base="d2p1:ctAddFields"/>
+	<objectType name="ctFaultHandler">
+		<property name="errorCode" type="xs:int"/>
+		<property name="errorMessage" type="xs:string"/>
+	</objectType>
+	<objectType name="ctImageArr">
+		<property name="image" type="xs:string" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="ctItemBuyWithThisItem" base="d2p1:ctItemFingerprint"/>
+	<objectType name="ctItemFingerprint">
+		<property name="uuid" type="xs:string" nillable="true"/>
+		<property name="size" type="xs:string" nillable="true"/>
+		<property name="ean" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ctItemRequest">
+		<property name="uuid" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="active" type="xs:boolean"/>
+		<property name="parentId" type="xs:string" nillable="true"/>
+		<property name="typeItemId" type="xs:string" nillable="true"/>
+		<property name="article" type="xs:string"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="name" type="d3p1:stStringIsNotEmpty"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="images" type="d3p1:ctImageArr" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="basicUnit" type="d3p1:ctBasicUnit" lowerBound="0"/>
+		<property name="fullDescr" type="xs:string" nillable="true"/>
+		<property name="shortDescr" type="xs:string" nillable="true"/>
+		<property name="materialDescr" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="vatCode" type="d3p1:stVatCode"/>
+		<property name="color" type="xs:string" nillable="true"/>
+		<property name="growth" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="packingUnit" type="d3p1:ctPackingUnit" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="sizesInfo" type="d3p1:ctSizesInfo"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="addFieldValues" type="d3p1:ctAddFieldValues" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="buyWithThisItem" type="d3p1:ctBuyWithThisItem" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="stateCodes" type="d3p1:ctStateCodes" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="ctItemResponse" base="d2p1:ctItemFingerprint">
+		<property name="successful" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" nillable="true"/>
+		<property name="faultHandler" type="d2p1:ctFaultHandler" lowerBound="0"/>
+	</objectType>
+	<objectType name="ctItemsRequest">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="item" type="d3p1:ctItemRequest" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctItemsResponse">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="item" type="d3p1:ctItemResponse" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctMain">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="parents" type="d3p1:ctParents" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="typesItems" type="d3p1:ctTypesItems" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="prices" type="d3p1:ctPrices" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="commonAddFieldsItem" type="d3p1:ctCommonAddFieldsItem" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="commonAddFieldsSize" type="d3p1:ctCommonAddFieldsSize" nillable="true"/>
+	</objectType>
+	<objectType name="ctPackingUnit">
+		<property name="length" type="xs:decimal" nillable="true"/>
+		<property name="width" type="xs:decimal" nillable="true"/>
+		<property name="height" type="xs:decimal" nillable="true"/>
+		<property name="volume" type="xs:decimal" nillable="true"/>
+		<property name="weight" type="xs:decimal" nillable="true"/>
+	</objectType>
+	<objectType name="ctParent">
+		<property name="id" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="active" type="xs:boolean"/>
+		<property name="parentId" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="name" type="d3p1:stStringIsNotEmpty"/>
+		<property name="descr" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="images" type="d3p1:ctImageArr" nillable="true"/>
+		<property name="prioritySorting" type="xs:int" nillable="true"/>
+	</objectType>
+	<objectType name="ctParents">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="parent" type="d3p1:ctParent" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctPrice">
+		<property name="id" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="name" type="d3p1:stStringIsNotEmpty"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="currency" type="d3p1:stCurrency"/>
+	</objectType>
+	<objectType name="ctPriceItemSize">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="id" type="d3p1:stStringIsNotEmpty" lowerBound="1" form="Attribute"/>
+		<property name="__content" type="xs:decimal" form="Text"/>
+	</objectType>
+	<objectType name="ctPrices">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="price" type="d3p1:ctPrice" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctPricesItemSize">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="price" type="d3p1:ctPriceItemSize" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctService">
+		<property name="shop" type="xs:nonNegativeInteger"/>
+		<property name="token" type="xs:string"/>
+		<property name="messageDate" type="xs:duration"/>
+		<property name="messageId" type="xs:string"/>
+	</objectType>
+	<objectType name="ctSizeInfo">
+		<property name="size" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="sizeText" type="xs:string"/>
+		<property name="ean" type="xs:string" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="prices" type="d3p1:ctPricesItemSize" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="packingUnit" type="d3p1:ctPackingUnit" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="addFieldValues" type="d3p1:ctAddFieldValues" nillable="true"/>
+	</objectType>
+	<objectType name="ctSizesInfo">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="sizeInfo" type="d3p1:ctSizeInfo" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctStandardResponse">
+		<property name="successful" type="xs:boolean"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="faultHandler" type="d3p1:ctFaultHandler" lowerBound="0"/>
+	</objectType>
+	<objectType name="ctStateCodes">
+		<property name="tnved" type="xs:string" nillable="true"/>
+		<property name="okpd2" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ctTypeItems">
+		<property name="id" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="name" type="d3p1:stStringIsNotEmpty"/>
+		<property name="descr" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="addFieldsItem" type="d3p1:ctAddFieldsItem" nillable="true"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="addFieldsSize" type="d3p1:ctAddFieldsSize" nillable="true"/>
+	</objectType>
+	<objectType name="ctTypesItems">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="typeItems" type="d3p1:ctTypeItems" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ctValueList">
+		<property name="id" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="exportIdentifier" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="__content" type="d3p1:stStringIsNotEmpty" form="Text"/>
+	</objectType>
+	<objectType name="ctValuesList">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="type" type="d3p1:stAddFieldListValueTypes" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="value" type="d3p1:ctValueList" upperBound="-1"/>
+	</objectType>
+	<objectType name="productMasterDataRequest">
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="main" type="d3p1:ctMain" lowerBound="0"/>
+		<property xmlns:d3p1="http://service.profashionsolutions.ru/fe714_r002" name="items" type="d3p1:ctItemsRequest" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://service.profashionsolutions.ru/fe714_r002" name="productMasterDataResponse" base="d2p1:ctStandardResponse">
+		<property name="items" type="d2p1:ctItemsResponse"/>
+		<property name="service" type="d2p1:ctService"/>
+	</objectType>
+</package>
