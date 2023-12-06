@@ -6,6 +6,7 @@
 			<v8:content>Обмен с фулфилмент</v8:content>
 		</v8:item>
 	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -690,25 +691,36 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
-				<Page name="ГруппаСтраницаНастройки" id="140">
+				<Page name="ГруппаСтраницаТесты" id="140">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки</v8:content>
+							<v8:content>Тесты</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа страница настройки</v8:content>
+							<v8:content>Группа страница тесты</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ExtendedTooltip name="ГруппаСтраницаНастройкиРасширеннаяПодсказка" id="141"/>
+					<ExtendedTooltip name="ГруппаСтраницаТестыРасширеннаяПодсказка" id="141"/>
 					<ChildItems>
-						<Button name="СоздатьНастройки" id="142">
+						<InputField name="Тест_ЗаказНаПеремещение" id="148">
+							<DataPath>Тест_ЗаказНаПеремещение</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="Тест_ЗаказНаПеремещениеКонтекстноеМеню" id="149"/>
+							<ExtendedTooltip name="Тест_ЗаказНаПеремещениеРасширеннаяПодсказка" id="150"/>
+						</InputField>
+						<Button name="Тест_ВыгрузкаНаТестовыйСервер" id="144">
 							<Type>UsualButton</Type>
-							<CommandName>Form.Command.СоздатьНастройки</CommandName>
-							<ExtendedTooltip name="СоздатьНастройкиРасширеннаяПодсказка" id="143"/>
+							<CommandName>Form.Command.Тест_ВыгрузкаАнонсаПоставки</CommandName>
+							<ExtendedTooltip name="Тест_ВыгрузкаНаТестовыйСерверРасширеннаяПодсказка" id="145"/>
+						</Button>
+						<Button name="Тест_АнонсПоставки_ФормированиеФайла" id="146">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Тест_АнонсПоставки_ФормированиеФайла</CommandName>
+							<ExtendedTooltip name="Тест_АнонсПоставки_ФормированиеФайлаРасширеннаяПодсказка" id="147"/>
 						</Button>
 					</ChildItems>
 				</Page>
@@ -912,6 +924,20 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="Тест_ЗаказНаПеремещение" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на перемещение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+			</Type>
+			<Save>
+				<Field>Тест_ЗаказНаПеремещение</Field>
+			</Save>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыгрузкаНоменклатуры" id="1">
@@ -1024,20 +1050,35 @@
 			</ToolTip>
 			<Action>ЗагрузкаДанныхКМ</Action>
 		</Command>
-		<Command name="СоздатьНастройки" id="8">
+		<Command name="Тест_ВыгрузкаАнонсаПоставки" id="9">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Создать настройки</v8:content>
+					<v8:content>Тест выгрузка анонса поставки</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Создать настройки</v8:content>
+					<v8:content>Тест выгрузка анонса поставки</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>СоздатьНастройки</Action>
+			<Action>Тест_ВыгрузкаАнонсаПоставки</Action>
+		</Command>
+		<Command name="Тест_АнонсПоставки_ФормированиеФайла" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест анонс поставки формирование файла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест анонс поставки формирование файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Тест_АнонсПоставки_ФормированиеФайла</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -69,6 +69,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="ce336b0f-743c-4ccb-829a-3c3a81252a9c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КодТНВЭД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e8f29f3b-5f84-4216-b9c5-002926267a6a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторТНВЭД</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

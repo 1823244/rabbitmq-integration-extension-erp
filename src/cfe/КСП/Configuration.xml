@@ -79,6 +79,7 @@
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<Role>КСП_ОсновнаяРоль</Role>
+			<CommonTemplate>Native_FTP_x86_64_394733</CommonTemplate>
 			<CommonModule>ксп_ЭкспортСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
@@ -147,6 +148,7 @@
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
 			<Catalog>Назначения</Catalog>
+			<Catalog>КлассификаторТНВЭД</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
@@ -229,6 +231,7 @@
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>ОстаткиТоваровНаСкладеФулфилмента</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
