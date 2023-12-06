@@ -149,6 +149,9 @@
 			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
 			<Catalog>Назначения</Catalog>
 			<Catalog>КлассификаторТНВЭД</Catalog>
+			<Catalog>КСП_ВидыОперацийПоСкладамУПП</Catalog>
+			<Catalog>КСП_СкладыУПП</Catalog>
+			<Catalog>КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
@@ -232,6 +235,7 @@
 			<InformationRegister>ОстаткиТоваровНаСкладеФулфилмента</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
+			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

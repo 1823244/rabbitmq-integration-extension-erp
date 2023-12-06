@@ -44,6 +44,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_КурсовыеСоглашения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКассыККМ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СхемыДокументовУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ВидыОперацийПоСкладамУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_СкладыУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

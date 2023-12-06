@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ГУИД_УПП" id="10">
+			<DataPath>Объект.ГУИД_УПП</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГУИД_УППКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ГУИД_УППРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Наим_УПП" id="13">
+			<DataPath>Объект.Наим_УПП</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="Наим_УППКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="Наим_УППРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="СкладЕРП" id="16">
+			<DataPath>Объект.СкладЕРП</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СкладЕРПКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СкладЕРПРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ЛогикаОбработкиВШапке" id="69">
+			<DataPath>Объект.ЛогикаОбработкиВШапке</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логика обработки</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЛогикаОбработкиВШапкеКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="ЛогикаОбработкиВШапкеРасширеннаяПодсказка" id="71"/>
+		</InputField>
+		<Pages name="Страницы" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<Page name="ГруппаОтправители" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправители</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаОтправителиРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<Table name="Отправители1" id="29">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Отправители</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="Отправители1КонтекстноеМеню" id="30"/>
+							<AutoCommandBar name="Отправители1КоманднаяПанель" id="31"/>
+							<ExtendedTooltip name="Отправители1РасширеннаяПодсказка" id="32"/>
+							<SearchStringAddition name="Отправители1СтрокаПоиска" id="33">
+								<AdditionSource>
+									<Item>Отправители1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Отправители1СтрокаПоискаКонтекстноеМеню" id="34"/>
+								<ExtendedTooltip name="Отправители1СтрокаПоискаРасширеннаяПодсказка" id="35"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="Отправители1СостояниеПросмотра" id="36">
+								<AdditionSource>
+									<Item>Отправители1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Отправители1СостояниеПросмотраКонтекстноеМеню" id="37"/>
+								<ExtendedTooltip name="Отправители1СостояниеПросмотраРасширеннаяПодсказка" id="38"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="Отправители1УправлениеПоиском" id="39">
+								<AdditionSource>
+									<Item>Отправители1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="Отправители1УправлениеПоискомКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="Отправители1УправлениеПоискомРасширеннаяПодсказка" id="41"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="Отправители1НомерСтроки" id="42">
+									<DataPath>Объект.Отправители.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Отправители1НомерСтрокиКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="Отправители1НомерСтрокиРасширеннаяПодсказка" id="44"/>
+								</LabelField>
+								<InputField name="Отправители1Склад" id="45">
+									<DataPath>Объект.Отправители.Склад</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Отправители1СкладКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="Отправители1СкладРасширеннаяПодсказка" id="47"/>
+								</InputField>
+								<InputField name="Отправители1ЛогикаОбработкиВТЧ" id="72">
+									<DataPath>Объект.Отправители.ЛогикаОбработкиВТЧ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Отправители1ЛогикаОбработкиВТЧКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="Отправители1ЛогикаОбработкиВТЧРасширеннаяПодсказка" id="74"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПолучатели" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получатели</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПолучателиРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<Table name="Получатели1" id="50">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Получатели</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="Получатели1КонтекстноеМеню" id="51"/>
+							<AutoCommandBar name="Получатели1КоманднаяПанель" id="52"/>
+							<ExtendedTooltip name="Получатели1РасширеннаяПодсказка" id="53"/>
+							<SearchStringAddition name="Получатели1СтрокаПоиска" id="54">
+								<AdditionSource>
+									<Item>Получатели1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Получатели1СтрокаПоискаКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="Получатели1СтрокаПоискаРасширеннаяПодсказка" id="56"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="Получатели1СостояниеПросмотра" id="57">
+								<AdditionSource>
+									<Item>Получатели1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Получатели1СостояниеПросмотраКонтекстноеМеню" id="58"/>
+								<ExtendedTooltip name="Получатели1СостояниеПросмотраРасширеннаяПодсказка" id="59"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="Получатели1УправлениеПоиском" id="60">
+								<AdditionSource>
+									<Item>Получатели1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="Получатели1УправлениеПоискомКонтекстноеМеню" id="61"/>
+								<ExtendedTooltip name="Получатели1УправлениеПоискомРасширеннаяПодсказка" id="62"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="Получатели1НомерСтроки" id="63">
+									<DataPath>Объект.Получатели.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Получатели1НомерСтрокиКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="Получатели1НомерСтрокиРасширеннаяПодсказка" id="65"/>
+								</LabelField>
+								<InputField name="Получатели1Склад" id="66">
+									<DataPath>Объект.Получатели.Склад</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Получатели1СкладКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="Получатели1СкладРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="Получатели1ЛогикаОбработкиВТЧ" id="75">
+									<DataPath>Объект.Получатели.ЛогикаОбработкиВТЧ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Получатели1ЛогикаОбработкиВТЧКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="Получатели1ЛогикаОбработкиВТЧРасширеннаяПодсказка" id="77"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.КСП_ВидыОперацийПоСкладамУПП</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
