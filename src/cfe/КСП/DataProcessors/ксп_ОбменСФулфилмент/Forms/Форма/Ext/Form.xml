@@ -744,6 +744,9 @@
 			<Type>
 				<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
 			</Type>
+			<Save>
+				<Field>ЗаказНаПеремещение</Field>
+			</Save>
 		</Attribute>
 		<Attribute name="ПеремещениеТоваров" id="3">
 			<Title>
@@ -755,6 +758,9 @@
 			<Type>
 				<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
 			</Type>
+			<Save>
+				<Field>ПеремещениеТоваров</Field>
+			</Save>
 		</Attribute>
 		<Attribute name="СостояниеВыгрузки" id="4">
 			<Title>
