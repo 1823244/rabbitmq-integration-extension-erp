@@ -48,6 +48,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ВидыОперацийПоСкладамУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_СкладыУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ксп_КлассыРеализацийТоваровУППпоКонтрагентам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

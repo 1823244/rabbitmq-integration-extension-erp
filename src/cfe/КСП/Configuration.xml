@@ -199,6 +199,7 @@
 			<Enum>ТипыПлатежнойСистемыККТ</Enum>
 			<Enum>ТипыНомеровГТД</Enum>
 			<Enum>ВидыДвиженийКМФулфилмент</Enum>
+			<Enum>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Enum>
 			<Report>ВедомостьПоОстаткамФулфилмент</Report>
 			<Report>ДвиженияТоваровФулфилмент</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
@@ -236,6 +237,7 @@
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
+			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

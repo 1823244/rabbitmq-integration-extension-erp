@@ -18,26 +18,11 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Родитель" id="7">
-			<DataPath>Объект.Parent</DataPath>
-			<EditMode>EnterOnInput</EditMode>
+		<InputField name="СкладУПП" id="78">
+			<DataPath>Объект.СкладУПП</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
-		</InputField>
-		<InputField name="ГУИД_УПП" id="10">
-			<DataPath>Объект.ГУИД_УПП</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ГУИД_УППКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ГУИД_УППРасширеннаяПодсказка" id="12"/>
-		</InputField>
-		<InputField name="Наим_УПП" id="13">
-			<DataPath>Объект.Наим_УПП</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="Наим_УППКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="Наим_УППРасширеннаяПодсказка" id="15"/>
+			<ContextMenu name="СкладУППКонтекстноеМеню" id="79"/>
+			<ExtendedTooltip name="СкладУППРасширеннаяПодсказка" id="80"/>
 		</InputField>
 		<InputField name="СкладЕРП" id="16">
 			<DataPath>Объект.СкладЕРП</DataPath>

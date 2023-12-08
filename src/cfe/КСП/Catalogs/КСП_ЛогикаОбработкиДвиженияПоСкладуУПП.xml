@@ -87,13 +87,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="f7e9ac86-bca7-4d8d-8310-85a2a6747e52">
+			<Attribute uuid="b91e966b-4b7d-4a76-ad6a-3fc147ad2b8b">
 				<Properties>
-					<Name>Описание</Name>
+					<Name>ИмяВнешнейОбработки</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Описание</v8:content>
+							<v8:content>Имя внешней обработки</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -131,13 +131,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b91e966b-4b7d-4a76-ad6a-3fc147ad2b8b">
+			<Attribute uuid="f7e9ac86-bca7-4d8d-8310-85a2a6747e52">
 				<Properties>
-					<Name>ИмяОбщейОбработки</Name>
+					<Name>Описание</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Имя общей обработки</v8:content>
+							<v8:content>Описание</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -154,8 +154,8 @@
 					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>true</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>

@@ -134,6 +134,9 @@
 						<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="37"/>
 						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="38"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">СписокВыбор</Event>
+					</Events>
 					<ChildItems>
 						<LabelField name="Наименование" id="39">
 							<DataPath>Список.Description</DataPath>
@@ -146,15 +149,26 @@
 							<ContextMenu name="КодКонтекстноеМеню" id="43"/>
 							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="44"/>
 						</LabelField>
-						<LabelField name="Наим_УПП" id="45">
-							<DataPath>Список.Наим_УПП</DataPath>
-							<ContextMenu name="Наим_УППКонтекстноеМеню" id="46"/>
-							<ExtendedTooltip name="Наим_УППРасширеннаяПодсказка" id="47"/>
+						<LabelField name="СкладУПП" id="51">
+							<DataPath>Список.СкладУПП</DataPath>
+							<ContextMenu name="СкладУППКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="СкладУППРасширеннаяПодсказка" id="53"/>
 						</LabelField>
 						<LabelField name="СкладЕРП" id="48">
 							<DataPath>Список.СкладЕРП</DataPath>
 							<ContextMenu name="СкладЕРПКонтекстноеМеню" id="49"/>
 							<ExtendedTooltip name="СкладЕРПРасширеннаяПодсказка" id="50"/>
+						</LabelField>
+						<LabelField name="ЛогикаОбработкиВШапке" id="54">
+							<DataPath>Список.ЛогикаОбработкиВШапке</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Логика обработки</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЛогикаОбработкиВШапкеКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ЛогикаОбработкиВШапкеРасширеннаяПодсказка" id="56"/>
 						</LabelField>
 					</ChildItems>
 				</Table>

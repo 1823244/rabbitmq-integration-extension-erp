@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="fc6f8eb2-4573-4508-b6b8-fd19212a2f88">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ксп_КлассыРеализацийТоваровУППпоКонтрагентам" category="Ref">
+				<xr:TypeId>eefabde5-70c6-4147-823d-46136e0146c4</xr:TypeId>
+				<xr:ValueId>c5d4bbfc-d39e-4dfc-ab73-5e0f8ed170b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ксп_КлассыРеализацийТоваровУППпоКонтрагентам" category="Manager">
+				<xr:TypeId>e0fe5540-55c3-44c6-a9c7-b0bfa07df088</xr:TypeId>
+				<xr:ValueId>1b31de10-97fc-4200-905c-14c83a84a689</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ксп_КлассыРеализацийТоваровУППпоКонтрагентам" category="List">
+				<xr:TypeId>390ef9ae-d84a-4eff-9617-9dadd87e5274</xr:TypeId>
+				<xr:ValueId>b8a93717-925d-4bf7-8205-ca0b1ccb9135</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ксп классы реализаций товаров УППпо контрагентам</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="36bf4294-369b-4177-9374-7b8f7e0b510d">
+				<Properties>
+					<Name>Интеркампани</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интеркампани</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="041620d5-e488-423c-a88e-5aad7e252eb6">
+				<Properties>
+					<Name>Фулфилмент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фулфилмент (передача оператору)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f6d4877a-7d4f-468f-9ade-870892a0d506">
+				<Properties>
+					<Name>ОбычнаяРеализация</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обычная реализация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
