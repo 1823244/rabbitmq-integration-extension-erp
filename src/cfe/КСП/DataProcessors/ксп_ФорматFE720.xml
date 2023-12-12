@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<DataProcessor uuid="4be03665-c84a-46fa-8e39-7ddbb78800f8">
+	<DataProcessor uuid="d814a368-1bb7-448b-a1e6-709474b889f6">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ксп_ФормированиеФайлаXMLПоФормату_FE714" category="Object">
-				<xr:TypeId>d6f47231-ce27-48a9-adb6-09cd6612c7e0</xr:TypeId>
-				<xr:ValueId>831e0f89-69f0-4ee7-8aa2-a6b52ed64956</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.ксп_ФорматFE720" category="Object">
+				<xr:TypeId>f885188d-2164-4315-b4c0-42ac4b0ab863</xr:TypeId>
+				<xr:ValueId>e8b04bc0-cc05-4695-8407-cb6b171d6c20</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ксп_ФормированиеФайлаXMLПоФормату_FE714" category="Manager">
-				<xr:TypeId>70609b53-0cdb-48d9-ac54-090d98c0b98d</xr:TypeId>
-				<xr:ValueId>d6f28a6f-cddd-48fb-a171-67ed57164cbd</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.ксп_ФорматFE720" category="Manager">
+				<xr:TypeId>91f5bc9d-6d83-4f37-986e-19197f66df8a</xr:TypeId>
+				<xr:ValueId>8e2dfe3b-411b-4ac7-87c1-4b5ccc96c6ae</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ксп_ФормированиеФайлаXMLПоФормату_FE714</Name>
+			<Name>ксп_ФорматFE720</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ксп формирование файла XMLПо формату f e714</v8:content>
+					<v8:content>ксп_ФорматFE720</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>выгрузка анонса поставки</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
 			<AuxiliaryForm/>

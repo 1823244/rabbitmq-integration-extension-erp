@@ -328,6 +328,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаСтраницаЗагрузка" id="68">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

@@ -93,17 +93,15 @@
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
 			<XDTOPackage>PFS_FE_708</XDTOPackage>
 			<XDTOPackage>PFS_FE_770</XDTOPackage>
+			<HTTPService>КСП_ОстаткиДляФулфилмент</HTTPService>
 			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
-			<ScheduledJob>ЗагрузкаДанныхКМФулфилмент</ScheduledJob>
-			<FunctionalOption>ИспользоватьОбменСФулфилмент</FunctionalOption>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>Цена</DefinedType>
 			<DefinedType>ИНН</DefinedType>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
-			<Constant>ИспользоватьОбменСФулфилмент</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -177,7 +175,6 @@
 			<Document>КСП_КурсовоеСоглашение</Document>
 			<Document>КассоваяСмена</Document>
 			<Document>ТаможеннаяДекларацияЭкспорт</Document>
-			<Document>ДвиженияКМФулфилмент</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -205,8 +202,8 @@
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>ксп_ОбменСФулфилмент</DataProcessor>
-			<DataProcessor>ксп_ФормированиеФайлаXMLПоФормату_FE714</DataProcessor>
-			<DataProcessor>ксп_АнонсПоставки</DataProcessor>
+			<DataProcessor>ксп_ФорматFE714</DataProcessor>
+			<DataProcessor>ксп_ФорматFE720</DataProcessor>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
@@ -233,11 +230,11 @@
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
-			<InformationRegister>ОстаткиТоваровНаСкладеФулфилмента</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
 			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
+			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
