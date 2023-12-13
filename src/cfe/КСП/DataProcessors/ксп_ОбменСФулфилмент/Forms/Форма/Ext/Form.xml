@@ -328,7 +328,6 @@
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаСтраницаЗагрузка" id="68">
-					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -392,6 +391,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаЗагрузкаОстатков" id="99">
+							<Enabled>false</Enabled>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>

@@ -204,6 +204,7 @@
 			<DataProcessor>ксп_ОбменСФулфилмент</DataProcessor>
 			<DataProcessor>ксп_ФорматFE714</DataProcessor>
 			<DataProcessor>ксп_ФорматFE720</DataProcessor>
+			<DataProcessor>ксп_ФорматFE770</DataProcessor>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
