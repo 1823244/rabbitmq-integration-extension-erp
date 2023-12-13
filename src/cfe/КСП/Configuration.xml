@@ -175,6 +175,7 @@
 			<Document>КСП_КурсовоеСоглашение</Document>
 			<Document>КассоваяСмена</Document>
 			<Document>ТаможеннаяДекларацияЭкспорт</Document>
+			<Document>ДвиженияКМФулфилмент</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
