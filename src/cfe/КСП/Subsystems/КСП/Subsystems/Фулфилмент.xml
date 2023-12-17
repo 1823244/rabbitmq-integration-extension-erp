@@ -32,6 +32,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ВидыНоменклатурыДляАнонсаПоставки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ФорматFE770</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДвиженияКМФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ксп_ЗагрузкаДанныхКМФулфилмент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

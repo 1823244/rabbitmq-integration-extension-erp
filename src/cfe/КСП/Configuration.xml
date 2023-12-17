@@ -96,6 +96,7 @@
 			<HTTPService>КСП_ОстаткиДляФулфилмент</HTTPService>
 			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
+			<ScheduledJob>ксп_ЗагрузкаДанныхКМФулфилмент</ScheduledJob>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
@@ -103,6 +104,7 @@
 			<DefinedType>ИНН</DefinedType>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
+			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
 			<Catalog>ВидыЦен</Catalog>

@@ -50,8 +50,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ксп_КлассыРеализацийТоваровУППпоКонтрагентам</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">d4705020-c3e8-4842-8bd1-70a29c7a40b3</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">da5ffd7a-66d1-4bcf-a0bd-c8ea7825ffef</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_СтрокаПодключенияКРабочейБазе</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
