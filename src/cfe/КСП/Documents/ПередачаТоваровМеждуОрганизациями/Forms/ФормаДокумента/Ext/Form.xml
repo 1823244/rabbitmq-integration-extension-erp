@@ -697,6 +697,24 @@
 											<ContextMenu name="ДоговорКонтекстноеМеню" id="711"/>
 											<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="712"/>
 										</InputField>
+										<InputField name="КСП_ДоговорКонтрагентов" id="989">
+											<DataPath>Объект.КСП_ДоговорКонтрагентов</DataPath>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<MaxHeight>28</MaxHeight>
+											<DropListButton>false</DropListButton>
+											<ChoiceButton>true</ChoiceButton>
+											<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+											<ClearButton>false</ClearButton>
+											<SpinButton>false</SpinButton>
+											<OpenButton>true</OpenButton>
+											<ContextMenu name="КСП_ДоговорКонтрагентовКонтекстноеМеню" id="990"/>
+											<ExtendedTooltip name="КСП_ДоговорКонтрагентовРасширеннаяПодсказка" id="991"/>
+											<Events>
+												<Event name="StartChoice" callType="After">КСП_КСП_ДоговорКонтрагентовНачалоВыбораПосле</Event>
+												<Event name="Opening" callType="After">КСП_КСП_ДоговорКонтрагентовОткрытиеПосле</Event>
+												<Event name="ChoiceProcessing" callType="After">КСП_КСП_ДоговорКонтрагентовОбработкаВыбораПосле</Event>
+											</Events>
+										</InputField>
 										<InputField name="ДоговорПродажи" id="713">
 											<DataPath>Объект.ДоговорПродажи</DataPath>
 											<Title>

@@ -66,6 +66,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>КСП</Subsystem>
+			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<StyleItem>ЦветТекстаПроблема</StyleItem>
 			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
@@ -73,11 +74,14 @@
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<CommonPicture>Набор</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>Наборы</CommonPicture>
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>Комментарий</CommonPicture>
+			<CommonPicture>КСП_ЭлисФэшнЛоготип</CommonPicture>
 			<Role>КСП_ОсновнаяРоль</Role>
 			<CommonModule>ксп_ЭкспортСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
@@ -85,6 +89,7 @@
 			<CommonModule>ксп_ИмпортСлужебный</CommonModule>
 			<CommonModule>ксп_ПодпискиНаСобытия</CommonModule>
 			<CommonModule>ксп_Блокировки</CommonModule>
+			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>ОбменСФулфилментСервер</CommonModule>
 			<CommonModule>ксп_Элис_ОбщегоНазначения</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
@@ -100,16 +105,15 @@
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>Цена</DefinedType>
 			<DefinedType>ИНН</DefinedType>
+			<DefinedType>ОснованиеСчетФактураВыданный</DefinedType>
+			<CommonCommand>КСП_СоздатьТаможеннуюЭкспортНаОснованииПередачи</CommonCommand>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
 			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
 			<Catalog>Валюты</Catalog>
-			<Catalog>ВидыНоменклатуры</Catalog>
-			<Catalog>ВидыЦен</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
-			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>ВидыНоменклатуры</Catalog>
 			<Catalog>ЗоныДоставки</Catalog>
-			<Catalog>КартыЛояльности</Catalog>
 			<Catalog>Кассы</Catalog>
 			<Catalog>КассыККМ</Catalog>
 			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
@@ -146,6 +150,9 @@
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
 			<Catalog>Назначения</Catalog>
+			<Catalog>ВидыЦен</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>КартыЛояльности</Catalog>
 			<Catalog>КлассификаторТНВЭД</Catalog>
 			<Catalog>КСП_ВидыОперацийПоСкладамУПП</Catalog>
 			<Catalog>КСП_СкладыУПП</Catalog>
@@ -196,10 +203,12 @@
 			<Enum>ТипыСкладскихЯчеек</Enum>
 			<Enum>ТипыПлатежнойСистемыККТ</Enum>
 			<Enum>ТипыНомеровГТД</Enum>
-			<Enum>ВидыДвиженийКМФулфилмент</Enum>
+			<Enum>ТипыДоговоровМеждуОрганизациями</Enum>
 			<Enum>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Enum>
+			<Enum>ВидыДвиженийКМФулфилмент</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
+			<DataProcessor>КСП_ПФ_ТаможеннаяДекларацияЭкспорт</DataProcessor>
 			<DataProcessor>ксп_ОбменСФулфилмент</DataProcessor>
 			<DataProcessor>ксп_ФорматFE714</DataProcessor>
 			<DataProcessor>ксп_ФорматFE720</DataProcessor>
@@ -228,14 +237,15 @@
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
 			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>КСП_ИсторияРаспределенияГотовойПродукции</InformationRegister>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
 			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
-			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
+			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

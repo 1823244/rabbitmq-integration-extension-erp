@@ -4369,21 +4369,6 @@ notes</v8:content>
 										</UsualGroup>
 									</ChildItems>
 								</Page>
-								<Page name="ГруппаRetailCRM" id="2422">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа retail CRM</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа retail CRM</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="ГруппаRetailCRMРасширеннаяПодсказка" id="2423"/>
-								</Page>
 							</ChildItems>
 						</Pages>
 						<UsualGroup name="ГруппаПодвал" id="1419">

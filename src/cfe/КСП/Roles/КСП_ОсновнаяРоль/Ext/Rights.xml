@@ -31,6 +31,25 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.КСП_ИсторияРаспределенияГотовойПродукции</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.КСП_ПланыПродаж</name>
 		<right>
 			<name>TotalsControl</name>

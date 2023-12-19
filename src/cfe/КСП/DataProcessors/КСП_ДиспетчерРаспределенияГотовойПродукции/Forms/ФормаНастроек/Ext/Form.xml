@@ -84,7 +84,7 @@
 		<Table name="ДоступныеНастройки" id="1">
 			<Representation>List</Representation>
 			<ChangeRowOrder>false</ChangeRowOrder>
-			<HeightControlVariant>UseContentHeight</HeightControlVariant>
+			<Height>3</Height>
 			<Header>false</Header>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>

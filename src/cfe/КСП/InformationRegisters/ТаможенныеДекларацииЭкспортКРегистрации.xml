@@ -39,6 +39,82 @@
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="e86f7009-c3c7-4ae3-ae98-7dbc672fddde">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6207b7d3-a526-42f9-a345-ae4a63251199</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f271e173-7a3e-45ad-a1da-5a172eae5af7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d7c2fdc4-aadd-472f-b6fb-ca5d6e3ff139</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1c4c0e62-f3be-4c56-8de2-cf50469ff46f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f2d2db6d-4324-44ef-bc8b-2b90b6f0c96b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="897f8b62-3a6c-4607-9b51-4b0afcee5b90">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаРеализации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0ec9c2d3-1568-4b3e-9481-0b3a70066ab3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9d8fc691-9a36-4322-9f98-afbaf9ed38dc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2b862c94-a0bf-4c0a-a9d6-f14d3b918f26</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="b173767c-a752-4cf0-ad17-b91654357537">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияЭкспорт</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>57d54052-7de8-4a62-8567-9c262b749d01</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданный</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

@@ -28,8 +28,233 @@
 			<Name>ТаможеннаяДекларацияЭкспорт</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>593edd7c-cdd9-44ee-8c0a-57af812f07de</ExtendedConfigurationObject>
+			<NumberType>String</NumberType>
+			<NumberLength>29</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="9560a4ad-55c0-40c1-9780-b4b54c70446b">
+				<Properties>
+					<Name>КСП_НалогообложениеНДС</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП Налогообложение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Taxation</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип налогообложения продажи товаров и услуг налогом на добавленную стоимость</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>VAT taxation type of the goods and services sale</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>true</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c6844c5f-fe4f-4822-8e7d-5ff4acd564b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d0bafbf-edb6-4603-afbf-73a30527f9bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9ddd6c2b-c928-4b43-9959-ea11721d0c7b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КодОперации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6f469097-b975-4c96-ab45-b11a344e19aa</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>7</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a3f8886-7a4e-40e9-b92b-45a3122c5097">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СборСопроводительныхДокументовЗавершен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1a776352-9f35-4bf8-bc8a-8e39601855de</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cd50e221-e40d-483c-8b2c-b56c57022658">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Примечание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c17ec1e-7fa2-40aa-b97a-9098183279fc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="492a69b7-3119-49df-add2-47090a9ad984">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>65ea1b39-3b35-49b5-9a88-0db16a8d8315</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ef994296-689a-44e3-8afa-2b237dcf8795">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>53580fae-0792-407c-a047-24201d0f1cf9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="5afa20ef-443e-4c1a-a94b-f6b6c5f28a37">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТаможеннаяДекларацияЭкспорт.СопроводительныеДокументы" category="TabularSection">
+						<xr:TypeId>25f68122-308b-4746-9d9f-ca0385c90618</xr:TypeId>
+						<xr:ValueId>1291f29e-0be1-43b6-a702-6a7d049f2e38</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТаможеннаяДекларацияЭкспорт.СопроводительныеДокументы" category="TabularSectionRow">
+						<xr:TypeId>ba1c5467-2ca4-4a87-8d91-698f990a2249</xr:TypeId>
+						<xr:ValueId>a826bfc8-4674-4719-ab54-cc2051648df1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СопроводительныеДокументы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ecea0b69-c740-4d17-9baa-363af14c256d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="68903cab-5952-43c8-b237-9a1c656ae467">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаТСД</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>be06e6b3-c660-4c23-9682-416d62fd486f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6c8dd915-782c-4371-a257-fb25325ac572">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВидДокумента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>02f03fff-1007-437f-b902-ca9ebe6d3af3</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>2</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="eeddb285-93b5-41ca-8b39-0f08b214e1fe">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КодТС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d73717a2-7f74-4a25-973f-5646a39f9920</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>2</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7d730c1e-f876-4eac-9d2c-18d5d1f8d3f8">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерТСД</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>b5a43d63-dc96-46f2-9029-5070f2431e7b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Template>КСП_ПФ_MXL_Декларация</Template>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>
