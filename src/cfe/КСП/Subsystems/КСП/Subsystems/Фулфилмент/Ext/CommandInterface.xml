@@ -21,7 +21,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Report.ДвиженияТоваровФулфилмент.StandardCommand.Open">
+		<Command name="0:15ef046b-7374-402f-8c83-79ac6fa0ad17">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

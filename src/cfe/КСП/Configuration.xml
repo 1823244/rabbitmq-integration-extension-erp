@@ -79,7 +79,6 @@
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<Role>КСП_ОсновнаяРоль</Role>
-			<CommonTemplate>Native_FTP_x86_64_394733</CommonTemplate>
 			<CommonModule>ксп_ЭкспортСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
@@ -96,7 +95,6 @@
 			<HTTPService>КСП_ОстаткиДляФулфилмент</HTTPService>
 			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
-			<ScheduledJob>ксп_ЗагрузкаДанныхКМФулфилмент</ScheduledJob>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
@@ -200,8 +198,6 @@
 			<Enum>ТипыНомеровГТД</Enum>
 			<Enum>ВидыДвиженийКМФулфилмент</Enum>
 			<Enum>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Enum>
-			<Report>ВедомостьПоОстаткамФулфилмент</Report>
-			<Report>ДвиженияТоваровФулфилмент</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>ксп_ОбменСФулфилмент</DataProcessor>
@@ -239,6 +235,7 @@
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
 			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
+			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

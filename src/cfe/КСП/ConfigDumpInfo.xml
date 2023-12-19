@@ -130,9 +130,9 @@
 		<Metadata name="CommonModule.ОбменСФулфилментСервер" id="563a5b7b-c737-4c50-976d-199fa1a40dde" configVersion="0b5999b560f8c00991a14096e177f18c29106b6b"/>
 		<Metadata name="CommonModule.ОбменСФулфилментСервер.Module" id="563a5b7b-c737-4c50-976d-199fa1a40dde.0" configVersion="b7ca89a96f1f92a4b69eebeaaea082353241416e"/>
 		<Metadata name="CommonModule.ксп_Блокировки" id="5a4e9102-1d02-401c-8c4e-bb006bc9f565" configVersion="a22ed2e256d6091ef3f0e9ceadfa961a6889efcf"/>
-		<Metadata name="CommonModule.ксп_Блокировки.Module" id="5a4e9102-1d02-401c-8c4e-bb006bc9f565.0" configVersion="f8481cf5cdab1423365e10c81bcef9378e9900ff"/>
+		<Metadata name="CommonModule.ксп_Блокировки.Module" id="5a4e9102-1d02-401c-8c4e-bb006bc9f565.0" configVersion="25484abdabbbf6b5b0d08c54d3d58b7d3f270368"/>
 		<Metadata name="CommonModule.ксп_ИмпортСлужебный" id="2badf495-f58f-47e7-9e91-472a2bee47a7" configVersion="4d31cd70471c815916019cd6128121be32a92337"/>
-		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="f203c1df1a1adcbe0a4372cd553918fe270a9d98"/>
+		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="e9ea2eae531097de2b5793a3a5c4992826c288b5"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия" id="09b456c4-724e-4c62-b972-02e0a02a4258" configVersion="fe1efabddec5246b04e666f6ee24f80906c9d4c4"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия.Module" id="09b456c4-724e-4c62-b972-02e0a02a4258.0" configVersion="0c7f07162f531d0787634956dc045a44be71c300"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
@@ -146,9 +146,7 @@
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
-		<Metadata name="CommonTemplate.Native_FTP_x86_64_394733" id="3d581590-f751-4d0b-b639-e7d4b11d6104" configVersion="e34e300451c8d6fad449f75fc639bff64aebc694"/>
-		<Metadata name="CommonTemplate.Native_FTP_x86_64_394733.Template" id="3d581590-f751-4d0b-b639-e7d4b11d6104.0" configVersion="3cf768fc205712d747ee90b8bd305f54118de6cd"/>
-		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="419f2ec8f2b704e6b204db84f0064f7bd0fcf45c"/>
+		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="6985f853eb23678c1aeb69a51d15f68ee4afa5d4"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="4e1a03c9-d924-4e0f-9545-660846ef12d9.6" configVersion="aedbf7933168103da13ad38e7a878411cc124b3a"/>
 		<Metadata name="Constant.ксп_СтрокаПодключенияКРабочейБазе" id="c9486512-10b6-4406-86af-26d3ff711828" configVersion="e1fb49e4a7dbc767abc0b4d7f11ecad57dd318cc"/>
 		<Metadata name="Constant.ксп_ТекущаяВерсияНастроекФФ" id="7c8f8023-557f-4726-8e34-89e7393defef" configVersion="95782c0210007e1faaa2f4ac00b7d0dd78efb9fa"/>
@@ -548,6 +546,14 @@
 			<Metadata name="InformationRegister.КСП_ЖурналИзмененийСлужебногоРезерва.Attribute.Ответственный" id="a8a3f006-7531-432f-be49-66985fda0d87"/>
 			<Metadata name="InformationRegister.КСП_ЖурналИзмененийСлужебногоРезерва.Dimension.Документ" id="ee78923e-2003-4347-9748-108c85b129df"/>
 		</Metadata>
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c" configVersion="6c41453b5c7debed37b934f55c09c6ccab284c11">
+			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.Договор" id="2fa5bb72-2044-4ccb-9d2b-37ba04d117d6"/>
+			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.ДатаОкончания" id="3d885420-ecee-4847-96fe-c51a48c01d1f"/>
+			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.ДатаНачала" id="5d998737-2732-43c5-9ba3-f70601ae370d"/>
+			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.Контрагент" id="82cba9d3-c418-4443-9d32-37533782c131"/>
+			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.ВнешняяСистема" id="ca62e987-758e-4f84-909a-345cd96c5614"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.ManagerModule" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c.2" configVersion="7341df6ae5658c3d2fae9aae962b7471cc573a69"/>
 		<Metadata name="InformationRegister.КСП_КурсовыеСоглашения" id="2c1ee82c-cc46-4de0-99e0-47ce29bb611f" configVersion="201c028b53334596bec76cee9c55a030e7757691">
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Dimension.КурсОт" id="21ad8448-5ff6-4da8-9c12-539eda2bb164"/>
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Dimension.Коллекция" id="adfdbba4-05c5-4579-aaba-0944deb3a27b"/>
@@ -730,21 +736,8 @@
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведениеПроблемы.Dimension.ИмяТаблЧасти" id="cdfa575e-90ce-42c7-a5c0-e4844a9d64f3"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="79faacd0-d253-4746-95a5-e87d67144feb" configVersion="6dc14626904438509aeb83f2946b1ce7eefcd122"/>
-		<Metadata name="Report.ВедомостьПоОстаткамФулфилмент" id="62411265-9b0f-41b1-8874-878fcb7f781e" configVersion="adf3a6cd168ea9ba93d55fef6bc250bcaad2f897"/>
-		<Metadata name="Report.ВедомостьПоОстаткамФулфилмент.Template.ОсновнаяСхемаКомпоновкиДанных" id="e6719d8b-aef5-414e-8c55-6d1dab5e1b4d" configVersion="56199bcf3c7c2ae2cba59c524e4f5141642fcf5f"/>
-		<Metadata name="Report.ВедомостьПоОстаткамФулфилмент.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="e6719d8b-aef5-414e-8c55-6d1dab5e1b4d.0" configVersion="c832cda8eeb17ddf8500218de2076a68e418cc0b"/>
-		<Metadata name="Report.ДвиженияТоваровФулфилмент" id="15ef046b-7374-402f-8c83-79ac6fa0ad17" configVersion="848bb1b6030c605692c93b632ed30b69c0de5d3a">
-			<Metadata name="Report.ДвиженияТоваровФулфилмент.Attribute.ТолькоРасхождения" id="181ef9c2-4c34-4585-91b8-fc26d0894609"/>
-		</Metadata>
-		<Metadata name="Report.ДвиженияТоваровФулфилмент.Form.ФормаОтчета" id="99c7df41-75d1-46c2-adec-44a619016078" configVersion="3ae6767f895ea4606355acde9092bae22e542468"/>
-		<Metadata name="Report.ДвиженияТоваровФулфилмент.Form.ФормаОтчета.Form" id="99c7df41-75d1-46c2-adec-44a619016078.0" configVersion="76fbce10b93f69467208e8b588989c30ff91ec04"/>
-		<Metadata name="Report.ДвиженияТоваровФулфилмент.ObjectModule" id="15ef046b-7374-402f-8c83-79ac6fa0ad17.0" configVersion="8ee92c106675df583665e3441a0b53c089a9dcd7"/>
-		<Metadata name="Report.ДвиженияТоваровФулфилмент.Template.ОсновнаяСхемаКомпоновкиДанных" id="12f603e2-994d-4828-8e1a-8d08dd5fa76f" configVersion="45e4a0d278ee3c78c13032ecca07b9ad675565bd"/>
-		<Metadata name="Report.ДвиженияТоваровФулфилмент.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="12f603e2-994d-4828-8e1a-8d08dd5fa76f.0" configVersion="00e47bcc5a73d3049b5ddd84527a19c991f31dd3"/>
 		<Metadata name="Role.КСП_ОсновнаяРоль" id="8af51b3f-179d-454c-a0a2-519be0abe8f7" configVersion="2e1c6418a8a80aeb9a2af96cfbb8e29411c830ea"/>
 		<Metadata name="Role.КСП_ОсновнаяРоль.Rights" id="8af51b3f-179d-454c-a0a2-519be0abe8f7.0" configVersion="1b68f48664fa88350ded28c25ea169ce624e3598"/>
-		<Metadata name="ScheduledJob.ксп_ЗагрузкаДанныхКМФулфилмент" id="807047c4-61a7-4787-9770-5fc6a6cc8daa" configVersion="db1dabad6ab262a3ae59c0ef547b1e8c18bff7c9"/>
-		<Metadata name="ScheduledJob.ксп_ЗагрузкаДанныхКМФулфилмент.Schedule" id="807047c4-61a7-4787-9770-5fc6a6cc8daa.0" configVersion="28e443ba30efc1f56cffeda9b94dfdd30de17536"/>
 		<Metadata name="StyleItem.ГиперссылкаЦвет" id="8d234adf-d4f0-457e-915e-3a836f18be7f" configVersion="7d3896d78b75de0c4127a2a972487648a9481371"/>
 		<Metadata name="StyleItem.ДосьеГиперссылкаЦвет" id="09056385-f8eb-4d58-be80-a83deb64768b" configVersion="dcfecf3605ed914c11c8e2c1b11e54211a0cb48d"/>
 		<Metadata name="StyleItem.ИтогиФон" id="226be8df-dd25-4be0-bbc1-1a213d467ce7" configVersion="c979899808481ad6a77e919655763d22600b3751"/>
@@ -752,7 +745,7 @@
 		<Metadata name="StyleItem.ЦветТекстаНевыбраннойКартинки" id="55a5c831-22f7-440b-8199-27e966340c7a" configVersion="be9da6fd83672365ce3ff94d32c2fa9d7c22dd28"/>
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="40013e1f2cb39060b612fc58dc9406f3b5948bfc"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="15900cbdddb297fe5f75a0cf3fa9252a0a38f3cb"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент" id="3f041b08-f22f-4d26-a102-e74cbe761eff" configVersion="7ab41768315e3b61e4074fcf8343ef25b42477cf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
 		<Metadata name="XDTOPackage.PFS_FE_708" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538" configVersion="94ed87fa1b877ee231a8d50588a76d95c5267533"/>
