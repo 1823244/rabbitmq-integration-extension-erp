@@ -53,6 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СхемыДокументовУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ВидыОперацийПоСкладамУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

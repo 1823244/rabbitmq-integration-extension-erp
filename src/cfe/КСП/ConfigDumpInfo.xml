@@ -33,6 +33,7 @@
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаСписка.Form" id="fd5357c3-f64e-44c8-838b-37fdff6ba972.0" configVersion="a5bc2b6438fd6b2bc42b2febbf96359b0be104aa"/>
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаЭлемента" id="5193a889-ad00-404a-a1f0-e173c48ddc38" configVersion="e9975ce85fa0979021177e4f791f39798386dce0"/>
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаЭлемента.Form" id="5193a889-ad00-404a-a1f0-e173c48ddc38.0" configVersion="6af3e18e43762dbf419e8d9a5f15e466024bdc5a"/>
+		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.ManagerModule" id="d5add528-90d1-4b6d-9039-3a481e5106c2.3" configVersion="99e9bcafc2fd10812c8a3c82ae5d08165e66778c"/>
 		<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП" id="2af64f44-d18d-418d-9f76-2f9490f272cb" configVersion="c8d9e2fa496a6e290f676401c76ed532c9a6bca3">
 			<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП.Attribute.ИмяВнешнейОбработки" id="b91e966b-4b7d-4a76-ad6a-3fc147ad2b8b"/>
 			<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП.Attribute.Описание" id="f7e9ac86-bca7-4d8d-8310-85a2a6747e52"/>
@@ -160,7 +161,7 @@
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
-		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="243fd12bd9cdc4212fa9a898f68d60c0a2b641ae"/>
+		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="dff351b1aedd80fa3f9ceccd79dc3903f5b2b7dd"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="4e1a03c9-d924-4e0f-9545-660846ef12d9.6" configVersion="aedbf7933168103da13ad38e7a878411cc124b3a"/>
 		<Metadata name="Constant.ксп_СтрокаПодключенияКРабочейБазе" id="c9486512-10b6-4406-86af-26d3ff711828" configVersion="e1fb49e4a7dbc767abc0b4d7f11ecad57dd318cc"/>
 		<Metadata name="Constant.ксп_ТекущаяВерсияНастроекФФ" id="7c8f8023-557f-4726-8e34-89e7393defef" configVersion="95782c0210007e1faaa2f4ac00b7d0dd78efb9fa"/>
@@ -603,14 +604,15 @@
 			<Metadata name="InformationRegister.КСП_ИсторияРаспределенияГотовойПродукции.Dimension.Упаковка" id="fbf01cb1-2f2e-4558-b9b4-6251e60f13fa"/>
 		</Metadata>
 		<Metadata name="InformationRegister.КСП_ИсторияРаспределенияГотовойПродукции.ManagerModule" id="6addc942-0e98-4108-a5a8-afd4218118c4.2" configVersion="6763ce6996ca77ef4e9d938cb645d5aefe217742"/>
-		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c" configVersion="6c41453b5c7debed37b934f55c09c6ccab284c11">
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c" configVersion="0cc69957ad48b08929d2954178501003dcdd708f">
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.Договор" id="2fa5bb72-2044-4ccb-9d2b-37ba04d117d6"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.ДатаОкончания" id="3d885420-ecee-4847-96fe-c51a48c01d1f"/>
+			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.СкладПолучатель" id="50b2e66f-a9d9-44af-b628-910b7fe09352"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.ДатаНачала" id="5d998737-2732-43c5-9ba3-f70601ae370d"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.Контрагент" id="82cba9d3-c418-4443-9d32-37533782c131"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.ВнешняяСистема" id="ca62e987-758e-4f84-909a-345cd96c5614"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.ManagerModule" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c.2" configVersion="7341df6ae5658c3d2fae9aae962b7471cc573a69"/>
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.ManagerModule" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c.2" configVersion="c1cca9ae887ee211086818de1457fdc2d08d9557"/>
 		<Metadata name="InformationRegister.КСП_КурсовыеСоглашения" id="2c1ee82c-cc46-4de0-99e0-47ce29bb611f" configVersion="201c028b53334596bec76cee9c55a030e7757691">
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Dimension.КурсОт" id="21ad8448-5ff6-4da8-9c12-539eda2bb164"/>
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Dimension.Коллекция" id="adfdbba4-05c5-4579-aaba-0944deb3a27b"/>
@@ -623,6 +625,17 @@
 			<Metadata name="InformationRegister.КСП_ПланыПродаж.Resource.План" id="9f87d7bd-712f-456e-b489-f6abc872acdc"/>
 			<Metadata name="InformationRegister.КСП_ПланыПродаж.Dimension.Коллекция" id="dad8efad-a9a0-488c-a32c-9bb5fed4bf2b"/>
 		</Metadata>
+		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений" id="25799b0b-2f3f-4174-a019-3f883367bffb" configVersion="b4562659484c2071bbbb66a61d9497b54855576a">
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Attribute.Комментарий" id="0a74cc1e-8f8d-4e23-a4a2-7ba287c836dc"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Attribute.ДатаИмпорта" id="57c94eb7-93b8-4b7a-a6ab-ddfe6edb9fd3"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Resource.ЗаказНаПеремещение" id="587001fc-4468-481c-8f98-4981641fb90c"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Dimension.ГУИД" id="6f937b07-a310-4502-8e62-1cf67a17e7b4"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Resource.ПеремещениеТоваров" id="b7d1fc21-95c5-4909-abbb-281fc15ef6c0"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Attribute.ПредставлениеРТУ" id="cd187be0-c7e9-4919-a385-217dd3f454ac"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Resource.РасходныйОрдерНаТовары" id="d4b64497-cbda-472f-accb-d394f1e8e621"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Dimension.ВнешняяСистема" id="eeaebc5c-3808-4738-b022-f377147a04be"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.ManagerModule" id="25799b0b-2f3f-4174-a019-3f883367bffb.2" configVersion="55bb87a26892c8b1849a7485a91c78ef08966590"/>
 		<Metadata name="InformationRegister.КСП_СхемыДокументовУПП" id="5f20cb59-8610-4179-b1e2-498e4c150ca0" configVersion="fd8418ed52396f9100e7044abec4ee56409686b3">
 			<Metadata name="InformationRegister.КСП_СхемыДокументовУПП.Resource.Схема" id="53484120-d92a-410c-a747-b9e450cebd83"/>
 			<Metadata name="InformationRegister.КСП_СхемыДокументовУПП.Attribute.Комментарий" id="8638a3f6-0218-4406-b00f-58bafc2f236b"/>
@@ -811,7 +824,7 @@
 		<Metadata name="StyleItem.ЦветТекстаНевыбраннойКартинки" id="55a5c831-22f7-440b-8199-27e966340c7a" configVersion="be9da6fd83672365ce3ff94d32c2fa9d7c22dd28"/>
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="a132541ca3a1af3bb492a5bb9983907d9e7689d4"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="d98330920ef26548493e0f4ccd9135a216560442"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент" id="3f041b08-f22f-4d26-a102-e74cbe761eff" configVersion="7ab41768315e3b61e4074fcf8343ef25b42477cf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="9c40f059-7eb0-4fb5-98b6-3f496168d2b5" configVersion="3e73b6e20e32576654a73f5719f56852d0794269"/>

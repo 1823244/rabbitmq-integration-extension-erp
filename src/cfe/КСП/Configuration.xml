@@ -246,6 +246,7 @@
 			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
 			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
+			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
