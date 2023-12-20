@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="25799b0b-2f3f-4174-a019-3f883367bffb">
+	<InformationRegister uuid="af1232bf-87f0-4fc8-8a1a-9a9f2fdd782c">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="Record">
-				<xr:TypeId>86ea67f8-dd5b-42e7-baa1-60f5e2f70cb4</xr:TypeId>
-				<xr:ValueId>b793f63d-b592-43c8-b2d4-da6573b19a38</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="Record">
+				<xr:TypeId>797200e7-ff15-4ae3-bd76-b938eb07f5f0</xr:TypeId>
+				<xr:ValueId>9ace0d57-9697-4d23-b2f9-ffc6501ed589</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="Manager">
-				<xr:TypeId>763fb943-c287-4aeb-8213-b68dfd43ee9d</xr:TypeId>
-				<xr:ValueId>b888d867-cbcd-4535-a8dd-68be9fece287</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="Manager">
+				<xr:TypeId>9dc3b59c-b2e7-4b93-8031-459698e8db5e</xr:TypeId>
+				<xr:ValueId>4dc5e699-c6f0-40e9-80f1-7192190660a8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="Selection">
-				<xr:TypeId>8457751f-4dd6-407f-a0ce-27a359951924</xr:TypeId>
-				<xr:ValueId>3ae09372-aa2c-481c-abbf-1b1fe17b2b62</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="Selection">
+				<xr:TypeId>9f2cdf42-06f9-49e2-a9d6-6c4036c09584</xr:TypeId>
+				<xr:ValueId>2106e002-0755-47b0-8b7f-1b7f97e06fda</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="List">
-				<xr:TypeId>de34e356-3749-4308-a9b0-4309f21cb63f</xr:TypeId>
-				<xr:ValueId>46bd9e56-b253-4206-a17b-e851a0ed129b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="List">
+				<xr:TypeId>51fa67f3-cdce-4c3e-80ce-31b57043712a</xr:TypeId>
+				<xr:ValueId>0fee8247-76fc-4cc8-84a4-c425ce15cf5d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="RecordSet">
-				<xr:TypeId>f9024f7f-d86a-4853-9376-99cfd0683e9a</xr:TypeId>
-				<xr:ValueId>adcbddf0-d238-4194-9c7c-8fcd347370ae</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="RecordSet">
+				<xr:TypeId>0802b132-c7a6-46c6-8b15-647b94b53c00</xr:TypeId>
+				<xr:ValueId>1de01930-08fa-4828-ba4f-f43f60a6f376</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="RecordKey">
-				<xr:TypeId>464bfb38-59a7-458d-af19-1643a00255fb</xr:TypeId>
-				<xr:ValueId>75bd085a-da0a-4907-8bb9-a627add51329</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="RecordKey">
+				<xr:TypeId>6b192b4d-43af-4863-9c7d-447de8dc775e</xr:TypeId>
+				<xr:ValueId>0ece5a75-7df9-481c-98ad-b15357d5b09a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_СвязьРеализацийУППиЦепочекПеремещений" category="RecordManager">
-				<xr:TypeId>1132f55b-ae42-47b3-a16f-850c8688216a</xr:TypeId>
-				<xr:ValueId>fd8cee68-beea-404a-92c8-f95b55038eb7</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_СвязьРеализацийУППиПередачиНаКомиссию" category="RecordManager">
+				<xr:TypeId>eedfa43f-e07e-46ad-9348-5d4566563845</xr:TypeId>
+				<xr:ValueId>437ae4a5-25bc-4a7a-b8ae-f12469d2a273</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КСП_СвязьРеализацийУППиЦепочекПеремещений</Name>
+			<Name>КСП_СвязьРеализацийУППиПередачиНаКомиссию</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Связь реализаций УПП и цепочек перемещений (КСП)</v8:content>
+					<v8:content>Связь реализаций УПП и передачи на комиссию (КСП)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -46,6 +46,112 @@
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Active">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="LineNumber">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Recorder">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Period">
+					<xr:LinkByType/>
+					<xr:FillChecking>ShowError</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 			<MainFilterOnPeriod>false</MainFilterOnPeriod>
@@ -64,18 +170,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="587001fc-4468-481c-8f98-4981641fb90c">
+			<Resource uuid="3c074bb8-6068-4747-9030-f6c9e63540bc">
 				<Properties>
-					<Name>ЗаказНаПеремещение</Name>
+					<Name>ЗаказКлиента</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заказ на перемещение</v8:content>
+							<v8:content>Заказ клиента</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -103,7 +209,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="d4b64497-cbda-472f-accb-d394f1e8e621">
+			<Resource uuid="efa187b5-39f9-46be-8ab9-168f58231f4e">
 				<Properties>
 					<Name>РасходныйОрдерНаТовары</Name>
 					<Synonym>
@@ -142,18 +248,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="b7d1fc21-95c5-4909-abbb-281fc15ef6c0">
+			<Resource uuid="fb626588-6201-4b06-acf3-7bc6a6b0046b">
 				<Properties>
-					<Name>ПеремещениеТоваров</Name>
+					<Name>РеализацияТоваровУслуг</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Перемещение товаров</v8:content>
+							<v8:content>Реализация товаров услуг</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -181,7 +287,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Attribute uuid="cd187be0-c7e9-4919-a385-217dd3f454ac">
+			<Attribute uuid="88d7fe82-ae8d-40a8-a626-6946b6de0f35">
 				<Properties>
 					<Name>ПредставлениеРТУ</Name>
 					<Synonym>
@@ -224,7 +330,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="57c94eb7-93b8-4b7a-a6ab-ddfe6edb9fd3">
+			<Attribute uuid="c8023054-fe50-4c35-a58d-fb81dd9377fe">
 				<Properties>
 					<Name>ДатаИмпорта</Name>
 					<Synonym>
@@ -266,7 +372,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0a74cc1e-8f8d-4e23-a4a2-7ba287c836dc">
+			<Attribute uuid="06bb10ae-b96e-49f4-aa11-31205c29d69b">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>
@@ -309,7 +415,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Dimension uuid="eeaebc5c-3808-4738-b022-f377147a04be">
+			<Dimension uuid="11d8f04e-dfe7-4db3-ba47-54585086dc09">
 				<Properties>
 					<Name>ВнешняяСистема</Name>
 					<Synonym>
@@ -355,7 +461,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="6f937b07-a310-4502-8e62-1cf67a17e7b4">
+			<Dimension uuid="3e5bc47a-468a-4556-a64c-7d50884cb8dd">
 				<Properties>
 					<Name>ГУИД</Name>
 					<Synonym>

@@ -247,6 +247,7 @@
 			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
+			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
