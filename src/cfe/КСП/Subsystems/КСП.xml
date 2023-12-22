@@ -55,6 +55,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_СоглашенияСПартнерамиДляИнтеграций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_СтатусыОтложенногоПроведения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
