@@ -183,6 +183,7 @@
 			<Document>КассоваяСмена</Document>
 			<Document>ТаможеннаяДекларацияЭкспорт</Document>
 			<Document>ДвиженияКМФулфилмент</Document>
+			<Document>ПередачаТоваровХранителю</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>

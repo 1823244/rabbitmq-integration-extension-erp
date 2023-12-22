@@ -161,7 +161,7 @@
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
-		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="b9ec382ebb4316c497a4cdeeb48d997bd93d59ba"/>
+		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="9d9145513d595022f8bbf75337fe70c996213bf4"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="4e1a03c9-d924-4e0f-9545-660846ef12d9.6" configVersion="aedbf7933168103da13ad38e7a878411cc124b3a"/>
 		<Metadata name="Constant.ксп_СтрокаПодключенияКРабочейБазе" id="c9486512-10b6-4406-86af-26d3ff711828" configVersion="e1fb49e4a7dbc767abc0b4d7f11ecad57dd318cc"/>
 		<Metadata name="Constant.ксп_ТекущаяВерсияНастроекФФ" id="7c8f8023-557f-4726-8e34-89e7393defef" configVersion="95782c0210007e1faaa2f4ac00b7d0dd78efb9fa"/>
@@ -444,6 +444,7 @@
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента" id="b9913dac-bad4-47aa-8394-278f15c997b1" configVersion="d6fa272ad17d3e0a527421ed854196ba14cef72e"/>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="b9913dac-bad4-47aa-8394-278f15c997b1.0" configVersion="01fb4a738829cf41e5dcd99fd18278e526d48705"/>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.ObjectModule" id="0bbd5d69-8d87-4bb1-8764-742fdfbd3339.0" configVersion="e0e7ee409e82f51a18e8afdcd08eb0ab4bbf0ff7"/>
+		<Metadata name="Document.ПередачаТоваровХранителю" id="ae2a8c24-5aed-4456-ae8b-9486cfa03536" configVersion="396c60b1bcc02f5cf7c8e0badaadc772ebe65132"/>
 		<Metadata name="Document.ПеремещениеТоваров" id="efeda1ee-66e3-415a-867d-0d97cf661c5c" configVersion="4b20fb6b11c45124cb4372be28c6dce231fccf54"/>
 		<Metadata name="Document.ПересортицаТоваров" id="b4dd66ea-e6ff-4b83-b26a-5ca748800992" configVersion="153cf5370253b5f8636c15b7b7be8ab196bd87c5"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="42f00f10-6687-4f90-92bf-54f1f78271b8" configVersion="b297367eb729c5f1ebaa2b48d4cbd6525a90cdbc"/>
@@ -625,7 +626,7 @@
 			<Metadata name="InformationRegister.КСП_ПланыПродаж.Resource.План" id="9f87d7bd-712f-456e-b489-f6abc872acdc"/>
 			<Metadata name="InformationRegister.КСП_ПланыПродаж.Dimension.Коллекция" id="dad8efad-a9a0-488c-a32c-9bb5fed4bf2b"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию" id="af1232bf-87f0-4fc8-8a1a-9a9f2fdd782c" configVersion="f20fba9236f678cb762b3b76ac492248f5202eb0">
+		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию" id="af1232bf-87f0-4fc8-8a1a-9a9f2fdd782c" configVersion="19356c2c5ad571aba25224725a3c1b05736405fd">
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Attribute.Комментарий" id="06bb10ae-b96e-49f4-aa11-31205c29d69b"/>
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Dimension.ВнешняяСистема" id="11d8f04e-dfe7-4db3-ba47-54585086dc09"/>
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Resource.ЗаказКлиента" id="3c074bb8-6068-4747-9030-f6c9e63540bc"/>
@@ -633,9 +634,9 @@
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Attribute.ПредставлениеРТУ" id="88d7fe82-ae8d-40a8-a626-6946b6de0f35"/>
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Attribute.ДатаИмпорта" id="c8023054-fe50-4c35-a58d-fb81dd9377fe"/>
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Resource.РасходныйОрдерНаТовары" id="efa187b5-39f9-46be-8ab9-168f58231f4e"/>
-			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Resource.РеализацияТоваровУслуг" id="fb626588-6201-4b06-acf3-7bc6a6b0046b"/>
+			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.Resource.ПередачаТоваровХранителю" id="fb626588-6201-4b06-acf3-7bc6a6b0046b"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.ManagerModule" id="af1232bf-87f0-4fc8-8a1a-9a9f2fdd782c.2" configVersion="21ee17b6aced784b9c67fe808daf57ccd5d202b2"/>
+		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию.ManagerModule" id="af1232bf-87f0-4fc8-8a1a-9a9f2fdd782c.2" configVersion="4498e7db2e1abfa20f050b6b5e1e00d95c9ee653"/>
 		<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений" id="25799b0b-2f3f-4174-a019-3f883367bffb" configVersion="5650e92475649afea8d91089603eb51a1f482b78">
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Attribute.Комментарий" id="0a74cc1e-8f8d-4e23-a4a2-7ba287c836dc"/>
 			<Metadata name="InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений.Attribute.ДатаИмпорта" id="57c94eb7-93b8-4b7a-a6ab-ddfe6edb9fd3"/>

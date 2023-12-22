@@ -250,16 +250,16 @@
 			</Resource>
 			<Resource uuid="fb626588-6201-4b06-acf3-7bc6a6b0046b">
 				<Properties>
-					<Name>РеализацияТоваровУслуг</Name>
+					<Name>ПередачаТоваровХранителю</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реализация товаров услуг</v8:content>
+							<v8:content>Передача товаров хранителю</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
