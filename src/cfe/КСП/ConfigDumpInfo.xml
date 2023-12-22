@@ -813,7 +813,7 @@
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.Resource.Наименование" id="feb9e328-469a-49b4-8054-217bcdd18bb0"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.ManagerModule" id="ade82a02-8b2a-42df-b570-cc514e707900.2" configVersion="dfb04d21ac8f1ae03dbdf7207fdda6d25de663c5"/>
-		<Metadata name="InformationRegister.ксп_ОтложенноеПроведение" id="a2640bbd-4f84-40da-8853-b2dab48fb8ff" configVersion="d209fb82825deea565da951ec8c0262ca54c920f">
+		<Metadata name="InformationRegister.ксп_ОтложенноеПроведение" id="a2640bbd-4f84-40da-8853-b2dab48fb8ff" configVersion="ba99466078241f68b826754250fa9e3070c3b9fe">
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Resource.СтатусОбъекта" id="9dd6df71-d0bd-4fd5-b0e3-596d79337061"/>
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Dimension.ДокументСсылка" id="e41a935e-d8f6-4076-b6b9-92a320d02764"/>
 		</Metadata>
@@ -843,7 +843,7 @@
 		<Metadata name="StyleItem.ЦветТекстаНевыбраннойКартинки" id="55a5c831-22f7-440b-8199-27e966340c7a" configVersion="be9da6fd83672365ce3ff94d32c2fa9d7c22dd28"/>
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="d98330920ef26548493e0f4ccd9135a216560442"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="29dcfe89cd2a9a8120ddc57c592fce5bffa58eed"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент" id="3f041b08-f22f-4d26-a102-e74cbe761eff" configVersion="7ab41768315e3b61e4074fcf8343ef25b42477cf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="9c40f059-7eb0-4fb5-98b6-3f496168d2b5" configVersion="3e73b6e20e32576654a73f5719f56852d0794269"/>
