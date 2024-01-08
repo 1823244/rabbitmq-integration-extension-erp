@@ -56,10 +56,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_СоглашенияСПартнерамиДляИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_СтатусыОтложенногоПроведения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ВыводИзОборотаИСМП</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>Фулфилмент</Subsystem>
+			<Subsystem>ЧестныйЗнак</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

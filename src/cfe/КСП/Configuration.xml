@@ -184,6 +184,8 @@
 			<Document>ТаможеннаяДекларацияЭкспорт</Document>
 			<Document>ДвиженияКМФулфилмент</Document>
 			<Document>ПередачаТоваровХранителю</Document>
+			<Document>ВыводИзОборотаИСМП</Document>
+			<Document>ВозвратВОборотИСМП</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -251,6 +253,7 @@
 			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
 			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
+			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

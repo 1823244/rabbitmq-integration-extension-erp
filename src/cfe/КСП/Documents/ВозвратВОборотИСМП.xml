@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="e02081e5-3a0c-43f6-b7cc-11ae993c41a0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратВОборотИСМП" category="Object">
+				<xr:TypeId>f939dbea-be53-4333-b9ad-a1cd59c01a78</xr:TypeId>
+				<xr:ValueId>3d872f05-848d-49f1-b7c8-acfd9b7b8b62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратВОборотИСМП" category="Ref">
+				<xr:TypeId>ba8ff811-53e5-4018-b7cc-90172c0f86b8</xr:TypeId>
+				<xr:ValueId>5fd97821-fa20-4d22-ac54-3070f476661d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратВОборотИСМП" category="Selection">
+				<xr:TypeId>0d4461d7-1572-4f65-92ae-324f18764274</xr:TypeId>
+				<xr:ValueId>70168a79-8992-47eb-a0f4-fb9760c54667</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратВОборотИСМП" category="List">
+				<xr:TypeId>b02e1389-2f43-4834-a3cc-342420b1dd6c</xr:TypeId>
+				<xr:ValueId>9af880c2-5137-42a2-a961-4ee8e299dd6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратВОборотИСМП" category="Manager">
+				<xr:TypeId>289c2d59-a0c0-445d-b6f2-039a0422f248</xr:TypeId>
+				<xr:ValueId>6a5b6c88-1ab8-4aa0-85b5-969d0fbe4b21</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратВОборотИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fed06ebd-7382-42c7-a4a0-f0ee84c5220c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
