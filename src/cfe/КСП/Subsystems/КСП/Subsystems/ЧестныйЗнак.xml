@@ -21,6 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратВОборотИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ВыводИзОборотаИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
