@@ -222,7 +222,7 @@
 		<Metadata name="Document.ВозвратТоваровОтКлиента" id="6d2ba916-83d0-49aa-ac8a-66c7f46052dd" configVersion="183119b279a3187770352ab1188e38b28a3c731f"/>
 		<Metadata name="Document.ВыводИзОборотаИСМП" id="3ab951af-a41e-4c9d-868b-cfd841261ca4" configVersion="3e30f399a5706be0c1c1a5c8b626b3e66b6d0fb7"/>
 		<Metadata name="Document.ВыемкаДенежныхСредствИзКассыККМ" id="3ed429c7-ba91-46c2-923e-472e386f88e3" configVersion="653177bace219d44bb07be62aefaead9bc1f58e5"/>
-		<Metadata name="Document.ДвиженияКМФулфилмент" id="b6cdf298-6138-4f49-95c6-a40b05b491a9" configVersion="fd1cda6afac1691bd8dcfc80965c7f1a5dace7c8">
+		<Metadata name="Document.ДвиженияКМФулфилмент" id="b6cdf298-6138-4f49-95c6-a40b05b491a9" configVersion="059d5d2c5c52baaf703fffaf44d0ed67ea487875">
 			<Metadata name="Document.ДвиженияКМФулфилмент.TabularSection.ДвиженияКодовМаркировки.Attribute.Цена" id="15e234eb-dcc8-4592-a73e-424bca348fb6"/>
 			<Metadata name="Document.ДвиженияКМФулфилмент.TabularSection.ДвиженияКодовМаркировки.Attribute.НоменклатураНаименование" id="33134e29-3238-4c4a-8716-9a5e210b6f21"/>
 			<Metadata name="Document.ДвиженияКМФулфилмент.TabularSection.ДвиженияКодовМаркировки" id="33d931d5-fd4f-4054-8322-6c7b43496e6f"/>
