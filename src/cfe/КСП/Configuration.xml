@@ -75,6 +75,9 @@
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ЦветНедоступногоТекста</StyleItem>
+			<StyleItem>ЦветМикротекста</StyleItem>
+			<StyleItem>ШрифтНовостей</StyleItem>
 			<CommonPicture>Набор</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>Наборы</CommonPicture>
@@ -157,6 +160,7 @@
 			<Catalog>КСП_ВидыОперацийПоСкладамУПП</Catalog>
 			<Catalog>КСП_СкладыУПП</Catalog>
 			<Catalog>КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</Catalog>
+			<Catalog>Новости</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
