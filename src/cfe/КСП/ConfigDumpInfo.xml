@@ -38,6 +38,12 @@
 			<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП.Attribute.ИмяВнешнейОбработки" id="b91e966b-4b7d-4a76-ad6a-3fc147ad2b8b"/>
 			<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП.Attribute.Описание" id="f7e9ac86-bca7-4d8d-8310-85a2a6747e52"/>
 		</Metadata>
+		<Metadata name="Catalog.КСП_НастройкиПодключенияКЧестномуЗнаку" id="36f64f16-ae35-4abd-9d09-dd8cf4d4c1ed" configVersion="677e8abbf49d7acf2783e6c83dde388abc1625e0">
+			<Metadata name="Catalog.КСП_НастройкиПодключенияКЧестномуЗнаку.Attribute.Организация" id="06f42c5e-205d-4d7c-a15e-68507ad0d3d3"/>
+			<Metadata name="Catalog.КСП_НастройкиПодключенияКЧестномуЗнаку.Attribute.Сервер" id="0df89eca-3e3c-43a3-b9c8-332be4dce162"/>
+			<Metadata name="Catalog.КСП_НастройкиПодключенияКЧестномуЗнаку.Attribute.ТоварнаяГруппа" id="647f7a47-1761-41f2-8f02-fea7f061f9f3"/>
+			<Metadata name="Catalog.КСП_НастройкиПодключенияКЧестномуЗнаку.Attribute.Сертификат" id="b65b2d58-fe9a-4d03-82e1-289613218b16"/>
+		</Metadata>
 		<Metadata name="Catalog.КСП_СкладыУПП" id="15f90fde-2bb1-4658-b355-5cbf4dddcc7d" configVersion="4399069f66cf453a9d446b2d63c7d977a29cd70e"/>
 		<Metadata name="Catalog.КартыЛояльности" id="b3c547c7-374f-4aee-96f4-fc82ae575172" configVersion="7ffc0e70709f9ba39a57565ea421e1c82ed6743c"/>
 		<Metadata name="Catalog.Кассы" id="28691f03-b598-47a5-9f29-e1743ef50abc" configVersion="21e45765711112b5b041f30e1521f8da384ecfc2"/>
@@ -164,8 +170,9 @@
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
-		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="bcd9c4c56b1e8723a4fba69b3c6ad8a70291293f"/>
+		<Metadata name="Configuration.КСП" id="8ca314c7-430f-41db-be5e-f2d509a49325" configVersion="f03175f913270af845ba3fb5edbf3dadcaadb6a8"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="4e1a03c9-d924-4e0f-9545-660846ef12d9.6" configVersion="aedbf7933168103da13ad38e7a878411cc124b3a"/>
+		<Metadata name="Constant.ксп_ПодключениеКЧестномуЗнаку" id="01fcf730-83db-4082-927a-dc8b98c4fffe" configVersion="3c3a820a8ed464252c44fc24d6be29fb299c25ac"/>
 		<Metadata name="Constant.ксп_СтрокаПодключенияКРабочейБазе" id="c9486512-10b6-4406-86af-26d3ff711828" configVersion="e1fb49e4a7dbc767abc0b4d7f11ecad57dd318cc"/>
 		<Metadata name="Constant.ксп_ТекущаяВерсияНастроекФФ" id="7c8f8023-557f-4726-8e34-89e7393defef" configVersion="95782c0210007e1faaa2f4ac00b7d0dd78efb9fa"/>
 		<Metadata name="Constant.ксп_УзелОбменаRabbit" id="0ec26924-bfed-4106-87f1-dcdb373b01dd" configVersion="a7c986e8780a9e24acfff6adf970feb8c5b0b8ab"/>
@@ -633,14 +640,21 @@
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Resource.ПроцентНаценки" id="d275a1ee-7dc7-4fef-8edf-ea4e51fff64b"/>
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Dimension.КурсДо" id="fc591a33-dc3a-4565-a4d3-4623c31f4826"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак" id="5dadcdbc-f259-4dc0-84ee-713c53fae0d5" configVersion="368b9b4e9e3108eb2ea09add54934402b1b62ec9">
-			<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак.Resource.Сертификат" id="247b6772-cad6-4b89-a1cc-1df01e35f707"/>
-			<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак.Resource.АдресСписания" id="880552be-692b-4281-9eed-bc56929e07f4"/>
-			<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ЭтоПесочница" id="abe5aef1-2d69-46b8-bb78-54f60d0f2f42"/>
-			<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак.Dimension.Сервер" id="c9a35d54-e8b7-40ce-8328-fb21880463f9"/>
-			<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ИННУчастника" id="e5825e5e-ff31-4cb7-a6ce-dfb317e86555"/>
-			<Metadata name="InformationRegister.КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ГруппаТоваров" id="fbfd745e-8533-49ca-bb72-9ae31fe4be82"/>
+		<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком" id="764e87d9-fa95-429f-bd48-cafcf986b742" configVersion="ea367b02d5f7df9a27f3f13e6bf2d60103a93326">
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Dimension.ДвиженияКМ" id="0ee5e05d-885d-4c76-8add-a91f04fd4e9d"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.ИсходныйJson" id="413d1234-6218-4cf3-ac2c-75b48446580f"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.КодСостоянияHTTP" id="4bb896de-9db4-4b8e-b8ce-f33e98bcc1c5"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.ДатаВремяСобытия" id="767b8c3f-8f24-4556-a0fd-41f5597516cb"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.СтатусВЧестномЗнаке" id="7fc419e7-775e-459e-95e1-c45d520578ce"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.Результат" id="a98268d1-fdb6-414d-ba07-a39984d41356"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.Состояние" id="ce6983e0-c51f-48e1-8f7a-c3b4183c2f49"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.ГУИДвЧестномЗнаке" id="d58bd838-9a97-46db-825f-56174c7bf4ae"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Attribute.Операция" id="dcfb19f0-900c-408d-b466-1b0718a84926"/>
+			<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Dimension.МоментВремениМС" id="f3dad486-17d4-4b27-912b-f600ab4c96c8"/>
 		</Metadata>
+		<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Form.ФормаЗаписи" id="6858693e-586c-4c07-8fb7-87e165ded861" configVersion="a982f2885bc0285f60ba07d6ef47aae9e36af94b"/>
+		<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.Form.ФормаЗаписи.Form" id="6858693e-586c-4c07-8fb7-87e165ded861.0" configVersion="7d3d29f2c834d7076ad22722eed871fc64cd5abb"/>
+		<Metadata name="InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком.ManagerModule" id="764e87d9-fa95-429f-bd48-cafcf986b742.2" configVersion="f253a5ff5d709f8ae39b5bf384f38e0f94501c3c"/>
 		<Metadata name="InformationRegister.КСП_ПланыПродаж" id="70053c2b-4932-41f8-ae45-28ac8da569a9" configVersion="08ab6e2cf982550499a1abfcbd82f05a6cae7fec">
 			<Metadata name="InformationRegister.КСП_ПланыПродаж.Dimension.Клиент" id="05e568a6-382f-4918-a4a8-dd0b06781e09"/>
 			<Metadata name="InformationRegister.КСП_ПланыПродаж.Resource.План" id="9f87d7bd-712f-456e-b489-f6abc872acdc"/>
@@ -863,6 +877,14 @@
 			<Metadata name="InformationRegister.ксп_СоглашенияСПартнерамиДляИнтеграций.Dimension.Контрагент" id="ee70fe5c-1525-4837-b299-7322a0e4946f"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ксп_СоглашенияСПартнерамиДляИнтеграций.ManagerModule" id="e32e9d21-551e-4ba1-85f8-f8e34d780aad.2" configVersion="c7f773fc8ea511820cec41ac16c8f07a85370958"/>
+		<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак" id="5dadcdbc-f259-4dc0-84ee-713c53fae0d5" configVersion="bf3444a1cc7fe9ff349cfacfd09cdd94721c5337">
+			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Resource.Сертификат" id="247b6772-cad6-4b89-a1cc-1df01e35f707"/>
+			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Resource.АдресСписания" id="880552be-692b-4281-9eed-bc56929e07f4"/>
+			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ЭтоПесочница" id="abe5aef1-2d69-46b8-bb78-54f60d0f2f42"/>
+			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Dimension.Сервер" id="c9a35d54-e8b7-40ce-8328-fb21880463f9"/>
+			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ИННУчастника" id="e5825e5e-ff31-4cb7-a6ce-dfb317e86555"/>
+			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ГруппаТоваров" id="fbfd745e-8533-49ca-bb72-9ae31fe4be82"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="79faacd0-d253-4746-95a5-e87d67144feb" configVersion="6dc14626904438509aeb83f2946b1ce7eefcd122"/>
 		<Metadata name="Role.КСП_ОсновнаяРоль" id="8af51b3f-179d-454c-a0a2-519be0abe8f7" configVersion="2e1c6418a8a80aeb9a2af96cfbb8e29411c830ea"/>
 		<Metadata name="Role.КСП_ОсновнаяРоль.Rights" id="8af51b3f-179d-454c-a0a2-519be0abe8f7.0" configVersion="7d1c60aca3424e4686a5a84f3228d01bd01255cd"/>
@@ -877,10 +899,11 @@
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
 		<Metadata name="StyleItem.ШрифтНовостей" id="7a5aaedd-37a1-4bc0-812a-18145faf4c4e" configVersion="1b91fa09657466589e6c36ed18e8c2f6156c2869"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="eed0c1148a9ba7c33285391bc51f010a1ae9b828"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="c3cc17c024b7dda7f7cec6bcf354fb17719be37e"/>
+		<Metadata name="Subsystem.КСП.Subsystem.УдаленныеОбъекты" id="d9197e5d-3523-4115-a2b7-17cc3b8e34a5" configVersion="a5b0bce85016b82188ebeca68bbc6878c6a2801d"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент" id="3f041b08-f22f-4d26-a102-e74cbe761eff" configVersion="7ab41768315e3b61e4074fcf8343ef25b42477cf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
-		<Metadata name="Subsystem.КСП.Subsystem.ЧестныйЗнак" id="3a528d7c-11a9-40a2-aacb-63641ee8b0f7" configVersion="6104b01a9c9280ac0238b53c23b666b838b70555"/>
+		<Metadata name="Subsystem.КСП.Subsystem.ЧестныйЗнак" id="3a528d7c-11a9-40a2-aacb-63641ee8b0f7" configVersion="89076ec84c2396a45e3582338e467cf1cacaaa1d"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="9c40f059-7eb0-4fb5-98b6-3f496168d2b5" configVersion="3e73b6e20e32576654a73f5719f56852d0794269"/>
 		<Metadata name="XDTOPackage.PFS_FE_708" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538" configVersion="94ed87fa1b877ee231a8d50588a76d95c5267533"/>
 		<Metadata name="XDTOPackage.PFS_FE_708.Package" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538.0" configVersion="ba78f6af1a8a56ea1a2dfc1886f8730477cc77e8"/>

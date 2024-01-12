@@ -62,6 +62,7 @@
 		<ChildObjects>
 			<Subsystem>Фулфилмент</Subsystem>
 			<Subsystem>ЧестныйЗнак</Subsystem>
+			<Subsystem>УдаленныеОбъекты</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

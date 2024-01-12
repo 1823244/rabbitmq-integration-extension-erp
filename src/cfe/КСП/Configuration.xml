@@ -113,6 +113,7 @@
 			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
 			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
+			<Constant>ксп_ПодключениеКЧестномуЗнаку</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -161,6 +162,7 @@
 			<Catalog>КСП_СкладыУПП</Catalog>
 			<Catalog>КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</Catalog>
 			<Catalog>Новости</Catalog>
+			<Catalog>КСП_НастройкиПодключенияКЧестномуЗнаку</Catalog>
 			<Document>ПеремещениеТоваров</Document>
 			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
@@ -258,7 +260,8 @@
 			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
 			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
 			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
-			<InformationRegister>КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
+			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
+			<InformationRegister>КСП_ОчередьОбменаСЧестнымЗнаком</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

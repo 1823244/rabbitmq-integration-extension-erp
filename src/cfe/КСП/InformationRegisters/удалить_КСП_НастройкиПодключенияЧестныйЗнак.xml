@@ -2,41 +2,41 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<InformationRegister uuid="5dadcdbc-f259-4dc0-84ee-713c53fae0d5">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КСП_НастройкиПодключенияЧестныйЗнак" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="Record">
 				<xr:TypeId>1a2fb89c-58ff-43c1-814d-2adb16d4b31d</xr:TypeId>
 				<xr:ValueId>ab10c148-4337-4379-a2e9-b2211e6e4add</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КСП_НастройкиПодключенияЧестныйЗнак" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="Manager">
 				<xr:TypeId>5786e5c1-29bf-44c4-ac81-21034dc216aa</xr:TypeId>
 				<xr:ValueId>063d7251-bbb2-4da3-9c58-99d3f4240ec1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КСП_НастройкиПодключенияЧестныйЗнак" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="Selection">
 				<xr:TypeId>6b62a1f6-5c9e-4a37-a595-4cfeb17e108e</xr:TypeId>
 				<xr:ValueId>e809508a-9ec1-4c44-b4d6-9a068931b70f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КСП_НастройкиПодключенияЧестныйЗнак" category="List">
+			<xr:GeneratedType name="InformationRegisterList.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="List">
 				<xr:TypeId>dee5c461-df0a-4cb8-8341-3f66532b4e67</xr:TypeId>
 				<xr:ValueId>efcbde77-77b5-458e-b65e-b301a50b0e26</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_НастройкиПодключенияЧестныйЗнак" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="RecordSet">
 				<xr:TypeId>65517ec9-19c7-4422-bd1d-2fefcc0675a9</xr:TypeId>
 				<xr:ValueId>e939376d-fb98-4798-a135-63aa1f94f0c7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_НастройкиПодключенияЧестныйЗнак" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="RecordKey">
 				<xr:TypeId>655ff7ec-7d6b-433d-802e-672df0c51b4c</xr:TypeId>
 				<xr:ValueId>3cfaf083-af1a-4384-97c5-370e0ee81fc9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_НастройкиПодключенияЧестныйЗнак" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.удалить_КСП_НастройкиПодключенияЧестныйЗнак" category="RecordManager">
 				<xr:TypeId>ecc1eb04-2953-4e54-8ddd-d5e088844c04</xr:TypeId>
 				<xr:ValueId>2a692ccc-ce45-47d5-9097-ca7b5e6a723c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КСП_НастройкиПодключенияЧестныйЗнак</Name>
+			<Name>удалить_КСП_НастройкиПодключенияЧестныйЗнак</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки подключения Честный знак (КСП)</v8:content>
+					<v8:content>удалить</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -258,7 +258,12 @@
 					<PasswordMode>false</PasswordMode>
 					<Format/>
 					<EditFormat/>
-					<ToolTip/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>True API,  Справочник «Список поддерживаемых товарных групп»</v8:content>
+						</v8:item>
+					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>
 					<MultiLine>false</MultiLine>
