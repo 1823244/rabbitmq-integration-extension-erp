@@ -163,35 +163,37 @@
 			<Catalog>КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</Catalog>
 			<Catalog>Новости</Catalog>
 			<Catalog>КСП_НастройкиПодключенияКЧестномуЗнаку</Catalog>
-			<Document>ПеремещениеТоваров</Document>
-			<Document>КСП_ПланПродажПоКоллекциям</Document>
-			<Document>ЗаказНаВнутреннееПотребление</Document>
-			<Document>ИзменениеАссортимента</Document>
-			<Document>ЗаказНаПеремещение</Document>
-			<Document>ЗаказКлиента</Document>
-			<Document>УстановкаЦенНоменклатуры</Document>
-			<Document>РеализацияТоваровУслуг</Document>
-			<Document>ВозвратТоваровОтКлиента</Document>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
+			<Document>ВозвратВОборотИСМП</Document>
+			<Document>ВозвратТоваровОтКлиента</Document>
+			<Document>ВыводИзОборотаИСМП</Document>
 			<Document>ВыемкаДенежныхСредствИзКассыККМ</Document>
+			<Document>ДвиженияКМФулфилмент</Document>
+			<Document>ЗаказКлиента</Document>
+			<Document>ЗаказНаВнутреннееПотребление</Document>
+			<Document>ЗаказНаПеремещение</Document>
+			<Document>ИзменениеАссортимента</Document>
+			<Document>КассоваяСмена</Document>
+			<Document>КСП_КурсовоеСоглашение</Document>
+			<Document>КСП_ПланПродажПоКоллекциям</Document>
 			<Document>ОперацияПоПлатежнойКарте</Document>
+			<Document>ОприходованиеИзлишковТоваров</Document>
 			<Document>ОтчетОРозничныхПродажах</Document>
+			<Document>ПередачаТоваровМеждуОрганизациями</Document>
+			<Document>ПередачаТоваровХранителю</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>ПересортицаТоваров</Document>
 			<Document>ПриходныйКассовыйОрдер</Document>
 			<Document>РасходныйКассовыйОрдер</Document>
-			<Document>ЧекККМ</Document>
-			<Document>ЧекККМКоррекции</Document>
-			<Document>ОприходованиеИзлишковТоваров</Document>
-			<Document>СписаниеНедостачТоваров</Document>
-			<Document>ПересортицаТоваров</Document>
-			<Document>ПередачаТоваровМеждуОрганизациями</Document>
 			<Document>РасходныйОрдерНаТовары</Document>
-			<Document>КСП_КурсовоеСоглашение</Document>
-			<Document>КассоваяСмена</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>СписаниеНедостачТоваров</Document>
 			<Document>ТаможеннаяДекларацияЭкспорт</Document>
-			<Document>ДвиженияКМФулфилмент</Document>
-			<Document>ПередачаТоваровХранителю</Document>
-			<Document>ВыводИзОборотаИСМП</Document>
-			<Document>ВозвратВОборотИСМП</Document>
+			<Document>УстановкаЦенНоменклатуры</Document>
+			<Document>ЧекККМ</Document>
+			<Document>ЧекККМВозврат</Document>
+			<Document>ЧекККМКоррекции</Document>
+			<Document>ПриходныйОрдерНаТовары</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>

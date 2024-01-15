@@ -349,6 +349,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
 						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
 						<v8:Type>cfg:DocumentRef.ИзменениеАссортимента</v8:Type>
@@ -369,6 +370,7 @@
 						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОприходованиеИзлишковТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМВозврат</v8:Type>
 						<v8:Type>cfg:DocumentRef.УстановкаЦенНоменклатуры</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>

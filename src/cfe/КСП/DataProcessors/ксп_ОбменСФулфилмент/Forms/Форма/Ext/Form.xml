@@ -725,6 +725,66 @@
 						</Button>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаРазработка" id="151">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа разработка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа разработка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаРазработкаРасширеннаяПодсказка" id="152"/>
+					<ChildItems>
+						<Button name="ЗагрузкаДанныхКМ_Разработка" id="156">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗагрузкаДанныхКМ_Разработка</CommandName>
+							<ExtendedTooltip name="ЗагрузкаДанныхКМ_РазработкаРасширеннаяПодсказка" id="157"/>
+						</Button>
+						<InputField name="ИмяФайлаКМ_Разработка" id="161">
+							<DataPath>ИмяФайлаКМ_Разработка</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИмяФайлаКМ_РазработкаКонтекстноеМеню" id="162"/>
+							<ExtendedTooltip name="ИмяФайлаКМ_РазработкаРасширеннаяПодсказка" id="163"/>
+						</InputField>
+						<UsualGroup name="Группа1" id="164">
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="165"/>
+							<ChildItems>
+								<InputField name="ПолноеИмяФайлаКМ_Разработка" id="158">
+									<DataPath>ПолноеИмяФайлаКМ_Разработка</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПолноеИмяФайлаКМ_РазработкаКонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="ПолноеИмяФайлаКМ_РазработкаРасширеннаяПодсказка" id="160"/>
+									<Events>
+										<Event name="OnChange">ПолноеИмяФайлаКМ_РазработкаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ПоказатьФайлКМ_Разработка" id="166">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПоказатьФайлКМ_Разработка</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показать</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ПоказатьФайлКМ_РазработкаРасширеннаяПодсказка" id="167"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<TextDocumentField name="ТекстДок_ДвиженияКМ" id="153">
+							<DataPath>ТекстДок_ДвиженияКМ</DataPath>
+							<ContextMenu name="ТекстДок_ДвиженияКМКонтекстноеМеню" id="154"/>
+							<ExtendedTooltip name="ТекстДок_ДвиженияКМРасширеннаяПодсказка" id="155"/>
+						</TextDocumentField>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -945,6 +1005,53 @@
 				<Field>Тест_ЗаказНаПеремещение</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="ТекстДок_ДвиженияКМ" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст док движения КМ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/txtedt">d5p1:TextDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяФайлаКМ_Разработка" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла к м разработка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяФайлаКМ_Разработка</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПолноеИмяФайлаКМ_Разработка" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полное имя файла к м разработка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПолноеИмяФайлаКМ_Разработка</Field>
+			</Save>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыгрузкаНоменклатуры" id="1">
@@ -1086,6 +1193,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Тест_АнонсПоставки_ФормированиеФайла</Action>
+		</Command>
+		<Command name="ЗагрузкаДанныхКМ_Разработка" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка данных  КМ (разработка)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка данных к м разработка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузкаДанныхКМ_Разработка</Action>
+		</Command>
+		<Command name="ПоказатьФайлКМ_Разработка" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать файл к м разработка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать файл к м разработка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьФайлКМ_Разработка</Action>
 		</Command>
 	</Commands>
 </Form>
