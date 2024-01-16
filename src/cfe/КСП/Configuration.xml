@@ -218,6 +218,7 @@
 			<Enum>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Enum>
 			<Enum>ВидыДвиженийКМФулфилмент</Enum>
 			<Enum>КСП_СтатусыОтложенногоПроведения</Enum>
+			<Enum>ксп_СхемыЦепочекДокументовРеализацияУПП</Enum>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>КСП_ПФ_ТаможеннаяДекларацияЭкспорт</DataProcessor>
@@ -225,10 +226,18 @@
 			<DataProcessor>ксп_ФорматFE714</DataProcessor>
 			<DataProcessor>ксп_ФорматFE720</DataProcessor>
 			<DataProcessor>ксп_ФорматFE770</DataProcessor>
+			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
+			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
+			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
+			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
+			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
+			<InformationRegister>КСП_ИсторияРаспределенияГотовойПродукции</InformationRegister>
 			<InformationRegister>ксп_ИсходныеДанныеСообщений</InformationRegister>
+			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
+			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
 			<InformationRegister>КСП_КурсовыеСоглашения</InformationRegister>
 			<InformationRegister>ксп_МэппингМагазинСклад</InformationRegister>
 			<InformationRegister>ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</InformationRegister>
@@ -246,24 +255,16 @@
 			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
-			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
-			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
-			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>КСП_ИсторияРаспределенияГотовойПродукции</InformationRegister>
-			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
-			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
-			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
-			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
-			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
-			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
-			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
-			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
-			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
-			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
-			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
-			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
-			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>КСП_ОчередьОбменаСЧестнымЗнаком</InformationRegister>
+			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
+			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
+			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
+			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
+			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
+			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
+			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
+			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

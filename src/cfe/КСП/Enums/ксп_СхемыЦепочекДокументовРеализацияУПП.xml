@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="848cdbe2-9dcf-4d52-8a57-7d05f2d4a0b7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ксп_СхемыЦепочекДокументовРеализацияУПП" category="Ref">
+				<xr:TypeId>6a8a6966-20cb-4a81-9e7e-4084730e340d</xr:TypeId>
+				<xr:ValueId>945ac716-a54f-4a3a-b6d0-d36f10d08571</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ксп_СхемыЦепочекДокументовРеализацияУПП" category="Manager">
+				<xr:TypeId>21d6d5be-e2c2-4d9b-bd12-1c2f1faad76b</xr:TypeId>
+				<xr:ValueId>ba8a6b53-d237-46d4-ae7c-daf65574a04a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ксп_СхемыЦепочекДокументовРеализацияУПП" category="List">
+				<xr:TypeId>350fe6bc-9caa-43a3-bd9e-70e558ed7a7c</xr:TypeId>
+				<xr:ValueId>9d59c4ca-295c-459f-8e71-6b9996d36552</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ксп_СхемыЦепочекДокументовРеализацияУПП</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ксп схемы цепочек документов реализация УПП</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1f2a13b1-a0cf-4bb8-ba2a-f08efb186571">
+				<Properties>
+					<Name>ПеремещениеНаОтвХранение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перемещение на отв хранение (1)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment> </Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8de781c4-0950-4e4e-9acb-652c0c78e152">
+				<Properties>
+					<Name>ПередачаНаКомиссию</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Передача на комиссию (2)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
