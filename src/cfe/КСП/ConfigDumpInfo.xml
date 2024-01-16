@@ -630,7 +630,7 @@
 			<Metadata name="InformationRegister.КСП_ИсторияРаспределенияГотовойПродукции.Dimension.Упаковка" id="fbf01cb1-2f2e-4558-b9b4-6251e60f13fa"/>
 		</Metadata>
 		<Metadata name="InformationRegister.КСП_ИсторияРаспределенияГотовойПродукции.ManagerModule" id="6addc942-0e98-4108-a5a8-afd4218118c4.2" configVersion="6763ce6996ca77ef4e9d938cb645d5aefe217742"/>
-		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c" configVersion="cba2b60faf17e56d6ec9834b9a886409870e7ca0">
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c" configVersion="2f2e03d6a1801fde03dfcc72611cb1599251d0ef">
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.Удалить_Договор" id="2fa5bb72-2044-4ccb-9d2b-37ba04d117d6"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.ДатаОкончания" id="3d885420-ecee-4847-96fe-c51a48c01d1f"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.СкладПолучатель" id="50b2e66f-a9d9-44af-b628-910b7fe09352"/>
@@ -640,6 +640,8 @@
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Dimension.ВнешняяСистема" id="ca62e987-758e-4f84-909a-345cd96c5614"/>
 			<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Resource.Договор" id="ef74b21a-a208-490e-9bf3-963d26480fa3"/>
 		</Metadata>
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Form.ФормаЗаписи" id="0a0aeec6-fc40-49d4-9aa2-482e96837b34" configVersion="884e5aeebfbef48273ef89373757b209e3fd5a86"/>
+		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.Form.ФормаЗаписи.Form" id="0a0aeec6-fc40-49d4-9aa2-482e96837b34.0" configVersion="a0d1583f41cff3b241aecd5cf12d33ba34bc8b14"/>
 		<Metadata name="InformationRegister.КСП_КомиссионерыДляРеализацийУПП.ManagerModule" id="41cd2b88-0ee7-4346-8e4d-0f3b94c2be5c.2" configVersion="b18c90efacbf398ddaf6c37a9952e7ae4444b00d"/>
 		<Metadata name="InformationRegister.КСП_КурсовыеСоглашения" id="2c1ee82c-cc46-4de0-99e0-47ce29bb611f" configVersion="201c028b53334596bec76cee9c55a030e7757691">
 			<Metadata name="InformationRegister.КСП_КурсовыеСоглашения.Dimension.КурсОт" id="21ad8448-5ff6-4da8-9c12-539eda2bb164"/>
