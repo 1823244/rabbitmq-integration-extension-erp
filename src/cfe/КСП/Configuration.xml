@@ -95,6 +95,9 @@
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>ОбменСФулфилментСервер</CommonModule>
 			<CommonModule>ксп_Элис_ОбщегоНазначения</CommonModule>
+			<CommonModule>crm_RetailCRMПовтИсп</CommonModule>
+			<CommonModule>crm_RetailCRMОбщий</CommonModule>
+			<CommonModule>crm_RetailCRMОбработка</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
@@ -163,6 +166,7 @@
 			<Catalog>КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</Catalog>
 			<Catalog>Новости</Catalog>
 			<Catalog>КСП_НастройкиПодключенияКЧестномуЗнаку</Catalog>
+			<Catalog>crm_Организации</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -265,6 +269,7 @@
 			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ксп_ИсходныеДанныеЗаказов</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

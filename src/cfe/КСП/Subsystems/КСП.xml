@@ -64,6 +64,7 @@
 			<Subsystem>Фулфилмент</Subsystem>
 			<Subsystem>ЧестныйЗнак</Subsystem>
 			<Subsystem>УдаленныеОбъекты</Subsystem>
+			<Subsystem>RetailCRM</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
