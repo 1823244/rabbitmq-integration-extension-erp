@@ -118,6 +118,7 @@
 			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
 			<Constant>ксп_ПодключениеКЧестномуЗнаку</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекRetailCRM</Constant>
+			<Constant>КСП_Последний_ID_Заказа_RCRM</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -234,6 +235,7 @@
 			<DataProcessor>ксп_ФорматFE714</DataProcessor>
 			<DataProcessor>ксп_ФорматFE720</DataProcessor>
 			<DataProcessor>ксп_ФорматFE770</DataProcessor>
+			<DataProcessor>КСП_RetailCRM_РаботаСЗаказами</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
