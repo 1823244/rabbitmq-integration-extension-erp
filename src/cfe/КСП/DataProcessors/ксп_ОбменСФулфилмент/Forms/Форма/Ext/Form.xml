@@ -342,6 +342,14 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаСтраницаЗагрузкаРасширеннаяПодсказка" id="69"/>
 					<ChildItems>
+						<InputField name="НастройкиПодключения" id="171">
+							<DataPath>НастройкиПодключения</DataPath>
+							<ClearButton>true</ClearButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+							<ContextMenu name="НастройкиПодключенияКонтекстноеМеню" id="172"/>
+							<ExtendedTooltip name="НастройкиПодключенияРасширеннаяПодсказка" id="173"/>
+						</InputField>
 						<UsualGroup name="ГруппаЗагрузкаОтчетаКомиссионера" id="97">
 							<Title>
 								<v8:item>
@@ -511,6 +519,11 @@
 								<ExtendedTooltip name="СостояниеЗагрузкиУправлениеПоискомРасширеннаяПодсказка" id="84"/>
 							</SearchControlAddition>
 							<ChildItems>
+								<LabelField name="СостояниеЗагрузкиКаталог" id="168">
+									<DataPath>СостояниеЗагрузки.Каталог</DataPath>
+									<ContextMenu name="СостояниеЗагрузкиКаталогКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="СостояниеЗагрузкиКаталогРасширеннаяПодсказка" id="170"/>
+								</LabelField>
 								<LabelField name="СостояниеЗагрузкиИмяФайла" id="85">
 									<DataPath>СостояниеЗагрузки.ИмяФайла</DataPath>
 									<ContextMenu name="СостояниеЗагрузкиИмяФайлаКонтекстноеМеню" id="86"/>
@@ -1051,6 +1064,17 @@
 			<Save>
 				<Field>ПолноеИмяФайлаКМ_Разработка</Field>
 			</Save>
+		</Attribute>
+		<Attribute name="НастройкиПодключения" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ChartOfCharacteristicTypesRef.КСП_НастройкиФулфилмент</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

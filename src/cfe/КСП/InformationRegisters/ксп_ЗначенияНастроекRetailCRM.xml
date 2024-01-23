@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="a5a14740-ff4b-4fd0-8374-5470393eb613">
+	<InformationRegister uuid="39ca6d2e-41d2-43e4-8f19-25a1023d2270">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ЗагрузкаДанныхИзФулфилмент" category="Record">
-				<xr:TypeId>8ad9b9db-82bf-4f98-b77a-4748f551062d</xr:TypeId>
-				<xr:ValueId>75abd4c6-60ad-4869-8aaf-1898cef9f853</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.ксп_ЗначенияНастроекRetailCRM" category="Record">
+				<xr:TypeId>2ce0f02f-7956-415e-98ea-653afc7dbdd8</xr:TypeId>
+				<xr:ValueId>7c9a1c19-022f-4d03-9db5-f90a56d3966a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ЗагрузкаДанныхИзФулфилмент" category="Manager">
-				<xr:TypeId>992960e0-4971-48d4-a118-cdea0b0f35db</xr:TypeId>
-				<xr:ValueId>0bc4536e-87d7-4e4a-8d9a-45e9fa1e3e3f</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.ксп_ЗначенияНастроекRetailCRM" category="Manager">
+				<xr:TypeId>bb6401d3-5331-4068-8ed4-f3d29687fee5</xr:TypeId>
+				<xr:ValueId>706bcbf3-cec3-424e-8d53-716d3df7a313</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ЗагрузкаДанныхИзФулфилмент" category="Selection">
-				<xr:TypeId>0ad4cf1c-9d8e-48ea-bdfb-2190f9666083</xr:TypeId>
-				<xr:ValueId>c9235a82-741f-4d5f-9465-1f8fd95d6b13</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.ксп_ЗначенияНастроекRetailCRM" category="Selection">
+				<xr:TypeId>7e8cbbb0-baed-4e43-aa97-ebc8e5e69c7e</xr:TypeId>
+				<xr:ValueId>28c22d7b-eb9b-4297-9811-454e72b70b6b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ЗагрузкаДанныхИзФулфилмент" category="List">
-				<xr:TypeId>c4c1711e-d127-496c-bf57-f2a653bb5aa5</xr:TypeId>
-				<xr:ValueId>770ec338-fcd8-40d9-ae21-8e66901cb9e6</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.ксп_ЗначенияНастроекRetailCRM" category="List">
+				<xr:TypeId>4448a768-6b15-4d1d-91f6-c9b587377138</xr:TypeId>
+				<xr:ValueId>c662a917-68b5-40d6-a784-c258aa9929b1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ЗагрузкаДанныхИзФулфилмент" category="RecordSet">
-				<xr:TypeId>107fc3f7-4632-4cad-9b6c-99eea453f375</xr:TypeId>
-				<xr:ValueId>d8121e04-fd4b-4238-91bd-f731f8d20c5a</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ксп_ЗначенияНастроекRetailCRM" category="RecordSet">
+				<xr:TypeId>585d7a8b-049f-4e7f-9d3a-efda5631f28c</xr:TypeId>
+				<xr:ValueId>307be3ff-d40e-42d3-85f3-5955d88b4317</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ЗагрузкаДанныхИзФулфилмент" category="RecordKey">
-				<xr:TypeId>65a3ec0c-c3be-44bd-acf8-4e94f8cf6030</xr:TypeId>
-				<xr:ValueId>8898ebc9-8ba4-4ac7-af81-32012170b492</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ксп_ЗначенияНастроекRetailCRM" category="RecordKey">
+				<xr:TypeId>c47bce00-075e-482a-985d-dfd76b422534</xr:TypeId>
+				<xr:ValueId>2b3e02e5-e869-4fa6-bc4c-7822d1ba6e95</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ЗагрузкаДанныхИзФулфилмент" category="RecordManager">
-				<xr:TypeId>e8f3877d-9b78-4eec-a0b6-1c629a955de9</xr:TypeId>
-				<xr:ValueId>db314d0b-975a-4f12-af35-b79fdfe9fa3b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ксп_ЗначенияНастроекRetailCRM" category="RecordManager">
+				<xr:TypeId>93cfe9e5-b195-4d30-aee1-4a6837399642</xr:TypeId>
+				<xr:ValueId>7295e713-7a7e-46eb-a47e-c228be98f1aa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ЗагрузкаДанныхИзФулфилмент</Name>
+			<Name>ксп_ЗначенияНастроекRetailCRM</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регистр: Загрузка данных из фулфилмента</v8:content>
+					<v8:content>Значения настроек RetailCRM (КСП)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
+			<UseStandardCommands>false</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.ЗагрузкаДанныхИзФулфилмент.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultRecordForm/>
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
@@ -170,21 +170,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="9d269674-87c7-43dd-b7b4-1f130ab05326">
+			<Resource uuid="dbaedd45-f38a-4697-af06-21b21b888e5f">
 				<Properties>
-					<Name>ДатаЗагрузки</Name>
+					<Name>Значение</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата загрузки</v8:content>
+							<v8:content>Значение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>DateTime</v8:DateFractions>
-						</v8:DateQualifiers>
+						<v8:TypeSet>cfg:Characteristic.КСП_НастройкиRetailCRM</v8:TypeSet>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -212,18 +209,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="b5c76331-5a19-481e-8083-40d3b91b94f5">
+			<Dimension uuid="d1e596ef-3bbd-44bb-97ba-eb6662c419a4">
 				<Properties>
-					<Name>ЗагрузкаБезОшибок</Name>
+					<Name>Настройка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Загрузка без ошибок</v8:content>
+							<v8:content>Настройка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:boolean</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.КСП_НастройкиRetailCRM</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -235,7 +232,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -246,89 +243,7 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Resource uuid="7125c92b-7ca3-4b67-b93f-d154b4ac3239">
-				<Properties>
-					<Name>ДанныеФайла</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Данные файла</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>v8:ValueStorage</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Dimension uuid="9b4b303c-e774-4ed3-b84d-df773fe52e04">
-				<Properties>
-					<Name>ИмяФайла</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Имя файла</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>150</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
+					<Master>true</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
@@ -336,53 +251,6 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="a037ced8-c604-4cd9-bed8-78def5655250">
-				<Properties>
-					<Name>Каталог</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Каталог</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment>каталог на ФТП-сервере</Comment>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>150</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Dimension>
-			<Form>ФормаЗаписи</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
