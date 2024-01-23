@@ -110,6 +110,13 @@
 									<ContextMenu name="Отправители1СкладКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="Отправители1СкладРасширеннаяПодсказка" id="47"/>
 								</InputField>
+								<InputField name="Отправители1СкладХраненияУПП" id="81">
+									<DataPath>Объект.Отправители.СкладХраненияУПП</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Отправители1СкладХраненияУППКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="Отправители1СкладХраненияУППРасширеннаяПодсказка" id="83"/>
+								</InputField>
 								<InputField name="Отправители1ЛогикаОбработкиВТЧ" id="72">
 									<DataPath>Объект.Отправители.ЛогикаОбработкиВТЧ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -177,6 +184,13 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Получатели1СкладКонтекстноеМеню" id="67"/>
 									<ExtendedTooltip name="Получатели1СкладРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="Получатели1СкладХраненияУПП" id="84">
+									<DataPath>Объект.Получатели.СкладХраненияУПП</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Получатели1СкладХраненияУППКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="Получатели1СкладХраненияУППРасширеннаяПодсказка" id="86"/>
 								</InputField>
 								<InputField name="Получатели1ЛогикаОбработкиВТЧ" id="75">
 									<DataPath>Объект.Получатели.ЛогикаОбработкиВТЧ</DataPath>

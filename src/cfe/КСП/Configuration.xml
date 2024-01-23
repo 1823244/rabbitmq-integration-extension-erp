@@ -170,6 +170,7 @@
 			<Catalog>crm_Организации</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>ГруппыДоступаПартнеров</Catalog>
+			<Catalog>КСП_СкладыХраненияУПП</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -239,9 +240,11 @@
 			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
 			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
+			<InformationRegister>ксп_ЗначенияНастроекRetailCRM</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_ИсторияРаспределенияГотовойПродукции</InformationRegister>
+			<InformationRegister>ксп_ИсходныеДанныеЗаказов</InformationRegister>
 			<InformationRegister>ксп_ИсходныеДанныеСообщений</InformationRegister>
 			<InformationRegister>ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</InformationRegister>
 			<InformationRegister>КСП_КомиссионерыДляРеализацийУПП</InformationRegister>
@@ -272,8 +275,6 @@
 			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>ксп_ИсходныеДанныеЗаказов</InformationRegister>
-			<InformationRegister>ксп_ЗначенияНастроекRetailCRM</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
