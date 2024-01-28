@@ -19,8 +19,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыгрзкаДанныхВФулфилмент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ОбменСФулфилмент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗагрузкаДанныхИзФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">62411265-9b0f-41b1-8874-878fcb7f781e</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">15ef046b-7374-402f-8c83-79ac6fa0ad17</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыДвиженийКМФулфилмент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСФулфилментСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.КСП_НастройкиФулфилмент</xr:Item>
@@ -32,7 +30,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ВидыНоменклатурыДляАнонсаПоставки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ФорматFE770</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДвиженияКМФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">807047c4-61a7-4787-9770-5fc6a6cc8daa</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_СтатусыДанныхИзФулфилмент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

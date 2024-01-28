@@ -358,6 +358,7 @@
 						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОтчетКомиссионера</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыемкаДенежныхСредствИзКассыККМ</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриходныйКассовыйОрдер</v8:Type>
 						<v8:Type>cfg:DocumentRef.СписаниеНедостачТоваров</v8:Type>

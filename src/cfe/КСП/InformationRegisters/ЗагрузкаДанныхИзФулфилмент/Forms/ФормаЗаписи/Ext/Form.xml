@@ -13,7 +13,7 @@
 			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Каталог" id="4">
-			<DataPath>Запись.Каталог</DataPath>
+			<DataPath>Запись.УдалитьКаталог</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КаталогКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="КаталогРасширеннаяПодсказка" id="6"/>
@@ -30,6 +30,12 @@
 			<ContextMenu name="ЗагрузкаБезОшибокКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ЗагрузкаБезОшибокРасширеннаяПодсказка" id="12"/>
 		</CheckBoxField>
+		<InputField name="СтатусДанных" id="16">
+			<DataPath>Запись.СтатусДанных</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтатусДанныхКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СтатусДанныхРасширеннаяПодсказка" id="18"/>
+		</InputField>
 		<TextDocumentField name="ДанныеФайла" id="13">
 			<DataPath>ДанныеФайла</DataPath>
 			<ContextMenu name="ДанныеФайлаКонтекстноеМеню" id="14"/>
