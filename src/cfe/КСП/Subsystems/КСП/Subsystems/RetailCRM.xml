@@ -22,6 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.КСП_НастройкиRetailCRM</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_RetailCRM_РаботаСЗаказами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КСП_Последний_ID_Заказа_RCRM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КСП_ЗаказыRetailCRM</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

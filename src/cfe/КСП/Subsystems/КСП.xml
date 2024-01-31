@@ -59,6 +59,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ВыводИзОборотаИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ксп_СхемыЦепочекДокументовРеализацияУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_СкладыХраненияУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
