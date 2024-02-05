@@ -83,23 +83,18 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<InputField name="Организация" id="185">
+							<DataPath>Объект.Организация</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="186"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="187"/>
+						</InputField>
 						<InputField name="ВидОперации" id="112">
 							<DataPath>Объект.ВидОперации</DataPath>
 							<Width>30</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ВидОперацииКонтекстноеМеню" id="113"/>
 							<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="114"/>
-						</InputField>
-						<InputField name="ИмяФайла" id="118">
-							<DataPath>Объект.ИмяФайла</DataPath>
-							<Width>42</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="119"/>
-							<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="120"/>
-							<Events>
-								<Event name="OnChange">ИмяФайлаПриИзменении</Event>
-								<Event name="StartChoice">ИмяФайлаНачалоВыбора</Event>
-							</Events>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
@@ -183,6 +178,15 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="ИмяФайла" id="118">
+			<DataPath>Объект.ИмяФайла</DataPath>
+			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="119"/>
+			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="120"/>
+			<Events>
+				<Event name="OnChange">ИмяФайлаПриИзменении</Event>
+				<Event name="StartChoice">ИмяФайлаНачалоВыбора</Event>
+			</Events>
+		</InputField>
 		<Pages name="СтраницыФормы" id="97">
 			<Title>
 				<v8:item>

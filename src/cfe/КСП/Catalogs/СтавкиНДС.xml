@@ -42,6 +42,23 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="dbc1f9f1-be4b-4a98-8b5f-7c613a8e66e1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ставка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b8914e59-6dff-42c6-89a3-fa1b3aa33077</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

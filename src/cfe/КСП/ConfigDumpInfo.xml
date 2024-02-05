@@ -153,8 +153,9 @@
 		<Metadata name="Catalog.Склады" id="6e86b1bc-7727-4147-a622-55acad92fb01" configVersion="36894d7b781fa031a61023dc8fa590bc34d53df7"/>
 		<Metadata name="Catalog.СоглашенияСКлиентами" id="3812aab6-e565-4b0d-b206-2357f4fdde84" configVersion="65f4706a014be55e63044cba886d97c9b2984831"/>
 		<Metadata name="Catalog.СоглашенияСПоставщиками" id="29dd0860-22e9-47a8-8a47-26e9340ba716" configVersion="ad9c008f9d0d02c32c38850185292bc8d8c5dc20"/>
-		<Metadata name="Catalog.СтавкиНДС" id="daf58175-6b7c-4e1b-846a-c5f50334471a" configVersion="f75bfed365b973c602694c1493e780f8d49f88e2">
+		<Metadata name="Catalog.СтавкиНДС" id="daf58175-6b7c-4e1b-846a-c5f50334471a" configVersion="e47782dc931c90285e3c5e91797745a69578a355">
 			<Metadata name="Catalog.СтавкиНДС.Attribute.ПеречислениеСтавкаНДС" id="5f244a6a-f7ed-4f4e-9e4c-7e57ba1eb858"/>
+			<Metadata name="Catalog.СтавкиНДС.Attribute.Ставка" id="dbc1f9f1-be4b-4a98-8b5f-7c613a8e66e1"/>
 		</Metadata>
 		<Metadata name="Catalog.СтатьиДвиженияДенежныхСредств" id="d35d2f1c-c730-4552-b978-ea0234d958ee" configVersion="7d15122cad3f06c7019cc604aa34a4080da8257d"/>
 		<Metadata name="Catalog.СтраныМира" id="60f2f38a-9318-4943-a8dc-b34e76cc6ace" configVersion="abafbb4b4016085c3c7981657b9857c6c6aec628"/>
@@ -195,7 +196,7 @@
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый" id="158e129f-9a5a-4770-a64d-553d9d649027" configVersion="4227c7ebae0e853c9e7f4f9e0513cac5e07241cb"/>
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый.Module" id="158e129f-9a5a-4770-a64d-553d9d649027.0" configVersion="064868cfa6b1fbdb3a59ce29ddcc45a4a6c2cab6"/>
 		<Metadata name="CommonModule.ОбменСФулфилментСервер" id="563a5b7b-c737-4c50-976d-199fa1a40dde" configVersion="0b5999b560f8c00991a14096e177f18c29106b6b"/>
-		<Metadata name="CommonModule.ОбменСФулфилментСервер.Module" id="563a5b7b-c737-4c50-976d-199fa1a40dde.0" configVersion="7ce5bd9cdaf6540f5dad5d18479030d7b4acf863"/>
+		<Metadata name="CommonModule.ОбменСФулфилментСервер.Module" id="563a5b7b-c737-4c50-976d-199fa1a40dde.0" configVersion="3f25384d96ab1fe78aa4a3ba23ef08b437077cfb"/>
 		<Metadata name="CommonModule.УправлениеПечатьюПереопределяемый" id="8bea4e69-d679-48c6-951b-89728b2294ff" configVersion="4770d1076f2dd4712da1efab7a6452b6fc124133"/>
 		<Metadata name="CommonModule.УправлениеПечатьюПереопределяемый.Module" id="8bea4e69-d679-48c6-951b-89728b2294ff.0" configVersion="9e5bf3cd11a1be581db690227f5049b18f3e02eb"/>
 		<Metadata name="CommonModule.ксп_Блокировки" id="5a4e9102-1d02-401c-8c4e-bb006bc9f565" configVersion="a22ed2e256d6091ef3f0e9ceadfa961a6889efcf"/>
@@ -205,7 +206,7 @@
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия" id="09b456c4-724e-4c62-b972-02e0a02a4258" configVersion="fe1efabddec5246b04e666f6ee24f80906c9d4c4"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия.Module" id="09b456c4-724e-4c62-b972-02e0a02a4258.0" configVersion="0c7f07162f531d0787634956dc045a44be71c300"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
-		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="dffd2aa716aae789f507fac2d639b883d3ef8a6a"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="add0943a34c762a64a42f11e4c592036e0f374f4"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d" configVersion="24d95ece84373faafe72c820bb69420519dd3e0f"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="b9ab83081aa0eec6a8336a15d11efb82ad2c87cb"/>
 		<Metadata name="CommonModule.ксп_Элис_ОбщегоНазначения" id="8f2108bf-a593-4411-b300-12e64bc0dad6" configVersion="438dca3bc44c2300e473869b2a10663734bc38c4"/>
@@ -270,7 +271,7 @@
 		<Metadata name="DataProcessor.ксп_ФорматFE720" id="d814a368-1bb7-448b-a1e6-709474b889f6" configVersion="763ada774bb301688598fa1670741447dccdb288"/>
 		<Metadata name="DataProcessor.ксп_ФорматFE720.ObjectModule" id="d814a368-1bb7-448b-a1e6-709474b889f6.0" configVersion="16b5ec06719e928fba6905abc5ee867d29aeaef1"/>
 		<Metadata name="DataProcessor.ксп_ФорматFE770" id="57de856e-f66b-48fb-9936-56b7016b78bb" configVersion="a8a595d7c9e534f8f4e597e8e91280b1459560e3"/>
-		<Metadata name="DataProcessor.ксп_ФорматFE770.ObjectModule" id="57de856e-f66b-48fb-9936-56b7016b78bb.0" configVersion="aed5a21f5689bd0a753324e98a680ae1ad441bd1"/>
+		<Metadata name="DataProcessor.ксп_ФорматFE770.ObjectModule" id="57de856e-f66b-48fb-9936-56b7016b78bb.0" configVersion="a283b60960f9efb3da74af1dae4f4f2fd9fa66dc"/>
 		<Metadata name="DefinedType.Артикул" id="b9d5e471-4e6c-4312-8f0c-a6998fd5c72f" configVersion="4182d8adf120db1d9a2f2b6dddc466dca42f8684"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаЛюбогоЗнака" id="9ed4cdbc-6098-41e6-85d0-6f027164a482" configVersion="ff04da62a5839e1825dd26127dbca21e71d445c9"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаНеотрицательная" id="b30242fa-df88-48dc-9551-0c3907638706" configVersion="d8d86e809f92703d5aab8514cff6a3d07fe49826"/>
@@ -315,7 +316,7 @@
 			<Metadata name="Document.ДвиженияКМФулфилмент.Attribute.ВидПродукции" id="efcce5be-8a2c-4a82-a9b3-bda64d21acbc"/>
 		</Metadata>
 		<Metadata name="Document.ДвиженияКМФулфилмент.Form.ФормаДокумента" id="40db013d-541e-4c07-9f37-e7dae482d8eb" configVersion="a492c375a9ce1a55c7bd1c77d717eb814f12f639"/>
-		<Metadata name="Document.ДвиженияКМФулфилмент.Form.ФормаДокумента.Form" id="40db013d-541e-4c07-9f37-e7dae482d8eb.0" configVersion="d0386395157c8ea94813ac27635678a83e1fbbcf"/>
+		<Metadata name="Document.ДвиженияКМФулфилмент.Form.ФормаДокумента.Form" id="40db013d-541e-4c07-9f37-e7dae482d8eb.0" configVersion="7bde12126a71f8fe954a8efcf331b79debf4b232"/>
 		<Metadata name="Document.ДвиженияКМФулфилмент.Form.ФормаСписка" id="d60c525d-eb0d-4f28-8097-b75401459403" configVersion="aace91f2a238a4a23cd71f195169b3e29579148c"/>
 		<Metadata name="Document.ДвиженияКМФулфилмент.Form.ФормаСписка.Form" id="d60c525d-eb0d-4f28-8097-b75401459403.0" configVersion="7bbb1c9228edaf70ea28bd7c11e54928ef48a8b9"/>
 		<Metadata name="Document.ДвиженияКМФулфилмент.ManagerModule" id="b6cdf298-6138-4f49-95c6-a40b05b491a9.2" configVersion="af51912e1d7dae02350abbb2d2b210d68c5e97e5"/>
@@ -595,7 +596,11 @@
 			<Metadata name="Enum.СпособыДоставки.EnumValue.КПолучателюОпределяетСлужбаДоставки" id="db22408b-60b6-4ba8-a25e-da3e96b6daa9"/>
 			<Metadata name="Enum.СпособыДоставки.EnumValue.ДоКлиента" id="ec85b5b5-6785-4ab1-a67d-7b599176f861"/>
 		</Metadata>
-		<Metadata name="Enum.СтавкиНДС" id="a8219fb6-e79c-4d34-85b6-ac563d6c569d" configVersion="8d6a1289af44b8cc0a140130a2ea68ffa7e09a98"/>
+		<Metadata name="Enum.СтавкиНДС" id="a8219fb6-e79c-4d34-85b6-ac563d6c569d" configVersion="35987eb39c340007e333548c0763764c590ad847">
+			<Metadata name="Enum.СтавкиНДС.EnumValue.БезНДС" id="709395f8-68ee-4f35-b930-26e22057301c"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20" id="c3f3b9a4-22f7-4bdc-b4e9-b2bfdb387cb9"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20_120" id="fddcdde1-d127-4ac1-91ae-7ab9c018c957"/>
+		</Metadata>
 		<Metadata name="Enum.СтатусыДействияВидовЦен" id="54d82b7b-591c-4dbe-a236-b716d40889d4" configVersion="90c34a31aaf0facecab76d3ca7bd377c9196a4ad">
 			<Metadata name="Enum.СтатусыДействияВидовЦен.EnumValue.Действует" id="238d95b0-c044-4fac-881b-188408977a19"/>
 		</Metadata>
@@ -805,7 +810,7 @@
 			<Metadata name="InformationRegister.ШтрихкодыНоменклатуры.Resource.Характеристика" id="6734e40f-6e00-498b-9641-6cc0cf5b6f8d"/>
 			<Metadata name="InformationRegister.ШтрихкодыНоменклатуры.Resource.Номенклатура" id="89e4c67c-45b4-4afe-a3ad-e0e319ad4c25"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ксп_ВыводИзОборотаИСМП" id="8d23c53b-ccbf-4cd8-97f6-84433688c313" configVersion="1ee68b196f348c37a3f95b75e26553591cb4474d">
+		<Metadata name="InformationRegister.ксп_ВыводИзОборотаИСМП" id="8d23c53b-ccbf-4cd8-97f6-84433688c313" configVersion="b97fa4cfb791ef93b6fce06f3d1199a7b754802f">
 			<Metadata name="InformationRegister.ксп_ВыводИзОборотаИСМП.Resource.ВыводИзОборотаИСМП" id="5a48c207-a30c-4c56-938d-ed0b925218c1"/>
 			<Metadata name="InformationRegister.ксп_ВыводИзОборотаИСМП.Attribute.ВремяСобытия" id="62ab82fb-ca50-4f6e-965c-5592f47f3eee"/>
 			<Metadata name="InformationRegister.ксп_ВыводИзОборотаИСМП.Attribute.ТекстОшибки" id="a1f5d51a-b6a0-4546-946c-be7d667d527f"/>
