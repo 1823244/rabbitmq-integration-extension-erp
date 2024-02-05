@@ -28,7 +28,9 @@
 			<Name>ЗаказНаВнутреннееПотребление</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>0281d76f-6aa0-4fff-ab25-5a81258abfb3</ExtendedConfigurationObject>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КСП_ДиспетчерРаспределения</xr:Item>
+			</RegisterRecords>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="afe98422-f7a6-433a-943c-d3c3be294302">

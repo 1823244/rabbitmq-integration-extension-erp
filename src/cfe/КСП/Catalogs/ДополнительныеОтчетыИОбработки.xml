@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="4c230454-5969-4db6-bd1e-8624b3506a31">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДополнительныеОтчетыИОбработки" category="Object">
+				<xr:TypeId>dfd1f0d1-c9bf-442a-a4e6-a4e02ce41cf9</xr:TypeId>
+				<xr:ValueId>1e5e5fc6-1613-4b20-843a-66ec3e77e45e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДополнительныеОтчетыИОбработки" category="Ref">
+				<xr:TypeId>d0f55e91-505b-4ef9-a814-567e95ce45b9</xr:TypeId>
+				<xr:ValueId>93f9904b-4ef2-4f67-9cd6-3bf2a2901900</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДополнительныеОтчетыИОбработки" category="Selection">
+				<xr:TypeId>44dd0142-459d-4e28-bcf3-151977186cb1</xr:TypeId>
+				<xr:ValueId>ba2c25ab-429f-4228-b182-f84c2889fe8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДополнительныеОтчетыИОбработки" category="List">
+				<xr:TypeId>a567f0de-961f-4522-8daf-bb42fa54f5c4</xr:TypeId>
+				<xr:ValueId>dc289363-e9ca-4f1e-a2c2-f6018e274422</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДополнительныеОтчетыИОбработки" category="Manager">
+				<xr:TypeId>e4af935f-2dc2-4687-8c63-482fc7d23524</xr:TypeId>
+				<xr:ValueId>00461869-62a9-423c-87a6-59c7530c1051</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДополнительныеОтчетыИОбработки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>92707138-5004-4378-8477-f909166d319d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

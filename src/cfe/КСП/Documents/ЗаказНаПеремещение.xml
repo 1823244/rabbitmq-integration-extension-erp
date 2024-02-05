@@ -28,9 +28,50 @@
 			<Name>ЗаказНаПеремещение</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>a0254d97-793a-47e1-8640-7712761e87f0</ExtendedConfigurationObject>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КСП_ДиспетчерРаспределения</xr:Item>
+			</RegisterRecords>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="393c36ff-5054-4cfd-bc38-7172dba34746">
+				<Properties>
+					<Name>КСП_Коллекция</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП коллекция</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КоллекцииНоменклатуры</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="5140e46d-0559-49f2-89bc-b1336395a573">
 				<Properties>
 					<Name>КСП_НеНуженВРознице</Name>
@@ -70,6 +111,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="464a99d4-d6b6-4256-9695-ea28f72fa2ac">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаказНаПеремещение.Товары" category="TabularSection">

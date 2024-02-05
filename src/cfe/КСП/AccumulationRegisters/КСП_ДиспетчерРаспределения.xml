@@ -1,52 +1,73 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="1d1dbe17-9681-4b9a-b6ff-43746fcd592e">
+	<AccumulationRegister uuid="b1eb3807-68f7-46d2-b8fb-ebceab29ade7">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КСП_ЖурналИзмененийСлужебногоРезерва" category="Record">
-				<xr:TypeId>bb134dc1-d2b5-4855-8067-f520b7b5f1f2</xr:TypeId>
-				<xr:ValueId>4b32a235-37bd-4a9c-98a2-f5f63f36f932</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.КСП_ДиспетчерРаспределения" category="Record">
+				<xr:TypeId>551d6d74-3db3-4cf6-a8c2-29b1f1db6bde</xr:TypeId>
+				<xr:ValueId>59c19a9d-cb23-494b-8575-07ffae8691e5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КСП_ЖурналИзмененийСлужебногоРезерва" category="Manager">
-				<xr:TypeId>1ea92fcb-2137-4be5-bdce-85a84c39853f</xr:TypeId>
-				<xr:ValueId>a03c58db-5a57-47e0-9c3f-1c5e7dca9ceb</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.КСП_ДиспетчерРаспределения" category="Manager">
+				<xr:TypeId>ade796cb-f058-415b-ab99-d522c9053bd3</xr:TypeId>
+				<xr:ValueId>a6b56a0c-33a8-46fb-b31c-d4a5acae9464</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КСП_ЖурналИзмененийСлужебногоРезерва" category="Selection">
-				<xr:TypeId>e9cf348a-28ca-42ad-bd02-8651fb9ef6ea</xr:TypeId>
-				<xr:ValueId>5104c631-30b3-4093-89c6-8f2b447d8b67</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.КСП_ДиспетчерРаспределения" category="Selection">
+				<xr:TypeId>28bac897-d755-4182-8f73-f47edf314d93</xr:TypeId>
+				<xr:ValueId>80889fe0-1278-4bc1-8d81-34bd3e2bc813</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КСП_ЖурналИзмененийСлужебногоРезерва" category="List">
-				<xr:TypeId>1baf16c2-6989-4c01-8a7f-9f55b6bb0e9d</xr:TypeId>
-				<xr:ValueId>59715ef7-d81e-4174-9dbc-8825854938d7</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.КСП_ДиспетчерРаспределения" category="List">
+				<xr:TypeId>018347e6-0538-40c3-b6ac-359e119783ea</xr:TypeId>
+				<xr:ValueId>74ae1ccc-63c6-4ede-988a-77a4fa8b1392</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_ЖурналИзмененийСлужебногоРезерва" category="RecordSet">
-				<xr:TypeId>ddc69889-4179-42f6-aeb6-e6c28003a9b6</xr:TypeId>
-				<xr:ValueId>6c8d57dc-bbe6-4e85-935b-ec3763889f94</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.КСП_ДиспетчерРаспределения" category="RecordSet">
+				<xr:TypeId>2522d636-37b5-40f1-87fd-148857073dfe</xr:TypeId>
+				<xr:ValueId>b7cf1041-c5e9-44f5-92c6-f8b0518c31c2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_ЖурналИзмененийСлужебногоРезерва" category="RecordKey">
-				<xr:TypeId>5c5f0ebd-592b-4aba-b9d5-594aa8308ee4</xr:TypeId>
-				<xr:ValueId>217de08e-fd8a-403b-83c3-693cd38a87b5</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_ЖурналИзмененийСлужебногоРезерва" category="RecordManager">
-				<xr:TypeId>28f27103-c107-4f6b-aadf-a6ddf5ec2d37</xr:TypeId>
-				<xr:ValueId>4c9de1a9-5e62-464c-b876-19b03e6b1541</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.КСП_ДиспетчерРаспределения" category="RecordKey">
+				<xr:TypeId>068173d7-7fa0-4020-9c32-f814029705a0</xr:TypeId>
+				<xr:ValueId>91ee082a-0178-4934-97a2-306c62faefb2</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КСП_ЖурналИзмененийСлужебногоРезерва</Name>
+			<Name>КСП_ДиспетчерРаспределения</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Журнал изменений служебного резерва</v8:content>
+					<v8:content>КСП диспетчер распределения</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>false</UseStandardCommands>
-			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
+			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultListForm/>
-			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
+			<RegisterType>Balance</RegisterType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<StandardAttributes>
+				<xr:StandardAttribute name="RecordType">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
 				<xr:StandardAttribute name="Active">
 					<xr:LinkByType/>
 					<xr:FillChecking>DontCheck</xr:FillChecking>
@@ -152,25 +173,15 @@
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
 			</StandardAttributes>
-			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
-			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>true</MainFilterOnPeriod>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
-			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
-			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation/>
-			<ExtendedRecordPresentation/>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<DataHistory>DontUse</DataHistory>
-			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
-			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="6093720f-a6f9-464f-a097-df7171a40e69">
+			<Resource uuid="85f677c7-f695-4e13-a4f9-118cb87eeb63">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -183,8 +194,8 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -198,8 +209,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -209,23 +218,21 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Attribute uuid="a8a3f006-7531-432f-be49-66985fda0d87">
+			<Dimension uuid="c94ce140-2e01-4c73-a01c-e96704324b4f">
 				<Properties>
-					<Name>Ответственный</Name>
+					<Name>Организация</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ответственный</v8:content>
+							<v8:content>Организация</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -237,8 +244,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -248,54 +253,95 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Dimension uuid="ee78923e-2003-4347-9748-108c85b129df">
-				<Properties>
-					<Name>Документ</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Документ</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>true</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>true</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="188ac0af-b73a-4c5b-8d09-259e753ce0f2">
+			<Dimension uuid="14c0c4c1-89d1-4d71-8ea3-22df0a44f15c">
+				<Properties>
+					<Name>Коллекция</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коллекция</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КоллекцииНоменклатуры</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8ab23810-55d3-4633-87ea-63cffb0b6a2f">
+				<Properties>
+					<Name>Источник</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Канал сбыта</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="5dffca2b-677e-43bb-b3b9-2c2f46cd0031">
 				<Properties>
 					<Name>Номенклатура</Name>
 					<Synonym>
@@ -318,8 +364,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -329,15 +373,13 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="662534cf-dc21-4514-9e64-f12bc1d950a7">
+			<Dimension uuid="f454a512-f028-4729-bd31-76b3a59a88dd">
 				<Properties>
 					<Name>Характеристика</Name>
 					<Synonym>
@@ -360,8 +402,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -371,14 +411,52 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="16a55e85-1328-4b4c-8d67-1dc54a28012d">
+				<Properties>
+					<Name>ДокументПрихода</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ прихода</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.КСП_Распределение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
 		</ChildObjects>
-	</InformationRegister>
+	</AccumulationRegister>
 </MetaDataObject>

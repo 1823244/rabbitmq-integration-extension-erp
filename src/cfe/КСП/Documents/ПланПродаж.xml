@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="e62b6681-cdd1-446c-bff6-07263c5c93ed">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПланПродаж" category="Object">
+				<xr:TypeId>f95989ef-2914-4f17-a53e-ccc20b0c163d</xr:TypeId>
+				<xr:ValueId>74ed1979-051e-429b-814d-871396a34d69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПланПродаж" category="Ref">
+				<xr:TypeId>ee1ef5c6-b4d5-4379-95e6-5cb4907cb2f7</xr:TypeId>
+				<xr:ValueId>7ddf9a66-47a1-435c-909b-db810cf8a306</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПланПродаж" category="Selection">
+				<xr:TypeId>9d357721-a24a-4470-a574-9b1e4818ff25</xr:TypeId>
+				<xr:ValueId>37a9a6f1-15f5-4bbf-873b-02d8e5af1589</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПланПродаж" category="List">
+				<xr:TypeId>653b2d48-a2c2-4c69-a32c-61107529964e</xr:TypeId>
+				<xr:ValueId>965e3512-3058-430f-97be-996981c5bb7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПланПродаж" category="Manager">
+				<xr:TypeId>5a271d27-f565-43d9-a6a8-2c25ec189711</xr:TypeId>
+				<xr:ValueId>ada10a6b-9468-4511-b26e-e3afb1563547</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПланПродаж</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3380e68d-98a3-4ba8-9739-f8d42355f19d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

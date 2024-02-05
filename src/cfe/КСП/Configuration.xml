@@ -85,6 +85,7 @@
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>Комментарий</CommonPicture>
 			<CommonPicture>КСП_ЭлисФэшнЛоготип</CommonPicture>
+			<CommonPicture>СостояниеСкидкиНаценки</CommonPicture>
 			<Role>КСП_ОсновнаяРоль</Role>
 			<CommonModule>ксп_ЭкспортСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
@@ -98,6 +99,8 @@
 			<CommonModule>crm_RetailCRMПовтИсп</CommonModule>
 			<CommonModule>crm_RetailCRMОбщий</CommonModule>
 			<CommonModule>crm_RetailCRMОбработка</CommonModule>
+			<CommonModule>ксп_СкидкиНаценкиСервер</CommonModule>
+			<CommonModule>СозданиеНаОснованииУТКлиент</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
@@ -166,13 +169,21 @@
 			<Catalog>КСП_ВидыОперацийПоСкладамУПП</Catalog>
 			<Catalog>КСП_СкладыУПП</Catalog>
 			<Catalog>КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</Catalog>
+			<Catalog>ЦеновыеГруппы</Catalog>
+			<Catalog>СегментыНоменклатуры</Catalog>
+			<Catalog>СегментыПартнеров</Catalog>
+			<Catalog>ПроизводственныеКалендари</Catalog>
+			<Catalog>ГрафикиОплаты</Catalog>
+			<Catalog>ВидыПланов</Catalog>
 			<Catalog>Новости</Catalog>
-			<Catalog>КСП_НастройкиПодключенияКЧестномуЗнаку</Catalog>
 			<Catalog>crm_Организации</Catalog>
+			<Catalog>КСП_НастройкиПодключенияКЧестномуЗнаку</Catalog>
+			<Catalog>КСП_СкладыХраненияУПП</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>ГруппыДоступаПартнеров</Catalog>
-			<Catalog>КСП_СкладыХраненияУПП</Catalog>
-			<Catalog>ШтрихкодыУпаковокТоваров</Catalog>
+			<Catalog>КСП_ЛогикаОбработкиПеремещений</Catalog>
+			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
+			<Catalog>КСП_ВидыДокументовУПП</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -202,36 +213,46 @@
 			<Document>УстановкаЦенНоменклатуры</Document>
 			<Document>ЧекККМ</Document>
 			<Document>ЧекККМВозврат</Document>
+			<Document>КСП_Распределение</Document>
+			<Document>ПланПродаж</Document>
 			<Document>ЧекККМКоррекции</Document>
 			<Document>ПриходныйОрдерНаТовары</Document>
 			<Document>ОтчетКомиссионера</Document>
-			<Enum>ВариантыОбеспечения</Enum>
-			<Enum>ВариантыОформленияПродажи</Enum>
-			<Enum>ВидыДвиженийКМФулфилмент</Enum>
-			<Enum>ксп_ВидыПроблемКачестваДокументов</Enum>
-			<Enum>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Enum>
-			<Enum>КСП_СтатусыДанныхИзФулфилмент</Enum>
-			<Enum>КСП_СтатусыЗаказовДляВыводаИзОборота</Enum>
-			<Enum>ксп_СтатусыКачестваДокументов</Enum>
-			<Enum>КСП_СтатусыОтложенногоПроведения</Enum>
-			<Enum>ксп_СхемыЦепочекДокументовРеализацияУПП</Enum>
-			<Enum>КСП_ТипДокументаСлужебногоРезерва</Enum>
-			<Enum>ПорядокРасчетов</Enum>
+			<Document>СчетНаОплатуКлиенту</Document>
 			<Enum>СпособыДоставки</Enum>
-			<Enum>СтавкиНДС</Enum>
+			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
 			<Enum>СтатусыЗаказовКлиентов</Enum>
-			<Enum>ТипыДоговоровМеждуОрганизациями</Enum>
-			<Enum>ТипыЗапасов</Enum>
-			<Enum>ТипыМестХранения</Enum>
-			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
-			<Enum>ТипыНомеровГТД</Enum>
-			<Enum>ТипыОбъектовРасчетов</Enum>
-			<Enum>ТипыПлатежнойСистемыККТ</Enum>
-			<Enum>ТипыРасчетовСПартнерами</Enum>
-			<Enum>ТипыСкладскихЯчеек</Enum>
+			<Enum>ВариантыОформленияПродажи</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
+			<Enum>ВариантыОбеспечения</Enum>
+			<Enum>КСП_ТипДокументаСлужебногоРезерва</Enum>
+			<Enum>ксп_СтатусыКачестваДокументов</Enum>
+			<Enum>ксп_ВидыПроблемКачестваДокументов</Enum>
+			<Enum>ТипыМестХранения</Enum>
+			<Enum>СтавкиНДС</Enum>
+			<Enum>ПорядокРасчетов</Enum>
+			<Enum>ТипыЗапасов</Enum>
+			<Enum>ТипыРасчетовСПартнерами</Enum>
+			<Enum>ТипыОбъектовРасчетов</Enum>
+			<Enum>ТипыСкладскихЯчеек</Enum>
+			<Enum>ТипыПлатежнойСистемыККТ</Enum>
+			<Enum>ТипыНомеровГТД</Enum>
+			<Enum>ТипыДоговоровМеждуОрганизациями</Enum>
+			<Enum>ксп_КлассыРеализацийТоваровУППпоКонтрагентам</Enum>
+			<Enum>ВидыДвиженийКМФулфилмент</Enum>
+			<Enum>КСП_СтатусыОтложенногоПроведения</Enum>
+			<Enum>КСП_ПравилаЗачетаАвансаПоЗаказуКлиента</Enum>
+			<Enum>СпособыФормированияСегментов</Enum>
+			<Enum>СтатусыСоглашенийСКлиентами</Enum>
+			<Enum>СпособыРасчетаКомиссионногоВознаграждения</Enum>
+			<Enum>Периодичность</Enum>
+			<Enum>ксп_СхемыЦепочекДокументовРеализацияУПП</Enum>
+			<Enum>РаспределениеЗапасовСостояния</Enum>
+			<Enum>КСП_РежимыРасчетаКурсовогоКоэффициента</Enum>
+			<Enum>КСП_СтатусыДанныхИзФулфилмент</Enum>
+			<Enum>КСП_СтатусыЗаказовДляВыводаИзОборота</Enum>
 			<Enum>ВидыПродукцииИС</Enum>
 			<Report>КСП_ЗаказыRetailCRM</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
@@ -242,12 +263,12 @@
 			<DataProcessor>ксп_ФорматFE720</DataProcessor>
 			<DataProcessor>ксп_ФорматFE770</DataProcessor>
 			<DataProcessor>КСП_RetailCRM_РаботаСЗаказами</DataProcessor>
+			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции2</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
-			<InformationRegister>КСП_ЖурналИзмененийСлужебногоРезерва</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекRetailCRM</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
@@ -280,10 +301,14 @@
 			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
 			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
+			<InformationRegister>КСП_РС_ДиспетчерРаспределения</InformationRegister>
 			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
+			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
+			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
+			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>

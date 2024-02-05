@@ -927,6 +927,11 @@
 																<Event name="OnChange" callType="After">КСП_КоллекцияПриИзмененииПосле</Event>
 															</Events>
 														</InputField>
+														<InputField name="КСП_Канал" id="2422">
+															<DataPath>Объект.КСП_Канал</DataPath>
+															<ContextMenu name="КСП_КаналКонтекстноеМеню" id="2423"/>
+															<ExtendedTooltip name="КСП_КаналРасширеннаяПодсказка" id="2424"/>
+														</InputField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -4297,6 +4302,91 @@ on customer side</v8:content>
 																	<ContextMenu name="ДатаПоДаннымКлиентаКонтекстноеМеню" id="941"/>
 																	<ExtendedTooltip name="ДатаПоДаннымКлиентаExtendedTooltip" id="1288"/>
 																</InputField>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="КСПГруппаДанныхСкидокНаценок" id="2425">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>КСПГруппа данных скидок наценок</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>КСПГруппа данных скидок наценок</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="КСПГруппаДанныхСкидокНаценокРасширеннаяПодсказка" id="2426"/>
+															<ChildItems>
+																<UsualGroup name="ДатыПредоплаты" id="2439">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Даты предоплаты</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Даты предоплаты</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>AlwaysHorizontal</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ДатыПредоплатыРасширеннаяПодсказка" id="2440"/>
+																	<ChildItems>
+																		<InputField name="КПС_ДатаПредоплаты_1" id="2427">
+																			<DataPath>Объект.КПС_ДатаПредоплаты_1</DataPath>
+																			<ContextMenu name="КПС_ДатаПредоплаты_1КонтекстноеМеню" id="2428"/>
+																			<ExtendedTooltip name="КПС_ДатаПредоплаты_1РасширеннаяПодсказка" id="2429"/>
+																		</InputField>
+																		<InputField name="КПС_ДатаПредоплаты_2" id="2430">
+																			<DataPath>Объект.КПС_ДатаПредоплаты_2</DataPath>
+																			<ContextMenu name="КПС_ДатаПредоплаты_2КонтекстноеМеню" id="2431"/>
+																			<ExtendedTooltip name="КПС_ДатаПредоплаты_2РасширеннаяПодсказка" id="2432"/>
+																		</InputField>
+																	</ChildItems>
+																</UsualGroup>
+																<UsualGroup name="ПроцентСуммаПредоплаты" id="2441">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Процент сумма предоплаты</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Процент сумма предоплаты</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>AlwaysHorizontal</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ПроцентСуммаПредоплатыРасширеннаяПодсказка" id="2442"/>
+																	<ChildItems>
+																		<InputField name="КПС_ПроцентПредоплаты" id="2433">
+																			<DataPath>Объект.КПС_ПроцентПредоплаты</DataPath>
+																			<ReadOnly>true</ReadOnly>
+																			<ContextMenu name="КПС_ПроцентПредоплатыКонтекстноеМеню" id="2434"/>
+																			<ExtendedTooltip name="КПС_ПроцентПредоплатыРасширеннаяПодсказка" id="2435"/>
+																		</InputField>
+																		<InputField name="КПС_СуммаПредоплаты" id="2436">
+																			<DataPath>Объект.КПС_СуммаПредоплаты</DataPath>
+																			<ReadOnly>true</ReadOnly>
+																			<ContextMenu name="КПС_СуммаПредоплатыКонтекстноеМеню" id="2437"/>
+																			<ExtendedTooltip name="КПС_СуммаПредоплатыРасширеннаяПодсказка" id="2438"/>
+																		</InputField>
+																	</ChildItems>
+																</UsualGroup>
 															</ChildItems>
 														</UsualGroup>
 													</ChildItems>

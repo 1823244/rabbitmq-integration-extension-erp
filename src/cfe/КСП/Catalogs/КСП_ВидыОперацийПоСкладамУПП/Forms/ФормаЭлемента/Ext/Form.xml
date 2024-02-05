@@ -7,27 +7,23 @@
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Наименование" id="4">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="СкладУПП" id="78">
 			<DataPath>Объект.СкладУПП</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладУППКонтекстноеМеню" id="79"/>
 			<ExtendedTooltip name="СкладУППРасширеннаяПодсказка" id="80"/>
 		</InputField>
 		<InputField name="СкладЕРП" id="16">
 			<DataPath>Объект.СкладЕРП</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладЕРПКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="СкладЕРПРасширеннаяПодсказка" id="18"/>
 		</InputField>
@@ -39,7 +35,6 @@
 					<v8:content>Логика обработки</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ЛогикаОбработкиВШапкеКонтекстноеМеню" id="70"/>
 			<ExtendedTooltip name="ЛогикаОбработкиВШапкеРасширеннаяПодсказка" id="71"/>
 		</InputField>
@@ -106,21 +101,18 @@
 								<InputField name="Отправители1Склад" id="45">
 									<DataPath>Объект.Отправители.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Отправители1СкладКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="Отправители1СкладРасширеннаяПодсказка" id="47"/>
 								</InputField>
 								<InputField name="Отправители1СкладХраненияУПП" id="81">
 									<DataPath>Объект.Отправители.СкладХраненияУПП</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Отправители1СкладХраненияУППКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="Отправители1СкладХраненияУППРасширеннаяПодсказка" id="83"/>
 								</InputField>
 								<InputField name="Отправители1ЛогикаОбработкиВТЧ" id="72">
 									<DataPath>Объект.Отправители.ЛогикаОбработкиВТЧ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Отправители1ЛогикаОбработкиВТЧКонтекстноеМеню" id="73"/>
 									<ExtendedTooltip name="Отправители1ЛогикаОбработкиВТЧРасширеннаяПодсказка" id="74"/>
 								</InputField>
@@ -181,21 +173,18 @@
 								<InputField name="Получатели1Склад" id="66">
 									<DataPath>Объект.Получатели.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Получатели1СкладКонтекстноеМеню" id="67"/>
 									<ExtendedTooltip name="Получатели1СкладРасширеннаяПодсказка" id="68"/>
 								</InputField>
 								<InputField name="Получатели1СкладХраненияУПП" id="84">
 									<DataPath>Объект.Получатели.СкладХраненияУПП</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Получатели1СкладХраненияУППКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="Получатели1СкладХраненияУППРасширеннаяПодсказка" id="86"/>
 								</InputField>
 								<InputField name="Получатели1ЛогикаОбработкиВТЧ" id="75">
 									<DataPath>Объект.Получатели.ЛогикаОбработкиВТЧ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="Получатели1ЛогикаОбработкиВТЧКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="Получатели1ЛогикаОбработкиВТЧРасширеннаяПодсказка" id="77"/>
 								</InputField>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AccumulationRegister uuid="1842459d-99a2-423a-9f56-59ba1a12e309">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ПланыПродаж" category="Record">
+				<xr:TypeId>72f96144-ed12-4a2d-b269-a3e7412f7642</xr:TypeId>
+				<xr:ValueId>0de7a12d-d6e5-4e46-a7b6-f919e5196b0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ПланыПродаж" category="Manager">
+				<xr:TypeId>ecd165cd-75f1-43f4-b821-e5de68095d9f</xr:TypeId>
+				<xr:ValueId>48f5c3cc-fd4a-4214-8feb-8ef090a4a33c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ПланыПродаж" category="Selection">
+				<xr:TypeId>c0de96d1-bd5c-4938-b005-f2dab0f3b48c</xr:TypeId>
+				<xr:ValueId>3c3874f3-0f20-4c5e-8845-21a2a837dcd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ПланыПродаж" category="List">
+				<xr:TypeId>669cf1e3-d8fa-4bf4-a98a-332159178b59</xr:TypeId>
+				<xr:ValueId>c3709cc6-6bb9-482c-911e-8d3d82994be5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ПланыПродаж" category="RecordSet">
+				<xr:TypeId>dffb49df-fbe7-4699-87fc-b2cc959ae79d</xr:TypeId>
+				<xr:ValueId>46717375-061f-4bb4-9c3d-22f04329a8b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ПланыПродаж" category="RecordKey">
+				<xr:TypeId>c06a0209-3d9a-4817-92e0-a3572006ee5a</xr:TypeId>
+				<xr:ValueId>f29c52f8-ef93-409a-b710-41af2855394c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПланыПродаж</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3984ba59-628f-44a0-9f98-9543d6fd5223</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -58,6 +58,69 @@
 					<ExtendedConfigurationObject>78509f7a-915a-43a7-86c1-17662de8fc3c</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="2f0027b8-49ac-4ba7-8fe7-5121316e25d9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияКлиенту</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4dec627e-3939-4191-a213-0cea734fc86c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1f53ad6f-1b54-449e-9371-48d8d8f9881a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоступлениеОплатыОтКлиента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10db127e-a377-4878-8ead-955d0ff48e4d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6ee7a007-700d-457e-9ca2-516ccf772e78">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоставкаПодПринципала</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5cb9669e-543b-4d33-b9a2-c6dc788de898</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d08aaa38-a13d-459f-86fc-61f25c334b7a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередачаНаХранениеСПравомПродажи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af539695-7bf1-4480-85fa-d029bcbfda95</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0b2dcf16-020a-47cf-ad43-60746523e99a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередачаНаКомиссию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a606d3e5-4a59-4b2c-9d3d-5976f5c778cf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9240bd0b-f09d-41ad-8523-c7bf2e1a7825">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПеремещениеТоваровМеждуФилиалами</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f225cb28-e5ab-48fc-80a6-180753692cee</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bc3b895e-8f22-4667-861d-3fe32f91c26d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПеремещениеТоваров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1dfdfca3-6595-4afd-a12f-88601fce8c82</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

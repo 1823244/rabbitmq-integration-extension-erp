@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="a24698ff-64ec-4a7a-b8db-5e67b85fac2b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Периодичность" category="Ref">
+				<xr:TypeId>3f7ba00a-66a5-4d9d-b9f6-d36ec64557d4</xr:TypeId>
+				<xr:ValueId>d9111acf-f555-4a95-a8c2-4fcf884fa3ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Периодичность" category="Manager">
+				<xr:TypeId>c7c13479-23a2-4d4b-bc8a-c002908939e5</xr:TypeId>
+				<xr:ValueId>e55a34b5-ecb2-43f6-9baa-2ce72e4f45ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Периодичность" category="List">
+				<xr:TypeId>4b54c3a2-9034-4bc6-906e-d905d5c7b69b</xr:TypeId>
+				<xr:ValueId>15105507-d094-4f2e-9520-51cb9271aa1f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Периодичность</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f1ee8319-4c23-418a-b618-7241fa6b1585</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

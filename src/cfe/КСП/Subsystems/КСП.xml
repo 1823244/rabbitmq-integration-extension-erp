@@ -16,14 +16,15 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.КСП_ОсновнаяРоль</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ДополнительныеНастройкиИнтеграций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_ПланПродажПоКоллекциям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ДополнительныеНастройкиИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ПланыПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыЦен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКонтрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыЦен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингМагазинСклад</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_КомиссионерыДляРеализацийУПП</xr:Item>
@@ -31,12 +32,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКассы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникСклады</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ВидыДокументовУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ОтложенноеПроведение</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ОтложенноеПроведениеПроблемы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ЖурналИзмененийСлужебногоРезерва</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПричинаОтменыЗаказаКлиента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_УзелОбменаRabbit</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Кодерлайн_интеграция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_СоглашенияСПартнерамиДляИнтеграций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_КурсовоеСоглашение</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_СтрокаПодключенияКРабочейБазе</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКоллекцииНоменклатуры</xr:Item>
@@ -51,15 +55,19 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_КурсовыеСоглашения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингПеречислениеТипыПлатежнойСистемыККТ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СхемыДокументовУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_ПравилаЗачетаАвансаПоЗаказуКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_РС_ДиспетчерРаспределения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ВидыОперацийПоСкладамУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_КлассификацияРеализацийТоваровУППпоКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиЦепочекПеремещений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_СоглашенияСПартнерамиДляИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_СтатусыОтложенногоПроведения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ВыводИзОборотаИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ксп_СхемыЦепочекДокументовРеализацияУПП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_СкладыХраненияУПП</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_РежимыРасчетаКурсовогоКоэффициента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КСП_ДиспетчерРаспределения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_УПП_ОшибкиИмпорта</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
