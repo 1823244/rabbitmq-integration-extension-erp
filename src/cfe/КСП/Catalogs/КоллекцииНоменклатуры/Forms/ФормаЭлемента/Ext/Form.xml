@@ -8,11 +8,13 @@
 	</Events>
 	<ChildItems>
 		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Родитель" id="4">
+			<DataPath>Объект.Parent</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="РодительКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="6"/>
@@ -34,11 +36,13 @@
 			<ExtendedTooltip name="ГруппаДатаНачалаОкончанияРасширеннаяПодсказка" id="14"/>
 			<ChildItems>
 				<InputField name="ДатаНачала" id="7">
+					<DataPath>Объект.ДатаНачалаПродаж</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="9"/>
 				</InputField>
 				<InputField name="ДатаОкончания" id="10">
+					<DataPath>Объект.ДатаЗапретаПродажи</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="12"/>
@@ -78,6 +82,7 @@
 					<ExtendedTooltip name="ГруппаЗакупкиРасширеннаяПодсказка" id="18"/>
 					<ChildItems>
 						<InputField name="ДатаНачалаЗакупок" id="19">
+							<DataPath>Объект.ДатаНачалаЗакупок</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -94,6 +99,7 @@
 							<ExtendedTooltip name="ДатаНачалаЗакупокРасширеннаяПодсказка" id="21"/>
 						</InputField>
 						<InputField name="ДатаЗапретаЗакупки" id="22">
+							<DataPath>Объект.ДатаЗапретаЗакупки</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -129,6 +135,7 @@
 					<ExtendedTooltip name="ГруппаПродажиРасширеннаяПодсказка" id="26"/>
 					<ChildItems>
 						<InputField name="ДатаНачалаПродаж" id="27">
+							<DataPath>Объект.ДатаНачалаПродаж</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -145,6 +152,7 @@
 							<ExtendedTooltip name="ДатаНачалаПродажРасширеннаяПодсказка" id="29"/>
 						</InputField>
 						<InputField name="ДатаЗапретаПродажи" id="30">
+							<DataPath>Объект.ДатаЗапретаПродажи</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -180,19 +188,93 @@
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="34"/>
+			<ChildItems>
+				<UsualGroup name="КСПГруппаДанныхСкидокНаценок" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСПГруппа данных скидок наценок</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСПГруппа данных скидок наценок</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="КСПГруппаДанныхСкидокНаценокРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<UsualGroup name="ДатыПредоплаты" id="37">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Даты предоплаты</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Даты предоплаты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ДатыПредоплатыРасширеннаяПодсказка" id="38"/>
+							<ChildItems>
+								<InputField name="КПС_ДатаПредоплаты_1" id="39">
+									<DataPath>Объект.КСП_ДатаПредоплаты_1</DataPath>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КПС_ДатаПредоплаты_1КонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="КПС_ДатаПредоплаты_1РасширеннаяПодсказка" id="41"/>
+								</InputField>
+								<InputField name="КПС_ДатаПредоплаты_2" id="42">
+									<DataPath>Объект.КСП_ДатаПредоплаты_2</DataPath>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КПС_ДатаПредоплаты_2КонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="КПС_ДатаПредоплаты_2РасширеннаяПодсказка" id="44"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="КСП_РежимРасчетаКурсовогоКоэффициента" id="45">
+							<DataPath>Объект.КСП_РежимРасчетаКурсовогоКоэффициента</DataPath>
+							<ContextMenu name="КСП_РежимРасчетаКурсовогоКоэффициентаКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="КСП_РежимРасчетаКурсовогоКоэффициентаРасширеннаяПодсказка" id="47"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
-	<Attributes/>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:CatalogObject.КоллекцииНоменклатуры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
 	<BaseForm version="2.16">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 		<ChildItems>
 			<InputField name="Наименование" id="1">
+				<DataPath>Объект.Description</DataPath>
 				<EditMode>EnterOnInput</EditMode>
 				<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 			</InputField>
 			<InputField name="Родитель" id="4">
+				<DataPath>Объект.Parent</DataPath>
 				<EditMode>EnterOnInput</EditMode>
 				<ContextMenu name="РодительКонтекстноеМеню" id="5"/>
 				<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="6"/>
@@ -214,11 +296,13 @@
 				<ExtendedTooltip name="ГруппаДатаНачалаОкончанияРасширеннаяПодсказка" id="14"/>
 				<ChildItems>
 					<InputField name="ДатаНачала" id="7">
+						<DataPath>Объект.ДатаНачалаПродаж</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="8"/>
 						<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="9"/>
 					</InputField>
 					<InputField name="ДатаОкончания" id="10">
+						<DataPath>Объект.ДатаЗапретаПродажи</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="11"/>
 						<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="12"/>
@@ -258,6 +342,7 @@
 						<ExtendedTooltip name="ГруппаЗакупкиРасширеннаяПодсказка" id="18"/>
 						<ChildItems>
 							<InputField name="ДатаНачалаЗакупок" id="19">
+								<DataPath>Объект.ДатаНачалаЗакупок</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -274,6 +359,7 @@
 								<ExtendedTooltip name="ДатаНачалаЗакупокРасширеннаяПодсказка" id="21"/>
 							</InputField>
 							<InputField name="ДатаЗапретаЗакупки" id="22">
+								<DataPath>Объект.ДатаЗапретаЗакупки</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -309,6 +395,7 @@
 						<ExtendedTooltip name="ГруппаПродажиРасширеннаяПодсказка" id="26"/>
 						<ChildItems>
 							<InputField name="ДатаНачалаПродаж" id="27">
+								<DataPath>Объект.ДатаНачалаПродаж</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -325,6 +412,7 @@
 								<ExtendedTooltip name="ДатаНачалаПродажРасширеннаяПодсказка" id="29"/>
 							</InputField>
 							<InputField name="ДатаЗапретаПродажи" id="30">
+								<DataPath>Объект.ДатаЗапретаПродажи</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -362,6 +450,14 @@
 				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="34"/>
 			</UsualGroup>
 		</ChildItems>
-		<Attributes/>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:CatalogObject.КоллекцииНоменклатуры</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+			</Attribute>
+		</Attributes>
 	</BaseForm>
 </Form>

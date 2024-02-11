@@ -762,7 +762,7 @@
 			</Attribute>
 			<Attribute uuid="28d16370-ed82-476e-a1e2-84e62cc2dfc7">
 				<Properties>
-					<Name>КПС_ПроцентПредоплаты</Name>
+					<Name>КСП_ПроцентПредоплаты</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -806,7 +806,7 @@
 			</Attribute>
 			<Attribute uuid="2e2edb6f-9843-439b-aa2b-4c4ceb81e9f7">
 				<Properties>
-					<Name>КПС_СуммаПредоплаты</Name>
+					<Name>КСП_СуммаПредоплаты</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

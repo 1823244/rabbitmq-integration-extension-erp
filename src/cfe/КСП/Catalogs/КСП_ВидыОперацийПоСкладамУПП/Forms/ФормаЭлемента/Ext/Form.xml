@@ -38,6 +38,12 @@
 			<ContextMenu name="ЛогикаОбработкиВШапкеКонтекстноеМеню" id="70"/>
 			<ExtendedTooltip name="ЛогикаОбработкиВШапкеРасширеннаяПодсказка" id="71"/>
 		</InputField>
+		<CheckBoxField name="Отключено" id="87">
+			<DataPath>Объект.Отключено</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОтключеноКонтекстноеМеню" id="88"/>
+			<ExtendedTooltip name="ОтключеноРасширеннаяПодсказка" id="89"/>
+		</CheckBoxField>
 		<Pages name="Страницы" id="25">
 			<Title>
 				<v8:item>
@@ -49,6 +55,7 @@
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="26"/>
 			<ChildItems>
 				<Page name="ГруппаОтправители" id="27">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

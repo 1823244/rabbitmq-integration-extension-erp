@@ -125,6 +125,7 @@
 						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>cfg:EnumRef.СпособыРаспределенияЗатратНаВыходныеИзделия</v8:Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 						<v8:Type>cfg:CatalogRef.КассыККМ</v8:Type>
 						<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>

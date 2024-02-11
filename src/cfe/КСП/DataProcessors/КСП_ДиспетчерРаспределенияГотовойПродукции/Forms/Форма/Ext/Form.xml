@@ -238,115 +238,80 @@
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКомпоновщикРасширеннаяПодсказка" id="182"/>
 													<ChildItems>
-														<Table name="КомпоновщикНастройки" id="146">
+														<Table name="КомпоновщикНастройки" id="490">
 															<Representation>Tree</Representation>
-															<CommandBarLocation>None</CommandBarLocation>
 															<Autofill>true</Autofill>
-															<ReadOnly>true</ReadOnly>
-															<ChangeRowSet>false</ChangeRowSet>
-															<ChangeRowOrder>false</ChangeRowOrder>
-															<RowSelectionMode>Row</RowSelectionMode>
-															<Header>false</Header>
 															<HorizontalLines>false</HorizontalLines>
 															<UseAlternationRowColor>true</UseAlternationRowColor>
 															<InitialTreeView>ExpandAllLevels</InitialTreeView>
 															<EnableStartDrag>true</EnableStartDrag>
 															<EnableDrag>true</EnableDrag>
 															<DataPath>Объект.Компоновщик.Settings</DataPath>
-															<CommandSet>
-																<ExcludedCommand>AddChart</ExcludedCommand>
-																<ExcludedCommand>AddGroup</ExcludedCommand>
-																<ExcludedCommand>AddNestedSchema</ExcludedCommand>
-																<ExcludedCommand>AddTable</ExcludedCommand>
-																<ExcludedCommand>Change</ExcludedCommand>
-																<ExcludedCommand>CheckAll</ExcludedCommand>
-																<ExcludedCommand>Copy</ExcludedCommand>
-																<ExcludedCommand>Delete</ExcludedCommand>
-																<ExcludedCommand>Group</ExcludedCommand>
-																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
-																<ExcludedCommand>LoadSettings</ExcludedCommand>
-																<ExcludedCommand>MoveDown</ExcludedCommand>
-																<ExcludedCommand>MoveUp</ExcludedCommand>
-																<ExcludedCommand>SaveSettings</ExcludedCommand>
-																<ExcludedCommand>StandardSettings</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
-																<ExcludedCommand>UncheckAll</ExcludedCommand>
-																<ExcludedCommand>Ungroup</ExcludedCommand>
-																<ExcludedCommand>UserSettingItemProperties</ExcludedCommand>
-																<ExcludedCommand>UserSettings</ExcludedCommand>
-															</CommandSet>
-															<SearchStringLocation>None</SearchStringLocation>
-															<ViewStatusLocation>None</ViewStatusLocation>
-															<SearchControlLocation>None</SearchControlLocation>
-															<ContextMenu name="КомпоновщикНастройкиКонтекстноеМеню" id="147"/>
-															<AutoCommandBar name="КомпоновщикНастройкиКоманднаяПанель" id="148"/>
-															<ExtendedTooltip name="КомпоновщикНастройкиРасширеннаяПодсказка" id="149"/>
-															<SearchStringAddition name="КомпоновщикНастройкиСтрокаПоиска" id="150">
+															<ContextMenu name="КомпоновщикНастройкиКонтекстноеМеню" id="491"/>
+															<AutoCommandBar name="КомпоновщикНастройкиКоманднаяПанель" id="492"/>
+															<ExtendedTooltip name="КомпоновщикНастройкиРасширеннаяПодсказка" id="493"/>
+															<SearchStringAddition name="КомпоновщикНастройкиСтрокаПоиска" id="494">
 																<AdditionSource>
 																	<Item>КомпоновщикНастройки</Item>
 																	<Type>SearchStringRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="КомпоновщикНастройкиСтрокаПоискаКонтекстноеМеню" id="151"/>
-																<ExtendedTooltip name="КомпоновщикНастройкиСтрокаПоискаРасширеннаяПодсказка" id="152"/>
+																<ContextMenu name="КомпоновщикНастройкиСтрокаПоискаКонтекстноеМеню" id="495"/>
+																<ExtendedTooltip name="КомпоновщикНастройкиСтрокаПоискаРасширеннаяПодсказка" id="496"/>
 															</SearchStringAddition>
-															<ViewStatusAddition name="КомпоновщикНастройкиСостояниеПросмотра" id="153">
+															<ViewStatusAddition name="КомпоновщикНастройкиСостояниеПросмотра" id="497">
 																<AdditionSource>
 																	<Item>КомпоновщикНастройки</Item>
 																	<Type>ViewStatusRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="КомпоновщикНастройкиСостояниеПросмотраКонтекстноеМеню" id="154"/>
-																<ExtendedTooltip name="КомпоновщикНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
+																<ContextMenu name="КомпоновщикНастройкиСостояниеПросмотраКонтекстноеМеню" id="498"/>
+																<ExtendedTooltip name="КомпоновщикНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="499"/>
 															</ViewStatusAddition>
-															<SearchControlAddition name="КомпоновщикНастройкиУправлениеПоиском" id="156">
+															<SearchControlAddition name="КомпоновщикНастройкиУправлениеПоиском" id="500">
 																<AdditionSource>
 																	<Item>КомпоновщикНастройки</Item>
 																	<Type>SearchControl</Type>
 																</AdditionSource>
-																<ContextMenu name="КомпоновщикНастройкиУправлениеПоискомКонтекстноеМеню" id="157"/>
-																<ExtendedTooltip name="КомпоновщикНастройкиУправлениеПоискомРасширеннаяПодсказка" id="158"/>
+																<ContextMenu name="КомпоновщикНастройкиУправлениеПоискомКонтекстноеМеню" id="501"/>
+																<ExtendedTooltip name="КомпоновщикНастройкиУправлениеПоискомРасширеннаяПодсказка" id="502"/>
 															</SearchControlAddition>
 														</Table>
-														<Table name="КомпоновщикНастройкиЭлементОтбор" id="168">
+														<Table name="КомпоновщикНастройкиОтбор" id="477">
 															<Representation>Tree</Representation>
 															<Autofill>true</Autofill>
 															<Width>60</Width>
 															<InitialTreeView>ExpandAllLevels</InitialTreeView>
 															<EnableStartDrag>true</EnableStartDrag>
 															<EnableDrag>true</EnableDrag>
-															<DataPath>Items.КомпоновщикНастройки.CurrentData.ItemFilter</DataPath>
+															<DataPath>Объект.Компоновщик.Settings.Filter</DataPath>
 															<ViewMode>All</ViewMode>
 															<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
-															<ContextMenu name="КомпоновщикНастройкиЭлементОтборКонтекстноеМеню" id="169"/>
-															<AutoCommandBar name="КомпоновщикНастройкиЭлементОтборКоманднаяПанель" id="170"/>
-															<ExtendedTooltip name="КомпоновщикНастройкиЭлементОтборРасширеннаяПодсказка" id="171"/>
-															<SearchStringAddition name="КомпоновщикНастройкиЭлементОтборСтрокаПоиска" id="172">
+															<ContextMenu name="КомпоновщикНастройкиОтборКонтекстноеМеню" id="478"/>
+															<AutoCommandBar name="КомпоновщикНастройкиОтборКоманднаяПанель" id="479"/>
+															<ExtendedTooltip name="КомпоновщикНастройкиОтборРасширеннаяПодсказка" id="480"/>
+															<SearchStringAddition name="КомпоновщикНастройкиОтборСтрокаПоиска" id="481">
 																<AdditionSource>
-																	<Item>КомпоновщикНастройкиЭлементОтбор</Item>
+																	<Item>КомпоновщикНастройкиОтбор</Item>
 																	<Type>SearchStringRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="КомпоновщикНастройкиЭлементОтборСтрокаПоискаКонтекстноеМеню" id="173"/>
-																<ExtendedTooltip name="КомпоновщикНастройкиЭлементОтборСтрокаПоискаРасширеннаяПодсказка" id="174"/>
+																<ContextMenu name="КомпоновщикНастройкиОтборСтрокаПоискаКонтекстноеМеню" id="482"/>
+																<ExtendedTooltip name="КомпоновщикНастройкиОтборСтрокаПоискаРасширеннаяПодсказка" id="483"/>
 															</SearchStringAddition>
-															<ViewStatusAddition name="КомпоновщикНастройкиЭлементОтборСостояниеПросмотра" id="175">
+															<ViewStatusAddition name="КомпоновщикНастройкиОтборСостояниеПросмотра" id="484">
 																<AdditionSource>
-																	<Item>КомпоновщикНастройкиЭлементОтбор</Item>
+																	<Item>КомпоновщикНастройкиОтбор</Item>
 																	<Type>ViewStatusRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="КомпоновщикНастройкиЭлементОтборСостояниеПросмотраКонтекстноеМеню" id="176"/>
-																<ExtendedTooltip name="КомпоновщикНастройкиЭлементОтборСостояниеПросмотраРасширеннаяПодсказка" id="177"/>
+																<ContextMenu name="КомпоновщикНастройкиОтборСостояниеПросмотраКонтекстноеМеню" id="485"/>
+																<ExtendedTooltip name="КомпоновщикНастройкиОтборСостояниеПросмотраРасширеннаяПодсказка" id="486"/>
 															</ViewStatusAddition>
-															<SearchControlAddition name="КомпоновщикНастройкиЭлементОтборУправлениеПоиском" id="178">
+															<SearchControlAddition name="КомпоновщикНастройкиОтборУправлениеПоиском" id="487">
 																<AdditionSource>
-																	<Item>КомпоновщикНастройкиЭлементОтбор</Item>
+																	<Item>КомпоновщикНастройкиОтбор</Item>
 																	<Type>SearchControl</Type>
 																</AdditionSource>
-																<ContextMenu name="КомпоновщикНастройкиЭлементОтборУправлениеПоискомКонтекстноеМеню" id="179"/>
-																<ExtendedTooltip name="КомпоновщикНастройкиЭлементОтборУправлениеПоискомРасширеннаяПодсказка" id="180"/>
+																<ContextMenu name="КомпоновщикНастройкиОтборУправлениеПоискомКонтекстноеМеню" id="488"/>
+																<ExtendedTooltip name="КомпоновщикНастройкиОтборУправлениеПоискомРасширеннаяПодсказка" id="489"/>
 															</SearchControlAddition>
-															<Events>
-																<Event name="OnChange">КомпоновщикНастройкиЭлементОтборПриИзменении</Event>
-															</Events>
 														</Table>
 													</ChildItems>
 												</UsualGroup>
@@ -903,6 +868,20 @@
 											<ContextMenu name="КаналыОрганизацияКонтекстноеМеню" id="263"/>
 											<ExtendedTooltip name="КаналыОрганизацияРасширеннаяПодсказка" id="264"/>
 										</InputField>
+										<InputField name="ОбъектИсточникРаспределения" id="335">
+											<DataPath>Объект.ИсточникРаспределения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Источник распределения</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ОбъектИсточникРаспределенияКонтекстноеМеню" id="336"/>
+											<ExtendedTooltip name="ОбъектИсточникРаспределенияРасширеннаяПодсказка" id="337"/>
+											<Events>
+												<Event name="OnChange">ОбъектИсточникРаспределенияПриИзменении</Event>
+											</Events>
+										</InputField>
 									</ChildItems>
 								</Page>
 								<Page name="СтраницаРаспределениеКаналы" id="222">
@@ -920,68 +899,238 @@
 									</ToolTip>
 									<ExtendedTooltip name="СтраницаРаспределениеКаналыРасширеннаяПодсказка" id="223"/>
 									<ChildItems>
-										<InputField name="ОбъектИсточникРаспределения" id="335">
-											<DataPath>Объект.ИсточникРаспределения</DataPath>
+										<UsualGroup name="ГруппаОтборыКаналы" id="503">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Источник распределения</v8:content>
+													<v8:content>Отборы</v8:content>
 												</v8:item>
 											</Title>
-											<ContextMenu name="ОбъектИсточникРаспределенияКонтекстноеМеню" id="336"/>
-											<ExtendedTooltip name="ОбъектИсточникРаспределенияРасширеннаяПодсказка" id="337"/>
-											<Events>
-												<Event name="OnChange">ОбъектИсточникРаспределенияПриИзменении</Event>
-											</Events>
-										</InputField>
-										<Table name="ОбъектРаспределениеКаналы" id="338">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа отборы</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>PopUp</Behavior>
+											<ExtendedTooltip name="ГруппаОтборыКаналыРасширеннаяПодсказка" id="504"/>
+											<ChildItems>
+												<CommandBar name="ГруппаКомандыКомпоновщикаКаналы" id="505">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа команды компоновщика</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа команды компоновщика</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="ГруппаКомандыКомпоновщикаКаналыРасширеннаяПодсказка" id="506"/>
+													<ChildItems>
+														<Button name="КаналыПрименитьОтбор" id="507">
+															<Type>CommandBarButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.ПрименитьОтборКаналы</CommandName>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Применить отбор</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="КаналыПрименитьОтборРасширеннаяПодсказка" id="508"/>
+														</Button>
+														<Button name="КаналыОтключитьОтбор" id="509">
+															<Type>CommandBarButton</Type>
+															<CommandName>Form.Command.ОтключитьОтборКаналы</CommandName>
+															<ExtendedTooltip name="КаналыОтключитьОтборРасширеннаяПодсказка" id="510"/>
+														</Button>
+														<Button name="КаналыСохранитьНастройкиОтбора" id="511">
+															<Type>CommandBarButton</Type>
+															<CommandName>Form.Command.СохранитьНастройкиОтбораКаналы</CommandName>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сохранить</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="КаналыСохранитьНастройкиОтбораРасширеннаяПодсказка" id="512"/>
+														</Button>
+														<Button name="КаналыЗагрузитьНастройкиОтбора" id="513">
+															<Type>CommandBarButton</Type>
+															<CommandName>Form.Command.ЗагрузитьНастройкиОтбораКаналы</CommandName>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Загрузить</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="КаналыЗагрузитьНастройкиОтбораРасширеннаяПодсказка" id="514"/>
+														</Button>
+													</ChildItems>
+												</CommandBar>
+												<UsualGroup name="ГруппаКомпоновщикКаналы" id="515">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа компоновщик</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа компоновщик</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаКомпоновщикКаналыРасширеннаяПодсказка" id="516"/>
+													<ChildItems>
+														<Table name="КомпоновщикКаналыНастройки" id="517">
+															<Representation>Tree</Representation>
+															<Autofill>true</Autofill>
+															<HorizontalLines>false</HorizontalLines>
+															<UseAlternationRowColor>true</UseAlternationRowColor>
+															<InitialTreeView>ExpandAllLevels</InitialTreeView>
+															<EnableStartDrag>true</EnableStartDrag>
+															<EnableDrag>true</EnableDrag>
+															<DataPath>Объект.КомпоновщикКаналы.Settings</DataPath>
+															<ContextMenu name="КомпоновщикКаналыНастройкиКонтекстноеМеню" id="518"/>
+															<AutoCommandBar name="КомпоновщикКаналыНастройкиКоманднаяПанель" id="519"/>
+															<ExtendedTooltip name="КомпоновщикКаналыНастройкиРасширеннаяПодсказка" id="520"/>
+															<SearchStringAddition name="КомпоновщикКаналыНастройкиСтрокаПоиска" id="521">
+																<AdditionSource>
+																	<Item>КомпоновщикКаналыНастройки</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="КомпоновщикКаналыНастройкиСтрокаПоискаКонтекстноеМеню" id="522"/>
+																<ExtendedTooltip name="КомпоновщикКаналыНастройкиСтрокаПоискаРасширеннаяПодсказка" id="523"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="КомпоновщикКаналыНастройкиСостояниеПросмотра" id="524">
+																<AdditionSource>
+																	<Item>КомпоновщикКаналыНастройки</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="КомпоновщикКаналыНастройкиСостояниеПросмотраКонтекстноеМеню" id="525"/>
+																<ExtendedTooltip name="КомпоновщикКаналыНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="526"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="КомпоновщикКаналыНастройкиУправлениеПоиском" id="527">
+																<AdditionSource>
+																	<Item>КомпоновщикКаналыНастройки</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="КомпоновщикКаналыНастройкиУправлениеПоискомКонтекстноеМеню" id="528"/>
+																<ExtendedTooltip name="КомпоновщикКаналыНастройкиУправлениеПоискомРасширеннаяПодсказка" id="529"/>
+															</SearchControlAddition>
+														</Table>
+														<Table name="КомпоновщикКаналыНастройкиОтбор" id="530">
+															<Representation>Tree</Representation>
+															<Autofill>true</Autofill>
+															<Width>60</Width>
+															<InitialTreeView>ExpandAllLevels</InitialTreeView>
+															<EnableStartDrag>true</EnableStartDrag>
+															<EnableDrag>true</EnableDrag>
+															<DataPath>Объект.КомпоновщикКаналы.Settings.Filter</DataPath>
+															<ViewMode>All</ViewMode>
+															<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
+															<ContextMenu name="КомпоновщикКаналыНастройкиОтборКонтекстноеМеню" id="531"/>
+															<AutoCommandBar name="КомпоновщикКаналыНастройкиОтборКоманднаяПанель" id="532"/>
+															<ExtendedTooltip name="КомпоновщикКаналыНастройкиОтборРасширеннаяПодсказка" id="533"/>
+															<SearchStringAddition name="КомпоновщикКаналыНастройкиОтборСтрокаПоиска" id="534">
+																<AdditionSource>
+																	<Item>КомпоновщикКаналыНастройкиОтбор</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="КомпоновщикКаналыНастройкиОтборСтрокаПоискаКонтекстноеМеню" id="535"/>
+																<ExtendedTooltip name="КомпоновщикКаналыНастройкиОтборСтрокаПоискаРасширеннаяПодсказка" id="536"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="КомпоновщикКаналыНастройкиОтборСостояниеПросмотра" id="537">
+																<AdditionSource>
+																	<Item>КомпоновщикКаналыНастройкиОтбор</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="КомпоновщикКаналыНастройкиОтборСостояниеПросмотраКонтекстноеМеню" id="538"/>
+																<ExtendedTooltip name="КомпоновщикКаналыНастройкиОтборСостояниеПросмотраРасширеннаяПодсказка" id="539"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="КомпоновщикКаналыНастройкиОтборУправлениеПоиском" id="540">
+																<AdditionSource>
+																	<Item>КомпоновщикКаналыНастройкиОтбор</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="КомпоновщикКаналыНастройкиОтборУправлениеПоискомКонтекстноеМеню" id="541"/>
+																<ExtendedTooltip name="КомпоновщикКаналыНастройкиОтборУправлениеПоискомРасширеннаяПодсказка" id="542"/>
+															</SearchControlAddition>
+														</Table>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<Table name="РаспределениеКаналы" id="338">
 											<Representation>Tree</Representation>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
-											<EnableStartDrag>true</EnableStartDrag>
-											<EnableDrag>true</EnableDrag>
 											<DataPath>Объект.РаспределениеКаналы</DataPath>
-											<ContextMenu name="ОбъектРаспределениеКаналыКонтекстноеМеню" id="339"/>
-											<AutoCommandBar name="ОбъектРаспределениеКаналыКоманднаяПанель" id="340"/>
-											<ExtendedTooltip name="ОбъектРаспределениеКаналыРасширеннаяПодсказка" id="341"/>
-											<SearchStringAddition name="ОбъектРаспределениеКаналыСтрокаПоиска" id="342">
+											<SearchStringLocation>CommandBar</SearchStringLocation>
+											<ContextMenu name="РаспределениеКаналыКонтекстноеМеню" id="339"/>
+											<AutoCommandBar name="РаспределениеКаналыКоманднаяПанель" id="340"/>
+											<ExtendedTooltip name="РаспределениеКаналыРасширеннаяПодсказка" id="341"/>
+											<SearchStringAddition name="РаспределениеКаналыСтрокаПоиска" id="342">
 												<AdditionSource>
-													<Item>ОбъектРаспределениеКаналы</Item>
+													<Item>РаспределениеКаналы</Item>
 													<Type>SearchStringRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="ОбъектРаспределениеКаналыСтрокаПоискаКонтекстноеМеню" id="343"/>
-												<ExtendedTooltip name="ОбъектРаспределениеКаналыСтрокаПоискаРасширеннаяПодсказка" id="344"/>
+												<ContextMenu name="РаспределениеКаналыСтрокаПоискаКонтекстноеМеню" id="343"/>
+												<ExtendedTooltip name="РаспределениеКаналыСтрокаПоискаРасширеннаяПодсказка" id="344"/>
 											</SearchStringAddition>
-											<ViewStatusAddition name="ОбъектРаспределениеКаналыСостояниеПросмотра" id="345">
+											<ViewStatusAddition name="РаспределениеКаналыСостояниеПросмотра" id="345">
 												<AdditionSource>
-													<Item>ОбъектРаспределениеКаналы</Item>
+													<Item>РаспределениеКаналы</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="ОбъектРаспределениеКаналыСостояниеПросмотраКонтекстноеМеню" id="346"/>
-												<ExtendedTooltip name="ОбъектРаспределениеКаналыСостояниеПросмотраРасширеннаяПодсказка" id="347"/>
+												<ContextMenu name="РаспределениеКаналыСостояниеПросмотраКонтекстноеМеню" id="346"/>
+												<ExtendedTooltip name="РаспределениеКаналыСостояниеПросмотраРасширеннаяПодсказка" id="347"/>
 											</ViewStatusAddition>
-											<SearchControlAddition name="ОбъектРаспределениеКаналыУправлениеПоиском" id="348">
+											<SearchControlAddition name="РаспределениеКаналыУправлениеПоиском" id="348">
 												<AdditionSource>
-													<Item>ОбъектРаспределениеКаналы</Item>
+													<Item>РаспределениеКаналы</Item>
 													<Type>SearchControl</Type>
 												</AdditionSource>
-												<ContextMenu name="ОбъектРаспределениеКаналыУправлениеПоискомКонтекстноеМеню" id="349"/>
-												<ExtendedTooltip name="ОбъектРаспределениеКаналыУправлениеПоискомРасширеннаяПодсказка" id="350"/>
+												<ContextMenu name="РаспределениеКаналыУправлениеПоискомКонтекстноеМеню" id="349"/>
+												<ExtendedTooltip name="РаспределениеКаналыУправлениеПоискомРасширеннаяПодсказка" id="350"/>
 											</SearchControlAddition>
 											<ChildItems>
 												<InputField name="ОбъектРаспределениеКаналыОрганизация" id="378">
 													<DataPath>Объект.РаспределениеКаналы.Организация</DataPath>
+													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ОбъектРаспределениеКаналыОрганизацияКонтекстноеМеню" id="379"/>
 													<ExtendedTooltip name="ОбъектРаспределениеКаналыОрганизацияРасширеннаяПодсказка" id="380"/>
 												</InputField>
+												<CheckBoxField name="ОбъектРаспределениеКаналыРаспределять" id="414">
+													<DataPath>Объект.РаспределениеКаналы.Распределять</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<HeaderPicture>
+														<xr:Ref>StdPicture.Setting</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</HeaderPicture>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ОбъектРаспределениеКаналыРаспределятьКонтекстноеМеню" id="415"/>
+													<ExtendedTooltip name="ОбъектРаспределениеКаналыРаспределятьРасширеннаяПодсказка" id="416"/>
+												</CheckBoxField>
 												<InputField name="ОбъектРаспределениеКаналыПланПродаж" id="381">
 													<DataPath>Объект.РаспределениеКаналы.ПланПродаж</DataPath>
+													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ОбъектРаспределениеКаналыПланПродажКонтекстноеМеню" id="382"/>
 													<ExtendedTooltip name="ОбъектРаспределениеКаналыПланПродажРасширеннаяПодсказка" id="383"/>
 												</InputField>
 												<InputField name="ОбъектРаспределениеКаналыКоллекция" id="384">
 													<DataPath>Объект.РаспределениеКаналы.Коллекция</DataPath>
+													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ОбъектРаспределениеКаналыКоллекцияКонтекстноеМеню" id="385"/>
 													<ExtendedTooltip name="ОбъектРаспределениеКаналыКоллекцияРасширеннаяПодсказка" id="386"/>
@@ -1046,19 +1195,18 @@
 													<ContextMenu name="ОбъектРаспределениеКаналыНомерЗаписиКонтекстноеМеню" id="412"/>
 													<ExtendedTooltip name="ОбъектРаспределениеКаналыНомерЗаписиРасширеннаяПодсказка" id="413"/>
 												</InputField>
-												<CheckBoxField name="ОбъектРаспределениеКаналыРаспределять" id="414">
-													<DataPath>Объект.РаспределениеКаналы.Распределять</DataPath>
+												<InputField name="РаспределениеКаналыУровень" id="543">
+													<DataPath>Объект.РаспределениеКаналы.Уровень</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<HeaderPicture>
-														<xr:Ref>StdPicture.Setting</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</HeaderPicture>
-													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="ОбъектРаспределениеКаналыРаспределятьКонтекстноеМеню" id="415"/>
-													<ExtendedTooltip name="ОбъектРаспределениеКаналыРаспределятьРасширеннаяПодсказка" id="416"/>
-												</CheckBoxField>
+													<ContextMenu name="РаспределениеКаналыУровеньКонтекстноеМеню" id="544"/>
+													<ExtendedTooltip name="РаспределениеКаналыУровеньРасширеннаяПодсказка" id="545"/>
+												</InputField>
 											</ChildItems>
 										</Table>
+										<UsualGroup name="Группа1" id="449">
+											<Behavior>Usual</Behavior>
+											<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="450"/>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -1592,6 +1740,22 @@
 							<v8:Type>xs:boolean</v8:Type>
 						</Type>
 					</Column>
+					<Column name="Уровень" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Уровень</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>10</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
@@ -1940,6 +2104,85 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗагрузитьНастройкиОтбора</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПрименитьОтборКаналы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить отбор каналы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить отбор каналы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataCompositionFilter</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПрименитьОтборКаналы</Action>
+		</Command>
+		<Command name="ОтключитьОтборКаналы" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить отбор каналы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОтключитьОтборКаналы</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СохранитьНастройкиОтбораКаналы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки отбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveReportSettings</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СохранитьНастройкиОтбораКаналы</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗагрузитьНастройкиОтбораКаналы" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки отбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.LoadReportSettings</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьНастройкиОтбораКаналы</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

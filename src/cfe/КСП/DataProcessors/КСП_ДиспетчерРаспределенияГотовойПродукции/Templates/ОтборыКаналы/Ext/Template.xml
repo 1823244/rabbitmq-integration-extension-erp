@@ -224,13 +224,26 @@
 	</calculatedField>
 	<totalField>
 		<dataPath>Уровень</dataPath>
-		<expression>Сумма(Уровень)</expression>
+		<expression>0</expression>
 		<group>Номенклатура</group>
 	</totalField>
 	<totalField>
 		<dataPath>Уровень</dataPath>
-		<expression>Сумма(Уровень)</expression>
+		<expression>1</expression>
+		<group>НомерЗаписи</group>
 		<group>Характеристика</group>
+	</totalField>
+	<totalField>
+		<dataPath>КолЗаказано</dataPath>
+		<expression>Количество(КолЗаказано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолКРаспределению</dataPath>
+		<expression>Количество(КолКРаспределению)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолРаспределено</dataPath>
+		<expression>Количество(КолРаспределено)</expression>
 	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -271,10 +284,10 @@
 					<dcsset:field>РаспределеноПроц</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Уровень</dcsset:field>
+					<dcsset:field>НомерЗаписи</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>НомерЗаписи</dcsset:field>
+					<dcsset:field>Уровень</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

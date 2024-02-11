@@ -149,6 +149,12 @@
 							<ContextMenu name="КодКонтекстноеМеню" id="43"/>
 							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="44"/>
 						</LabelField>
+						<CheckBoxField name="Отключено" id="57">
+							<DataPath>Список.Отключено</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтключеноКонтекстноеМеню" id="58"/>
+							<ExtendedTooltip name="ОтключеноРасширеннаяПодсказка" id="59"/>
+						</CheckBoxField>
 						<LabelField name="СкладУПП" id="51">
 							<DataPath>Список.СкладУПП</DataPath>
 							<ContextMenu name="СкладУППКонтекстноеМеню" id="52"/>
