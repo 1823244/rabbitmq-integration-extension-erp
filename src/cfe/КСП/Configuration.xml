@@ -219,6 +219,8 @@
 			<Document>ПриходныйОрдерНаТовары</Document>
 			<Document>ОтчетКомиссионера</Document>
 			<Document>СчетНаОплатуКлиенту</Document>
+			<Document>ЭтапПроизводства2_2</Document>
+			<Document>ДвижениеПродукцииИМатериалов</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>

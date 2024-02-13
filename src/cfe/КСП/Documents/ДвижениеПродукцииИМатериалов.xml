@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="671cbc56-0eac-4040-b347-b350965058ab">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДвижениеПродукцииИМатериалов" category="Object">
+				<xr:TypeId>44a54879-5c34-46a3-a29e-e1ad2da52c36</xr:TypeId>
+				<xr:ValueId>07d70de1-4aed-40bf-bc27-66af5f768935</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДвижениеПродукцииИМатериалов" category="Ref">
+				<xr:TypeId>cc9420f5-39b6-4d1c-b6c2-8be6ac3f404d</xr:TypeId>
+				<xr:ValueId>694db3a1-c70c-43f2-8292-9b74c943af92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДвижениеПродукцииИМатериалов" category="Selection">
+				<xr:TypeId>7cf4a9c4-9b1b-42a9-a7ca-c3550aaae6da</xr:TypeId>
+				<xr:ValueId>47b4e275-6047-4139-b542-1a470c1bceea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДвижениеПродукцииИМатериалов" category="List">
+				<xr:TypeId>df3b1bf6-f93e-4974-a163-3c1f60e460f6</xr:TypeId>
+				<xr:ValueId>639371ba-1cad-4557-8429-b9faadf81bc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДвижениеПродукцииИМатериалов" category="Manager">
+				<xr:TypeId>5cb61de0-a17e-492a-8bb2-6ec2f68587dc</xr:TypeId>
+				<xr:ValueId>f9f6ffda-02ad-48b0-b2af-e095d62695ad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДвижениеПродукцииИМатериалов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6b652820-7672-43f5-a265-2bed82a309a6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
