@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="847c630b-4f0f-41d7-967d-11d2cf01b92b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаПроизводство2_2" category="Object">
+				<xr:TypeId>f963ba83-5209-43ce-89d6-9a6ac99eb11c</xr:TypeId>
+				<xr:ValueId>069091d9-0785-4606-81be-f351e7541fba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаПроизводство2_2" category="Ref">
+				<xr:TypeId>aee5b682-7f6e-401f-9d32-7125c4ef03be</xr:TypeId>
+				<xr:ValueId>4f4fdffc-c7e1-4a3c-83f5-af873838c5c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаПроизводство2_2" category="Selection">
+				<xr:TypeId>1136b118-ab4e-4c48-90ae-1d9cc52c1ec1</xr:TypeId>
+				<xr:ValueId>5a70a2e7-81a9-40b7-9731-1ea45c83bd2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаПроизводство2_2" category="List">
+				<xr:TypeId>0b9bacda-b8dc-408b-aa13-1478b9dcff1e</xr:TypeId>
+				<xr:ValueId>926d9c26-7a02-478c-b3e6-2f48f5369a4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаПроизводство2_2" category="Manager">
+				<xr:TypeId>b88538d5-8d31-4d15-904b-6df73b7683c3</xr:TypeId>
+				<xr:ValueId>2194558a-8628-471b-a9b9-d61a1d1dafc5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаПроизводство2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

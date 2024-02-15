@@ -221,6 +221,7 @@
 			<Document>СчетНаОплатуКлиенту</Document>
 			<Document>ЭтапПроизводства2_2</Document>
 			<Document>ДвижениеПродукцииИМатериалов</Document>
+			<Document>ЗаказНаПроизводство2_2</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -310,6 +311,7 @@
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
 			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
+			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
