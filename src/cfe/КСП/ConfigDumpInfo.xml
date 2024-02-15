@@ -315,7 +315,7 @@
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер" id="5a2f648d-4740-41eb-ab62-e1402c49a31d" configVersion="0e9f1a5c9fb8fc332d8861e62b340d7507fa5989"/>
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер.Module" id="5a2f648d-4740-41eb-ab62-e1402c49a31d.0" configVersion="b7696fb91d395e809fcf7962595ee03c9d1ee1b1"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
-		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="ac87f12a84be3a2280343ec47dc3749618f75807"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="b380891462e2aa1d2f9b73e01626361aedd25515"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d" configVersion="24d95ece84373faafe72c820bb69420519dd3e0f"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="b9ab83081aa0eec6a8336a15d11efb82ad2c87cb"/>
 		<Metadata name="CommonModule.ксп_Элис_ОбщегоНазначения" id="8f2108bf-a593-4411-b300-12e64bc0dad6" configVersion="438dca3bc44c2300e473869b2a10663734bc38c4"/>
