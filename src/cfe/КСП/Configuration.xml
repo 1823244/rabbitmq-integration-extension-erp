@@ -222,6 +222,7 @@
 			<Document>ЭтапПроизводства2_2</Document>
 			<Document>ДвижениеПродукцииИМатериалов</Document>
 			<Document>ЗаказНаПроизводство2_2</Document>
+			<Document>СборкаТоваров</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>

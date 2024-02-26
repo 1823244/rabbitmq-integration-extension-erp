@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="e7d36c07-c38e-44ab-8d8c-5341d9677daf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СборкаТоваров" category="Object">
+				<xr:TypeId>6f99f8f9-9882-4ba1-85d7-26bdc38b9603</xr:TypeId>
+				<xr:ValueId>c0b74d5d-6a3e-4664-b461-63f4d55d11e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СборкаТоваров" category="Ref">
+				<xr:TypeId>d81809a5-8a07-43e8-bf65-67e98d57f777</xr:TypeId>
+				<xr:ValueId>24ad7431-dfd6-4eae-9f26-dba66d06c4ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СборкаТоваров" category="Selection">
+				<xr:TypeId>020ca1c5-0347-4d1f-9954-196a40e81af0</xr:TypeId>
+				<xr:ValueId>ff9293bf-9363-420b-9ea1-1bf6206e4fed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СборкаТоваров" category="List">
+				<xr:TypeId>1708dbd0-08af-4567-bad6-06bb3ba004ab</xr:TypeId>
+				<xr:ValueId>d194ce86-4ef3-4219-b6df-289bc8ad9cac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СборкаТоваров" category="Manager">
+				<xr:TypeId>65788816-aaf5-4626-96a0-ec9ac13ccc6b</xr:TypeId>
+				<xr:ValueId>ed0d6fca-8085-417c-af28-d7d20f8331fa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СборкаТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>600ea876-962e-4c78-bacb-7368e2d7bd87</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -349,9 +349,12 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:DocumentRef.ЭтапПроизводства2_2</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
 						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
+						<v8:Type>cfg:DocumentRef.КСП_Распределение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ИзменениеАссортимента</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМКоррекции</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
@@ -370,14 +373,21 @@
 						<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаПроизводство2_2</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВозвратВОборотИСМП</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОприходованиеИзлишковТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМВозврат</v8:Type>
+						<v8:Type>cfg:DocumentRef.ДвижениеПродукцииИМатериалов</v8:Type>
 						<v8:Type>cfg:DocumentRef.УстановкаЦенНоменклатуры</v8:Type>
+						<v8:Type>cfg:DocumentRef.СборкаТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПланПродаж</v8:Type>
 						<v8:Type>cfg:DocumentRef.РасходныйОрдерНаТовары</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВозвратТоваровОтКлиента</v8:Type>
+						<v8:Type>cfg:DocumentRef.СчетНаОплатуКлиенту</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОперацияПоПлатежнойКарте</v8:Type>
+						<v8:Type>cfg:DocumentRef.ДвиженияКМФулфилмент</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
