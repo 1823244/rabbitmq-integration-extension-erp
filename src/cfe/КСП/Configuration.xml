@@ -260,6 +260,7 @@
 			<Enum>ВидыПродукцииИС</Enum>
 			<Enum>СпособыРаспределенияЗатратНаВыходныеИзделия</Enum>
 			<Report>КСП_ЗаказыRetailCRM</Report>
+			<Report>КСП_Отчет_ОшибкиИмпортаУПП</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>КСП_ПФ_ТаможеннаяДекларацияЭкспорт</DataProcessor>

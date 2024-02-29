@@ -70,6 +70,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_УПП_ОшибкиИмпорта</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиПеремещений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КСП_Отчет_ОшибкиИмпортаУПП</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
