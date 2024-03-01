@@ -81,7 +81,7 @@
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаСписка" id="fd5357c3-f64e-44c8-838b-37fdff6ba972" configVersion="39e1b787f635f392ddda2fc54dff8ca36ac27227"/>
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаСписка.Form" id="fd5357c3-f64e-44c8-838b-37fdff6ba972.0" configVersion="40d67e3ad00b1d5703f04d981c5e85aaa87bc567"/>
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаЭлемента" id="5193a889-ad00-404a-a1f0-e173c48ddc38" configVersion="e9975ce85fa0979021177e4f791f39798386dce0"/>
-		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаЭлемента.Form" id="5193a889-ad00-404a-a1f0-e173c48ddc38.0" configVersion="c34ecff4fb669ecce9252d79b4e23205be9a7e51"/>
+		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.Form.ФормаЭлемента.Form" id="5193a889-ad00-404a-a1f0-e173c48ddc38.0" configVersion="a796ef36cbf61d858315bf4487e605172fdb3918"/>
 		<Metadata name="Catalog.КСП_ВидыОперацийПоСкладамУПП.ManagerModule" id="d5add528-90d1-4b6d-9039-3a481e5106c2.3" configVersion="99e9bcafc2fd10812c8a3c82ae5d08165e66778c"/>
 		<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП" id="2af64f44-d18d-418d-9f76-2f9490f272cb" configVersion="6027fafbf5850bf8e5f367612deafa6788fd1eab">
 			<Metadata name="Catalog.КСП_ЛогикаОбработкиДвиженияПоСкладуУПП.Attribute.УдалитьИмяВнешнейОбработки" id="b91e966b-4b7d-4a76-ad6a-3fc147ad2b8b"/>
@@ -309,13 +309,13 @@
 		<Metadata name="CommonModule.ксп_Блокировки" id="5a4e9102-1d02-401c-8c4e-bb006bc9f565" configVersion="a22ed2e256d6091ef3f0e9ceadfa961a6889efcf"/>
 		<Metadata name="CommonModule.ксп_Блокировки.Module" id="5a4e9102-1d02-401c-8c4e-bb006bc9f565.0" configVersion="25484abdabbbf6b5b0d08c54d3d58b7d3f270368"/>
 		<Metadata name="CommonModule.ксп_ИмпортСлужебный" id="2badf495-f58f-47e7-9e91-472a2bee47a7" configVersion="4d31cd70471c815916019cd6128121be32a92337"/>
-		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="2bb1d347175bf24abb7ccf53ecdbdcf638a35da0"/>
+		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="9a4d3a47ed52828ea1ce2b332d18d6c64d679fee"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия" id="09b456c4-724e-4c62-b972-02e0a02a4258" configVersion="fe1efabddec5246b04e666f6ee24f80906c9d4c4"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия.Module" id="09b456c4-724e-4c62-b972-02e0a02a4258.0" configVersion="0c7f07162f531d0787634956dc045a44be71c300"/>
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер" id="5a2f648d-4740-41eb-ab62-e1402c49a31d" configVersion="0e9f1a5c9fb8fc332d8861e62b340d7507fa5989"/>
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер.Module" id="5a2f648d-4740-41eb-ab62-e1402c49a31d.0" configVersion="b7696fb91d395e809fcf7962595ee03c9d1ee1b1"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
-		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="ba83f347b13ee89f70bccf9b1cb9c816d4de7498"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="b0a7352f6574f67211f3e6bdc91ec589c07664e8"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d" configVersion="24d95ece84373faafe72c820bb69420519dd3e0f"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="b9ab83081aa0eec6a8336a15d11efb82ad2c87cb"/>
 		<Metadata name="CommonModule.ксп_Элис_ОбщегоНазначения" id="8f2108bf-a593-4411-b300-12e64bc0dad6" configVersion="438dca3bc44c2300e473869b2a10663734bc38c4"/>
