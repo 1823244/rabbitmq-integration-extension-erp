@@ -343,12 +343,12 @@
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="07dcc9da-47a8-43ca-a109-2efdf5f88527" configVersion="25eacc5b34d134444505fe2c653bc51ac6c0e0f6"/>
 		<Metadata name="CommonPicture.КСП_ЭлисФэшнЛоготип" id="47b5c7d1-0484-4f9f-9243-a43d7ba6a5b9" configVersion="433d84c521a28d45636111c46ce9cd93b84d3610"/>
 		<Metadata name="CommonPicture.КСП_ЭлисФэшнЛоготип.Picture" id="47b5c7d1-0484-4f9f-9243-a43d7ba6a5b9.0" configVersion="0aca2f88bcbb7260584fb0dcce23d2774e6cc3ea"/>
-		<Metadata name="CommonPicture.Комментарий" id="a90f8d82-5aa4-4cc8-95a0-b5ad2e7fdabd" configVersion="79555736ad5bbc3c730fee748441ce9451025293"/>
+		<Metadata name="CommonPicture.Комментарий" id="a90f8d82-5aa4-4cc8-95a0-b5ad2e7fdabd" configVersion="009e2c82ac95d261d21cb6e7291db8fe6350acb3"/>
 		<Metadata name="CommonPicture.Набор" id="3e991f5c-2671-42eb-ac24-b2e163352835" configVersion="197028b666e7d67a334ad610fd8dd8181e146620"/>
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
 		<Metadata name="CommonPicture.СостояниеСкидкиНаценки" id="e8d50fb9-29f4-4399-8bc2-abeef871843d" configVersion="91eb955ee84de092c0e2e530ca7ff99850fa5432"/>
-		<Metadata name="Configuration.КСП" id="133b8271-b032-4c70-a0f6-7e758b7fa35d" configVersion="2297c82da166e73547942f1137928e9e009bb844"/>
+		<Metadata name="Configuration.КСП" id="133b8271-b032-4c70-a0f6-7e758b7fa35d" configVersion="7a6c4b5283de5877c5d6632ece8fa47b306997bb"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="b32339bb-d1ac-4b39-84eb-18acd936bdf0.6" configVersion="d11940c415e1bb7f9bfc820aefca2d7e4269dbf7"/>
 		<Metadata name="Constant.КСП_Последний_ID_Заказа_RCRM" id="72d33759-c80a-454c-b16c-309166160d83" configVersion="c29479d8e56122f74814e125093f44c80ab89aef"/>
 		<Metadata name="Constant.ксп_ПодключениеКЧестномуЗнаку" id="01fcf730-83db-4082-927a-dc8b98c4fffe" configVersion="3c3a820a8ed464252c44fc24d6be29fb299c25ac"/>
@@ -496,7 +496,7 @@
 		<Metadata name="Document.ДвиженияКМФулфилмент.ManagerModule" id="b6cdf298-6138-4f49-95c6-a40b05b491a9.2" configVersion="af51912e1d7dae02350abbb2d2b210d68c5e97e5"/>
 		<Metadata name="Document.ДвиженияКМФулфилмент.ObjectModule" id="b6cdf298-6138-4f49-95c6-a40b05b491a9.0" configVersion="6f21af41c5bbe7419569e941b01695818de59ef5"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="b213fc8a-2c71-498f-88fe-5ad5a60d8fba" configVersion="3253e74ec164f5123899a891433cdc53d81c585d"/>
-		<Metadata name="Document.ЗаказКлиента" id="2d07bb55-be3b-4a52-b5a5-339388cfcc8b" configVersion="fd9c1db1b416dcb3c07b04f7b27a6c824557a173">
+		<Metadata name="Document.ЗаказКлиента" id="2d07bb55-be3b-4a52-b5a5-339388cfcc8b" configVersion="c1654dd06e677b07bda0654b40850cc149a4cb6c">
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.ПроцентРучнойСкидки" id="0afd05c1-023e-464e-8798-039de462da7e"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.Менеджер" id="12eba836-57f8-49ab-a16d-8244b4940cfa"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.ЭтапыГрафикаОплаты" id="1b851a68-c020-4c19-89b1-d0dd9416b98e"/>
@@ -529,7 +529,6 @@
 			<Metadata name="Document.ЗаказКлиента.Attribute.ЗонаДоставки" id="76654d55-845f-43e2-b446-cd983fda3b0e"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Сумма" id="7937bf88-c1d8-41ad-802d-e2f194dd999c"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.СтавкаНДС" id="8c4dd850-8a27-461f-b494-2175f26ac27b"/>
-			<Metadata name="Document.ЗаказКлиента.Attribute.КПС_ДатаПредоплаты_1" id="8fc960f9-022b-4f4c-a368-b1c5f026eb3d"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Номенклатура" id="91c1dbeb-4607-4d74-979a-a6e84b448f0d"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.КонтактноеЛицо" id="9456ede5-9c54-45e4-a16f-1181ff3d0d99"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.Партнер" id="9626983f-28e4-43bd-8415-a916e2db0b50"/>
@@ -555,7 +554,6 @@
 			<Metadata name="Document.ЗаказКлиента.Attribute.ВернутьМногооборотнуюТару" id="c1a7e59b-7489-4c99-9dda-e2ab4dfebd63"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.ТребуетсяЗалогЗаТару" id="c83d6f21-cae7-45bb-bf2a-8527dab8ceea"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.АдресДоставкиПеревозчика" id="ccd6db59-3128-4c9e-b7b7-9498e06831da"/>
-			<Metadata name="Document.ЗаказКлиента.Attribute.КПС_ДатаПредоплаты_2" id="d006d7da-fbda-419c-95cb-6b00a1bcbfee"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.НоменклатураНабора" id="d04448ab-427d-4856-87f5-07e1ead6c71d"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.СуммаСНДС" id="d59e3ea1-87a5-4497-b3e1-0827317dee02"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.СуммаНачисленныхБонусныхБалловВВалюте" id="d793addd-c345-4340-be0a-3a9bd2de72a4"/>
@@ -1446,23 +1444,6 @@
 			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ИННУчастника" id="e5825e5e-ff31-4cb7-a6ce-dfb317e86555"/>
 			<Metadata name="InformationRegister.удалить_КСП_НастройкиПодключенияЧестныйЗнак.Dimension.ГруппаТоваров" id="fbfd745e-8533-49ca-bb72-9ae31fe4be82"/>
 		</Metadata>
-		<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта" id="3fd0e56a-518f-4484-ad88-fc58b60419f0" configVersion="5dd67f1ab8b4d0d24b3c569ad914a81ce809f030">
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ГУИДДокументаУПП" id="070ebadd-6453-41de-955e-4c03c7db719c"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ПредставлениеДокументаУПП" id="2424a1f9-845d-450e-af29-68e8ffb520bb"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ТекстСообщения" id="3338ed71-4024-47a5-9559-f9e53a8ab435"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Dimension.ВидДокумента" id="355fafe2-8188-4227-9372-67635e599ac7"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ЛогикаСклад" id="49459ede-d7a2-422e-90f4-96c59864ca7d"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Dimension.ДатаДокумента" id="4ec60623-cabd-41e8-9d1c-2e7472fbe793"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ЛогикаПеремещения" id="9b399eb9-db85-4903-bfe9-a26bb9f964bd"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ОшибкаИсправлена" id="a3348b88-e272-4d5f-9701-a74f35d14500"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.ВремяСобытия" id="cc637e89-e5ef-4ed5-a861-ea34b451d691"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Dimension.СкладОтправитель" id="ea78e5b6-85c4-45ba-bc23-222c7d462ec6"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Dimension.Склад" id="f1309fbb-99db-4b8b-b4b0-89728241b99a"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Dimension.НомерДокумента" id="f5a61218-47dc-430d-8097-91e57cff0426"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Dimension.СкладПолучатель" id="f6ca5e61-7c71-4a13-b4d1-b8d98417ada6"/>
-			<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.Attribute.Обработчик" id="faef646d-443e-47bc-ba31-792613b3f9e5"/>
-		</Metadata>
-		<Metadata name="InformationRegister.удалить_КСП_УПП_ОшибкиИмпорта.ManagerModule" id="3fd0e56a-518f-4484-ad88-fc58b60419f0.2" configVersion="d74536f30524ffafabbd5e030d490808f0d3131a"/>
 		<Metadata name="Language.Русский" id="2e30f7fe-f2f9-4178-9779-e1ffa1599a3e" configVersion="37278e9aaf2ff6b9c72199d693303c8fbb4415f5"/>
 		<Metadata name="Report.КСП_ЗаказыRetailCRM" id="5ff91504-6abb-430c-959c-3b14247b591f" configVersion="5ee86cb762bfe873d582bab10435dd9d31b24ef3"/>
 		<Metadata name="Report.КСП_ЗаказыRetailCRM.Template.ОсновнаяСхемаКомпоновкиДанных" id="52392335-df04-4528-82fb-dd43ec73f901" configVersion="350bc5d8e52810aeaf76f91ebbc7af7003b703df"/>
@@ -1486,7 +1467,7 @@
 		<Metadata name="StyleItem.ШрифтНовостей" id="7a5aaedd-37a1-4bc0-812a-18145faf4c4e" configVersion="1b91fa09657466589e6c36ed18e8c2f6156c2869"/>
 		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="878d410b5c282e2e9f7b42c119746a90b7faebd8"/>
 		<Metadata name="Subsystem.КСП.Subsystem.RetailCRM" id="f9d8aa15-0756-40c9-9e5c-1758c5f1348b" configVersion="892e37451a0c49bc2a2a6c49327f3ab308a53082"/>
-		<Metadata name="Subsystem.КСП.Subsystem.УдаленныеОбъекты" id="d9197e5d-3523-4115-a2b7-17cc3b8e34a5" configVersion="27f6c1b106e2e9d5939c4e7a54e044a358292757"/>
+		<Metadata name="Subsystem.КСП.Subsystem.УдаленныеОбъекты" id="d9197e5d-3523-4115-a2b7-17cc3b8e34a5" configVersion="1e6465ab4c886cb5ca922c9500fa32f3fbe60735"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент" id="3f041b08-f22f-4d26-a102-e74cbe761eff" configVersion="18606e44dcfeac0c2eb0be4fd35f8961e3adbd87"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.ЧестныйЗнак" id="3a528d7c-11a9-40a2-aacb-63641ee8b0f7" configVersion="89076ec84c2396a45e3582338e467cf1cacaaa1d"/>

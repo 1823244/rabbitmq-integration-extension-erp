@@ -336,7 +336,6 @@
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
-			<InformationRegister>удалить_КСП_УПП_ОшибкиИмпорта</InformationRegister>
 			<InformationRegister>КСП_ДокументыПредоплатыЗаказаКлиента</InformationRegister>
 			<InformationRegister>КСП_ЗагрузкаДокументовПеремещений</InformationRegister>
 			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
