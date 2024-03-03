@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="4f43f302-0c10-4528-aa11-36a4cdfe1284">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДоговорыЭквайринга" category="Object">
+				<xr:TypeId>b3cfec82-2a90-4ffa-a1df-23dc6125eee6</xr:TypeId>
+				<xr:ValueId>0f81772d-843e-4faa-87c6-8d895fd31a98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДоговорыЭквайринга" category="Ref">
+				<xr:TypeId>7dad6816-8058-4dc4-9fcc-915514893f61</xr:TypeId>
+				<xr:ValueId>b553b9e1-bfc7-4e6e-bbb8-607ea3e44f71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДоговорыЭквайринга" category="Selection">
+				<xr:TypeId>ce968d48-ca69-42f3-9c46-eccfe63d8684</xr:TypeId>
+				<xr:ValueId>570b615d-d064-4713-863a-66249b44511a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДоговорыЭквайринга" category="List">
+				<xr:TypeId>2dcd3ff4-b52f-41c8-9ab2-a32809a673b4</xr:TypeId>
+				<xr:ValueId>22f74e15-0f4b-4c5d-9dbe-c7d8602d3baf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДоговорыЭквайринга" category="Manager">
+				<xr:TypeId>e647620b-3ec6-42e3-88ec-0480adea4217</xr:TypeId>
+				<xr:ValueId>b420080c-80ce-4006-9ddb-db407842b60f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоговорыЭквайринга</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>36a54f22-0929-4b08-aba4-4863a3046220</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

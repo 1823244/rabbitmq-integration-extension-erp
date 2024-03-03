@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Configuration uuid="8ca314c7-430f-41db-be5e-f2d509a49325">
+	<Configuration uuid="de5140db-5ca4-4ff6-b551-10dc9bd329d8">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>4e1a03c9-d924-4e0f-9545-660846ef12d9</xr:ObjectId>
+				<xr:ObjectId>b8a2095b-708b-4722-9ef5-9892571cadf7</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>6d5cd15a-6163-47e6-a506-4a55cadfc56f</xr:ObjectId>
+				<xr:ObjectId>29307e33-8e7f-45fd-bb93-950fc89af23d</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>a246887d-997b-4ac8-b318-c8a0e98fa7fc</xr:ObjectId>
+				<xr:ObjectId>0e52ed82-0575-48fd-b2ca-e84da3328c0b</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>df884981-2392-4922-923e-522c2b043a5e</xr:ObjectId>
+				<xr:ObjectId>ec511a3a-7be3-489d-aa2e-b812631ae85f</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>fbd938d8-66f4-47fc-8612-cb181dfa3605</xr:ObjectId>
+				<xr:ObjectId>478e5d68-14a5-4762-804c-a836f2f2738f</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>309bdabd-bb8e-486b-8faa-2bb6230712cb</xr:ObjectId>
+				<xr:ObjectId>147def10-01ad-4350-9760-48a5f84c4528</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c41fe835-21da-4007-ba38-8369aa2eab4f</xr:ObjectId>
+				<xr:ObjectId>e8c20946-c54f-4330-b223-a22b905da232</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -101,6 +101,11 @@
 			<CommonModule>crm_RetailCRMОбработка</CommonModule>
 			<CommonModule>ксп_СкидкиНаценкиСервер</CommonModule>
 			<CommonModule>СозданиеНаОснованииУТКлиент</CommonModule>
+			<CommonModule>ВзаиморасчетыСервер</CommonModule>
+			<CommonModule>КСП_СчетаНаОплату</CommonModule>
+			<CommonModule>ПриходныйКассовыйОрдерЛокализация</CommonModule>
+			<CommonModule>ПоступлениеБезналичныхДенежныхСредствЛокализация</CommonModule>
+			<CommonModule>ЗаказКлиентаЛокализация</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
@@ -115,6 +120,7 @@
 			<DefinedType>Цена</DefinedType>
 			<DefinedType>ИНН</DefinedType>
 			<DefinedType>ОснованиеСчетФактураВыданный</DefinedType>
+			<DefinedType>ОбъектРасчетов</DefinedType>
 			<CommonCommand>КСП_СоздатьТаможеннуюЭкспортНаОснованииПередачи</CommonCommand>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
@@ -184,6 +190,12 @@
 			<Catalog>КСП_ЛогикаОбработкиПеремещений</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>КСП_ВидыДокументовУПП</Catalog>
+			<Catalog>ОтветственныеЛицаОрганизаций</Catalog>
+			<Catalog>ДоговорыКредитовИДепозитов</Catalog>
+			<Catalog>КодыВалютныхОпераций</Catalog>
+			<Catalog>ДоговорыЭквайринга</Catalog>
+			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
+			<Catalog>ДоговорыАренды</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -221,6 +233,9 @@
 			<Document>СчетНаОплатуКлиенту</Document>
 			<Document>ЭтапПроизводства2_2</Document>
 			<Document>ДвижениеПродукцииИМатериалов</Document>
+			<Document>ПоступлениеБезналичныхДенежныхСредств</Document>
+			<Document>ПодтверждениеЗачисленияЗарплаты</Document>
+			<Document>ДоговорЗаймаСотруднику</Document>
 			<Document>ЗаказНаПроизводство2_2</Document>
 			<Document>СборкаТоваров</Document>
 			<Enum>СпособыДоставки</Enum>
@@ -259,6 +274,13 @@
 			<Enum>КСП_СтатусыЗаказовДляВыводаИзОборота</Enum>
 			<Enum>ВидыПродукцииИС</Enum>
 			<Enum>СпособыРаспределенияЗатратНаВыходныеИзделия</Enum>
+			<Enum>ФормыОплаты</Enum>
+			<Enum>ТипыПлатежныхДокументов</Enum>
+			<Enum>СтатусыДоговоровКонтрагентов</Enum>
+			<Enum>ВариантыКурсаДоговора</Enum>
+			<Enum>ТипыНалогов</Enum>
+			<Enum>ТипыСуммГрафикаКредитовИДепозитов</Enum>
+			<Enum>ТипыПлатежейПоАренде</Enum>
 			<Report>КСП_ЗаказыRetailCRM</Report>
 			<Report>КСП_Отчет_ОшибкиИмпортаУПП</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
@@ -270,6 +292,7 @@
 			<DataProcessor>ксп_ФорматFE770</DataProcessor>
 			<DataProcessor>КСП_RetailCRM_РаботаСЗаказами</DataProcessor>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции2</DataProcessor>
+			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
@@ -313,6 +336,9 @@
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
 			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
+			<InformationRegister>КСП_ДокументыПредоплатыЗаказаКлиента</InformationRegister>
+			<InformationRegister>КСП_ЗагрузкаДокументовПеремещений</InformationRegister>
+			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
 			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>

@@ -8,19 +8,16 @@
 	<ChildItems>
 		<InputField name="ИмяФайла" id="1">
 			<DataPath>Запись.ИмяФайла</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Каталог" id="4">
 			<DataPath>Запись.УдалитьКаталог</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КаталогКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="КаталогРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="ДатаЗагрузки" id="7">
 			<DataPath>Запись.ДатаЗагрузки</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаЗагрузкиКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ДатаЗагрузкиРасширеннаяПодсказка" id="9"/>
 		</InputField>
@@ -32,7 +29,6 @@
 		</CheckBoxField>
 		<InputField name="СтатусДанных" id="16">
 			<DataPath>Запись.СтатусДанных</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СтатусДанныхКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="СтатусДанныхРасширеннаяПодсказка" id="18"/>
 		</InputField>

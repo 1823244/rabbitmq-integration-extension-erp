@@ -9,25 +9,21 @@
 	<ChildItems>
 		<InputField name="ДокументСсылка" id="1">
 			<DataPath>Запись.ДокументСсылка</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДокументСсылкаКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ДокументСсылкаРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="ДатаОбработки" id="10">
 			<DataPath>Запись.ДатаОбработки</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаОбработкиКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ДатаОбработкиРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="СтатусОбъекта" id="4">
 			<DataPath>Запись.СтатусОбъекта</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СтатусОбъектаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="СтатусОбъектаРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="СтатусПроведения" id="7">
 			<DataPath>Запись.СтатусПроведения</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СтатусПроведенияКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СтатусПроведенияРасширеннаяПодсказка" id="9"/>
 		</InputField>

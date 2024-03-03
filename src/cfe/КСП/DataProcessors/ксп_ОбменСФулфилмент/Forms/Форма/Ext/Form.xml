@@ -345,7 +345,6 @@
 						<InputField name="НастройкиПодключения" id="171">
 							<DataPath>НастройкиПодключения</DataPath>
 							<ClearButton>true</ClearButton>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
 							<ContextMenu name="НастройкиПодключенияКонтекстноеМеню" id="172"/>
 							<ExtendedTooltip name="НастройкиПодключенияРасширеннаяПодсказка" id="173"/>
@@ -722,7 +721,6 @@
 					<ChildItems>
 						<InputField name="Тест_ЗаказНаПеремещение" id="148">
 							<DataPath>Тест_ЗаказНаПеремещение</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="Тест_ЗаказНаПеремещениеКонтекстноеМеню" id="149"/>
 							<ExtendedTooltip name="Тест_ЗаказНаПеремещениеРасширеннаяПодсказка" id="150"/>
 						</InputField>
@@ -760,7 +758,6 @@
 						</Button>
 						<InputField name="ИмяФайлаКМ_Разработка" id="161">
 							<DataPath>ИмяФайлаКМ_Разработка</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ИмяФайлаКМ_РазработкаКонтекстноеМеню" id="162"/>
 							<ExtendedTooltip name="ИмяФайлаКМ_РазработкаРасширеннаяПодсказка" id="163"/>
 						</InputField>
@@ -771,7 +768,6 @@
 							<ChildItems>
 								<InputField name="ПолноеИмяФайлаКМ_Разработка" id="158">
 									<DataPath>ПолноеИмяФайлаКМ_Разработка</DataPath>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ПолноеИмяФайлаКМ_РазработкаКонтекстноеМеню" id="159"/>
 									<ExtendedTooltip name="ПолноеИмяФайлаКМ_РазработкаРасширеннаяПодсказка" id="160"/>
 									<Events>

@@ -5,19 +5,16 @@
 	<ChildItems>
 		<InputField name="ВнешняяСистема" id="1">
 			<DataPath>Запись.ВнешняяСистема</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ВнешняяСистемаКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ВнешняяСистемаРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Контрагент" id="4">
 			<DataPath>Запись.Контрагент</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КонтрагентКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="Договор" id="22">
 			<DataPath>Запись.Договор</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ChoiceParameterLinks>
 				<xr:Link>
 					<xr:Name>Отбор.Контрагент</xr:Name>
@@ -30,25 +27,21 @@
 		</InputField>
 		<InputField name="СкладПолучатель" id="10">
 			<DataPath>Запись.СкладПолучатель</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладПолучательКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="СкладПолучательРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="ДатаНачала" id="13">
 			<DataPath>Запись.ДатаНачала</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="ДатаОкончания" id="16">
 			<DataPath>Запись.ДатаОкончания</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="Схема" id="19">
 			<DataPath>Запись.Схема</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СхемаКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="СхемаРасширеннаяПодсказка" id="21"/>
 		</InputField>

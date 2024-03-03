@@ -66,6 +66,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="9e0e9f95-48b3-47ac-a93b-edb060a74694">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bba798d9-42bd-4341-8275-e5503a1fd11c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

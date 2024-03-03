@@ -85,7 +85,6 @@
 						</UsualGroup>
 						<InputField name="Организация" id="185">
 							<DataPath>Объект.Организация</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="186"/>
 							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="187"/>
 						</InputField>

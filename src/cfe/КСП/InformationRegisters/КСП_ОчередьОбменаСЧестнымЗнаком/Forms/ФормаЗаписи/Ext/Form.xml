@@ -21,49 +21,41 @@
 					<ChildItems>
 						<InputField name="ДвиженияКМ" id="1">
 							<DataPath>Запись.ДвиженияКМ</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ДвиженияКМКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="ДвиженияКМРасширеннаяПодсказка" id="3"/>
 						</InputField>
 						<InputField name="МоментВремениМС" id="4">
 							<DataPath>Запись.МоментВремениМС</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="МоментВремениМСКонтекстноеМеню" id="5"/>
 							<ExtendedTooltip name="МоментВремениМСРасширеннаяПодсказка" id="6"/>
 						</InputField>
 						<InputField name="ДатаВремяСобытия" id="7">
 							<DataPath>Запись.ДатаВремяСобытия</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ДатаВремяСобытияКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ДатаВремяСобытияРасширеннаяПодсказка" id="9"/>
 						</InputField>
 						<InputField name="Состояние" id="10">
 							<DataPath>Запись.Состояние</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СостояниеКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="12"/>
 						</InputField>
 						<InputField name="Операция" id="13">
 							<DataPath>Запись.Операция</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ОперацияКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ОперацияРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<InputField name="КодСостоянияHTTP" id="19">
 							<DataPath>Запись.КодСостоянияHTTP</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="КодСостоянияHTTPКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="КодСостоянияHTTPРасширеннаяПодсказка" id="21"/>
 						</InputField>
 						<InputField name="ГУИДвЧестномЗнаке" id="22">
 							<DataPath>Запись.ГУИДвЧестномЗнаке</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ГУИДвЧестномЗнакеКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="ГУИДвЧестномЗнакеРасширеннаяПодсказка" id="24"/>
 						</InputField>
 						<InputField name="СтатусВЧестномЗнаке" id="25">
 							<DataPath>Запись.СтатусВЧестномЗнаке</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СтатусВЧестномЗнакеКонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="СтатусВЧестномЗнакеРасширеннаяПодсказка" id="27"/>
 						</InputField>

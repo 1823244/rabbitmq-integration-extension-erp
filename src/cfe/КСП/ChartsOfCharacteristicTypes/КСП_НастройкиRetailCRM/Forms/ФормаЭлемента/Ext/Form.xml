@@ -12,27 +12,23 @@
 			<DataPath>Объект.Code</DataPath>
 			<SkipOnInput>true</SkipOnInput>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Значение" id="13">
 			<DataPath>Значение</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ЗначениеКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="Наименование" id="4">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="ТипЗначения" id="10">
 			<DataPath>Объект.ValueType</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ТипЗначенияКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ТипЗначенияРасширеннаяПодсказка" id="12"/>
 			<Events>
