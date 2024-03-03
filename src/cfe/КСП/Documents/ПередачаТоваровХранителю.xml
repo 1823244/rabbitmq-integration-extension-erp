@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Document uuid="30864730-429d-4744-95e5-203ae9b5ac88">
+	<Document uuid="ae2a8c24-5aed-4456-ae8b-9486cfa03536">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПередачаТоваровХранителю" category="Object">
-				<xr:TypeId>208ba083-130f-4f25-8d12-08fcfd2c0140</xr:TypeId>
-				<xr:ValueId>7c899708-d656-4b66-b2eb-49a962b36470</xr:ValueId>
+				<xr:TypeId>2c86f018-0ee4-426d-a2a4-864b532ce8f1</xr:TypeId>
+				<xr:ValueId>51b2a3e8-62c7-4053-b1c8-bdfb8bc8991a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ПередачаТоваровХранителю" category="Ref">
-				<xr:TypeId>3b8a015a-0255-490e-b735-df807ccef6c1</xr:TypeId>
-				<xr:ValueId>e007bf31-a073-40f3-a197-29dc223ed7a5</xr:ValueId>
+				<xr:TypeId>dc216304-fe17-4059-934b-d727aa1a60eb</xr:TypeId>
+				<xr:ValueId>1e25c97f-f710-4310-9716-8bc33c499016</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ПередачаТоваровХранителю" category="Selection">
-				<xr:TypeId>d25343b8-e278-49bd-b495-11d4851a921d</xr:TypeId>
-				<xr:ValueId>b68e6374-6fee-4d05-88cd-3b99846947d8</xr:ValueId>
+				<xr:TypeId>147c6571-47b7-4389-b0b4-a97aa29b8fd4</xr:TypeId>
+				<xr:ValueId>3934b339-d8a9-4997-85c7-0017ea583d32</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ПередачаТоваровХранителю" category="List">
-				<xr:TypeId>f7dedfe3-64e8-4e84-b9ee-30845dbecda5</xr:TypeId>
-				<xr:ValueId>1ca3116f-47a3-4305-8987-8d2236855dc2</xr:ValueId>
+				<xr:TypeId>9ae213b0-faaf-4761-ba31-10300df271ef</xr:TypeId>
+				<xr:ValueId>64ba1784-69e3-474e-9e05-2a64df3c98d9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ПередачаТоваровХранителю" category="Manager">
-				<xr:TypeId>f2b1cb89-3bb9-4cbf-8183-9b499c46fcc6</xr:TypeId>
-				<xr:ValueId>d8be9b9c-797d-486e-af82-13473d813681</xr:ValueId>
+				<xr:TypeId>18d02ef6-e8b7-47c4-9317-49a861d6dd73</xr:TypeId>
+				<xr:ValueId>b244491c-402f-4100-8a15-820b9bdf2120</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

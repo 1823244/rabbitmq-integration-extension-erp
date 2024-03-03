@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="0f173831-00f8-48b0-b97f-835d851e7c00">
+	<InformationRegister uuid="3fd0e56a-518f-4484-ad88-fc58b60419f0">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КСП_УПП_ОшибкиИмпорта" category="Record">
-				<xr:TypeId>786b82e4-9bb9-4608-a06c-5d95a47410a4</xr:TypeId>
-				<xr:ValueId>43a21e7e-3846-4c85-8c63-606eee36fd35</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.удалить_КСП_УПП_ОшибкиИмпорта" category="Record">
+				<xr:TypeId>3e1a7bfc-d684-4f1f-879d-679c858aeb4f</xr:TypeId>
+				<xr:ValueId>73129441-5fc6-4930-b5cf-6b4489eadeb2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КСП_УПП_ОшибкиИмпорта" category="Manager">
-				<xr:TypeId>ff68acdd-cc17-4731-ab7e-e071f874d64d</xr:TypeId>
-				<xr:ValueId>c6dcd34f-24cf-4442-b54b-ea82462ecb8c</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.удалить_КСП_УПП_ОшибкиИмпорта" category="Manager">
+				<xr:TypeId>987bf44e-dc89-49fc-893e-8a59f6c33bba</xr:TypeId>
+				<xr:ValueId>1ed96484-6b81-4cc9-9526-6b32b8dc0893</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КСП_УПП_ОшибкиИмпорта" category="Selection">
-				<xr:TypeId>7a2c1ac0-3f64-4d03-870e-76afcaafc454</xr:TypeId>
-				<xr:ValueId>8d07fb1f-42ea-4e1b-927f-e01a55c5b70a</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.удалить_КСП_УПП_ОшибкиИмпорта" category="Selection">
+				<xr:TypeId>1717c541-38d1-401d-b289-f4a0305da4f4</xr:TypeId>
+				<xr:ValueId>97a7fed6-8116-4d39-819b-6feea149cb98</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КСП_УПП_ОшибкиИмпорта" category="List">
-				<xr:TypeId>fd450fde-3e30-4be8-978c-b6514fba3db9</xr:TypeId>
-				<xr:ValueId>269139a1-a42b-466a-ad27-e9a2cab7bb92</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.удалить_КСП_УПП_ОшибкиИмпорта" category="List">
+				<xr:TypeId>bdc2592a-cde4-4672-b7a5-1ae4a84fabf7</xr:TypeId>
+				<xr:ValueId>6f9fb123-4b71-4556-a7d2-0d22ba55513d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_УПП_ОшибкиИмпорта" category="RecordSet">
-				<xr:TypeId>3b191747-f516-4ac2-97b2-79027878e081</xr:TypeId>
-				<xr:ValueId>4fdf6ff4-c9a0-464e-9fe0-e1ae7f211026</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.удалить_КСП_УПП_ОшибкиИмпорта" category="RecordSet">
+				<xr:TypeId>90b092b5-0a80-4e57-9c39-e1ddf71d2883</xr:TypeId>
+				<xr:ValueId>9af7d2c3-8070-4e53-9b5c-f16c23d5dccb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_УПП_ОшибкиИмпорта" category="RecordKey">
-				<xr:TypeId>fd71c5c9-a729-4563-8bc1-a7e56d231666</xr:TypeId>
-				<xr:ValueId>58cced55-6f4a-419f-99e0-b2ef167ef5cc</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.удалить_КСП_УПП_ОшибкиИмпорта" category="RecordKey">
+				<xr:TypeId>d85407db-9e09-4ac3-868b-f9aad80c754b</xr:TypeId>
+				<xr:ValueId>e8d3969a-0bda-41bb-aea0-c67f8b9aa4fb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_УПП_ОшибкиИмпорта" category="RecordManager">
-				<xr:TypeId>9954e435-4fce-40dc-a939-bd323a74acc8</xr:TypeId>
-				<xr:ValueId>de0b5f5c-8b33-4f99-a1c5-b8175694e02b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.удалить_КСП_УПП_ОшибкиИмпорта" category="RecordManager">
+				<xr:TypeId>e32ab6f6-2031-4410-ad8e-00830d77a7d7</xr:TypeId>
+				<xr:ValueId>07d1fe01-9d51-48d1-8193-2c5476491255</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КСП_УПП_ОшибкиИмпорта</Name>
+			<Name>удалить_КСП_УПП_ОшибкиИмпорта</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регистр: Ошибки импорта УПП</v8:content>
+					<v8:content>удалить</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,7 +170,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c7f94529-eaf1-4c78-bdc1-2232816c21f0">
+			<Attribute uuid="cc637e89-e5ef-4ed5-a861-ea34b451d691">
 				<Properties>
 					<Name>ВремяСобытия</Name>
 					<Synonym>
@@ -212,7 +212,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8569759c-80f8-47d6-9630-c09d5c8bd10e">
+			<Attribute uuid="3338ed71-4024-47a5-9559-f9e53a8ab435">
 				<Properties>
 					<Name>ТекстСообщения</Name>
 					<Synonym>
@@ -255,7 +255,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="23c8c9f5-ae6d-4377-8da4-c38722dcd07f">
+			<Attribute uuid="49459ede-d7a2-422e-90f4-96c59864ca7d">
 				<Properties>
 					<Name>ЛогикаСклад</Name>
 					<Synonym>
@@ -294,7 +294,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8fec3b59-d6b9-4415-aec2-1cc0d2be95f6">
+			<Attribute uuid="9b399eb9-db85-4903-bfe9-a26bb9f964bd">
 				<Properties>
 					<Name>ЛогикаПеремещения</Name>
 					<Synonym>
@@ -333,7 +333,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="58cecc37-4bea-46ef-be2d-50926bc0c205">
+			<Attribute uuid="faef646d-443e-47bc-ba31-792613b3f9e5">
 				<Properties>
 					<Name>Обработчик</Name>
 					<Synonym>
@@ -372,7 +372,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8cb7a76f-0ac1-4f40-ae38-d6fd3514f2a0">
+			<Attribute uuid="2424a1f9-845d-450e-af29-68e8ffb520bb">
 				<Properties>
 					<Name>ПредставлениеДокументаУПП</Name>
 					<Synonym>
@@ -415,7 +415,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="38026797-2942-4d6c-b49b-9b703ba67b6f">
+			<Attribute uuid="a3348b88-e272-4d5f-9701-a74f35d14500">
 				<Properties>
 					<Name>ОшибкаИсправлена</Name>
 					<Synonym>
@@ -454,62 +454,20 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5b8f8147-8531-42dc-8aa9-88777cb60c2c">
+			<Attribute uuid="070ebadd-6453-41de-955e-4c03c7db719c">
 				<Properties>
-					<Name>ДатаДокумента</Name>
+					<Name>ГУИДДокументаУПП</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата документа</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>DateTime</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="3f1046d6-2eb9-4a6a-b491-96fab71a19f9">
-				<Properties>
-					<Name>НомерДокумента</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Номер документа</v8:content>
+							<v8:content>ГУИДДокумента УПП</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
+							<v8:Length>36</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -539,124 +497,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="c3368410-f7ff-43f9-968a-8bd28d4abe0c">
-				<Properties>
-					<Name>Склад</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Склад</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.КСП_СкладыУПП</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="5da9f462-c8c1-4664-9fab-3e75e57e8c95">
-				<Properties>
-					<Name>СкладОтправитель</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Склад отправитель</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.КСП_СкладыУПП</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="b8b9a217-faef-4975-b593-ab239f6adbb2">
-				<Properties>
-					<Name>СкладПолучатель</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Склад получатель</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.КСП_СкладыУПП</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Dimension uuid="8d228420-30da-4478-8f3b-25f3f6e0a237">
+			<Dimension uuid="355fafe2-8188-4227-9372-67635e599ac7">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>
@@ -702,20 +543,65 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="8a89de2f-04b5-4e49-91c1-230ab7b4c0f3">
+			<Dimension uuid="4ec60623-cabd-41e8-9d1c-2e7472fbe793">
 				<Properties>
-					<Name>ГУИДДокументаУПП</Name>
+					<Name>ДатаДокумента</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ГУИДДокумента УПП</v8:content>
+							<v8:content>Дата документа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f5a61218-47dc-430d-8097-91e57cff0426">
+				<Properties>
+					<Name>НомерДокумента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер документа</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>36</v8:Length>
+							<v8:Length>20</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -731,6 +617,132 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f1309fbb-99db-4b8b-b4b0-89728241b99a">
+				<Properties>
+					<Name>Склад</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КСП_СкладыУПП</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ea78e5b6-85c4-45ba-bc23-222c7d462ec6">
+				<Properties>
+					<Name>СкладОтправитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад отправитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КСП_СкладыУПП</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f6ca5e61-7c71-4a13-b4d1-b8d98417ada6">
+				<Properties>
+					<Name>СкладПолучатель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад получатель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КСП_СкладыУПП</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
