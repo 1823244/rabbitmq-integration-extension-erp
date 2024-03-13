@@ -334,7 +334,7 @@
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер" id="5a2f648d-4740-41eb-ab62-e1402c49a31d" configVersion="0e9f1a5c9fb8fc332d8861e62b340d7507fa5989"/>
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер.Module" id="5a2f648d-4740-41eb-ab62-e1402c49a31d.0" configVersion="ea5eb99b500166431ae169e683e2107d67236fc6"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебный" id="af4e9f25-cec3-4e30-8a49-02c78b713528" configVersion="ac3b8e9e37f144e54107ceab362b34bc8ee9c122"/>
-		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="b0a7352f6574f67211f3e6bdc91ec589c07664e8"/>
+		<Metadata name="CommonModule.ксп_ЭкспортСлужебный.Module" id="af4e9f25-cec3-4e30-8a49-02c78b713528.0" configVersion="9acde86c06cc174b05b6993986edb04bc7f0931d"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d" configVersion="24d95ece84373faafe72c820bb69420519dd3e0f"/>
 		<Metadata name="CommonModule.ксп_ЭкспортСлужебныйПовтИсп.Module" id="adbee0b7-b4c0-43bf-9f3c-c2ff09c50f1d.0" configVersion="b9ab83081aa0eec6a8336a15d11efb82ad2c87cb"/>
 		<Metadata name="CommonModule.ксп_Элис_ОбщегоНазначения" id="8f2108bf-a593-4411-b300-12e64bc0dad6" configVersion="438dca3bc44c2300e473869b2a10663734bc38c4"/>
@@ -1214,7 +1214,7 @@
 			<Metadata name="InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности.Resource.ЗаказНаПеремещение" id="76b2a132-635c-427b-b867-34be7429fb15"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности.Resource.ОтчетПроизводстваДата" id="eb1401bb-9ba8-46eb-9f52-6375e3977682"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта" id="0f173831-00f8-48b0-b97f-835d851e7c00" configVersion="6126f8f9cc4bcb20bcfc067c54c13754cfa93c96">
+		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта" id="0f173831-00f8-48b0-b97f-835d851e7c00" configVersion="a00d0bd20133cd002f9b17d5aef10db0551e0284">
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ЛогикаСклад" id="23c8c9f5-ae6d-4377-8da4-c38722dcd07f"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ОшибкаИсправлена" id="38026797-2942-4d6c-b49b-9b703ba67b6f"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.НомерДокумента" id="3f1046d6-2eb9-4a6a-b491-96fab71a19f9"/>
@@ -1230,6 +1230,8 @@
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.Склад" id="c3368410-f7ff-43f9-968a-8bd28d4abe0c"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ВремяСобытия" id="c7f94529-eaf1-4c78-bdc1-2232816c21f0"/>
 		</Metadata>
+		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Form.ФормаСписка" id="04491912-7322-4ed8-aa11-a7eb4debd949" configVersion="2391af41195ffed67346cb794846f61464adeaee"/>
+		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Form.ФормаСписка.Form" id="04491912-7322-4ed8-aa11-a7eb4debd949.0" configVersion="32a482cc2d8602b05bffdbea7c88224e162c4402"/>
 		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.ManagerModule" id="0f173831-00f8-48b0-b97f-835d851e7c00.2" configVersion="af0330fdb978f4da4d902b1a0fa29f60eb2c52a2"/>
 		<Metadata name="InformationRegister.ТаможенныеДекларацииЭкспортКРегистрации" id="3d2b9cb3-a46b-404e-a926-a29f1a758c06" configVersion="29f2e871b9ab75d1aab670416a31c753699bb8f3">
 			<Metadata name="InformationRegister.ТаможенныеДекларацииЭкспортКРегистрации.Resource.Контрагент" id="1c4c0e62-f3be-4c56-8de2-cf50469ff46f"/>
