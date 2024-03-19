@@ -656,6 +656,86 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="f0990ba8-2974-418e-8dff-7e8e1155f39b">
+				<Properties>
+					<Name>ЗагруженныйДокумент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загруженный документ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЭтапПроизводства2_2</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
+						<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
+						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
+						<v8:Type>cfg:DocumentRef.КСП_Распределение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ИзменениеАссортимента</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМКоррекции</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОтчетКомиссионера</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВыемкаДенежныхСредствИзКассыККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПриходныйКассовыйОрдер</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПоступлениеБезналичныхДенежныхСредств</v8:Type>
+						<v8:Type>cfg:DocumentRef.СписаниеНедостачТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.КСП_ПланПродажПоКоллекциям</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОРозничныхПродажах</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПодтверждениеЗачисленияЗарплаты</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВнесениеДенежныхСредствВКассуККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияЭкспорт</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаПроизводство2_2</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВозвратВОборотИСМП</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОприходованиеИзлишковТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМВозврат</v8:Type>
+						<v8:Type>cfg:DocumentRef.ДвижениеПродукцииИМатериалов</v8:Type>
+						<v8:Type>cfg:DocumentRef.УстановкаЦенНоменклатуры</v8:Type>
+						<v8:Type>cfg:DocumentRef.СборкаТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПланПродаж</v8:Type>
+						<v8:Type>cfg:DocumentRef.РасходныйОрдерНаТовары</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВозвратТоваровОтКлиента</v8:Type>
+						<v8:Type>cfg:DocumentRef.СчетНаОплатуКлиенту</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОперацияПоПлатежнойКарте</v8:Type>
+						<v8:Type>cfg:DocumentRef.ДвиженияКМФулфилмент</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Dimension uuid="8d228420-30da-4478-8f3b-25f3f6e0a237">
 				<Properties>
 					<Name>ВидДокумента</Name>
