@@ -16,13 +16,15 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.КСП_ОсновнаяРоль</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ДополнительныеНастройкиИнтеграций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиПередачиНаКомиссию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_ПланПродажПоКоллекциям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ДополнительныеНастройкиИнтеграций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ПланыПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ВыставленныеСчетаПоСтрокамЗаказа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_УПП_ОшибкиИмпорта</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникКонтрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникВидыЦен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникОрганизации</xr:Item>
@@ -71,7 +73,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КСП_ДиспетчерРаспределения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиПеремещений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ДокументыПредоплатыЗаказаКлиента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_УПП_ОшибкиИмпорта</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
