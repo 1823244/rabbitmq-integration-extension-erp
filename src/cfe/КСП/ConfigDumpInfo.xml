@@ -443,7 +443,7 @@
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
 		<Metadata name="CommonPicture.СостояниеСкидкиНаценки" id="e8d50fb9-29f4-4399-8bc2-abeef871843d" configVersion="91eb955ee84de092c0e2e530ca7ff99850fa5432"/>
-		<Metadata name="Configuration.КСП" id="133b8271-b032-4c70-a0f6-7e758b7fa35d" configVersion="89954725246646c2f3d4b36c03542332f16bcf97"/>
+		<Metadata name="Configuration.КСП" id="133b8271-b032-4c70-a0f6-7e758b7fa35d" configVersion="598345c0764f5a880c1aca59540f6f59427f73dc"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="b32339bb-d1ac-4b39-84eb-18acd936bdf0.6" configVersion="d11940c415e1bb7f9bfc820aefca2d7e4269dbf7"/>
 		<Metadata name="Configuration.КСП.SessionModule" id="b32339bb-d1ac-4b39-84eb-18acd936bdf0.7" configVersion="582390c7783247bda2d93649bf48ed810d68bc89"/>
 		<Metadata name="Constant.КСП_Последний_ID_Заказа_RCRM" id="72d33759-c80a-454c-b16c-309166160d83" configVersion="c29479d8e56122f74814e125093f44c80ab89aef"/>
@@ -744,6 +744,7 @@
 		<Metadata name="Document.ОперацияПоПлатежнойКарте" id="943daa7a-4b2d-4423-b8bf-46bb142f24b3" configVersion="5b1b946ffd780ec0a12aea03389bf91821828035"/>
 		<Metadata name="Document.ОприходованиеИзлишковТоваров" id="11b4d6dc-b482-48a1-9f0c-30385d0fb49b" configVersion="bc213d00cc16a941f5f8d9c6dc2d21fb3ba81e66"/>
 		<Metadata name="Document.ОрдерНаОтражениеИзлишковТоваров" id="7698665c-b532-4357-a3b8-e21677499e01" configVersion="98a26b6336650e9747f35fbb33d22df2b0f1b51e"/>
+		<Metadata name="Document.ОрдерНаОтражениеНедостачТоваров" id="602f1231-e661-4892-9e87-72363ab6b05b" configVersion="5a1d7f3bba41fee8f6ec0e82f6f8ea35ad383bb7"/>
 		<Metadata name="Document.ОтчетКомиссионера" id="ff1b9318-3cbe-442a-a853-10ca07c18b97" configVersion="716ef7919bbdd8050a1f689b70aaf91fe9159208"/>
 		<Metadata name="Document.ОтчетОРозничныхПродажах" id="cfaa96f2-f762-4261-8efc-063703222e68" configVersion="669a3b2393ce0bb4ba5883be953154b8d0b77af8"/>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями" id="0bbd5d69-8d87-4bb1-8764-742fdfbd3339" configVersion="9cb14e97ff6009ec011bceafd07c16c6ba859d36">
@@ -1335,7 +1336,7 @@
 			<Metadata name="InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности.Resource.ЗаказНаПеремещение" id="76b2a132-635c-427b-b867-34be7429fb15"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности.Resource.ОтчетПроизводстваДата" id="eb1401bb-9ba8-46eb-9f52-6375e3977682"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта" id="0f173831-00f8-48b0-b97f-835d851e7c00" configVersion="9e0756223543eb4e276533d0cc476f58c59f814b">
+		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта" id="0f173831-00f8-48b0-b97f-835d851e7c00" configVersion="d20eb6357a503e7983e8e3987ef1b2e26be98c83">
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ЛогикаСклад" id="23c8c9f5-ae6d-4377-8da4-c38722dcd07f"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ОшибкаИсправлена" id="38026797-2942-4d6c-b49b-9b703ba67b6f"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.НомерДокумента" id="3f1046d6-2eb9-4a6a-b491-96fab71a19f9"/>

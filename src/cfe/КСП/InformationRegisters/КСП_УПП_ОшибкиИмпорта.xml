@@ -691,6 +691,7 @@
 						<v8:Type>cfg:DocumentRef.ПодтверждениеЗачисленияЗарплаты</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВнесениеДенежныхСредствВКассуККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОрдерНаОтражениеНедостачТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияЭкспорт</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>

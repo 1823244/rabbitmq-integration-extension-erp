@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="602f1231-e661-4892-9e87-72363ab6b05b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОрдерНаОтражениеНедостачТоваров" category="Object">
+				<xr:TypeId>b6a89e23-284f-4a16-8b95-f08a467d4e0f</xr:TypeId>
+				<xr:ValueId>9599207d-f95f-4068-ae3f-16acbecc963c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОрдерНаОтражениеНедостачТоваров" category="Ref">
+				<xr:TypeId>8172cba0-77bf-41e3-a4b0-2874c3c9379e</xr:TypeId>
+				<xr:ValueId>6cbc75bb-a1e5-4f8b-9b38-581653e74445</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОрдерНаОтражениеНедостачТоваров" category="Selection">
+				<xr:TypeId>9545d78b-787c-4a03-ac12-db74a577b787</xr:TypeId>
+				<xr:ValueId>e6383f79-8fc6-4bca-b9c4-e92f4ac1f7ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОрдерНаОтражениеНедостачТоваров" category="List">
+				<xr:TypeId>42d1318f-f01a-4d34-bb9e-ed64aac2f3be</xr:TypeId>
+				<xr:ValueId>70d6092d-6715-4c1a-82fc-1973d486275c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОрдерНаОтражениеНедостачТоваров" category="Manager">
+				<xr:TypeId>55564fcb-e1cb-4a67-8596-4176b4c3ed56</xr:TypeId>
+				<xr:ValueId>74663d0f-0902-4ef2-9898-173a4b16fa01</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОрдерНаОтражениеНедостачТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b8875900-c91c-4f5c-a6db-eb5c60bbf5c1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
