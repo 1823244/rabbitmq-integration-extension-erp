@@ -123,6 +123,7 @@
 			<CommonModule>мис_УправлениеЗаданиямиСлужебный</CommonModule>
 			<CommonModule>ксп_Функции</CommonModule>
 			<CommonModule>ксп_ВыполнениеКода</CommonModule>
+			<CommonModule>ОчередьЗаданийСлужебный</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
@@ -131,7 +132,7 @@
 			<HTTPService>КСП_ОстаткиДляФулфилмент</HTTPService>
 			<EventSubscription>ксп_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>ксп_ПриЗаписиСправочника</EventSubscription>
-			<ScheduledJob>мис_Планировщик</ScheduledJob>
+			<ScheduledJob>УдалитьОбработкаОчередиЗаданийБТС</ScheduledJob>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>Артикул</DefinedType>
