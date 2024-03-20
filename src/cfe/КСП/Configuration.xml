@@ -121,9 +121,8 @@
 			<CommonModule>мис_УправлениеЗаданиямиОбщегоНазначенияСервер</CommonModule>
 			<CommonModule>мис_УправлениеЗаданиямиКлиентСервер</CommonModule>
 			<CommonModule>мис_УправлениеЗаданиямиСлужебный</CommonModule>
-			<CommonModule>мис_Функции</CommonModule>
-			<CommonModule>тм_ВыполнениеКода</CommonModule>
-			<CommonModule>sf_SessionParameters</CommonModule>
+			<CommonModule>ксп_Функции</CommonModule>
+			<CommonModule>ксп_ВыполнениеКода</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
