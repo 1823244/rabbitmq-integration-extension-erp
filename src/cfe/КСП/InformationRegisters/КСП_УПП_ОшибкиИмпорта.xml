@@ -670,6 +670,7 @@
 						<v8:Type>cfg:DocumentRef.ЭтапПроизводства2_2</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
 						<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОрдерНаОтражениеИзлишковТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
 						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
