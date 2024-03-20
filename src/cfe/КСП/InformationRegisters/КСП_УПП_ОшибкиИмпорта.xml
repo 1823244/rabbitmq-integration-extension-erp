@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="3fd0e56a-518f-4484-ad88-fc58b60419f0">
+	<InformationRegister uuid="0f173831-00f8-48b0-b97f-835d851e7c00">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.КСП_УПП_ОшибкиИмпорта" category="Record">
-				<xr:TypeId>3e1a7bfc-d684-4f1f-879d-679c858aeb4f</xr:TypeId>
-				<xr:ValueId>73129441-5fc6-4930-b5cf-6b4489eadeb2</xr:ValueId>
+				<xr:TypeId>786b82e4-9bb9-4608-a06c-5d95a47410a4</xr:TypeId>
+				<xr:ValueId>43a21e7e-3846-4c85-8c63-606eee36fd35</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.КСП_УПП_ОшибкиИмпорта" category="Manager">
-				<xr:TypeId>987bf44e-dc89-49fc-893e-8a59f6c33bba</xr:TypeId>
-				<xr:ValueId>1ed96484-6b81-4cc9-9526-6b32b8dc0893</xr:ValueId>
+				<xr:TypeId>ff68acdd-cc17-4731-ab7e-e071f874d64d</xr:TypeId>
+				<xr:ValueId>c6dcd34f-24cf-4442-b54b-ea82462ecb8c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.КСП_УПП_ОшибкиИмпорта" category="Selection">
-				<xr:TypeId>1717c541-38d1-401d-b289-f4a0305da4f4</xr:TypeId>
-				<xr:ValueId>97a7fed6-8116-4d39-819b-6feea149cb98</xr:ValueId>
+				<xr:TypeId>7a2c1ac0-3f64-4d03-870e-76afcaafc454</xr:TypeId>
+				<xr:ValueId>8d07fb1f-42ea-4e1b-927f-e01a55c5b70a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.КСП_УПП_ОшибкиИмпорта" category="List">
-				<xr:TypeId>bdc2592a-cde4-4672-b7a5-1ae4a84fabf7</xr:TypeId>
-				<xr:ValueId>6f9fb123-4b71-4556-a7d2-0d22ba55513d</xr:ValueId>
+				<xr:TypeId>fd450fde-3e30-4be8-978c-b6514fba3db9</xr:TypeId>
+				<xr:ValueId>269139a1-a42b-466a-ad27-e9a2cab7bb92</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_УПП_ОшибкиИмпорта" category="RecordSet">
-				<xr:TypeId>90b092b5-0a80-4e57-9c39-e1ddf71d2883</xr:TypeId>
-				<xr:ValueId>9af7d2c3-8070-4e53-9b5c-f16c23d5dccb</xr:ValueId>
+				<xr:TypeId>3b191747-f516-4ac2-97b2-79027878e081</xr:TypeId>
+				<xr:ValueId>4fdf6ff4-c9a0-464e-9fe0-e1ae7f211026</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_УПП_ОшибкиИмпорта" category="RecordKey">
-				<xr:TypeId>d85407db-9e09-4ac3-868b-f9aad80c754b</xr:TypeId>
-				<xr:ValueId>e8d3969a-0bda-41bb-aea0-c67f8b9aa4fb</xr:ValueId>
+				<xr:TypeId>fd71c5c9-a729-4563-8bc1-a7e56d231666</xr:TypeId>
+				<xr:ValueId>58cced55-6f4a-419f-99e0-b2ef167ef5cc</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_УПП_ОшибкиИмпорта" category="RecordManager">
-				<xr:TypeId>e32ab6f6-2031-4410-ad8e-00830d77a7d7</xr:TypeId>
-				<xr:ValueId>07d1fe01-9d51-48d1-8193-2c5476491255</xr:ValueId>
+				<xr:TypeId>9954e435-4fce-40dc-a939-bd323a74acc8</xr:TypeId>
+				<xr:ValueId>de0b5f5c-8b33-4f99-a1c5-b8175694e02b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -170,7 +170,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="cc637e89-e5ef-4ed5-a861-ea34b451d691">
+			<Attribute uuid="c7f94529-eaf1-4c78-bdc1-2232816c21f0">
 				<Properties>
 					<Name>ВремяСобытия</Name>
 					<Synonym>
@@ -212,7 +212,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3338ed71-4024-47a5-9559-f9e53a8ab435">
+			<Attribute uuid="8569759c-80f8-47d6-9630-c09d5c8bd10e">
 				<Properties>
 					<Name>ТекстСообщения</Name>
 					<Synonym>
@@ -255,7 +255,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="49459ede-d7a2-422e-90f4-96c59864ca7d">
+			<Attribute uuid="23c8c9f5-ae6d-4377-8da4-c38722dcd07f">
 				<Properties>
 					<Name>ЛогикаСклад</Name>
 					<Synonym>
@@ -294,7 +294,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9b399eb9-db85-4903-bfe9-a26bb9f964bd">
+			<Attribute uuid="8fec3b59-d6b9-4415-aec2-1cc0d2be95f6">
 				<Properties>
 					<Name>ЛогикаПеремещения</Name>
 					<Synonym>
@@ -333,7 +333,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="faef646d-443e-47bc-ba31-792613b3f9e5">
+			<Attribute uuid="58cecc37-4bea-46ef-be2d-50926bc0c205">
 				<Properties>
 					<Name>Обработчик</Name>
 					<Synonym>
@@ -372,7 +372,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2424a1f9-845d-450e-af29-68e8ffb520bb">
+			<Attribute uuid="8cb7a76f-0ac1-4f40-ae38-d6fd3514f2a0">
 				<Properties>
 					<Name>ПредставлениеДокументаУПП</Name>
 					<Synonym>
@@ -415,7 +415,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a3348b88-e272-4d5f-9701-a74f35d14500">
+			<Attribute uuid="38026797-2942-4d6c-b49b-9b703ba67b6f">
 				<Properties>
 					<Name>ОшибкаИсправлена</Name>
 					<Synonym>
@@ -670,6 +670,7 @@
 						<v8:Type>cfg:DocumentRef.ЭтапПроизводства2_2</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
 						<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОрдерНаОтражениеИзлишковТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
 						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
@@ -677,7 +678,6 @@
 						<v8:Type>cfg:DocumentRef.ИзменениеАссортимента</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМКоррекции</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
-						<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
 						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
@@ -691,6 +691,7 @@
 						<v8:Type>cfg:DocumentRef.ПодтверждениеЗачисленияЗарплаты</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВнесениеДенежныхСредствВКассуККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияЭкспорт</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
@@ -700,8 +701,8 @@
 						<v8:Type>cfg:DocumentRef.ЧекККМВозврат</v8:Type>
 						<v8:Type>cfg:DocumentRef.ДвижениеПродукцииИМатериалов</v8:Type>
 						<v8:Type>cfg:DocumentRef.УстановкаЦенНоменклатуры</v8:Type>
-						<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияЭкспорт</v8:Type>
 						<v8:Type>cfg:DocumentRef.СборкаТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПланПродаж</v8:Type>
 						<v8:Type>cfg:DocumentRef.РасходныйОрдерНаТовары</v8:Type>
@@ -736,7 +737,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Dimension uuid="355fafe2-8188-4227-9372-67635e599ac7">
+			<Dimension uuid="8d228420-30da-4478-8f3b-25f3f6e0a237">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>
