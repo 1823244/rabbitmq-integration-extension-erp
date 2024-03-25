@@ -679,6 +679,7 @@
 						<v8:Type>cfg:DocumentRef.ЧекККМКоррекции</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
 						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОтчетКомиссионера</v8:Type>
