@@ -1,36 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Constant uuid="72d33759-c80a-454c-b16c-309166160d83">
+	<Constant uuid="6ac20245-d66c-484a-b4bb-3ab4b61976c3">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.КСП_Последний_ID_Заказа_RCRM" category="Manager">
-				<xr:TypeId>3f058892-40a0-4f54-842a-5a9c96d82a52</xr:TypeId>
-				<xr:ValueId>46574d3c-bfe5-450d-acc6-09faf90f7c69</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ксп_АктивнаяНастройкаRetailCRM" category="Manager">
+				<xr:TypeId>36625f68-426b-4d3a-9117-b30fc73b7003</xr:TypeId>
+				<xr:ValueId>d6544edf-53fd-4637-9337-f1ad5fb378bb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.КСП_Последний_ID_Заказа_RCRM" category="ValueManager">
-				<xr:TypeId>9d6fea3f-bc41-4676-92b3-f60d4cd84ee0</xr:TypeId>
-				<xr:ValueId>cfdc50c7-8797-41ee-a015-9817389ff158</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.ксп_АктивнаяНастройкаRetailCRM" category="ValueManager">
+				<xr:TypeId>88eec3bd-8abf-49cd-93b4-1f46c7c993c8</xr:TypeId>
+				<xr:ValueId>e5223ed7-af19-46f2-9684-f265db3d7476</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.КСП_Последний_ID_Заказа_RCRM" category="ValueKey">
-				<xr:TypeId>d7f59405-53e8-40e6-b923-67ec7a6b6d50</xr:TypeId>
-				<xr:ValueId>4e7f1e32-5151-49c2-94f0-04a17549c0d0</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueKey.ксп_АктивнаяНастройкаRetailCRM" category="ValueKey">
+				<xr:TypeId>96f155e3-c937-4e45-abac-ad042acf7945</xr:TypeId>
+				<xr:ValueId>e4c4fded-2b3d-4a69-be96-be61fc48d44b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КСП_Последний_ID_Заказа_RCRM</Name>
+			<Name>ксп_АктивнаяНастройкаRetailCRM</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Константа: Последний ID заказа RCRM</v8:content>
+					<v8:content>Ксп активная настройка retail CRM</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:Type>cfg:ChartOfCharacteristicTypesRef.КСП_НастройкиRetailCRM</v8:Type>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
@@ -47,7 +42,7 @@
 			<MinValue xsi:nil="true"/>
 			<MaxValue xsi:nil="true"/>
 			<FillChecking>DontCheck</FillChecking>
-			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
 			<ChoiceParameterLinks/>
 			<ChoiceParameters/>
 			<QuickChoice>Auto</QuickChoice>

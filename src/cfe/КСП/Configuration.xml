@@ -148,8 +148,9 @@
 			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
 			<Constant>ксп_ПодключениеКЧестномуЗнаку</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекRetailCRM</Constant>
-			<Constant>КСП_Последний_ID_Заказа_RCRM</Constant>
+			<Constant>ксп_Последний_ID_Заказа_RCRM</Constant>
 			<Constant>мис_ЛимитФоновыхЗаданий</Constant>
+			<Constant>ксп_АктивнаяНастройкаRetailCRM</Constant>
 			<CommonForm>мис_УровеньЛогов</CommonForm>
 			<Catalog>мис_ИндексЛога</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
@@ -331,6 +332,7 @@
 			<DataProcessor>мис_Logger_Appender_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>мис_Logger_Appender_СпрЛогСообщений</DataProcessor>
 			<DataProcessor>мис_Logger_Appender_ТекстовыйФайл</DataProcessor>
+			<DataProcessor>ксп_РаботаСКлючамиАналитикиНоменклатуры</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>

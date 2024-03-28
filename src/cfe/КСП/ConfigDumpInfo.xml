@@ -403,7 +403,7 @@
 		<Metadata name="CommonModule.ксп_ВыполнениеКода" id="c4eb6117-c990-464a-ac00-31a3a7a211fd" configVersion="baf053fb7c374b39f5014124a9031137cb6542f6"/>
 		<Metadata name="CommonModule.ксп_ВыполнениеКода.Module" id="c4eb6117-c990-464a-ac00-31a3a7a211fd.0" configVersion="f351b21c815ddf1af24a4193a887338b2891e03a"/>
 		<Metadata name="CommonModule.ксп_ИмпортСлужебный" id="2badf495-f58f-47e7-9e91-472a2bee47a7" configVersion="4d31cd70471c815916019cd6128121be32a92337"/>
-		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="c074fed008b7308e0cc1fa764fda9099087e4edf"/>
+		<Metadata name="CommonModule.ксп_ИмпортСлужебный.Module" id="2badf495-f58f-47e7-9e91-472a2bee47a7.0" configVersion="3a51c924649ee320217cb454a760946b00276ae7"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия" id="09b456c4-724e-4c62-b972-02e0a02a4258" configVersion="fe1efabddec5246b04e666f6ee24f80906c9d4c4"/>
 		<Metadata name="CommonModule.ксп_ПодпискиНаСобытия.Module" id="09b456c4-724e-4c62-b972-02e0a02a4258.0" configVersion="0c7f07162f531d0787634956dc045a44be71c300"/>
 		<Metadata name="CommonModule.ксп_СкидкиНаценкиСервер" id="5a2f648d-4740-41eb-ab62-e1402c49a31d" configVersion="0e9f1a5c9fb8fc332d8861e62b340d7507fa5989"/>
@@ -443,11 +443,12 @@
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
 		<Metadata name="CommonPicture.СостояниеСкидкиНаценки" id="e8d50fb9-29f4-4399-8bc2-abeef871843d" configVersion="91eb955ee84de092c0e2e530ca7ff99850fa5432"/>
-		<Metadata name="Configuration.КСП" id="133b8271-b032-4c70-a0f6-7e758b7fa35d" configVersion="cbf57f2307d6f5ac482bb8f5ffa41c6a3960a43c"/>
+		<Metadata name="Configuration.КСП" id="133b8271-b032-4c70-a0f6-7e758b7fa35d" configVersion="832e7591f4bd2c6e9fac57785b58675ebd81cb15"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="b32339bb-d1ac-4b39-84eb-18acd936bdf0.6" configVersion="d11940c415e1bb7f9bfc820aefca2d7e4269dbf7"/>
 		<Metadata name="Configuration.КСП.SessionModule" id="b32339bb-d1ac-4b39-84eb-18acd936bdf0.7" configVersion="707a35e319d064544cecbd4fecd56c75c9fa19d0"/>
-		<Metadata name="Constant.КСП_Последний_ID_Заказа_RCRM" id="72d33759-c80a-454c-b16c-309166160d83" configVersion="c29479d8e56122f74814e125093f44c80ab89aef"/>
+		<Metadata name="Constant.ксп_АктивнаяНастройкаRetailCRM" id="6ac20245-d66c-484a-b4bb-3ab4b61976c3" configVersion="84431a2e3d211fd2c7f2f3311d1b9a927291206a"/>
 		<Metadata name="Constant.ксп_ПодключениеКЧестномуЗнаку" id="01fcf730-83db-4082-927a-dc8b98c4fffe" configVersion="3c3a820a8ed464252c44fc24d6be29fb299c25ac"/>
+		<Metadata name="Constant.ксп_Последний_ID_Заказа_RCRM" id="72d33759-c80a-454c-b16c-309166160d83" configVersion="0038eb65e350eb79757c60e232d4420af794d8cb"/>
 		<Metadata name="Constant.ксп_СтрокаПодключенияКРабочейБазе" id="c9486512-10b6-4406-86af-26d3ff711828" configVersion="e1fb49e4a7dbc767abc0b4d7f11ecad57dd318cc"/>
 		<Metadata name="Constant.ксп_ТекущаяВерсияНастроекRetailCRM" id="f62fa347-e3ae-4889-b402-c04556d050f9" configVersion="06bc9e54f91f811b93c2928b6def8d9c446bd8d4"/>
 		<Metadata name="Constant.ксп_ТекущаяВерсияНастроекФФ" id="7c8f8023-557f-4726-8e34-89e7393defef" configVersion="95782c0210007e1faaa2f4ac00b7d0dd78efb9fa"/>
@@ -455,7 +456,7 @@
 		<Metadata name="Constant.мис_ЛимитФоновыхЗаданий" id="02317828-03ae-42ff-b3eb-da815fb3784b" configVersion="6cbd303dfd2bc701659e177ca8841bd0312fc95b"/>
 		<Metadata name="DataProcessor.КСП_RetailCRM_РаботаСЗаказами" id="e41fae29-ddb8-4d6f-982a-83404c550e84" configVersion="c3ab4b3e2974acee4253c21a594b63d5cd54dec7"/>
 		<Metadata name="DataProcessor.КСП_RetailCRM_РаботаСЗаказами.Help" id="e41fae29-ddb8-4d6f-982a-83404c550e84.1" configVersion="a47abe8f546411cef71ecdb23371da29b728da5c"/>
-		<Metadata name="DataProcessor.КСП_RetailCRM_РаботаСЗаказами.ObjectModule" id="e41fae29-ddb8-4d6f-982a-83404c550e84.0" configVersion="adda8952c7ee2f18f5dfc740b9d42789968ed29f"/>
+		<Metadata name="DataProcessor.КСП_RetailCRM_РаботаСЗаказами.ObjectModule" id="e41fae29-ddb8-4d6f-982a-83404c550e84.0" configVersion="4eca31399ac47e6a3ae8c95e4f6b581e3808c428"/>
 		<Metadata name="DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции" id="c94ebbea-dddf-4858-ad64-c076c3737722" configVersion="4f05e3e6d74f7e63efe0da943aa959d05e2b0068">
 			<Metadata name="DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции.Attribute.ПланПродаж" id="241a2c07-b792-447e-9797-41c2370cafae"/>
 			<Metadata name="DataProcessor.КСП_ДиспетчерРаспределенияГотовойПродукции.Attribute.АдресИсходныхДанныхКаналы" id="25b035c8-c219-4bc5-8082-855b4cd533c0"/>
@@ -533,6 +534,8 @@
 		<Metadata name="DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций.Form.Форма.Form" id="ef5ead4b-320f-4f74-9027-181394d5c74c.0" configVersion="5ea028e5b853f8b6c8e77f61a27b4a469a164ea6"/>
 		<Metadata name="DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций.Form.Форма1" id="c4a8284d-4ba6-4eb5-975e-e0e8cfdd4df1" configVersion="fd8fc6c7ea1bc0f40b734d5421bd17800a012c45"/>
 		<Metadata name="DataProcessor.ксп_ПервоначальноеЗаполнениеДляИнтеграций.Form.Форма1.Form" id="c4a8284d-4ba6-4eb5-975e-e0e8cfdd4df1.0" configVersion="b3f393cd49ed8b8a7b187c6f8834e04b9b3987eb"/>
+		<Metadata name="DataProcessor.ксп_РаботаСКлючамиАналитикиНоменклатуры" id="460c669a-8873-4e9e-8523-b5c47b831e1d" configVersion="6737a225ab4f86f2700df97c0ca540e20c8cd300"/>
+		<Metadata name="DataProcessor.ксп_РаботаСКлючамиАналитикиНоменклатуры.ObjectModule" id="460c669a-8873-4e9e-8523-b5c47b831e1d.0" configVersion="b511e8297d9a0a915f29fc0701f42a34c8ae5e2f"/>
 		<Metadata name="DataProcessor.ксп_ФорматFE714" id="4be03665-c84a-46fa-8e39-7ddbb78800f8" configVersion="7cadbfee9fc85408d92f0c645a97b55ba9df9219"/>
 		<Metadata name="DataProcessor.ксп_ФорматFE714.ObjectModule" id="4be03665-c84a-46fa-8e39-7ddbb78800f8.0" configVersion="6c6c8456cb52ae2dc4a1b6dab41dab9826ae6dcb"/>
 		<Metadata name="DataProcessor.ксп_ФорматFE720" id="d814a368-1bb7-448b-a1e6-709474b889f6" configVersion="763ada774bb301688598fa1670741447dccdb288"/>
@@ -1337,7 +1340,7 @@
 			<Metadata name="InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности.Resource.ЗаказНаПеремещение" id="76b2a132-635c-427b-b867-34be7429fb15"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности.Resource.ОтчетПроизводстваДата" id="eb1401bb-9ba8-46eb-9f52-6375e3977682"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта" id="0f173831-00f8-48b0-b97f-835d851e7c00" configVersion="7d15db17f7aac3ee66c6a1314a6497896c944483">
+		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта" id="0f173831-00f8-48b0-b97f-835d851e7c00" configVersion="de8e31ef34f04e3a691f06aa5739c1d016642bc5">
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ЛогикаСклад" id="23c8c9f5-ae6d-4377-8da4-c38722dcd07f"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ОшибкаИсправлена" id="38026797-2942-4d6c-b49b-9b703ba67b6f"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.НомерДокумента" id="3f1046d6-2eb9-4a6a-b491-96fab71a19f9"/>
@@ -1349,6 +1352,7 @@
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ПредставлениеДокументаУПП" id="8cb7a76f-0ac1-4f40-ae38-d6fd3514f2a0"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Dimension.ВидДокумента" id="8d228420-30da-4478-8f3b-25f3f6e0a237"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ЛогикаПеремещения" id="8fec3b59-d6b9-4415-aec2-1cc0d2be95f6"/>
+			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Dimension.ВидДокументаПриемник" id="a9cda647-fb44-4ad5-baa1-1d12f5fe4947"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.СкладПолучатель" id="b8b9a217-faef-4975-b593-ab239f6adbb2"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.Склад" id="c3368410-f7ff-43f9-968a-8bd28d4abe0c"/>
 			<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Attribute.ВремяСобытия" id="c7f94529-eaf1-4c78-bdc1-2232816c21f0"/>
@@ -1356,7 +1360,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Form.ФормаСписка" id="04491912-7322-4ed8-aa11-a7eb4debd949" configVersion="2391af41195ffed67346cb794846f61464adeaee"/>
 		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.Form.ФормаСписка.Form" id="04491912-7322-4ed8-aa11-a7eb4debd949.0" configVersion="d3a3034edbdf631eef8b87ba139dcd78c2bae29e"/>
-		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.ManagerModule" id="0f173831-00f8-48b0-b97f-835d851e7c00.2" configVersion="f3ec30f1fce098613c0e3261a2d20fdd4b27705c"/>
+		<Metadata name="InformationRegister.КСП_УПП_ОшибкиИмпорта.ManagerModule" id="0f173831-00f8-48b0-b97f-835d851e7c00.2" configVersion="b4ecfc22311cf84b93b3ad5a47e0d4efb6dfbacb"/>
 		<Metadata name="InformationRegister.ТаможенныеДекларацииЭкспортКРегистрации" id="3d2b9cb3-a46b-404e-a926-a29f1a758c06" configVersion="29f2e871b9ab75d1aab670416a31c753699bb8f3">
 			<Metadata name="InformationRegister.ТаможенныеДекларацииЭкспортКРегистрации.Resource.Контрагент" id="1c4c0e62-f3be-4c56-8de2-cf50469ff46f"/>
 			<Metadata name="InformationRegister.ТаможенныеДекларацииЭкспортКРегистрации.Resource.ДатаРеализации" id="897f8b62-3a6c-4607-9b51-4b0afcee5b90"/>
@@ -1622,7 +1626,7 @@
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
 		<Metadata name="StyleItem.ШрифтНовостей" id="7a5aaedd-37a1-4bc0-812a-18145faf4c4e" configVersion="1b91fa09657466589e6c36ed18e8c2f6156c2869"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="878d410b5c282e2e9f7b42c119746a90b7faebd8"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="09117e5513c08d9800427ff884db709e974355cd"/>
 		<Metadata name="Subsystem.КСП.Subsystem.RetailCRM" id="f9d8aa15-0756-40c9-9e5c-1758c5f1348b" configVersion="892e37451a0c49bc2a2a6c49327f3ab308a53082"/>
 		<Metadata name="Subsystem.КСП.Subsystem.УдаленныеОбъекты" id="d9197e5d-3523-4115-a2b7-17cc3b8e34a5" configVersion="1e6465ab4c886cb5ca922c9500fa32f3fbe60735"/>
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент" id="3f041b08-f22f-4d26-a102-e74cbe761eff" configVersion="18606e44dcfeac0c2eb0be4fd35f8961e3adbd87"/>
