@@ -1,53 +1,53 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="3ff53a12-240b-41cf-9d30-34fa51d3cd45">
+	<InformationRegister uuid="cee513ab-6475-485a-af7b-4f2ace1f2275">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ксп_МэппингСправочникВидыНоменклатуры" category="Record">
-				<xr:TypeId>a3f9c973-a59a-483c-9082-ef6b18103f42</xr:TypeId>
-				<xr:ValueId>1c64a887-c4f2-413b-a641-130704342f2f</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="Record">
+				<xr:TypeId>026cf7f1-bd8f-413e-a613-612d6830ac5f</xr:TypeId>
+				<xr:ValueId>43e26566-a310-4f5a-82e6-54f13663fcf8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ксп_МэппингСправочникВидыНоменклатуры" category="Manager">
-				<xr:TypeId>f539b5cd-20d9-4a4f-bafa-67a9eac7e05e</xr:TypeId>
-				<xr:ValueId>c5993585-bfd1-46e7-b5f9-0391b6b8c0b1</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="Manager">
+				<xr:TypeId>4c953e4d-6443-4350-9142-400ee8da5a46</xr:TypeId>
+				<xr:ValueId>39096078-0b87-42e5-babd-bf7a593a6392</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ксп_МэппингСправочникВидыНоменклатуры" category="Selection">
-				<xr:TypeId>b0b58267-f4e7-4784-81cc-bdcd62ceac7b</xr:TypeId>
-				<xr:ValueId>199e6be2-11ea-4875-a8ca-6b3009c6821d</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="Selection">
+				<xr:TypeId>73cb7923-1e28-46eb-adee-70c6e3c3e93d</xr:TypeId>
+				<xr:ValueId>2b4ad3fd-eebe-4ce5-9a48-ba1ed355f6c8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ксп_МэппингСправочникВидыНоменклатуры" category="List">
-				<xr:TypeId>862889c1-ce25-4e18-89a7-4419b10f6a90</xr:TypeId>
-				<xr:ValueId>138b3834-a7ac-4900-ae31-106ef8a12ae5</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="List">
+				<xr:TypeId>c5f2706f-e654-4943-9ac8-24bf71312e93</xr:TypeId>
+				<xr:ValueId>cb483b50-70a4-46b3-94ff-a683498b70d4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ксп_МэппингСправочникВидыНоменклатуры" category="RecordSet">
-				<xr:TypeId>99e1979f-8b9f-49a5-b7bb-2780e5adc8ca</xr:TypeId>
-				<xr:ValueId>79b69b63-6ece-4f55-9dff-f1618be70077</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="RecordSet">
+				<xr:TypeId>961c8e66-c410-437b-882a-3fe7fd82ac6d</xr:TypeId>
+				<xr:ValueId>e2a0137e-4852-4018-8120-ba360e5f0aa6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ксп_МэппингСправочникВидыНоменклатуры" category="RecordKey">
-				<xr:TypeId>e150aae5-e661-4590-a445-3bdea618daad</xr:TypeId>
-				<xr:ValueId>4171c5be-40c4-4d54-aec8-6576ec6bd942</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="RecordKey">
+				<xr:TypeId>8a087496-5ed1-40a0-a9fe-28d023725d96</xr:TypeId>
+				<xr:ValueId>eb163b64-073f-4997-aefc-c19c29e57fbf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ксп_МэппингСправочникВидыНоменклатуры" category="RecordManager">
-				<xr:TypeId>7f08c7bc-6425-4e15-8305-a06747f793b8</xr:TypeId>
-				<xr:ValueId>384db4f3-4c45-47ec-b7f3-9025215ec18b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КСП_ВыставленныеСчетаПоСтрокамЗаказа" category="RecordManager">
+				<xr:TypeId>2d7ec78f-b5a0-43ee-b026-808087cb16d2</xr:TypeId>
+				<xr:ValueId>b71f4c54-6df5-42c8-a12d-e4165d99c6f0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ксп_МэппингСправочникВидыНоменклатуры</Name>
+			<Name>КСП_ВыставленныеСчетаПоСтрокамЗаказа</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Мэппинг: Справочник Виды Номенклатуры</v8:content>
+					<v8:content>Выставленные счета по строкам заказа (КСП)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.ксп_МэппингСправочникВидыНоменклатуры.Form.ФормаЗаписи</DefaultRecordForm>
-			<DefaultListForm>InformationRegister.ксп_МэппингСправочникВидыНоменклатуры.Form.ФормаСписка</DefaultListForm>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
-			<WriteMode>Independent</WriteMode>
+			<WriteMode>RecorderSubordinate</WriteMode>
 			<MainFilterOnPeriod>false</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -64,18 +64,23 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="869cc2fe-0761-45bc-9860-86cb57ccad2e">
+			<Resource uuid="db29b93c-1181-4874-b6b4-edc4a2a042a7">
 				<Properties>
-					<Name>ВидНоменклатуры</Name>
+					<Name>Заказано</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид номенклатуры</v8:content>
+							<v8:content>Заказано</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -103,22 +108,23 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="65cd0deb-3c44-45c8-befe-37da9b971aa3">
+			<Resource uuid="e8c4d868-f2cf-4fc8-adfb-54a8643a0cee">
 				<Properties>
-					<Name>Соответствие</Name>
+					<Name>Выставлено</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Соответствие</v8:content>
+							<v8:content>Выставлено</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>30</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -131,7 +137,46 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Dimension uuid="13d9b061-e402-473c-a29b-463371080448">
+				<Properties>
+					<Name>Заказ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заказ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -149,22 +194,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="19e72256-e7ff-4564-8f16-53c8332f3bf5">
+			<Dimension uuid="5cc8b90a-ff72-4e58-993d-9c320227d20b">
 				<Properties>
-					<Name>ТипСоответствия</Name>
+					<Name>Счет</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Тип соответствия</v8:content>
+							<v8:content>Счет</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:DocumentRef.СчетНаОплатуКлиенту</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -177,7 +218,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -195,22 +236,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="2bd89423-c65d-44c7-8b7c-dd6e16c8d23f">
+			<Dimension uuid="d0f3c26f-5e0a-4f69-8167-ee66bb8b08e2">
 				<Properties>
-					<Name>ВнешняяСистема</Name>
+					<Name>Номенклатура</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Внешняя система</v8:content>
+							<v8:content>Номенклатура</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -223,7 +260,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -241,22 +278,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="85ad3376-df9d-435f-8d26-f48a3f9c48a3">
+			<Dimension uuid="f0adb687-45ee-440f-a042-3b6dd3c40ce7">
 				<Properties>
-					<Name>ВидВоспроизводства</Name>
+					<Name>ИдентификаторСтрокиЗаказа</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид воспроизводства</v8:content>
+							<v8:content>Идентификатор строки заказа</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>25</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>v8:UUID</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -269,7 +302,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -283,12 +316,10 @@
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
+					<FullTextSearch>DontUse</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Form>ФормаЗаписи</Form>
-			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

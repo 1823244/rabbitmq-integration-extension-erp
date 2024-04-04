@@ -16,13 +16,13 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_ПодключениеКЧестномуЗнаку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДвиженияКМФулфилмент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыводИзОборотаИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратВОборотИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ВыводИзОборотаИСМП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_НастройкиПодключенияКЧестномуЗнаку</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_ПодключениеКЧестномуЗнаку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ОчередьОбменаСЧестнымЗнаком</xr:Item>
 			</Content>
 		</Properties>

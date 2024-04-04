@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Configuration uuid="133b8271-b032-4c70-a0f6-7e758b7fa35d">
+	<Configuration uuid="de5140db-5ca4-4ff6-b551-10dc9bd329d8">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>b32339bb-d1ac-4b39-84eb-18acd936bdf0</xr:ObjectId>
+				<xr:ObjectId>b8a2095b-708b-4722-9ef5-9892571cadf7</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>98d9b19b-8943-4a1f-b981-61ed433856e2</xr:ObjectId>
+				<xr:ObjectId>29307e33-8e7f-45fd-bb93-950fc89af23d</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>b66d4870-1b03-474f-ab23-737df3a8dcc4</xr:ObjectId>
+				<xr:ObjectId>0e52ed82-0575-48fd-b2ca-e84da3328c0b</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>79641453-d1ae-47f4-b824-d498a5820b9b</xr:ObjectId>
+				<xr:ObjectId>ec511a3a-7be3-489d-aa2e-b812631ae85f</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>0d13ab61-18ff-4cb1-b0a7-d0ff0819ea76</xr:ObjectId>
+				<xr:ObjectId>478e5d68-14a5-4762-804c-a836f2f2738f</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>535b73e0-9e1c-4173-b2b8-e94d737444fa</xr:ObjectId>
+				<xr:ObjectId>147def10-01ad-4350-9760-48a5f84c4528</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>80cd589d-eef8-4fc2-a75d-bc4cb6d8a1ba</xr:ObjectId>
+				<xr:ObjectId>e8c20946-c54f-4330-b223-a22b905da232</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -111,6 +111,7 @@
 			<CommonModule>ПриходныйКассовыйОрдерЛокализация</CommonModule>
 			<CommonModule>ПоступлениеБезналичныхДенежныхСредствЛокализация</CommonModule>
 			<CommonModule>ЗаказКлиентаЛокализация</CommonModule>
+			<CommonModule>СчетНаОплатуКлиентуЛокализация</CommonModule>
 			<CommonModule>mis_LoggerServer</CommonModule>
 			<CommonModule>мис_ЛоггерКлиент</CommonModule>
 			<CommonModule>мис_ЛоггерСервер</CommonModule>
@@ -148,9 +149,8 @@
 			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
 			<Constant>ксп_ПодключениеКЧестномуЗнаку</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекRetailCRM</Constant>
-			<Constant>ксп_Последний_ID_Заказа_RCRM</Constant>
+			<Constant>КСП_Последний_ID_Заказа_RCRM</Constant>
 			<Constant>мис_ЛимитФоновыхЗаданий</Constant>
-			<Constant>ксп_АктивнаяНастройкаRetailCRM</Constant>
 			<CommonForm>мис_УровеньЛогов</CommonForm>
 			<Catalog>мис_ИндексЛога</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
@@ -332,7 +332,6 @@
 			<DataProcessor>мис_Logger_Appender_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>мис_Logger_Appender_СпрЛогСообщений</DataProcessor>
 			<DataProcessor>мис_Logger_Appender_ТекстовыйФайл</DataProcessor>
-			<DataProcessor>ксп_РаботаСКлючамиАналитикиНоменклатуры</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
@@ -380,6 +379,7 @@
 			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
 			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
 			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
+			<InformationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа</InformationRegister>
 			<InformationRegister>мис_УровеньЛогов</InformationRegister>
 			<InformationRegister>мис_СтатусВыполненияЗаданий</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>

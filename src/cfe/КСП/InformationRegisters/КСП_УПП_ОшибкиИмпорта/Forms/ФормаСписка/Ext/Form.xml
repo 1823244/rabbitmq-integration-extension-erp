@@ -12,7 +12,6 @@
 				<InputField name="ВидДокументов" id="58">
 					<DataPath>ВидДокументов</DataPath>
 					<ClearButton>true</ClearButton>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ВидДокументовКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="ВидДокументовРасширеннаяПодсказка" id="60"/>
 					<Events>

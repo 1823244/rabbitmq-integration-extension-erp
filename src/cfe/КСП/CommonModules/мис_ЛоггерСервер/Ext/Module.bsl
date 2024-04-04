@@ -178,7 +178,7 @@ EndFunction
 // Конструктор класса
 Function гетЛоггер(Знач ИдВызова = Неопределено, Знач ИмяЛога = Неопределено) Export
 	
-	return mis_LoggerServer.getLogger(ИдВызова ,  ИмяЛога );
+	return getLogger(ИдВызова, ИмяЛога);
 	
 EndFunction
 
