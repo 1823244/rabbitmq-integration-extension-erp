@@ -996,9 +996,10 @@
 			<Metadata name="Enum.КСП_СтатусыОтложенногоПроведения.EnumValue.ОшибкаПроведения" id="24c01d52-854f-4625-ab48-937ea2f987b6"/>
 			<Metadata name="Enum.КСП_СтатусыОтложенногоПроведения.EnumValue.НеПроведен" id="e83333e4-80aa-4d2a-a379-48c638495b63"/>
 		</Metadata>
-		<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва" id="b1ca2d64-692d-485c-bf21-c4775db50928" configVersion="567157055acf3db2b738452bcb2efc993533d57a">
+		<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва" id="b1ca2d64-692d-485c-bf21-c4775db50928" configVersion="e6b823148342480b771ad3319178eece5978aba1">
 			<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва.EnumValue.РаспределениеГотовойПродукции" id="076b3373-68d0-4a79-88a6-a051b3859285"/>
 			<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва.EnumValue.Резерв2Разбраковка" id="3f219f85-4e1a-425e-8352-32b09e6be96b"/>
+			<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва.EnumValue.Брак" id="45ae6627-4ebf-4bc8-a711-927849aed5a5"/>
 			<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва.EnumValue.РаспределениеЗакупныхИзделий" id="da1b078f-6d8c-48cf-852e-a6579b2d32c1"/>
 			<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва.EnumValue.РезервКонтрольКачества" id="dfaee797-8588-4a80-b6d0-6dcad7ba1684"/>
 			<Metadata name="Enum.КСП_ТипДокументаСлужебногоРезерва.EnumValue.РаспределениеГотовойПродукцииКаналы" id="f21e79cf-f723-4889-9814-865768017e9e"/>
