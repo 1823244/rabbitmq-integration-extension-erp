@@ -336,7 +336,11 @@
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
+			<InformationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа</InformationRegister>
+			<InformationRegister>КСП_ДокументыПредоплатыЗаказаКлиента</InformationRegister>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
+			<InformationRegister>КСП_ЗагрузкаДокументовПеремещений</InformationRegister>
+			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекRetailCRM</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
@@ -360,28 +364,25 @@
 			<InformationRegister>ксп_МэппингСправочникСкидкиНаценки</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
+			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 			<InformationRegister>КСП_ОчередьОбменаСЧестнымЗнаком</InformationRegister>
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
+			<InformationRegister>КСП_РС_ДиспетчерРаспределения</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
+			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекРеализаций</InformationRegister>
 			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
+			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
+			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
+			<InformationRegister>мис_СтатусВыполненияЗаданий</InformationRegister>
+			<InformationRegister>мис_УровеньЛогов</InformationRegister>
 			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
-			<InformationRegister>КСП_РС_ДиспетчерРаспределения</InformationRegister>
 			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
-			<InformationRegister>КСП_ДокументыПредоплатыЗаказаКлиента</InformationRegister>
-			<InformationRegister>КСП_ЗагрузкаДокументовПеремещений</InformationRegister>
-			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
-			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
-			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
-			<InformationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа</InformationRegister>
-			<InformationRegister>мис_УровеньЛогов</InformationRegister>
-			<InformationRegister>мис_СтатусВыполненияЗаданий</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
