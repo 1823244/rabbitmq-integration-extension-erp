@@ -81,6 +81,7 @@
 			<Subsystem>ЧестныйЗнак</Subsystem>
 			<Subsystem>УдаленныеОбъекты</Subsystem>
 			<Subsystem>RetailCRM</Subsystem>
+			<Subsystem>БазаПоказов</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -125,6 +125,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.Проекты</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ВидыЦен</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -219,5 +223,9 @@
 	<Item>
 		<Metadata>Document.КассоваяСмена</Metadata>
 		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПодразделенияОрганизаций</Metadata>
+		<AutoRecord>Allow</AutoRecord>
 	</Item>
 </ExchangePlanContent>

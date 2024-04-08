@@ -224,6 +224,8 @@
 			<Catalog>мис_СвойстваМетодов</Catalog>
 			<Catalog>мис_УправлениеЗаданиями</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>Проекты</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -269,6 +271,7 @@
 			<Document>ОрдерНаОтражениеИзлишковТоваров</Document>
 			<Document>ОрдерНаОтражениеНедостачТоваров</Document>
 			<Document>ВводОстатковТоваров</Document>
+			<Document>ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
