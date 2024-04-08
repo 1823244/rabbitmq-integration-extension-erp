@@ -27,11 +27,13 @@
 				<v8:Type>cfg:CatalogObject.ВидыЦен</v8:Type>
 				<v8:Type>cfg:CatalogObject.СделкиСКлиентами</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПричиныОтменыЗаказовКлиентов</v8:Type>
+				<v8:Type>cfg:CatalogObject.ПодразделенияОрганизаций</v8:Type>
 				<v8:Type>cfg:CatalogObject.СтатьиДвиженияДенежныхСредств</v8:Type>
 				<v8:Type>cfg:CatalogObject.Кассы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыЗапасов</v8:Type>
 				<v8:Type>cfg:CatalogObject.КартыЛояльности</v8:Type>
 				<v8:Type>cfg:CatalogObject.Номенклатура</v8:Type>
+				<v8:Type>cfg:CatalogObject.Проекты</v8:Type>
 				<v8:Type>cfg:CatalogObject.СерииНоменклатуры</v8:Type>
 				<v8:Type>cfg:CatalogObject.Склады</v8:Type>
 				<v8:Type>cfg:CatalogObject.УпаковкиЕдиницыИзмерения</v8:Type>

@@ -971,7 +971,7 @@
 			<Metadata name="Document.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа.Attribute.Проект" id="e7c0dee2-1ded-4507-955c-b1e552d35c1c"/>
 			<Metadata name="Document.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа.TabularSection.Товар" id="ed703c10-f507-49af-a378-4c38e37cf7c1"/>
 		</Metadata>
-		<Metadata name="Document.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа.ObjectModule" id="06fd9671-a04a-45f2-a75d-5af3abb86569.0" configVersion="47d06e7926ce8858971bcb37ba13d653080103e3"/>
+		<Metadata name="Document.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа.ObjectModule" id="06fd9671-a04a-45f2-a75d-5af3abb86569.0" configVersion="8c411b6bf512a177d8805c4beaa5cd6551362e4b"/>
 		<Metadata name="Enum.ВариантыКурсаДоговора" id="484b7bf4-9fb6-43af-a0f5-b2eb340688c4" configVersion="7e93d20787399dcdfde436e883aaa0e61eb7bc2c"/>
 		<Metadata name="Enum.ВариантыОбеспечения" id="67b2f8da-1016-49f2-815b-7059512f634f" configVersion="434e03c2be93ab8a7ee94954753405ede43617d5"/>
 		<Metadata name="Enum.ВариантыОформленияПродажи" id="615ce703-aaeb-4397-88fd-07656b290a88" configVersion="875fcbc3f3020cb929c2b52a307e1898cc22a5e4">
@@ -1168,8 +1168,8 @@
 			<Metadata name="Enum.мис_СтатусыСообщений.EnumValue.Отладка" id="7a30ef95-c21a-4411-9d22-071222a7f8ed"/>
 			<Metadata name="Enum.мис_СтатусыСообщений.EnumValue.КритическаяОшибка" id="87b0e9bd-7aec-47c9-846d-c1403e863c0d"/>
 		</Metadata>
-		<Metadata name="EventSubscription.ксп_ПриЗаписиДокумента" id="e64fcf50-35ab-409f-8eb5-8dfc5c1a9bdf" configVersion="b395dfaf25564a6f1607dd64d18a8961c4447f70"/>
-		<Metadata name="EventSubscription.ксп_ПриЗаписиСправочника" id="5b6556d8-454c-4d3b-bf37-b7e862503d3e" configVersion="42d5eeb92bf19838eb9960fa0c3204b393f989ab"/>
+		<Metadata name="EventSubscription.ксп_ПриЗаписиДокумента" id="e64fcf50-35ab-409f-8eb5-8dfc5c1a9bdf" configVersion="2dac09cd55bd248261a020d898768f6309420875"/>
+		<Metadata name="EventSubscription.ксп_ПриЗаписиСправочника" id="5b6556d8-454c-4d3b-bf37-b7e862503d3e" configVersion="fc65639d5117ad29c4c9dbc42c17a1ed730a925c"/>
 		<Metadata name="ExchangePlan.Кодерлайн_интеграция" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3" configVersion="efaee5f989bcb60da21c32c41e2f12c67c2ac38c"/>
 		<Metadata name="ExchangePlan.Кодерлайн_интеграция.Content" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3.1" configVersion="723168d0e6c22aa6d49a2ae1b25bcbac53d19aa8"/>
 		<Metadata name="HTTPService.КСП_ОстаткиДляФулфилмент" id="6dcae42e-2563-4c19-9298-07e47e329c1d" configVersion="0b82be15feea7c8134d55fc8d003106c80fd6e6e">
@@ -1449,7 +1449,7 @@
 			<Metadata name="InformationRegister.ксп_ИсходныеДанныеЗаказов.Resource.ЗаказКлиента" id="b1303484-67d1-4c5f-9131-3d19bcd1374c"/>
 			<Metadata name="InformationRegister.ксп_ИсходныеДанныеЗаказов.Dimension.id" id="cbaba28a-9da4-4bc6-84e2-9d8983f47c27"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ксп_ИсходныеДанныеСообщений" id="861d7d56-662b-447a-9e63-d1bc96ce930d" configVersion="2d2f88505bd9b1e058c46186ef5df9d2825aa7ef">
+		<Metadata name="InformationRegister.ксп_ИсходныеДанныеСообщений" id="861d7d56-662b-447a-9e63-d1bc96ce930d" configVersion="5fe2253ee6bab6a386e590e8444a3b10ae2cc7cf">
 			<Metadata name="InformationRegister.ксп_ИсходныеДанныеСообщений.Resource.ТекстJson" id="64e1168e-b405-44c3-9ea9-8f78206a0591"/>
 			<Metadata name="InformationRegister.ксп_ИсходныеДанныеСообщений.Attribute.ЕстьОшибка" id="787eed7d-bdf6-4fb2-8bc9-7d77204336ac"/>
 			<Metadata name="InformationRegister.ксп_ИсходныеДанныеСообщений.Dimension.ВнешняяСистема" id="8ffcaf8a-98a6-4fe8-b098-229720bd8cf2"/>
