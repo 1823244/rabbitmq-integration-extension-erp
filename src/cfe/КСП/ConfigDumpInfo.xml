@@ -732,9 +732,10 @@
 		<Metadata name="Document.КСП_КурсовоеСоглашение.Form.ФормаДокумента" id="cb987c42-1d9e-497e-bf4f-22a1155fcbf4" configVersion="8c5140451a247b4e95bf9f29d2e779352d767c36"/>
 		<Metadata name="Document.КСП_КурсовоеСоглашение.Form.ФормаДокумента.Form" id="cb987c42-1d9e-497e-bf4f-22a1155fcbf4.0" configVersion="ad44e1ca721d92455b69ad3968c04a9fd892166d"/>
 		<Metadata name="Document.КСП_КурсовоеСоглашение.ObjectModule" id="28dc1f61-7d7a-4c0b-abdd-6a811b567b8e.0" configVersion="f8b76f878101d8120a3766d08d6c5eb07af8309e"/>
-		<Metadata name="Document.КСП_ПланПродажПоКоллекциям" id="ff6a0054-65c8-4f09-9577-141c562f86c4" configVersion="d2f43d7581c65b8d3bb55f552220c46b66f85f16">
+		<Metadata name="Document.КСП_ПланПродажПоКоллекциям" id="ff6a0054-65c8-4f09-9577-141c562f86c4" configVersion="ccc54878b13e923d3a57db17ccdb62218a488258">
 			<Metadata name="Document.КСП_ПланПродажПоКоллекциям.TabularSection.План.Attribute.ПланПродаж" id="0aa74f5d-0ada-410c-b742-5fdaaca5cf2d"/>
 			<Metadata name="Document.КСП_ПланПродажПоКоллекциям.TabularSection.План" id="1ebb3640-43dc-4b90-81b0-483c4a92382f"/>
+			<Metadata name="Document.КСП_ПланПродажПоКоллекциям.Attribute.Проект" id="2828ecaf-d009-49f3-ba13-1abce9e51417"/>
 			<Metadata name="Document.КСП_ПланПродажПоКоллекциям.Attribute.Коллекция" id="28e5f6f2-f156-469b-9677-39b758743de7"/>
 			<Metadata name="Document.КСП_ПланПродажПоКоллекциям.TabularSection.План.Attribute.Клиент" id="dfcd0c39-d395-44ae-87dd-743e33e62c44"/>
 		</Metadata>
