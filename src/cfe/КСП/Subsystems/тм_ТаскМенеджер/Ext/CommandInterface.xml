@@ -29,6 +29,9 @@
 		<Command name="CommonCommand.мис_УровеньЛогов">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
+		<Command name="Catalog.мис_ИндексЛога.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>

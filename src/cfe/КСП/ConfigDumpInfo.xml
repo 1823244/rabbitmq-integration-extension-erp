@@ -1571,7 +1571,7 @@
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.Resource.Наименование" id="feb9e328-469a-49b4-8054-217bcdd18bb0"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.ManagerModule" id="ade82a02-8b2a-42df-b570-cc514e707900.2" configVersion="dfb04d21ac8f1ae03dbdf7207fdda6d25de663c5"/>
-		<Metadata name="InformationRegister.ксп_ОтложенноеПроведение" id="a2640bbd-4f84-40da-8853-b2dab48fb8ff" configVersion="96183febacde1e9594b94b7d1cc5db46eb068da5">
+		<Metadata name="InformationRegister.ксп_ОтложенноеПроведение" id="a2640bbd-4f84-40da-8853-b2dab48fb8ff" configVersion="d4c707cc43b0cbcc0294747579aa10b26e74a64e">
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Attribute.ДатаОбработки" id="67e0c4c3-53d7-46bf-af59-881ceb8b6583"/>
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Resource.СтатусПроведения" id="6c646c05-9ada-4fab-9f37-87d0efaa8011"/>
 			<Metadata name="InformationRegister.ксп_ОтложенноеПроведение.Attribute.ОшибкаПроведения" id="94662870-afe2-4601-9d07-0952340867ce"/>
@@ -1666,8 +1666,8 @@
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.ЧестныйЗнак" id="3a528d7c-11a9-40a2-aacb-63641ee8b0f7" configVersion="c97357d8b1fdafb4abb71b4cdd9b1d4e7874ce15"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="9c40f059-7eb0-4fb5-98b6-3f496168d2b5" configVersion="d68947d6b23e44f427578661508b832784ba2173"/>
-		<Metadata name="Subsystem.тм_ТаскМенеджер" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e" configVersion="c6961219c1f3647757ea4e518de59b41dc14efa7"/>
-		<Metadata name="Subsystem.тм_ТаскМенеджер.CommandInterface" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e.1" configVersion="0bf084231b1e5c5e105e338cc915d1b3e2e13fee"/>
+		<Metadata name="Subsystem.тм_ТаскМенеджер" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e" configVersion="d2ac4806de5e0109b640fc34a454e4a4abef6feb"/>
+		<Metadata name="Subsystem.тм_ТаскМенеджер.CommandInterface" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e.1" configVersion="a237480d9a91ab94d1d30f2488177d12cc656991"/>
 		<Metadata name="XDTOPackage.PFS_FE_708" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538" configVersion="94ed87fa1b877ee231a8d50588a76d95c5267533"/>
 		<Metadata name="XDTOPackage.PFS_FE_708.Package" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538.0" configVersion="ba78f6af1a8a56ea1a2dfc1886f8730477cc77e8"/>
 		<Metadata name="XDTOPackage.PFS_FE_714" id="2f65fb2b-683a-45d0-a3b4-80a1f7fb8355" configVersion="b323037af277c3cbcb06b624a7fab195ff4fbe07"/>

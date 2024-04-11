@@ -351,6 +351,8 @@
 					<Type>
 						<v8:Type>cfg:DocumentRef.ЭтапПроизводства2_2</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОрдерНаОтражениеИзлишковТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
 						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
@@ -365,11 +367,13 @@
 						<v8:Type>cfg:DocumentRef.ОтчетКомиссионера</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыемкаДенежныхСредствИзКассыККМ</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриходныйКассовыйОрдер</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПоступлениеБезналичныхДенежныхСредств</v8:Type>
 						<v8:Type>cfg:DocumentRef.СписаниеНедостачТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_ПланПродажПоКоллекциям</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОтчетОРозничныхПродажах</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВнесениеДенежныхСредствВКассуККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОрдерНаОтражениеНедостачТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
 						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
