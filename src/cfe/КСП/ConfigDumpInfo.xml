@@ -448,7 +448,7 @@
 		<Metadata name="CommonPicture.Наборы" id="0407116c-47b6-4447-9d49-593db1f53c5c" configVersion="8659616ef9586bc0d880750699d68f22a3aea012"/>
 		<Metadata name="CommonPicture.Отчеты" id="88742fd6-ae7b-42dc-a140-a7f15d65617c" configVersion="de00efc278f19f9e3b3df1b2ce02ad4d5bf20313"/>
 		<Metadata name="CommonPicture.СостояниеСкидкиНаценки" id="e8d50fb9-29f4-4399-8bc2-abeef871843d" configVersion="91eb955ee84de092c0e2e530ca7ff99850fa5432"/>
-		<Metadata name="Configuration.КСП" id="de5140db-5ca4-4ff6-b551-10dc9bd329d8" configVersion="89a8d940c3265e45d55b11965778f331ca06adaf"/>
+		<Metadata name="Configuration.КСП" id="de5140db-5ca4-4ff6-b551-10dc9bd329d8" configVersion="4ccf34c7c32f52f3798532a8bacc375bff0537e0"/>
 		<Metadata name="Configuration.КСП.ManagedApplicationModule" id="b8a2095b-708b-4722-9ef5-9892571cadf7.6" configVersion="d11940c415e1bb7f9bfc820aefca2d7e4269dbf7"/>
 		<Metadata name="Configuration.КСП.SessionModule" id="b8a2095b-708b-4722-9ef5-9892571cadf7.7" configVersion="707a35e319d064544cecbd4fecd56c75c9fa19d0"/>
 		<Metadata name="Constant.КСП_Последний_ID_Заказа_RCRM" id="72d33759-c80a-454c-b16c-309166160d83" configVersion="c29479d8e56122f74814e125093f44c80ab89aef"/>
@@ -1564,6 +1564,13 @@
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСклады.Dimension.ВнешняяСистема" id="9724c80d-9f4a-4ee2-a465-3a1ffd5b9f55"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникСклады.ManagerModule" id="9fedf104-02f2-4db2-883d-a831986f7504.2" configVersion="5c116609e1eda2bbe7d23639626935a74320027b"/>
+		<Metadata name="InformationRegister.ксп_МэппингСправочникСкладыУПП" id="f0884278-8011-45a9-8873-e1d62ed48700" configVersion="a8a443be27fd90b4580367259061c43c5a63a2c2">
+			<Metadata name="InformationRegister.ксп_МэппингСправочникСкладыУПП.Dimension.GUID" id="39b1f41c-12f0-4cca-8ef3-420dd059ac5c"/>
+			<Metadata name="InformationRegister.ксп_МэппингСправочникСкладыУПП.Resource.Склад" id="7c5bb3dc-889d-465d-8005-7d8eab84e940"/>
+			<Metadata name="InformationRegister.ксп_МэппингСправочникСкладыУПП.Dimension.ВнешняяСистема" id="7f088f07-1052-4cfa-98f1-db3fc0c6c352"/>
+			<Metadata name="InformationRegister.ксп_МэппингСправочникСкладыУПП.Resource.Наименование" id="b6f8c47f-145c-4d06-8cb2-fa90c69b467f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ксп_МэппингСправочникСкладыУПП.ManagerModule" id="f0884278-8011-45a9-8873-e1d62ed48700.2" configVersion="a990700fb9b64dcccc0bf39b1e3b460daaf2c906"/>
 		<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС" id="ade82a02-8b2a-42df-b570-cc514e707900" configVersion="4f273bda98e1af0494834ebce01436c027ebdf63">
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.Dimension.GUID" id="5b2abb49-64a9-4c5d-afdd-71140c79fdb2"/>
 			<Metadata name="InformationRegister.ксп_МэппингСправочникСтатьиДДС.Resource.СтатьяДДС" id="e8fcbef9-2bb2-48d6-8efa-55ecdde6d659"/>
@@ -1658,7 +1665,7 @@
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="cecdac4c-a6c9-4500-b69c-7db0a8e28a47" configVersion="94e78615155dd70a867a5a9b40a3f360ef571d0a"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="60324450-e64f-4538-970e-80e18394a3b1" configVersion="830d5abfc605a2a61699f959e52fe4c22a6ede9c"/>
 		<Metadata name="StyleItem.ШрифтНовостей" id="7a5aaedd-37a1-4bc0-812a-18145faf4c4e" configVersion="1b91fa09657466589e6c36ed18e8c2f6156c2869"/>
-		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="364cef156124f65c392b94f756d498eb3d1609eb"/>
+		<Metadata name="Subsystem.КСП" id="ecf485e5-c9f9-4396-acd8-4d9e623c965b" configVersion="f538ec15a1f14fb55da79ed44c66cd5a2e47b19f"/>
 		<Metadata name="Subsystem.КСП.Subsystem.RetailCRM" id="f9d8aa15-0756-40c9-9e5c-1758c5f1348b" configVersion="892e37451a0c49bc2a2a6c49327f3ab308a53082"/>
 		<Metadata name="Subsystem.КСП.Subsystem.БазаПоказов" id="ab976dab-d179-49ac-9445-0e137ad9daac" configVersion="9da1e351b4323320a7e038307b37c91591d9d2c0"/>
 		<Metadata name="Subsystem.КСП.Subsystem.УдаленныеОбъекты" id="d9197e5d-3523-4115-a2b7-17cc3b8e34a5" configVersion="1e6465ab4c886cb5ca922c9500fa32f3fbe60735"/>
