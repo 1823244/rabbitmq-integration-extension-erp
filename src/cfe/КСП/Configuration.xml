@@ -226,6 +226,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Проекты</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
+			<Catalog>КСП_РезультатыИмпортаУПП</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -386,7 +387,6 @@
 			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>ксп_МэппингСправочникСкладыУПП</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>

@@ -25,6 +25,11 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="ОткрытьРезультатыИмпорта" id="67">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОткрытьРезультатыИмпорта</CommandName>
+			<ExtendedTooltip name="ОткрытьРезультатыИмпортаРасширеннаяПодсказка" id="68"/>
+		</Button>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
 				<v8:item>
@@ -64,6 +69,13 @@
 			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
 				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="СписокОткрытьРезультатыИмпорта" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьРезультатыИмпорта</CommandName>
+						<ExtendedTooltip name="СписокОткрытьРезультатыИмпортаРасширеннаяПодсказка" id="66"/>
+					</Button>
+				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
@@ -234,6 +246,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьНеуспешныеВУПП</Action>
+		</Command>
+		<Command name="ОткрытьРезультатыИмпорта" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать Результаты импорта для текущей записи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть результаты импорта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьРезультатыИмпорта</Action>
 		</Command>
 	</Commands>
 </Form>

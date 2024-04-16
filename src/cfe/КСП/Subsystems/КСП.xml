@@ -74,7 +74,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_ЛогикаОбработкиПеремещений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ДокументыПредоплатыЗаказаКлиента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_СвязьРеализацийУППиЦепочекРеализаций</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_МэппингСправочникСкладыУПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КСП_РезультатыИмпортаУПП</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
