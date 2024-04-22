@@ -117,7 +117,7 @@
 			<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.TabularSection.ЗагруженныеДокументы.Attribute.ДокументЕРП" id="dc9dcff0-5a4e-4283-89f7-eea1cf1e6390"/>
 			<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.Attribute.ГУИД_УПП" id="f3c7f546-526b-4c22-9614-6e524b3ec380"/>
 		</Metadata>
-		<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.ManagerModule" id="e5541647-3c8e-4bdb-9163-74e17f0dfeaa.3" configVersion="55f6db2a5427b07ec0e8d6442c594d257f71cc2d"/>
+		<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.ManagerModule" id="e5541647-3c8e-4bdb-9163-74e17f0dfeaa.3" configVersion="6f83c42a6bc6095edd28ed961d1ad31a7fc382d8"/>
 		<Metadata name="Catalog.КСП_СкладыУПП" id="15f90fde-2bb1-4658-b355-5cbf4dddcc7d" configVersion="176798ce9638f8e08b6638deba91b53df842d79b"/>
 		<Metadata name="Catalog.КСП_СкладыХраненияУПП" id="ad22bb4d-9dc2-4aa2-b7e6-7bae40af0aad" configVersion="7056b390a3bbaf31114eb167b37fcb5bb3c9419a"/>
 		<Metadata name="Catalog.КартыЛояльности" id="b3c547c7-374f-4aee-96f4-fc82ae575172" configVersion="7ffc0e70709f9ba39a57565ea421e1c82ed6743c"/>
@@ -1184,7 +1184,7 @@
 		<Metadata name="EventSubscription.ксп_ПриЗаписиДокумента" id="e64fcf50-35ab-409f-8eb5-8dfc5c1a9bdf" configVersion="2dac09cd55bd248261a020d898768f6309420875"/>
 		<Metadata name="EventSubscription.ксп_ПриЗаписиСправочника" id="5b6556d8-454c-4d3b-bf37-b7e862503d3e" configVersion="fc65639d5117ad29c4c9dbc42c17a1ed730a925c"/>
 		<Metadata name="ExchangePlan.Кодерлайн_интеграция" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3" configVersion="efaee5f989bcb60da21c32c41e2f12c67c2ac38c"/>
-		<Metadata name="ExchangePlan.Кодерлайн_интеграция.Content" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3.1" configVersion="723168d0e6c22aa6d49a2ae1b25bcbac53d19aa8"/>
+		<Metadata name="ExchangePlan.Кодерлайн_интеграция.Content" id="7c904c61-d43e-4f57-8202-ae28b3d56ec3.1" configVersion="d3839d1204f6b73baf9e0f3608890332d577263e"/>
 		<Metadata name="HTTPService.КСП_ОстаткиДляФулфилмент" id="6dcae42e-2563-4c19-9298-07e47e329c1d" configVersion="0b82be15feea7c8134d55fc8d003106c80fd6e6e">
 			<Metadata name="HTTPService.КСП_ОстаткиДляФулфилмент.URLTemplate.stocks" id="7b896b33-6218-4a7f-8b51-057c94d4ae0e"/>
 			<Metadata name="HTTPService.КСП_ОстаткиДляФулфилмент.URLTemplate.stocks.Method.GET" id="d1c331cc-9354-4f4a-b94e-a5881302b306"/>

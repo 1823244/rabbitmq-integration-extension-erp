@@ -9,6 +9,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Document.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ПередачаТоваровМеждуОрганизациями</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -226,6 +230,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ПодразделенияОрганизаций</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.КСП_ПланПродажПоКоллекциям</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 </ExchangePlanContent>
