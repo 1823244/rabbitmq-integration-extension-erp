@@ -117,7 +117,7 @@
 			<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.TabularSection.ЗагруженныеДокументы.Attribute.ДокументЕРП" id="dc9dcff0-5a4e-4283-89f7-eea1cf1e6390"/>
 			<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.Attribute.ГУИД_УПП" id="f3c7f546-526b-4c22-9614-6e524b3ec380"/>
 		</Metadata>
-		<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.ManagerModule" id="e5541647-3c8e-4bdb-9163-74e17f0dfeaa.3" configVersion="6f83c42a6bc6095edd28ed961d1ad31a7fc382d8"/>
+		<Metadata name="Catalog.КСП_РезультатыИмпортаУПП.ManagerModule" id="e5541647-3c8e-4bdb-9163-74e17f0dfeaa.3" configVersion="36df72c92c755add86cc20c325ca2d3fb135efb4"/>
 		<Metadata name="Catalog.КСП_СкладыУПП" id="15f90fde-2bb1-4658-b355-5cbf4dddcc7d" configVersion="176798ce9638f8e08b6638deba91b53df842d79b"/>
 		<Metadata name="Catalog.КСП_СкладыХраненияУПП" id="ad22bb4d-9dc2-4aa2-b7e6-7bae40af0aad" configVersion="7056b390a3bbaf31114eb167b37fcb5bb3c9419a"/>
 		<Metadata name="Catalog.КартыЛояльности" id="b3c547c7-374f-4aee-96f4-fc82ae575172" configVersion="7ffc0e70709f9ba39a57565ea421e1c82ed6743c"/>
