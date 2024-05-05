@@ -212,16 +212,16 @@
 		<ChildObjects>
 			<Attribute uuid="e7c0dee2-1ded-4507-955c-b1e552d35c1c">
 				<Properties>
-					<Name>Проект</Name>
+					<Name>Коллекция</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Проект</v8:content>
+							<v8:content>Коллекция</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+						<v8:Type>cfg:CatalogRef.КоллекцииНоменклатуры</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -260,7 +260,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

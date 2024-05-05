@@ -336,6 +336,8 @@
 			<DataProcessor>мис_Logger_Appender_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>мис_Logger_Appender_СпрЛогСообщений</DataProcessor>
 			<DataProcessor>мис_Logger_Appender_ТекстовыйФайл</DataProcessor>
+			<DataProcessor>мис_класс_ПараллельнаяОбработкаАлгоритма</DataProcessor>
+			<DataProcessor>мис_AdoConnection</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>

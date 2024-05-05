@@ -77,6 +77,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.СтруктураПредприятия</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ЧекККМ</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>

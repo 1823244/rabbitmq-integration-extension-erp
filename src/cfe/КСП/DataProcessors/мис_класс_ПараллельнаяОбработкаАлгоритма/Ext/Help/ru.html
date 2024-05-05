@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+<div>
+<div> Класс делит исходный набор данных (коллекцию) на пакеты и запускает фоновые задания с алгоритмом обработки</div>
+<div><br></div>
+<div><br></div>
+<div> Запускает метод в параметре ИмяПроцедуры, как фоновое задание</div>
+<div> Используется для асинхронного выполнения алгоритма.</div>
+<div> Ниже - пример кода, из которого создан этот класс (обработка выборки из результатов запроса пакетами по 1000 строк):</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Перем Отладка; // булево. отключает фоновые задания, алгоритм выполняется последовательно</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Результат = результат запроса (или таблица значений, но тогда проверку количества строк надо переделать)</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ТЗРекордсет = Новый ТаблицаЗначений;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Для Каждого Кол Из Результат.Колонки Цикл</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>ТЗРекордсет.Колонки.Добавить(Кол.Имя);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>КонецЦикла;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Выборка = Результат.Выбрать();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ЕстьЗаписи = Выборка.Следующий();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ВсегоСтрок = 0;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>СчЗаданий = 0;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>МассивПараметров = Новый Массив;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Пока ЕстьЗаписи Цикл</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>ВсегоСтрок = ВсегоСтрок+1;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>//Накапливаем информацию из выборки в таблицу по 1000</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>КолВПакете=0;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>//Формируем пакеты строк</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>ТЗРекордсет.Очистить();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Пока ЕстьЗаписи И КолВПакете &lt; РазмерПакета Цикл</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>КолВПакете <span class="Apple-tab-span" style="white-space:pre">		</span>= КолВПакете+1;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>НовСтр<span class="Apple-tab-span" style="white-space:pre">			</span>= ТЗРекордсет.Добавить();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>ЗаполнитьЗначенияСвойств(НовСтр, Выборка);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>ЕстьЗаписи<span class="Apple-tab-span" style="white-space:pre">		</span>= Выборка.Следующий();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>КонецЦикла;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>СчЗаданий=СчЗаданий+1;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>МассивПараметров.Очистить();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>МассивПараметров.Добавить(ИДВызова);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>МассивПараметров.Добавить(Параметр1);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>МассивПараметров.Добавить(Параметр2);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>МассивПараметров.Добавить(ТЗРекордсет);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>МассивПараметров.Добавить(СчЗаданий);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Если ПараметрыСеанса.мис_ЭтоСервернаяБаза И НЕ Отладка Тогда</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>Задача = "Наименование задания. Фоновое задание №"+Строка(СчЗаданий)+</div>
+<div><span class="Apple-tab-span" style="white-space:pre">				</span>", сеанс="+Строка(НомерСоединенияИнформационнойБазы());</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>мис_УправлениеЗаданиямиСервер.ДобавитьФоновоеЗадание(ИдВызова, </div>
+<div><span class="Apple-tab-span" style="white-space:pre">				</span>"ОбщийМодуль.МетодКоторыйНадоЗапуститьВФоне", </div>
+<div><span class="Apple-tab-span" style="white-space:pre">				</span>МассивПараметров, </div>
+<div><span class="Apple-tab-span" style="white-space:pre">				</span>Задача, </div>
+<div><span class="Apple-tab-span" style="white-space:pre">				</span>ЕстьЗаписи);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Иначе</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>//способ вызова для файловой базы</div>
+<div><span class="Apple-tab-span" style="white-space:pre">			</span>ОбщийМодуль.МетодКоторыйНадоЗапуститьВФоне(ИДВызова, Параметр1, Параметр2, ТЗРекордсет, СчЗаданий);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>КонецЕсли;<span class="Apple-tab-span" style="white-space:pre">					</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>КонецЦикла;</div>
+<div><br></div>
+<div>реализация метода фонового задания</div>
+<div><br></div>
+<div>в методе МетодКоторыйНадоЗапуститьВФоне() надо создать новый ИдВызова на основе переданного!</div>
+<div>НомерЗадания - это параметр</div>
+<div><br></div>
+<div>ОбщийМодуль.МетодКоторыйНадоЗапуститьВФоне(Знач ИдВызова, Параметр1, Параметр2, ТЗРекордсет, НомерЗадания) Экспорт</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараметрыВызова <span class="Apple-tab-span" style="white-space:pre">	</span>= Новый ХранилищеЗначения(Список_Значений_С_Параметрами, Новый СжатиеДанных(9));</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ИдВызова<span class="Apple-tab-span" style="white-space:pre">			</span>= мис_ЛоггерСервер.СоздатьИдВызова (ИдВызова, "ОбщийМодуль.МетодКоторыйНадоЗапуститьВФоне. Номер задания "+Строка(НомерЗадания), ТекущаяДата(), "", ПараметрыВызова);</div>
+<div><br></div>
+<div><br></div></div>
+<div><br></div>
+<div>---------------------</div>
+<div>
+<div> QUICK START</div>
+<div><br></div>
+<div> 1 Создать обработку, где будет лежать алгоритм, например:</div>
+<div><br></div>
+<div> Обработка1</div>
+<div><br></div>
+<div> В обработке должны быть определены ОБЯЗАТЕЛЬНЫЕ экспортные переменные:</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Перем мИдВызова Экспорт;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Перем мТЗРекордсет Экспорт;</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Создать главный метод обработки (public static void main())</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Он будет получать весь массив данных и отдавать его на параллельную обработку</div>
+<div><br></div>
+<div>Процедура Обработка1.МодульОбъекта.ВыполнитьЧтоТоПараллельно()</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>1. Получить результат запроса</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Запрос = Новый Запрос;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Запрос.Текст = </div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>"ВЫБРАТЬ</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>|<span class="Apple-tab-span" style="white-space:pre">	</span>hh_ИсторияПоисковСрезПоследних.Вакансия.ИД КАК ИД</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>|ИЗ</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>|<span class="Apple-tab-span" style="white-space:pre">	</span>РегистрСведений.hh_ИсторияПоисков.СрезПоследних(,) КАК hh_ИсторияПоисковСрезПоследних";</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>РезультатЗапроса = Запрос.Выполнить();</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>2. Создать объект класса</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка = Обработки.мис_класс_ПараллельнаяОбработкаАлгоритма.Создать();</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ИдВызова = мис_ЛоггерСервер.СоздатьИдВызова(мИдВызова,"Выполнить задачу параллельно",ТекущаяДата(),"",Неопределено);</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>3. Сюда помещаем параметры, которые нужны обработчику фонового задания</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ДопПараметры = Новый Структура;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ДопПараметры.Вставить("мДатаИмпорта",мДатаИмпорта);</div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>// В обработке, где лежит обработчик фонового задания, должны быть определены экспортные методы-сеттеры:</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетКоллекция(РезультатЗапроса);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетИдВызова(ИдВызова);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетОтладка(Ложь);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетРазмерПакета(РазмерПакета);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетДопПараметры(ДопПараметры);//четвертый параметр в прокси-методе фонового задания</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетОписаниеФоновогоЗадания("Загрузка описаний вакансий в историю");</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.сетИмяМетодаФоновогоЗадания("ОбщийМодульСервер.ОбработатьПакет");</div>
+<div><br></div>
+<div><br></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ПараллельнаяОбработка.ОбработатьПараллельно();</div>
+<div><br></div>
+<div>КонецПроцедуры</div>
+<div><br></div>
+<div><br></div>
+<div> Создать метод для обработки пакета. Разместить в модуле объекта обработки</div>
+<div> Параметры</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>НомерЗадания - число - обязательный</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>еще параметры - могут потребоваться</div>
+<div><br></div>
+<div> Процедура Обработка1.МодульОбъекта.ОбработатьПакет(НомерЗадания, еще параметры) Экспорт</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Для Каждого Стрк Из мТЗРекордсет Цикл</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>алгоритм обработки каждой строки пакета</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>КонецЦикла;</div>
+<div> КонецПроцедуры</div>
+<div><br></div>
+<div> Создать прокси-метод для обработчика пакета в общем модуле.</div>
+<div> Этот метод запускается в фоне и вызывает реальный обработчик - Обработка1.МодульОбъекта.ОбработатьПакет.</div>
+<div> Параметры</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ИдВызова - индекс лога</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ТЗРекордсет - ТЗ - пакет данных</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>НомерЗадания - число - </div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>ДопПараметры - структура - дополнительные параметры, которые нужны методу фонового задания</div>
+<div><span class="Apple-tab-span" style="white-space:pre">								</span>см. далее ПараллельнаяОбработка.сетДопПараметры(ДопПараметры);</div>
+<div><br></div>
+<div>Процедура ОбщийМодульСервер.ОбработатьПакет(Знач ИдВызова, ТЗРекордсет, НомерЗадания, ДопПараметры) Экспорт</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>//обязательно через попытку, чтобы поймать ошибку в лог</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Попытка</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Обк = Обработки.какая-то-обработка.Создать();</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+<div> <span class="Apple-tab-span" style="white-space:pre">		</span>// в обработке определены ОБЯЗАТЕЛЬНЫЕ экспортные переменные</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Обк.мИдВызова <span class="Apple-tab-span" style="white-space:pre">		</span>= ИдВызова;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Обк.мТЗРекордсет <span class="Apple-tab-span" style="white-space:pre">	</span>= ТЗРекордсет;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Принудительно <span class="Apple-tab-span" style="white-space:pre">		</span>= ДопПараметры.Принудительно;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>Обк.ОбработатьПакет(НомерЗадания, Принудительно);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>Исключение</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>т = ПодробноеПредставлениеОшибки(ИнформацияОбОшибке());</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>т = "Параллельная обработка для пакета прервана из-за ошибки. Детали: " + т;</div>
+<div><span class="Apple-tab-span" style="white-space:pre">		</span>мис_ЛоггерСервер.Ошибка(ИдВызова,"ОШИБКА",т);</div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span></div>
+<div><span class="Apple-tab-span" style="white-space:pre">	</span>КонецПопытки;</div>
+<div><br></div>
+<div>КонецПроцедуры</div>
+<div><br></div>
+<div><br></div>
+<div>==конец примера</div>
+<div><br></div></div>
+<div><br></div>
+
+
+</body></html>

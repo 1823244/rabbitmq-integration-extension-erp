@@ -23,6 +23,7 @@
 				<v8:Type>cfg:DocumentObject.ВнесениеДенежныхСредствВКассуККМ</v8:Type>
 				<v8:Type>cfg:DocumentObject.ПересортицаТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.ПередачаТоваровМеждуОрганизациями</v8:Type>
+				<v8:Type>cfg:DocumentObject.КСП_ПланПродажПоКоллекциям</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЧекККМКоррекции</v8:Type>
 				<v8:Type>cfg:DocumentObject.УстановкаЦенНоменклатуры</v8:Type>
 				<v8:Type>cfg:DocumentObject.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</v8:Type>
