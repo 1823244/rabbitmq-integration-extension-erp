@@ -111,6 +111,42 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="13a85008-da61-4ba1-9f23-8e5fa6e83977">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>de413184-fcd1-43d1-aa46-027e2f8d52cc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ec64196c-f218-481a-9b0e-cff53a72b814">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладОтправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a661791f-2058-413d-9339-df594324d537</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3de65a18-4fef-44aa-b9aa-d0bfc20fb656">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладПолучатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8510f494-1391-4b32-b70c-8b3b9cd19069</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="464a99d4-d6b6-4256-9695-ea28f72fa2ac">
 				<InternalInfo>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="99ecc8f3-a93e-4154-9728-a6853e01debc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктОРасхожденияхПослеПриемки" category="Object">
+				<xr:TypeId>b99405e8-544d-4f3a-8c38-b64f25d426c9</xr:TypeId>
+				<xr:ValueId>d325f185-d9e0-4791-a9d0-de55412d3499</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктОРасхожденияхПослеПриемки" category="Ref">
+				<xr:TypeId>796ef4d1-e966-436f-923e-d3a37a3fb816</xr:TypeId>
+				<xr:ValueId>247c1690-48c8-4b4d-9c6c-18e996684d33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктОРасхожденияхПослеПриемки" category="Selection">
+				<xr:TypeId>904f420e-35dd-4511-b702-53b91a40b3c4</xr:TypeId>
+				<xr:ValueId>56629178-03d7-40a4-8218-b0c72cd36a0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктОРасхожденияхПослеПриемки" category="List">
+				<xr:TypeId>2c461fe4-a77d-4a21-8d5e-3dbbaecea47d</xr:TypeId>
+				<xr:ValueId>e98edc77-03a0-4ba9-b69c-63c33bc8000c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктОРасхожденияхПослеПриемки" category="Manager">
+				<xr:TypeId>22a5c5d5-bf7f-4c96-a18d-baac358e946b</xr:TypeId>
+				<xr:ValueId>cc436b67-a820-42e3-97fd-60858128d09f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктОРасхожденияхПослеПриемки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0104e4a2-fd60-4ede-ba84-063607d4d8a3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d947c922-cc91-42dd-bb4b-ca01df0e5009">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>14e5c170-22c3-4b84-8fca-12aeeaaba46a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

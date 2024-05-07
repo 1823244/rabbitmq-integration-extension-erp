@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="d4c3e0b2-6934-489d-89a4-56af1b88f9bb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктОРасхожденияхПослеПеремещения" category="Object">
+				<xr:TypeId>442e7815-4a3d-421a-b24d-3cb0b9981b54</xr:TypeId>
+				<xr:ValueId>cc676530-aa5b-4f1e-b8d2-c8dba375ca33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктОРасхожденияхПослеПеремещения" category="Ref">
+				<xr:TypeId>9f4c3574-d18f-4b5f-982a-2335dc8853d4</xr:TypeId>
+				<xr:ValueId>4da71c6f-4c92-4141-b9c6-7fa5281309c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктОРасхожденияхПослеПеремещения" category="Selection">
+				<xr:TypeId>eae0e795-c1f8-43a6-8d7d-a4a34dd4f5ae</xr:TypeId>
+				<xr:ValueId>9402ee00-e3db-44cb-a3cd-1b72885add38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктОРасхожденияхПослеПеремещения" category="List">
+				<xr:TypeId>9fd639da-17f8-4658-aff4-6db1c339c95b</xr:TypeId>
+				<xr:ValueId>b44ca5a0-864e-4e8a-83d2-0d1a67b59eb7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктОРасхожденияхПослеПеремещения" category="Manager">
+				<xr:TypeId>b00b3ba9-5fa9-4ce1-b85d-ed4a18fb9412</xr:TypeId>
+				<xr:ValueId>3eb233d0-740d-4808-80c2-3c0e3b0ef79f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктОРасхожденияхПослеПеремещения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>af172ffa-c1ad-407a-8f45-6f3200265096</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9fd3d911-3de6-4969-bc35-10bb42e15a6f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладПолучатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cb1ddde6-eb79-482e-a410-70887847ccd8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bdb02f92-d71d-49a3-8e3b-58828d6efdb3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладОтправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cbff09d2-d529-4720-93aa-be510323dfaa</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5cd77a43-526f-435b-9d40-b369ed015cdb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>784736c7-90b5-4b41-a6d7-39b8a2615247</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

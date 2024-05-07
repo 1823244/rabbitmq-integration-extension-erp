@@ -561,6 +561,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="a8512a05-a9f5-409c-ba5e-a33711ed3b0f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>22157e38-afde-4862-acec-e79378da0a43</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="3a247b58-1bef-4b91-9b92-5ee85ee1851c">
 				<InternalInfo>

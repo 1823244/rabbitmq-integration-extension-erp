@@ -31,6 +31,69 @@
 					<ExtendedConfigurationObject>450292f4-f143-4290-b66b-65c78634cc60</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="40bcc639-0921-4427-98b1-2cfb40a1158b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаетсяПоНеподтвержденномуЗаказу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c49c632-7d5e-4f93-b15a-fc9051046f76</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5229484c-d986-4459-b9a2-1f41d599f003">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбеспеченКДате</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b3a3ebd1-d55e-4da1-882c-02b5cc139f10</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a22bd137-ec69-4486-8efd-13259c3dd24f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбеспеченНаСкладе</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9aaf3c33-fa09-46b0-a070-7cebf529de9c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="087f6ea2-8b27-41c5-9159-540ff6b58aab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Обеспечить</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d91e7041-4f5d-447f-97e3-769242e237c4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a18b9a21-cd80-4c98-9976-452a1a72a5ef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОстатокНаСкладе</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>47d10a43-5556-4259-bde6-880106968b77</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="76568e91-ec64-4550-b10a-eba116cc794d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаемоеПоступление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6ff498b5-7ab4-4383-9c48-6815070d7439</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="818e5c88-35c1-4a3e-94e1-ba3b3634e7b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаемаяОтгрузка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9c0b62df-0832-4252-b100-7b5bbbb68ac8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -111,6 +111,30 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="1cd24092-14a7-4d5f-89ff-bf90c22f3ce3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>24954df4-97a3-4c21-b4c7-d26d53fc581c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c068fc94-4eb0-441d-9234-5cfc363c5e40">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Согласован</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5f671238-b897-44ef-9c8b-58d1753154ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="9ecde7c0-a67a-4cc7-a0da-330a5b0cb0d2">
 				<InternalInfo>

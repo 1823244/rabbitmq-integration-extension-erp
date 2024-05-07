@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AccumulationRegister uuid="a2b7b010-b29f-4f18-97e6-68fd7b475dac">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.РасчетыСКлиентами" category="Record">
+				<xr:TypeId>77509d76-8881-4fd3-b88b-3837d378edd1</xr:TypeId>
+				<xr:ValueId>fdf595bc-22b1-4261-b4a2-6b58f95fd723</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.РасчетыСКлиентами" category="Manager">
+				<xr:TypeId>fbfcbd21-3378-4134-923b-515ea96d3cd3</xr:TypeId>
+				<xr:ValueId>1fb38e0c-af3c-421a-88f2-b91482c3f423</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.РасчетыСКлиентами" category="Selection">
+				<xr:TypeId>ceceaea3-1ebe-4690-9176-30c3f9894c1b</xr:TypeId>
+				<xr:ValueId>653c142e-c204-4f82-88a8-7fd3b0f6bb95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.РасчетыСКлиентами" category="List">
+				<xr:TypeId>4abf60bd-e7e3-4acc-833e-d2323e93e10f</xr:TypeId>
+				<xr:ValueId>1123dc46-21f3-4976-86eb-08a7aaf7475e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РасчетыСКлиентами" category="RecordSet">
+				<xr:TypeId>9dc77317-7881-4bfe-ac26-82de0a1f68e5</xr:TypeId>
+				<xr:ValueId>0f04cba1-8e5f-4386-aaaf-7126bbf5d611</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РасчетыСКлиентами" category="RecordKey">
+				<xr:TypeId>577f8b0b-d81d-4a0c-9b7c-6051ad2e70c6</xr:TypeId>
+				<xr:ValueId>73205855-9394-401a-9087-59e99dd31b76</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасчетыСКлиентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2ac23005-c54f-421a-add8-7227d22cdeea</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="aef0fa14-0caf-4f6c-82e3-ac55d24d18b3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c9e8d76f-ff62-4b53-8393-d4d0482f63de</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7083b647-6cdf-472e-9dc3-31245cf25700">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1baf9a7b-bf3d-4237-9957-6be8ef6deb04</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -29,6 +29,71 @@
 			<Comment/>
 			<ExtendedConfigurationObject>3ae14a42-8682-40cf-934f-6f3d533900c2</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="95155c59-e319-4c9e-9e01-e1ccbcfd4c08">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>db8dbdae-bd94-4c57-8c2f-3511b1f4acfe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>34</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="79d02371-e005-41ca-903a-d6e7ba7c7372">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоррСчетБанка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>35993498-1e0f-4561-9128-cbe75ac2d8a8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="172dadcf-7600-43e6-97ab-476b5f6e49bc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаименованиеБанка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88ac130f-656b-4263-8c23-b1e53fd938b6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5f609b3c-2ac5-4317-b56e-db0c5a8b0b72">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БИКБанка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c362f07b-b4db-485a-9818-b71e14166935</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

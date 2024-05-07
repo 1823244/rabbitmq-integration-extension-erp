@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="98696337-d49b-426d-9ccf-1894a5128fc1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратСырьяДавальцу" category="Object">
+				<xr:TypeId>91de51ae-a2ce-4cbf-9273-c46046db17ae</xr:TypeId>
+				<xr:ValueId>11247d6c-fb88-443e-a83a-80402a7c7ba8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратСырьяДавальцу" category="Ref">
+				<xr:TypeId>feb53454-3796-48cb-94e5-62c93dd93ddf</xr:TypeId>
+				<xr:ValueId>e8bbf44c-b70d-4769-9d02-6ba1b9f4e180</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратСырьяДавальцу" category="Selection">
+				<xr:TypeId>699d2281-d5e2-4b2b-a7fc-0f1c5f5cf8ed</xr:TypeId>
+				<xr:ValueId>c9159e03-c41c-4db6-bbf5-d11e18673961</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратСырьяДавальцу" category="List">
+				<xr:TypeId>20dd51e7-8d7f-4fe7-8d73-48373e5c2a7e</xr:TypeId>
+				<xr:ValueId>3e40e1a2-95a5-469b-b411-14d239677936</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратСырьяДавальцу" category="Manager">
+				<xr:TypeId>ddd25604-10fe-475f-a646-d676c7961f80</xr:TypeId>
+				<xr:ValueId>8a74c09b-0299-4f6c-9223-01882c44a22b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратСырьяДавальцу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e450f78d-67a0-4f67-8aa8-48beeb4a1b14</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9f025491-a81f-44f6-bead-74f3a7a14749">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e7a73003-c951-4538-aa9d-6204fd11e285</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="82e73648-924b-4cd4-a318-df155af6c972">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5a4b23bc-6c7c-4369-b886-3ff8dd07ff0a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

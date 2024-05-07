@@ -21,6 +21,19 @@
 			<Comment/>
 			<ExtendedConfigurationObject>17d6d642-f9f4-4184-9494-c31448761a97</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="d7835578-e1b0-4aee-9ab6-274edc788972">
+				<Properties>
+					<Name>Подели</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подели</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

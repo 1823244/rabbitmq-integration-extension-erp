@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="dba19f1b-8973-4db6-8bfc-fcb40e588823">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСтрокСтруктурыЗаказаНаПроизводство" category="Ref">
+				<xr:TypeId>ed1265e7-e4a7-496c-8baa-1b4b765a1e23</xr:TypeId>
+				<xr:ValueId>4ef5c6fd-cbdb-4315-9659-44751145eb8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСтрокСтруктурыЗаказаНаПроизводство" category="Manager">
+				<xr:TypeId>5e5b08d8-cf57-4e26-b0b2-6f2872269f66</xr:TypeId>
+				<xr:ValueId>115aac70-865e-4ffc-9218-0b751d6814a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСтрокСтруктурыЗаказаНаПроизводство" category="List">
+				<xr:TypeId>05bf8750-5194-4ed2-96bb-fb620ddc9872</xr:TypeId>
+				<xr:ValueId>69fc4da8-6b35-4fa9-a894-71a66c7b1310</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыСтрокСтруктурыЗаказаНаПроизводство</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>80d1075c-4b65-4ac4-bce9-6ea8a82483e1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="63dbabdf-2020-4e87-9a37-6246f3ab1775">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Потребление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5578bf8b-3778-41ab-97ce-b6473d118eb9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="641f9a94-66fb-44ac-86b7-7e8f63b58a87">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроизводствоПродукции</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b153989e-67dd-463d-bcd8-724e541452c1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

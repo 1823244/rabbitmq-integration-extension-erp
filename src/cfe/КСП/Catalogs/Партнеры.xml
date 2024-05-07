@@ -29,6 +29,19 @@
 			<Comment/>
 			<ExtendedConfigurationObject>bf75bcc5-82ee-4bd0-89e1-420b42c99454</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="0ccfc728-4ed8-4798-b155-7d22f441da68">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БизнесРегион</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48bbc10f-4534-415b-a119-51ba94760f05</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БизнесРегионы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

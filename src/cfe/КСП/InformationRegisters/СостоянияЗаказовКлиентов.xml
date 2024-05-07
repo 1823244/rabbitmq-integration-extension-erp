@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<InformationRegister uuid="86a9c642-cf2d-4403-a4d6-55dd6a65c1bc">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияЗаказовКлиентов" category="Record">
+				<xr:TypeId>ae7e2b80-f0b7-48dc-b37c-649cda900561</xr:TypeId>
+				<xr:ValueId>e98346e1-4708-4354-b8e8-3c5ffc0c1af3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияЗаказовКлиентов" category="Manager">
+				<xr:TypeId>df87aaf1-9e13-4c80-8ae2-d0d30134ad93</xr:TypeId>
+				<xr:ValueId>80087562-c282-4529-b28d-641158d50855</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияЗаказовКлиентов" category="Selection">
+				<xr:TypeId>6a0e23a6-8b5a-4b96-887a-b1882e7d7a54</xr:TypeId>
+				<xr:ValueId>55b85b56-8762-49e3-8a0f-3002638d79d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияЗаказовКлиентов" category="List">
+				<xr:TypeId>76b3bf1a-a681-4a60-a5a2-2c60cfbd7dcf</xr:TypeId>
+				<xr:ValueId>4d863f51-273b-4b57-a5a6-b92b64e7d800</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияЗаказовКлиентов" category="RecordSet">
+				<xr:TypeId>4fd7a592-b242-46bc-8b56-74d29f727d33</xr:TypeId>
+				<xr:ValueId>6ff9616e-3e76-49ad-930a-2db00a90fbed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияЗаказовКлиентов" category="RecordKey">
+				<xr:TypeId>bccfd0b1-a8d2-4347-8bd6-647e421f0acd</xr:TypeId>
+				<xr:ValueId>377ae139-91c9-4890-8446-e834041f22f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияЗаказовКлиентов" category="RecordManager">
+				<xr:TypeId>f2eb15f9-00ed-4f41-97ef-b47d08333308</xr:TypeId>
+				<xr:ValueId>0080b4bd-3a39-4875-bcb0-fab5654c7bb3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаказовКлиентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bc51e744-f22b-4a4d-9db1-4032f96cd184</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="300737c8-d77b-490c-9d5b-28d591ec2159">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентОтгрузки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cb49e74-a821-4467-b425-a76c08ce8cfb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="0647a73d-47de-4076-9fbe-8eff4a271df8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заказ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>908232c3-529c-4c04-9bdd-98d3cf6d8483</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -78,7 +78,7 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.СтруктураПредприятия</Metadata>
-		<AutoRecord>Deny</AutoRecord>
+		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Document.ЧекККМ</Metadata>
@@ -158,6 +158,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.НаправленияДеятельности</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.ПриходныйОрдерНаТовары</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

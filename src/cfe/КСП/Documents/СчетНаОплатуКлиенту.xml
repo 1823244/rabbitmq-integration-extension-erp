@@ -32,6 +32,7 @@
 			<NumberLength>11</NumberLength>
 			<NumberAllowedLength>Fixed</NumberAllowedLength>
 			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КСП_ВыставленныеСчетаПоСтрокамЗаказа_РН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ВыставленныеСчетаПоСтрокамЗаказа</xr:Item>
 			</RegisterRecords>
 		</Properties>

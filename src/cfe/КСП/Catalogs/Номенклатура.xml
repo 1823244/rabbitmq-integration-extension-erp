@@ -81,6 +81,47 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="c0aa1baa-904f-4f65-a69e-2ba877d39d0e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоллекцияНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1923d522-6866-41cc-936e-7f63593d6168</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КоллекцииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="195b2ec9-5fa0-4233-83ae-71017916633a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиницаДляОтчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f841176f-2509-460b-a5db-829062949dbe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d054cea4-168e-480d-8ca5-ce9d6998db43">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоэффициентЕдиницыДляОтчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f4b89a2-af96-4368-9b39-9b2d72c26f89</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

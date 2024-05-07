@@ -170,6 +170,57 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="100cfcd4-8421-4300-b2fb-364c287723e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b994ea17-0d19-425d-9789-110d9dbe8055</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданный</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="15b0a3c8-c22a-4ba2-a1c9-954375380308">
+				<Properties>
+					<Name>КСП_ТаможенныйОрган</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП Таможенный орган</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КСП_ТаможенныеОрганы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="5afa20ef-443e-4c1a-a94b-f6b6c5f28a37">
 				<InternalInfo>
@@ -254,7 +305,43 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="6e2523b2-5072-4c75-8c83-b3ca05ebe859">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТаможеннаяДекларацияЭкспорт.ДокументыОснования" category="TabularSection">
+						<xr:TypeId>d402acd9-0703-4ce9-998c-ec820036cd28</xr:TypeId>
+						<xr:ValueId>d71fb20c-8cef-4a13-9e65-89d87deb569a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТаможеннаяДекларацияЭкспорт.ДокументыОснования" category="TabularSectionRow">
+						<xr:TypeId>0fb44f14-f16c-477e-920c-2e64aff8b395</xr:TypeId>
+						<xr:ValueId>7c17a930-c812-4c86-9d93-99b9dd107298</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыОснования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ab2f5f9c-70b2-4d9b-9d5c-d86b9186b503</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8b968f32-1519-4517-906f-5c04fe73575b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c21cdf07-8eab-4c6c-8f00-137c281ab2d0</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданный</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Template>КСП_ПФ_MXL_Декларация</Template>
+			<Template>КСП_ПФ_MXL_ВыпискаИзПрайсЛиста</Template>
+			<Template>КСП_ПФ_MXL_РеализацияТоваровШтрихКоды</Template>
+			<Template>КСП_ПФ_MXL_РеализацияТоваров</Template>
+			<Template>КСП_ПФ_MXL_Спецификация</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

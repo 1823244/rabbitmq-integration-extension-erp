@@ -29,6 +29,43 @@
 			<Comment/>
 			<ExtendedConfigurationObject>b861d222-a111-47b8-b5f4-45982f11877c</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="9d4788a4-bb76-4120-a362-05e3d9db2a43">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаправлениеДеятельности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b9be1bdc-8d96-4fbf-9677-f1e361adc7d6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bcc97882-c940-4c04-8e42-95bb04ae31ee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>16e539c8-9b3a-479f-87f0-b0076e8c8b5f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5e2e79fe-e66b-48c2-9cab-05011294ac3e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1ab46529-e758-437a-963e-051fe1599aa6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

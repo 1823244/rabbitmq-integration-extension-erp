@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="3a3dbd31-4c8f-4193-8671-9295b9e8089e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтгрузкаТоваровСХранения" category="Object">
+				<xr:TypeId>bcb7068a-e65a-4790-ade6-f716b4da8043</xr:TypeId>
+				<xr:ValueId>6ba04566-ece5-40c6-b77d-21d0982a5f97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтгрузкаТоваровСХранения" category="Ref">
+				<xr:TypeId>14cb9532-da30-4d25-8fa6-56248532640e</xr:TypeId>
+				<xr:ValueId>ab71fb37-51bf-4ed0-adb1-835d15f475f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтгрузкаТоваровСХранения" category="Selection">
+				<xr:TypeId>1b8fec5d-858e-41b1-9639-fa6da036e64c</xr:TypeId>
+				<xr:ValueId>3c03315a-e3fd-4bb2-88cc-ebdcbfc62a25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтгрузкаТоваровСХранения" category="List">
+				<xr:TypeId>b2e42cee-95b6-4cea-95d5-b2544bbe372e</xr:TypeId>
+				<xr:ValueId>41a69ed2-588a-490d-9ed8-921d338ca27a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтгрузкаТоваровСХранения" category="Manager">
+				<xr:TypeId>1f3d8f3f-4d97-4974-a66d-aa5ad1100a2b</xr:TypeId>
+				<xr:ValueId>a3efae6d-fad5-4fdc-bdd4-8f831f0c09ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтгрузкаТоваровСХранения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d4ea3dd1-aebc-4e26-808c-a5edc9ee54b1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6bf15162-a2b7-468c-a09b-348c99e4e885">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>422cc32e-b975-4f77-bbf1-7bdb3d8e1cfb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51eb9d79-f59a-4e14-8641-19b8a5adf52f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aa29d691-ce43-4f83-8d2d-3f8800519f54</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

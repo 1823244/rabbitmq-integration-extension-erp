@@ -391,6 +391,54 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="636e6dd4-b8d8-42f5-97c7-287007987f1b">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Организации.КонтактнаяИнформация" category="TabularSection">
+						<xr:TypeId>bcc5849e-4ede-4a22-9f32-02cb990a32f7</xr:TypeId>
+						<xr:ValueId>1a480e02-652e-4c5a-8bdc-916c6cfe8940</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Организации.КонтактнаяИнформация" category="TabularSectionRow">
+						<xr:TypeId>e3e2beec-8365-430f-a8b7-283ad74d5c27</xr:TypeId>
+						<xr:ValueId>5b7285b2-f732-45c0-9c38-7490e5572c74</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтактнаяИнформация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc96f1dd-6f54-47fc-9ea0-8bfb74389f11</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ca085bd5-0c03-4bcd-945a-749d534782a2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Тип</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4e2d3166-2276-47be-8837-c74b7e81327b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.ТипыКонтактнойИнформации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1f15cf91-ae15-4d1f-a302-297b75671767">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Представление</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>92d97506-6b5d-4a98-8493-91142ebd6edf</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>500</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="cee42437-1fcb-4a1e-af52-19e597355be0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаРемонт" category="Object">
+				<xr:TypeId>20d8053e-1fc6-4c36-b3e6-ef6d1bce5d65</xr:TypeId>
+				<xr:ValueId>fe7790cb-0beb-4377-87a2-c3deb1694dbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаРемонт" category="Ref">
+				<xr:TypeId>394707e5-6b3e-4638-b752-d445e5faafe7</xr:TypeId>
+				<xr:ValueId>b0f14f38-83c5-44cb-b397-e02822fae1d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаРемонт" category="Selection">
+				<xr:TypeId>b1570612-adca-4dcb-9306-64ff657f3a21</xr:TypeId>
+				<xr:ValueId>faaaa273-2135-49c8-b8f8-d2e3e15005f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаРемонт" category="List">
+				<xr:TypeId>5a66dfbf-774b-4644-965b-c58cf1285e6b</xr:TypeId>
+				<xr:ValueId>dca9db23-98c2-491f-a06d-b7b274c57357</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаРемонт" category="Manager">
+				<xr:TypeId>2f897150-f9de-496e-bb51-11a7d98b3c1e</xr:TypeId>
+				<xr:ValueId>c2c90cdc-9d10-41fc-9f9b-538d7b48a82e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаРемонт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4e6f7959-9963-4982-8f8e-9ec46dc2ec1c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9bc52176-43f3-4b3f-945c-28dd70f39ce9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>484fdb7a-8ae7-4f53-a260-723542db88e0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

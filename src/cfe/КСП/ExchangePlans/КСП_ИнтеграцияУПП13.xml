@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<ExchangePlan uuid="1422ae0c-d239-4d3e-aa5e-7c6168e60654">
+		<InternalInfo>
+			<xr:ThisNode>01927bb4-fbd9-4d0c-b922-c3378a395790</xr:ThisNode>
+			<xr:GeneratedType name="ExchangePlanObject.КСП_ИнтеграцияУПП13" category="Object">
+				<xr:TypeId>9154e066-28b6-4693-81e1-009330693923</xr:TypeId>
+				<xr:ValueId>5bf31550-839f-4d01-9340-41c0a65cfa91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanRef.КСП_ИнтеграцияУПП13" category="Ref">
+				<xr:TypeId>3a9bfa34-4870-4aab-9d91-6b578f06f564</xr:TypeId>
+				<xr:ValueId>e6dffb04-675a-4d68-a0b0-1c9f105e9949</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanSelection.КСП_ИнтеграцияУПП13" category="Selection">
+				<xr:TypeId>524f051f-5996-4530-bcf5-f93139d18b34</xr:TypeId>
+				<xr:ValueId>97b0feeb-2bc6-41fd-bc42-026234fc0307</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanList.КСП_ИнтеграцияУПП13" category="List">
+				<xr:TypeId>75872f47-0d1b-41a9-bfef-3a244dee240d</xr:TypeId>
+				<xr:ValueId>3ea6926b-05a6-4215-aaff-d45ecdd479e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanManager.КСП_ИнтеграцияУПП13" category="Manager">
+				<xr:TypeId>ba2c5df3-cc44-46c6-90e7-0956686ba16a</xr:TypeId>
+				<xr:ValueId>32c1d793-fe20-4685-8d93-0320848e1990</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КСП_ИнтеграцияУПП13</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КСП интеграция УПП13</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<CodeLength>9</CodeLength>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<DescriptionLength>25</DescriptionLength>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ExchangePlan.КСП_ИнтеграцияУПП13.StandardAttribute.Description</xr:Field>
+				<xr:Field>ExchangePlan.КСП_ИнтеграцияУПП13.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<Characteristics/>
+			<BasedOn/>
+			<DistributedInfoBase>false</DistributedInfoBase>
+			<IncludeConfigurationExtensions>false</IncludeConfigurationExtensions>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects>
+			<Template>ПравилаОбмена</Template>
+		</ChildObjects>
+	</ExchangePlan>
+</MetaDataObject>

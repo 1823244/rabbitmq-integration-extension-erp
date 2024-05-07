@@ -30,6 +30,19 @@
 			<ExtendedConfigurationObject>03503ac6-a4b9-4d70-b0ef-949dac7b8de4</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="d5ab93ec-9136-42a1-bb09-3158e7148a4e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9e76279a-4f34-44a9-b997-752bfa2a4a30</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

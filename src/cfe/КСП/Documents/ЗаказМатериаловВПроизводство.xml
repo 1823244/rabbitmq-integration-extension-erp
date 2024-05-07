@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="f3b53508-a141-41cc-9d6c-00f00030456e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказМатериаловВПроизводство" category="Object">
+				<xr:TypeId>cf0dd4ab-8f36-4dc1-ae35-9a6686b3a565</xr:TypeId>
+				<xr:ValueId>184b56c3-4a37-4ecd-830d-55b9de083951</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказМатериаловВПроизводство" category="Ref">
+				<xr:TypeId>0200839e-de3d-4286-af10-c835005b4e21</xr:TypeId>
+				<xr:ValueId>a5e96706-a6ea-4144-94fe-dd4418051dd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказМатериаловВПроизводство" category="Selection">
+				<xr:TypeId>85cc333d-0933-4b03-a810-003012d961a9</xr:TypeId>
+				<xr:ValueId>cff90d08-84fe-425c-8764-61c078565f3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказМатериаловВПроизводство" category="List">
+				<xr:TypeId>a47c18b7-377d-4483-b2d9-c812c58f00dd</xr:TypeId>
+				<xr:ValueId>57e0c102-3084-43d5-b61c-e0a298f3ee55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказМатериаловВПроизводство" category="Manager">
+				<xr:TypeId>b41ac59b-7547-453b-a8a6-f60c290467e6</xr:TypeId>
+				<xr:ValueId>efcc4d6a-d6a2-41d0-8312-135c63522377</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказМатериаловВПроизводство</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a19795f8-3fc7-4a7e-ab48-39ef167f227e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3dec48e7-09e5-4766-a8c7-9d3f39126533">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2b89f553-b2ad-43f6-9b0a-d619cc6c1289</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a649d478-c2e9-4bae-b7a4-018a2a99f8c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5a004c20-9f23-4180-aa1d-28bfe0c35cfd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

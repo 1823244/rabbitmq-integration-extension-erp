@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="cb01ca05-f659-4095-8fe1-6ec75d140c9d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказПереработчику2_5" category="Object">
+				<xr:TypeId>54cc8e14-c1b0-4ba1-86b0-e1f873a5032a</xr:TypeId>
+				<xr:ValueId>dec96c4b-2cc1-4eff-a61f-bdf1272b7d39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказПереработчику2_5" category="Ref">
+				<xr:TypeId>c3d73e2c-d25c-46c1-8ade-aa1ff5117677</xr:TypeId>
+				<xr:ValueId>a68ab0fd-70dc-4b25-b0ac-77b4dde9267e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказПереработчику2_5" category="Selection">
+				<xr:TypeId>9df69088-ee42-46e5-9974-244f95583ff6</xr:TypeId>
+				<xr:ValueId>2540f808-ed90-46ae-99bc-72f26715cc3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказПереработчику2_5" category="List">
+				<xr:TypeId>b877ae31-d6e5-43ae-b0dc-15d77211242d</xr:TypeId>
+				<xr:ValueId>6356875d-6c38-42da-b633-5f4ef1a0fab1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказПереработчику2_5" category="Manager">
+				<xr:TypeId>58180803-4edd-40db-b1ec-1d525d75aeab</xr:TypeId>
+				<xr:ValueId>ee0230d0-2a4f-48b6-8dc7-4b948ff7d5be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказПереработчику2_5</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f472641e-4463-470c-85eb-b94714fd61f3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="212d99b5-78f9-4b76-85d7-1efc39c101ad">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d68221e9-a335-4faa-bff5-dc07a4fd8c29</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="76d4714d-d610-4235-af29-9d9f62a041e4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладПродукции</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>28b97bcf-890d-4484-bc8c-7da4cc211d5b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="11182d2d-bf1a-4904-a583-c968bb273840">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладМатериалов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dece55a9-5013-4ba0-a762-6534823f2f96</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

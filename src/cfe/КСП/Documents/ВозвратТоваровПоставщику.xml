@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="773f358b-b099-42f9-949c-e638616c97bc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратТоваровПоставщику" category="Object">
+				<xr:TypeId>e454fc22-8669-497d-9a21-6f26fbaa51c1</xr:TypeId>
+				<xr:ValueId>b507a4d9-440d-4869-b5d6-a1d5d4564f46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратТоваровПоставщику" category="Ref">
+				<xr:TypeId>c67f545e-2c63-4243-afcd-9799d59c7517</xr:TypeId>
+				<xr:ValueId>31f19e33-ce4a-45de-8d30-5a45ca05da7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратТоваровПоставщику" category="Selection">
+				<xr:TypeId>d4fe6686-bda5-4f10-a1c7-b576e2a5397f</xr:TypeId>
+				<xr:ValueId>7ce1f3f6-d2b1-4587-b22c-fe96b7ec266b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратТоваровПоставщику" category="List">
+				<xr:TypeId>6e4c1b63-62a6-4e18-83c5-c71656cb638d</xr:TypeId>
+				<xr:ValueId>3a08f34e-1258-48b7-8ca1-3200c1fff047</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратТоваровПоставщику" category="Manager">
+				<xr:TypeId>b20a8c93-ce63-41cb-b94d-1635357ea9eb</xr:TypeId>
+				<xr:ValueId>08fa7f3f-7dcd-45da-9127-112380628d3b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратТоваровПоставщику</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dd66a934-f22f-4ace-87f3-ce5073c9881d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b360b20c-43cf-4b0f-a2f6-73b5d4ef7b54">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>311952c8-91e5-4dbd-aaf8-90d24cbd3a2e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="97c971d5-299f-40c0-8cce-c88a5fd7152f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0ffa5810-85db-48ed-a67d-d0dec010917e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

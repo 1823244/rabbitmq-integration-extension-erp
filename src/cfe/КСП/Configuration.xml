@@ -125,7 +125,10 @@
 			<CommonModule>ксп_Функции</CommonModule>
 			<CommonModule>ксп_ВыполнениеКода</CommonModule>
 			<CommonModule>ОчередьЗаданийСлужебный</CommonModule>
+			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
+			<CommonModule>ОбменДаннымиПереопределяемый</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
+			<ExchangePlan>КСП_ИнтеграцияУПП13</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
 			<XDTOPackage>PFS_FE_720</XDTOPackage>
 			<XDTOPackage>PFS_FE_708</XDTOPackage>
@@ -141,6 +144,10 @@
 			<DefinedType>ИНН</DefinedType>
 			<DefinedType>ОснованиеСчетФактураВыданный</DefinedType>
 			<DefinedType>ОбъектРасчетов</DefinedType>
+			<DefinedType>ОжидаемаяОтгрузкаИлиПоступление</DefinedType>
+			<DefinedType>РаспоряжениеНаОтгрузку</DefinedType>
+			<DefinedType>ОжидаемаяОтгрузка</DefinedType>
+			<DefinedType>ОжидаемоеПоступление</DefinedType>
 			<CommonCommand>КСП_СоздатьТаможеннуюЭкспортНаОснованииПередачи</CommonCommand>
 			<CommonCommand>мис_УровеньЛогов</CommonCommand>
 			<CommonCommand>мис_ОтчетПоЛогуКоманда</CommonCommand>
@@ -150,8 +157,10 @@
 			<Constant>ксп_ПодключениеКЧестномуЗнаку</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекRetailCRM</Constant>
 			<Constant>КСП_Последний_ID_Заказа_RCRM</Constant>
+			<Constant>КСП_КаталогЗагрузкиЗаказовКлиента</Constant>
 			<Constant>мис_ЛимитФоновыхЗаданий</Constant>
 			<CommonForm>мис_УровеньЛогов</CommonForm>
+			<Catalog>Валюты</Catalog>
 			<Catalog>мис_ИндексЛога</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -167,7 +176,7 @@
 			<Catalog>НоменклатураКонтрагентов</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Партнеры</Catalog>
-			<Catalog>Валюты</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Catalog>Приоритеты</Catalog>
 			<Catalog>ПричиныОтменыЗаказовКлиентов</Catalog>
 			<Catalog>СделкиСКлиентами</Catalog>
@@ -219,14 +228,18 @@
 			<Catalog>КодыВалютныхОпераций</Catalog>
 			<Catalog>ДоговорыЭквайринга</Catalog>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
-			<Catalog>ДоговорыАренды</Catalog>
 			<Catalog>мис_ЛогСообщений</Catalog>
 			<Catalog>мис_СвойстваМетодов</Catalog>
+			<Catalog>КСП_ТаможенныеОрганы</Catalog>
+			<Catalog>ОрганизацииПрисоединенныеФайлы</Catalog>
 			<Catalog>мис_УправлениеЗаданиями</Catalog>
-			<Catalog>Пользователи</Catalog>
+			<Catalog>ДоговорыАренды</Catalog>
 			<Catalog>Проекты</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>КСП_РезультатыИмпортаУПП</Catalog>
+			<Catalog>БизнесРегионы</Catalog>
+			<Catalog>ЭтапыПроизводства</Catalog>
+			<Catalog>кспВыгрузкаКарточекТовара</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -273,6 +286,26 @@
 			<Document>ОрдерНаОтражениеНедостачТоваров</Document>
 			<Document>ВводОстатковТоваров</Document>
 			<Document>ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</Document>
+			<Document>ВнутреннееПотребление</Document>
+			<Document>АктОРасхожденияхПослеПеремещения</Document>
+			<Document>ЗаказНаПроизводство</Document>
+			<Document>ВозвратТоваровПоставщику</Document>
+			<Document>ОтгрузкаТоваровСХранения</Document>
+			<Document>РаспределениеПроизводственныхЗатрат</Document>
+			<Document>АктОРасхожденияхПослеПриемки</Document>
+			<Document>ЗаказМатериаловВПроизводство</Document>
+			<Document>ЗаказПереработчику</Document>
+			<Document>ЗаявкаНаВозвратТоваровОтКлиента</Document>
+			<Document>ВозвратСырьяДавальцу</Document>
+			<Document>ЗаказНаСборку</Document>
+			<Document>КорректировкаЗаказаМатериаловВПроизводство</Document>
+			<Document>ПередачаСырьяПереработчику</Document>
+			<Document>ПроизводствоБезЗаказа</Document>
+			<Document>ЗаказПереработчику2_5</Document>
+			<Document>ЗаказДавальца2_5</Document>
+			<Document>ЗаказНаРемонт</Document>
+			<Document>ЗаказДавальца</Document>
+			<Document>ПередачаМатериаловВПроизводство</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -316,11 +349,21 @@
 			<Enum>ТипыНалогов</Enum>
 			<Enum>ТипыСуммГрафикаКредитовИДепозитов</Enum>
 			<Enum>ТипыПлатежейПоАренде</Enum>
+			<Enum>СтатусыВнутреннихЗаказов</Enum>
+			<Enum>КСП_СтатусыЗагрузкиФайловЗаказа</Enum>
+			<Enum>КСП_РежимыЗагрузкиФайловЗаказа</Enum>
+			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>мис_СтатусВыполнения</Enum>
 			<Enum>мис_СтатусыСообщений</Enum>
+			<Enum>ВидыСтрокСтруктурыЗаказаНаПроизводство</Enum>
 			<Report>КСП_ЗаказыRetailCRM</Report>
 			<Report>КСП_Отчет_ОшибкиИмпортаУПП</Report>
 			<Report>мис_ОтчетПоЛогу</Report>
+			<Report>кспСостояниеВыкупаДетальный</Report>
+			<Report>кспСостояниеВыкупаОбщий</Report>
+			<Report>кспРаспределениеТовараПоСкладамВывескамДатам</Report>
+			<Report>кспСводныйОтчет</Report>
+			<Report>кспРеестрВозвратаБрака</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>КСП_ПФ_ТаможеннаяДекларацияЭкспорт</DataProcessor>
@@ -342,11 +385,7 @@
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
 			<InformationRegister>ксп_ВыводИзОборотаИСМП</InformationRegister>
-			<InformationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа</InformationRegister>
-			<InformationRegister>КСП_ДокументыПредоплатыЗаказаКлиента</InformationRegister>
 			<InformationRegister>ксп_ДополнительныеНастройкиИнтеграций</InformationRegister>
-			<InformationRegister>КСП_ЗагрузкаДокументовПеремещений</InformationRegister>
-			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекRetailCRM</InformationRegister>
 			<InformationRegister>ксп_ЗначенияНастроекФулфилмент</InformationRegister>
 			<InformationRegister>ксп_ИсторияИзмененийКоллекцииНоменклатуры</InformationRegister>
@@ -370,27 +409,47 @@
 			<InformationRegister>ксп_МэппингСправочникСкидкиНаценки</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСклады</InformationRegister>
 			<InformationRegister>ксп_МэппингСправочникСтатьиДДС</InformationRegister>
-			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведение</InformationRegister>
 			<InformationRegister>ксп_ОтложенноеПроведениеПроблемы</InformationRegister>
 			<InformationRegister>КСП_ОчередьОбменаСЧестнымЗнаком</InformationRegister>
 			<InformationRegister>КСП_ПланыПродаж</InformationRegister>
-			<InformationRegister>КСП_РС_ДиспетчерРаспределения</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиПередачиНаКомиссию</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекПеремещений</InformationRegister>
-			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекРеализаций</InformationRegister>
 			<InformationRegister>ксп_СоглашенияСПартнерамиДляИнтеграций</InformationRegister>
 			<InformationRegister>КСП_СхемыДокументовУПП</InformationRegister>
-			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
-			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
-			<InformationRegister>мис_СтатусВыполненияЗаданий</InformationRegister>
-			<InformationRegister>мис_УровеньЛогов</InformationRegister>
 			<InformationRegister>ТаможенныеДекларацииЭкспортКРегистрации</InformationRegister>
+			<InformationRegister>КСП_РС_ДиспетчерРаспределения</InformationRegister>
 			<InformationRegister>удалить_КСП_НастройкиПодключенияЧестныйЗнак</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>КСП_НастройкиИмпортаОтчетаКомиссионераИзУПП</InformationRegister>
+			<InformationRegister>КСП_ДокументыПредоплатыЗаказаКлиента</InformationRegister>
+			<InformationRegister>КСП_ЗагрузкаДокументовПеремещений</InformationRegister>
+			<InformationRegister>КСП_ЗагрузкаДокументовПеремещенийТабЧасть</InformationRegister>
+			<InformationRegister>КСП_УПП_ОтчетПроизводстваЗаСмену_СтруктураПодчиненности</InformationRegister>
+			<InformationRegister>КСП_УПП_ОшибкиИмпорта</InformationRegister>
+			<InformationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа</InformationRegister>
+			<InformationRegister>ксп_МэппингСтатусЗаказовНаПеремещение</InformationRegister>
+			<InformationRegister>ксп_МэппингХозяйственныеОперации</InformationRegister>
+			<InformationRegister>КСП_СведенияОФайлахЗагрузкиЗаказовКлиента</InformationRegister>
+			<InformationRegister>КСП_ПоложениеДанныхВДокументеЗагрузки</InformationRegister>
+			<InformationRegister>кспЗначенияПроизвольныхПараметров</InformationRegister>
+			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекРеализаций</InformationRegister>
+			<InformationRegister>мис_СтатусВыполненияЗаданий</InformationRegister>
+			<InformationRegister>мис_УровеньЛогов</InformationRegister>
+			<InformationRegister>РаспределениеЗапасов</InformationRegister>
+			<InformationRegister>СостоянияЗаказовКлиентов</InformationRegister>
+			<InformationRegister>НоменклатураСегмента</InformationRegister>
+			<InformationRegister>СтруктураЗаказа</InformationRegister>
+			<InformationRegister>НормативныйГрафикСтруктурыЗаказа</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
+			<AccumulationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа_РН</AccumulationRegister>
+			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
+			<AccumulationRegister>РасчетыСКлиентами</AccumulationRegister>
+			<AccumulationRegister>ЗапасыИПотребности</AccumulationRegister>
+			<AccumulationRegister>ТоварыКОтгрузке</AccumulationRegister>
+			<AccumulationRegister>ЗаявкиНаВозвратТоваровОтКлиентов</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
@@ -399,6 +458,7 @@
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КСП_НастройкиФулфилмент</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КСП_НастройкиRetailCRM</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>кспПроизвольныеПараметры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

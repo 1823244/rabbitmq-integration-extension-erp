@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="444a8d6d-dbef-4d1a-9041-20a5bf785468">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПроизводствоБезЗаказа" category="Object">
+				<xr:TypeId>3e5db4b2-7c0e-4854-a0b4-9ad9d0291f01</xr:TypeId>
+				<xr:ValueId>e56e8c05-da66-45c4-ad0a-0e05a6461fd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПроизводствоБезЗаказа" category="Ref">
+				<xr:TypeId>49e9158b-e759-4121-b59d-d2706a6fa335</xr:TypeId>
+				<xr:ValueId>305820e5-76c1-4504-9f98-9142d56d2e28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПроизводствоБезЗаказа" category="Selection">
+				<xr:TypeId>c2ff1029-93b2-4688-be4c-6c82bb063137</xr:TypeId>
+				<xr:ValueId>e8946004-7859-4ba6-8e55-70ad925a412f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПроизводствоБезЗаказа" category="List">
+				<xr:TypeId>172e27af-0900-43b3-b0a1-b967604733ea</xr:TypeId>
+				<xr:ValueId>7d2637c4-9143-4960-b13d-8eed1b26101b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПроизводствоБезЗаказа" category="Manager">
+				<xr:TypeId>cb1737a1-f382-4681-a8cd-472e81e17669</xr:TypeId>
+				<xr:ValueId>40fbfd19-1e5c-4510-a2e4-c17a73c93260</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроизводствоБезЗаказа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>402a4f63-c632-4b91-9a24-a8b41c330ff0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2825738c-c928-4d61-bee6-120b77a898b8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e7ec8cd2-5ae9-4dd1-8fcd-16d12e8306f7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

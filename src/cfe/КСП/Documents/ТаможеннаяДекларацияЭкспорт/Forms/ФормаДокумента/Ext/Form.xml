@@ -119,7 +119,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Print commands</v8:content>
+						<v8:content>Form's print commands.</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -154,7 +154,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Important reports submenu</v8:content>
+								<v8:content>Submenu reports important</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="114"/>
@@ -177,7 +177,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Important reports submenu</v8:content>
+								<v8:content>Submenu reports important</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="116"/>
@@ -200,7 +200,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Important reports submenu</v8:content>
+								<v8:content>Submenu reports important</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="118"/>
@@ -591,7 +591,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Document number</v8:content>
+											<v8:content>Document No.</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -607,7 +607,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Document date</v8:content>
+											<v8:content>The document date.</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -795,7 +795,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Print commands</v8:content>
+							<v8:content>Form's print commands.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -830,7 +830,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Important reports submenu</v8:content>
+									<v8:content>Submenu reports important</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="114"/>
@@ -853,7 +853,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Important reports submenu</v8:content>
+									<v8:content>Submenu reports important</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="116"/>
@@ -876,7 +876,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Important reports submenu</v8:content>
+									<v8:content>Submenu reports important</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="118"/>
@@ -1007,7 +1007,7 @@
 												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
-												<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="81"/>
+												<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="81"/>
 												<ChildItems>
 													<InputField name="Номер" id="82">
 														<DataPath>Объект.Number</DataPath>
@@ -1262,7 +1262,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Document number</v8:content>
+												<v8:content>Document No.</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -1278,7 +1278,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Document date</v8:content>
+												<v8:content>The document date.</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -1301,7 +1301,7 @@
 								<v8:content>Additional attributes</v8:content>
 							</v8:item>
 						</Title>
-						<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="132"/>
+						<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="132"/>
 					</Page>
 					<Page name="ГруппаКомментарий" id="99">
 						<Title>

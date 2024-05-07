@@ -30,6 +30,31 @@
 			<ExtendedConfigurationObject>600ea876-962e-4c78-bacb-7368e2d7bd87</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="754c9612-5ecf-4e9b-a445-14d28a0e9920">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8ee6e203-13d7-45c1-a07a-3d9d0e3231bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6461ac57-34f4-4b92-8bc4-10c017a71e64">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>01b20195-7857-404d-82be-3efae39c7c2c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

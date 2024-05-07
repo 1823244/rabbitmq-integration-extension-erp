@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="f8c78602-ae36-4217-ad36-b9f64686abf9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаСырьяПереработчику" category="Object">
+				<xr:TypeId>033ccfa5-eaec-45e0-9874-0a11e5628dac</xr:TypeId>
+				<xr:ValueId>fe015b11-5305-46fb-8648-1d42a65f982e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаСырьяПереработчику" category="Ref">
+				<xr:TypeId>5a9bbf53-37db-49b5-a85d-472eab09a1c5</xr:TypeId>
+				<xr:ValueId>1a2a0ede-21d6-4a65-8188-fa1773069dde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаСырьяПереработчику" category="Selection">
+				<xr:TypeId>5b235ba8-106e-4860-8b05-ae87f1e9c197</xr:TypeId>
+				<xr:ValueId>2342a2e3-2ce9-4ac2-b978-c9aa66d82c93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаСырьяПереработчику" category="List">
+				<xr:TypeId>add0e1a8-2e15-4462-b1a7-5f1d48a3f3c2</xr:TypeId>
+				<xr:ValueId>a7199f62-af38-4c45-b690-7a32aa0110cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаСырьяПереработчику" category="Manager">
+				<xr:TypeId>d9f068a5-70e3-48b4-bd8a-1cba99a2d153</xr:TypeId>
+				<xr:ValueId>4457d2aa-5b01-431d-b511-0c73a8850cb5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаСырьяПереработчику</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>875880ed-82fe-442b-a3d0-193a359c10f3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a8def023-6669-41d8-a990-77189ad7e5a1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f814a8b-2f66-45c1-adac-7a2cc5144060</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c61df05b-0696-41e5-8eaa-9d8dc0512d02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9d353a06-c91c-4d9c-839a-9be1480029a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

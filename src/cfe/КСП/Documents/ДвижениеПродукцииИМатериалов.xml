@@ -30,6 +30,31 @@
 			<ExtendedConfigurationObject>6b652820-7672-43f5-a265-2bed82a309a6</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="8e1f5336-002c-41e5-a65f-4e074c07c66c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>580adfdd-4e0f-429d-a6b6-26bbd1c484ae</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bbb5ea56-ca17-4ad4-998a-0f31f4e7d74b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Получатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f53c0f1-28e1-4b6c-bf6d-4ee84e53f2e7</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>
