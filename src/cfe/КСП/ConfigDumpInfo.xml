@@ -681,7 +681,7 @@
 		<Metadata name="DataProcessor.мис_Logger_Appender_ТекстовыйФайл.ObjectModule" id="dae69dab-a5ea-43ed-a827-87220a9edbf3.0" configVersion="2126936e412e38e779f51a51656d3792bd0f3e8f"/>
 		<Metadata name="DataProcessor.мис_класс_ПараллельнаяОбработкаАлгоритма" id="c6ac7ace-ed3c-4f36-adf3-9b08bb83d51e" configVersion="a728b8885e36d421aa7a8d55f012434b8a889797"/>
 		<Metadata name="DataProcessor.мис_класс_ПараллельнаяОбработкаАлгоритма.Help" id="c6ac7ace-ed3c-4f36-adf3-9b08bb83d51e.1" configVersion="fc0bc6655da0290884413ed23d85b95f3330e856"/>
-		<Metadata name="DataProcessor.мис_класс_ПараллельнаяОбработкаАлгоритма.ObjectModule" id="c6ac7ace-ed3c-4f36-adf3-9b08bb83d51e.0" configVersion="51612f76a5c0c729248f2a05280b9d27f4df7c74"/>
+		<Metadata name="DataProcessor.мис_класс_ПараллельнаяОбработкаАлгоритма.ObjectModule" id="c6ac7ace-ed3c-4f36-adf3-9b08bb83d51e.0" configVersion="8af3c2cf0783615047c0ac0a7c111cfb1bbea4fe"/>
 		<Metadata name="DefinedType.Артикул" id="b9d5e471-4e6c-4312-8f0c-a6998fd5c72f" configVersion="4182d8adf120db1d9a2f2b6dddc466dca42f8684"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаЛюбогоЗнака" id="9ed4cdbc-6098-41e6-85d0-6f027164a482" configVersion="ff04da62a5839e1825dd26127dbca21e71d445c9"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаНеотрицательная" id="b30242fa-df88-48dc-9551-0c3907638706" configVersion="d8d86e809f92703d5aab8514cff6a3d07fe49826"/>
