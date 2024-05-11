@@ -19,6 +19,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мис_УправлениеЗаданиями</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.мис_УровеньЛогов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мис_ИндексЛога</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.мис_ЛимитФоновыхЗаданий</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -558,7 +558,7 @@
 		<Metadata name="CommonModule.мис_класс_ЗапускЗаданий" id="3b8fd692-0d92-4650-be08-d528a4b0bcc2" configVersion="cd148165943b4d223d2f4688e180b4583ae023fa"/>
 		<Metadata name="CommonModule.мис_класс_ЗапускЗаданий.Module" id="3b8fd692-0d92-4650-be08-d528a4b0bcc2.0" configVersion="241eb6f72b9e394f506eb0ec0e32c06f86dd04bd"/>
 		<Metadata name="CommonModule.мис_класс_ФоновыеЗадания" id="eea33eda-abf5-42a9-8a0e-96acb98f8944" configVersion="14b8f2e8308f7d1a72248a72c9e46160a81ef26a"/>
-		<Metadata name="CommonModule.мис_класс_ФоновыеЗадания.Module" id="eea33eda-abf5-42a9-8a0e-96acb98f8944.0" configVersion="47bd5590f5cbe41cf95ad2b8832010e4292423ea"/>
+		<Metadata name="CommonModule.мис_класс_ФоновыеЗадания.Module" id="eea33eda-abf5-42a9-8a0e-96acb98f8944.0" configVersion="f4981da4f0263ab3a3db8b4a7febc7ad31187367"/>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="69e75475-bef2-47c8-8f90-da236bb528be" configVersion="18b072cbcfb94bd77c5e113d43ab2d1a9cdb0209"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="07dcc9da-47a8-43ca-a109-2efdf5f88527" configVersion="25eacc5b34d134444505fe2c653bc51ac6c0e0f6"/>
 		<Metadata name="CommonPicture.КСП_ЭлисФэшнЛоготип" id="47b5c7d1-0484-4f9f-9243-a43d7ba6a5b9" configVersion="433d84c521a28d45636111c46ce9cd93b84d3610"/>
@@ -2032,7 +2032,7 @@
 		<Metadata name="Subsystem.КСП.Subsystem.Фулфилмент.CommandInterface" id="3f041b08-f22f-4d26-a102-e74cbe761eff.1" configVersion="484de0cb867abf0c5335e708d548b38474bedacf"/>
 		<Metadata name="Subsystem.КСП.Subsystem.ЧестныйЗнак" id="3a528d7c-11a9-40a2-aacb-63641ee8b0f7" configVersion="c97357d8b1fdafb4abb71b4cdd9b1d4e7874ce15"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="9c40f059-7eb0-4fb5-98b6-3f496168d2b5" configVersion="d68947d6b23e44f427578661508b832784ba2173"/>
-		<Metadata name="Subsystem.тм_ТаскМенеджер" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e" configVersion="d2ac4806de5e0109b640fc34a454e4a4abef6feb"/>
+		<Metadata name="Subsystem.тм_ТаскМенеджер" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e" configVersion="0e40c0944e67c3d4fe1ea42b042c54fe57ce4c8a"/>
 		<Metadata name="Subsystem.тм_ТаскМенеджер.CommandInterface" id="18b8ca7b-d1b8-4022-96d7-e699d6bb9b6e.1" configVersion="a237480d9a91ab94d1d30f2488177d12cc656991"/>
 		<Metadata name="XDTOPackage.PFS_FE_708" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538" configVersion="94ed87fa1b877ee231a8d50588a76d95c5267533"/>
 		<Metadata name="XDTOPackage.PFS_FE_708.Package" id="ea9d6a78-4f13-4f29-849d-7e0fc75d6538.0" configVersion="ba78f6af1a8a56ea1a2dfc1886f8730477cc77e8"/>
