@@ -68,6 +68,7 @@
 			<Subsystem>КСП</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>тм_ТаскМенеджер</Subsystem>
+			<Subsystem>тм_ТаскМенеджерНевидимая</Subsystem>
 			<StyleItem>ЦветТекстаПроблема</StyleItem>
 			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
