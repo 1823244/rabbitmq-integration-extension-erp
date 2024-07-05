@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КСП_Последний_ID_Заказа_RCRM</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.КСП_ЗаказыRetailCRM</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_СтатусыЗаказовДляВыводаИзОборота</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_АктивныеНастройкиОбменаФулфилмент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -75,6 +75,7 @@
 					</SearchControlAddition>
 					<Events>
 						<Event name="OnEditEnd">ПланПриОкончанииРедактирования</Event>
+						<Event name="BeforeEditEnd">ПланПередОкончаниемРедактирования</Event>
 					</Events>
 					<ChildItems>
 						<LabelField name="ПланНомерСтроки" id="20">

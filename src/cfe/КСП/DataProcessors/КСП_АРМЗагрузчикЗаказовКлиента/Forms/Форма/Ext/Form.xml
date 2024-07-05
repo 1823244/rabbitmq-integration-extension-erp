@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗагрузитьФайл" id="35">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьФайл</CommandName>
+				<ExtendedTooltip name="ФормаЗагрузитьФайлРасширеннаяПодсказка" id="36"/>
+			</Button>
+			<Button name="ФормаЗагрузитьИзКаталога" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьИзКаталога</CommandName>
+				<ExtendedTooltip name="ФормаЗагрузитьИзКаталогаРасширеннаяПодсказка" id="38"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="КаталогЗагрузки" id="1">
+			<DataPath>КаталогЗагрузки</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КаталогЗагрузкиКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КаталогЗагрузкиРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">КаталогЗагрузкиПриИзменении</Event>
+				<Event name="StartChoice">КаталогЗагрузкиНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<Table name="ЗагруженныеФайлы" id="4">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>ЗагруженныеФайлы</DataPath>
+			<RowPictureDataPath>ЗагруженныеФайлы.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="ЗагруженныеФайлыКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="ЗагруженныеФайлыКоманднаяПанель" id="6">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ЗагруженныеФайлыОбновить" id="39">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ЗагруженныеФайлы.StandardCommand.Refresh</CommandName>
+						<ExtendedTooltip name="ЗагруженныеФайлыОбновитьРасширеннаяПодсказка" id="40"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ЗагруженныеФайлыРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="ЗагруженныеФайлыСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>ЗагруженныеФайлы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗагруженныеФайлыСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ЗагруженныеФайлыСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЗагруженныеФайлыСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>ЗагруженныеФайлы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗагруженныеФайлыСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ЗагруженныеФайлыСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЗагруженныеФайлыУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>ЗагруженныеФайлы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗагруженныеФайлыУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ЗагруженныеФайлыУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ЗагруженныеФайлыПериод" id="17">
+					<DataPath>ЗагруженныеФайлы.Period</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыПериодКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыПериодРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<LabelField name="ЗагруженныеФайлыФайл" id="20">
+					<DataPath>ЗагруженныеФайлы.Файл</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыФайлКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыФайлРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<LabelField name="ЗагруженныеФайлыЗаказ" id="23">
+					<DataPath>ЗагруженныеФайлы.Заказ</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыЗаказКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыЗаказРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<LabelField name="ЗагруженныеФайлыСтатус" id="26">
+					<DataPath>ЗагруженныеФайлы.Статус</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыСтатусКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыСтатусРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<LabelField name="ЗагруженныеФайлыРежим" id="29">
+					<DataPath>ЗагруженныеФайлы.Режим</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыРежимКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыРежимРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<LabelField name="ЗагруженныеФайлыЖурнал" id="32">
+					<DataPath>ЗагруженныеФайлы.Журнал</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыЖурналКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыЖурналРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КСП_АРМЗагрузчикЗаказовКлиента</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="КаталогЗагрузки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог загрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗагруженныеФайлы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загруженные файлы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КСП_СведенияОФайлахЗагрузкиЗаказовКлиента</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитьФайл" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьФайл</Action>
+		</Command>
+		<Command name="РегламентноеЗадание" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регламентное задание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регламентное задание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РегламентноеЗадание</Action>
+		</Command>
+		<Command name="ВыгрузитьБланЗаказа" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить блан заказа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить блан заказа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьБланЗаказа</Action>
+		</Command>
+		<Command name="ЗагрузитьИзКаталога" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из каталога</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из каталога</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьИзКаталога</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -28,7 +28,9 @@
 			<Name>КассоваяСмена</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>953a5c06-150b-4d33-a1b3-e1b5b7d767c2</ExtendedConfigurationObject>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТоварыКОтгрузке</xr:Item>
+			</RegisterRecords>
 		</Properties>
 		<ChildObjects/>
 	</Document>

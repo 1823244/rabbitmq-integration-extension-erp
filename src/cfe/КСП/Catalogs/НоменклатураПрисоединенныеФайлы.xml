@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="ad56b11d-a330-40b4-a5bb-c57414d6649c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НоменклатураПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>930c0472-dace-4159-9f51-194b07896cb4</xr:TypeId>
+				<xr:ValueId>ae980a91-7e42-410c-a0f2-da5ab99626d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НоменклатураПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>1a175331-9085-4c78-9fdc-656314d1f23c</xr:TypeId>
+				<xr:ValueId>d5651955-719a-40cf-b2a0-0777158925ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НоменклатураПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>dceab3ac-e12e-4fd5-bda3-c90aedafb627</xr:TypeId>
+				<xr:ValueId>080ffc44-754d-4614-9c54-0c240a85531c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НоменклатураПрисоединенныеФайлы" category="List">
+				<xr:TypeId>fefed15f-c879-44f2-bee1-7322c2aec153</xr:TypeId>
+				<xr:ValueId>c1c29c43-0086-45f9-bfd5-090c130b3bd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НоменклатураПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>e24e34d0-ad20-462f-a546-edb98beeeef3</xr:TypeId>
+				<xr:ValueId>a325fabb-9e45-4903-be64-8359d3284b4d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НоменклатураПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2cb474ac-2906-439d-89dd-dacdb4e90a6c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

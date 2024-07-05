@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>11</size>
+		<size>30</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -48,42 +48,145 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>7</index>
+			<column>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
 			<index>8</index>
 			<column>
-				<formatIndex>1</formatIndex>
+				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>9</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>10</index>
 			<column>
-				<formatIndex>6</formatIndex>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>11</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>12</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>13</index>
+			<column>
+				<formatIndex>9</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>14</index>
+			<column>
+				<formatIndex>10</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>15</index>
+			<column>
+				<formatIndex>11</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>16</index>
+			<column>
+				<formatIndex>12</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>17</index>
+			<column>
+				<formatIndex>13</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>21</index>
+			<column>
+				<formatIndex>14</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>22</index>
+			<column>
+				<formatIndex>15</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>23</index>
+			<column>
+				<formatIndex>16</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>24</index>
+			<column>
+				<formatIndex>17</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>25</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>26</index>
+			<column>
+				<formatIndex>18</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>27</index>
+			<column>
+				<formatIndex>19</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>28</index>
+			<column>
+				<formatIndex>20</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
-			<formatIndex>7</formatIndex>
+			<formatIndex>21</formatIndex>
 			<c>
 				<c>
-					<f>8</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Юр. лицо поставщика</v8:content>
+							<v8:content>Юр. лицо
+поставщика</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -95,7 +198,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -107,7 +210,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -118,44 +221,298 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество</v8:content>
+							<v8:content>Категория товара
+(спорт/классика/
+белье/детство)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Категория товара (спорт/классика/белье/детство)</v8:content>
+							<v8:content>ШК1</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК2</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК3</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК4</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК5</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК6</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК7</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ШК8</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>GTIN/NTIN для
+маркируемого товара</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество ед.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закупочна цена
+для Фамилии с НДС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма в закупочных
+единицах с НДС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ставка НДС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Размер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цвет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав изделия</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страна производства
+товара</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код ТН ВЭД
+10 - знаков</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер Сертификата
+или
+Разрешительного документа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер ГТД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страна ГТД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вес одной
+единицы товара</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата производства</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Срок годности (конкретная дата - 01.01.2023)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Примечания</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
@@ -163,65 +520,196 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
+			<formatIndex>24</formatIndex>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>ЮрЛицо</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>Модель</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>Бренд</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>Наименование</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>Категория</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>шк1</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>шк2</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>шк3</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>шк4</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>шк5</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>25</f>
+					<parameter>шк6</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>шк7</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>шк8</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>GTIN</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Количество</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Цена</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Сумма</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>СтавкаНДС</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Размер</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Цвет</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>СоставИзделия</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Страна</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>ТНВЭД</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>НомерСертификата</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>НомерГТД</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>СтранаГТД</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>ВесЕдиницы</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>ДатаПроизводства</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[СрокГодности] [СрокГодностиЕд]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+					<parameter>Описание</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>9</defaultFormatIndex>
+	<defaultFormatIndex>27</defaultFormatIndex>
 	<height>2</height>
 	<vgRows>2</vgRows>
 	<namedItem xsi:type="NamedItemCells">
@@ -244,33 +732,116 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
-	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<printArea>
+		<type>Rectangle</type>
+		<beginRow>1</beginRow>
+		<endRow>0</endRow>
+		<beginColumn>29</beginColumn>
+		<endColumn>0</endColumn>
+	</printArea>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>146</width>
+		<width>81</width>
+	</format>
+	<format>
+		<width>134</width>
 	</format>
 	<format>
 		<width>101</width>
 	</format>
 	<format>
-		<width>147</width>
+		<width>139</width>
 	</format>
 	<format>
-		<width>231</width>
+		<width>113</width>
 	</format>
 	<format>
-		<width>124</width>
+		<width>46</width>
 	</format>
 	<format>
-		<width>91</width>
+		<width>42</width>
 	</format>
 	<format>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<textPlacement>Wrap</textPlacement>
+		<width>40</width>
+	</format>
+	<format>
+		<width>136</width>
+	</format>
+	<format>
+		<width>99</width>
+	</format>
+	<format>
+		<width>130</width>
+	</format>
+	<format>
+		<width>133</width>
+	</format>
+	<format>
+		<width>83</width>
+	</format>
+	<format>
+		<width>135</width>
+	</format>
+	<format>
+		<width>84</width>
+	</format>
+	<format>
+		<width>204</width>
+	</format>
+	<format>
+		<width>77</width>
+	</format>
+	<format>
+		<width>105</width>
+	</format>
+	<format>
+		<width>120</width>
+	</format>
+	<format>
+		<width>85</width>
 	</format>
 	<format>
 		<font>0</font>
+		<height>278</height>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#D2C5B4</backColor>
+		<pattern>Solid</pattern>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#D2C5B4</backColor>
+		<pattern>Solid</pattern>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<border>0</border>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<border>0</border>
+		<fillType>Template</fillType>
 	</format>
 	<format>
 		<width>72</width>

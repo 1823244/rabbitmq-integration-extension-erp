@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AccumulationRegister uuid="f5f51f79-8908-4d34-b117-62c988c32e84">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ВыручкаИСебестоимостьПродаж" category="Record">
+				<xr:TypeId>a208d10f-f7cb-44ad-95b9-46118ca2dc4d</xr:TypeId>
+				<xr:ValueId>50fdecfa-4ac5-4e62-adfa-50ac15bea85f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ВыручкаИСебестоимостьПродаж" category="Manager">
+				<xr:TypeId>8b671579-e63f-4afe-aa80-1bcf7362f13f</xr:TypeId>
+				<xr:ValueId>d5c1f92f-3733-4ffb-ac56-517e5c32d6bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ВыручкаИСебестоимостьПродаж" category="Selection">
+				<xr:TypeId>712b472e-a99d-4576-b2d1-b1691fa4ba53</xr:TypeId>
+				<xr:ValueId>29e1d929-6ce6-4641-acc5-a2d0baac6ad3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ВыручкаИСебестоимостьПродаж" category="List">
+				<xr:TypeId>e26605ee-75a7-4377-8bb5-f6154ef0e184</xr:TypeId>
+				<xr:ValueId>5eb5ed58-ee2a-4e31-97f4-3e0dab4520e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ВыручкаИСебестоимостьПродаж" category="RecordSet">
+				<xr:TypeId>df138a98-8c7c-436f-b4e5-6e95191ffd54</xr:TypeId>
+				<xr:ValueId>3bedab00-6c59-46b2-8f34-2970cda0d236</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ВыручкаИСебестоимостьПродаж" category="RecordKey">
+				<xr:TypeId>1a322d58-42f8-4600-9c07-d5fd98cb17b3</xr:TypeId>
+				<xr:ValueId>88c43512-586f-4797-9213-05afffab3c8d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыручкаИСебестоимостьПродаж</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cc9cedf1-410d-414a-a05f-f167b8908470</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="bd79912a-76e3-4404-bb02-88496b367a24">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаВыручкиРегл</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8fe31c8d-0ded-4f3d-9d11-da1deae029b2</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e30fcf27-891a-4e2f-a1ee-b9e6058f79b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасходыНаПродажуСНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>056a7ca2-8496-491c-9c1c-00cbad024ed7</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5507c3e3-e5ed-486a-873b-97e0c9b0fd92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>edd9691b-b496-451a-a788-235f34120109</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="e1945248-2552-4f0a-a356-fc39e77d72cf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказКлиента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>76d9c27f-a066-45ee-8646-a029deff4e99</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

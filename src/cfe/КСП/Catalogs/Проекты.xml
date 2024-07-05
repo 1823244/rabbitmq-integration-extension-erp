@@ -29,6 +29,51 @@
 			<Comment/>
 			<ExtendedConfigurationObject>4f008b09-45f5-46c4-8328-e52829147381</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="dc03ab06-7f2c-4fa1-b2d0-4524c34ee626">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Завершен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>30f6b359-a769-437e-975f-fa4f2e92e3fd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="7a7982ec-f64d-4fc4-81f9-bfdbc7979878">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Проекты.ПартнерыИКонтактныеЛица" category="TabularSection">
+						<xr:TypeId>22aec734-0009-4689-b2b0-6168a3afaec0</xr:TypeId>
+						<xr:ValueId>5b5318fa-6125-4755-b8a5-a86fa9d42759</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Проекты.ПартнерыИКонтактныеЛица" category="TabularSectionRow">
+						<xr:TypeId>185800e2-fe2b-4ff3-a8a7-5beb343314d2</xr:TypeId>
+						<xr:ValueId>1d949edb-fd4e-4db3-b23e-3de4943c3a53</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПартнерыИКонтактныеЛица</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b58d5ae-eed2-4e62-a1be-0eba4ff92bcd</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="36aefd7d-a442-404e-8e4b-b2edc1167a38">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Партнер</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ff79f803-60df-471d-924b-b81d7553efb1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

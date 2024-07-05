@@ -271,7 +271,7 @@
 			    ИЗ
 			        ОтборПоСегментуНоменклатуры КАК ТаблицаОтбора
 			    ГДЕ
-			        ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = Истина)), (Номенклатура).* КАК Номенклатура, (Характеристика).* КАК Характеристика, (Склад).* КАК Склад}) КАК ИнформацияОДоступности
+			        ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = ИСТИНА)) КАК Поле2, (Номенклатура).* КАК Номенклатура, (Характеристика).* КАК Характеристика, (Склад) КАК Склад}) КАК ИнформацияОДоступности
 
 ИНДЕКСИРОВАТЬ ПО
 	Номенклатура,
@@ -379,7 +379,7 @@
 		КОНЕЦ
 {ГДЕ
 	(ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры),
-	ИнформацияОДоступности.Склад.* КАК Склад,
+	ИнформацияОДоступности.Склад КАК Склад,
 	ИнформацияОДоступности.Номенклатура.* КАК Номенклатура,
 	ИнформацияОДоступности.Характеристика.* КАК Характеристика}
 
@@ -416,7 +416,7 @@
 		КОНЕЦ
 {ГДЕ
 	(ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры),
-	ИнформацияОДоступности.Склад.* КАК Склад,
+	ИнформацияОДоступности.Склад КАК Склад,
 	ИнформацияОДоступности.Номенклатура.* КАК Номенклатура,
 	ИнформацияОДоступности.Характеристика.* КАК Характеристика}
 
@@ -461,7 +461,7 @@
 		КОНЕЦ
 {ГДЕ
 	(ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры),
-	ИнформацияОДоступности.Склад.* КАК Склад,
+	ИнформацияОДоступности.Склад КАК Склад,
 	ИнформацияОДоступности.Номенклатура.* КАК Номенклатура,
 	ИнформацияОДоступности.Характеристика.* КАК Характеристика}
 
@@ -625,7 +625,7 @@
 				КОНЕЦ
 		{ГДЕ
 			(ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры),
-			ИнформацияОДоступности.Склад.* КАК Склад,
+			ИнформацияОДоступности.Склад КАК Склад,
 			ИнформацияОДоступности.Номенклатура.* КАК Номенклатура,
 			ИнформацияОДоступности.Характеристика.* КАК Характеристика}
 		
@@ -695,7 +695,7 @@
 			КОНЕЦ
 	{ГДЕ
 		(ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры),
-		План.Склад.* КАК Склад,
+		План.Склад КАК Склад,
 		План.Номенклатура.* КАК Номенклатура,
 		План.Характеристика.* КАК Характеристика}
 	
@@ -747,7 +747,7 @@
 			КОНЕЦ
 	{ГДЕ
 		(ТаблицаОтбора.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры),
-		План.Склад.* КАК Склад,
+		План.Склад КАК Склад,
 		План.Номенклатура.* КАК Номенклатура,
 		План.Характеристика.* КАК Характеристика}) КАК Набор
 
@@ -762,12 +762,7 @@
 	Набор.ДатаДоступности
 
 ИМЕЮЩИЕ
-	(СУММА(Набор.Отгружается) &lt;&gt; 0
-		ИЛИ СУММА(Набор.ВНаличии) &lt;&gt; 0
-		ИЛИ СУММА(Набор.Поступит) &lt;&gt; 0
-		ИЛИ СУММА(Набор.ВРезерве) &lt;&gt; 0
-		ИЛИ СУММА(Набор.Доступно) &lt;&gt; 0
-		ИЛИ СУММА(Набор.КОбеспечению) &gt; 0)
+	СУММА(Набор.ВРезерве) &lt;&gt; 0
 
 ИНДЕКСИРОВАТЬ ПО
 	Номенклатура,
@@ -869,12 +864,7 @@
 			И (Таблица.ЗаказНаПоступление = НЕОПРЕДЕЛЕНО)
 			И (Таблица.ТипЗаписи = &amp;ТипЗаписиСейчас)
 ГДЕ
-	(Таблица.Отгружается &lt;&gt; 0
-			ИЛИ Таблица.ВНаличии + ЕСТЬNULL(ТаблицаСгруппированная.Отгружается, 0) &lt;&gt; 0
-			ИЛИ Таблица.Поступит &lt;&gt; 0
-			ИЛИ Таблица.ВРезерве &lt;&gt; 0
-			ИЛИ Таблица.Доступно &lt;&gt; 0
-			ИЛИ Таблица.КОбеспечению &gt; 0)
+	Таблица.ВРезерве &gt; 0
 
 СГРУППИРОВАТЬ ПО
 	Таблица.ЗаказНаОтгрузку,
@@ -926,10 +916,13 @@
 			И (ТаблицаДанных.ТипЗаписи = &amp;ТипЗаписиСейчас)
 ГДЕ
 	ТаблицаДанных.Номенклатура ЕСТЬ NULL
-	И (Таблица.Отгружается &lt;&gt; 0
-			ИЛИ Таблица.Дефицит &lt;&gt; 0
-			ИЛИ Таблица.Излишек &lt;&gt; 0)</query>
+	И ТаблицаДанных.ВРезерве &gt; 0
+	И ТаблицаДанных.ЗаказНаОтгрузку.Номер &lt;&gt; ""</query>
 	</dataSet>
+	<totalField>
+		<dataPath>ВРезерве</dataPath>
+		<expression>Сумма(ВРезерве)</expression>
+	</totalField>
 	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
@@ -1031,36 +1024,120 @@
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
-		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:name>РаспределениеТовараПоСкладамВывескамДатам</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Распределение товара по складам вывескам датам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
-			<dcsset:dataParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ТекстЗапросаВесНоменклатуры</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ТекстЗапросаОбъемНоменклатуры</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ТипЗаписиНеОбеспечено</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ТипЗаписиОжидается</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ТипЗаписиСейчас</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
-			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВРезерве</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Склад</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:name>ЗаказНаОтгрузку.СкладПолучатель</dcsset:name>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ЗаказНаОтгрузкуСклад</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ЗаказНаОтгрузку</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:item>
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>ПериодВывески</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								</dcsset:selection>
+								<dcsset:item>
+									<dcsset:groupItems>
+										<dcsset:item xsi:type="dcsset:GroupItemField">
+											<dcsset:field>Номенклатура</dcsset:field>
+											<dcsset:groupType>Items</dcsset:groupType>
+											<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+											<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+											<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+										</dcsset:item>
+										<dcsset:item xsi:type="dcsset:GroupItemField">
+											<dcsset:field>ПериодВывески</dcsset:field>
+											<dcsset:groupType>Items</dcsset:groupType>
+											<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+											<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+											<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+										</dcsset:item>
+									</dcsset:groupItems>
+									<dcsset:order>
+										<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+									</dcsset:order>
+									<dcsset:selection>
+										<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+									</dcsset:selection>
+								</dcsset:item>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>

@@ -22,15 +22,17 @@
 				<xr:TypeId>fe54befa-bebc-46ab-ac7f-5ea82581fe53</xr:TypeId>
 				<xr:ValueId>f5c4d985-6386-46a3-8661-d5744336e283</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Numerator</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ТаможеннаяДекларацияЭкспорт</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>593edd7c-cdd9-44ee-8c0a-57af812f07de</ExtendedConfigurationObject>
-			<NumberType>String</NumberType>
-			<NumberLength>29</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<Numerator>DocumentNumerator.КСП_НумераторТаможенной</Numerator>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
@@ -194,6 +196,45 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.КСП_ТаможенныеОрганы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="86a96869-579f-4c57-89e3-bfdaa6c7eaf1">
+				<Properties>
+					<Name>КСП_ОтветственныйСклада</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП Ответственный склада</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

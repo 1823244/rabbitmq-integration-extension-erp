@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="8290de82-35ca-410f-af32-b58434542fd8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РеализацияПодарочныхСертификатов" category="Object">
+				<xr:TypeId>5774ae9d-ab50-47d7-a6d6-4e8c263b7d7b</xr:TypeId>
+				<xr:ValueId>beb5351b-610d-4093-b45d-9fa58357b1ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РеализацияПодарочныхСертификатов" category="Ref">
+				<xr:TypeId>20a62a26-76dd-4057-bd52-86efe9a562bc</xr:TypeId>
+				<xr:ValueId>9986e9f2-9b78-4de7-9f8d-a77cade6501a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РеализацияПодарочныхСертификатов" category="Selection">
+				<xr:TypeId>574bd54c-d361-4eed-8476-1c49834a5dee</xr:TypeId>
+				<xr:ValueId>79fed9b8-207e-498e-be9e-234ed82bcac4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РеализацияПодарочныхСертификатов" category="List">
+				<xr:TypeId>872c1479-7234-489a-91c6-073064e07071</xr:TypeId>
+				<xr:ValueId>2818c5b4-2b50-40d4-80ec-0cf732870fe0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РеализацияПодарочныхСертификатов" category="Manager">
+				<xr:TypeId>572d3268-55b7-431a-8a06-86ad43359ed3</xr:TypeId>
+				<xr:ValueId>eccf3e3c-71a6-4fc3-9606-34e53bc9abb2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РеализацияПодарочныхСертификатов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d89f5145-dfd9-4af3-8c13-af7651405561</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

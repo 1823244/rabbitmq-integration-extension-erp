@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Configuration uuid="de5140db-5ca4-4ff6-b551-10dc9bd329d8">
+	<Configuration uuid="fc611bc9-cec4-4522-852d-b49c5abb57e6">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>b8a2095b-708b-4722-9ef5-9892571cadf7</xr:ObjectId>
+				<xr:ObjectId>f8ab64ac-145a-4573-b5d2-96f7a7110235</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>29307e33-8e7f-45fd-bb93-950fc89af23d</xr:ObjectId>
+				<xr:ObjectId>327563ff-190b-46df-9170-94db38905006</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>0e52ed82-0575-48fd-b2ca-e84da3328c0b</xr:ObjectId>
+				<xr:ObjectId>3db19187-51d5-495d-820e-aa3fcd0b74b8</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>ec511a3a-7be3-489d-aa2e-b812631ae85f</xr:ObjectId>
+				<xr:ObjectId>a329ad1d-8e72-4ecb-9951-498ec9b80ffb</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>478e5d68-14a5-4762-804c-a836f2f2738f</xr:ObjectId>
+				<xr:ObjectId>76028860-41c5-4787-90fe-c3a0d474e21b</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>147def10-01ad-4350-9760-48a5f84c4528</xr:ObjectId>
+				<xr:ObjectId>aefefb8e-32a1-428c-943b-0534235c23fb</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>e8c20946-c54f-4330-b223-a22b905da232</xr:ObjectId>
+				<xr:ObjectId>0e48cd23-dc1d-40d1-82d3-350a03384373</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -88,11 +88,15 @@
 			<CommonPicture>Комментарий</CommonPicture>
 			<CommonPicture>КСП_ЭлисФэшнЛоготип</CommonPicture>
 			<CommonPicture>СостояниеСкидкиНаценки</CommonPicture>
+			<CommonPicture>СостоянияСтрок</CommonPicture>
+			<CommonPicture>СтатусыУказанияСерий</CommonPicture>
+			<CommonPicture>СерииНоменклатурыКолонкаСтатусов</CommonPicture>
 			<SessionParameter>мис_КаталогФайловЛогов</SessionParameter>
 			<SessionParameter>мис_УровеньЛогов</SessionParameter>
 			<SessionParameter>мис_ЭтоСервернаяБаза</SessionParameter>
 			<Role>КСП_ОсновнаяРоль</Role>
 			<Role>тм_ОсновнаяРоль</Role>
+			<Role>КСП_ПодписаниеСертификатовОтгрузкиЗаказаКлиента</Role>
 			<CommonModule>ксп_ЭкспортСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ксп_ЭкспортСлужебный</CommonModule>
 			<CommonModule>БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</CommonModule>
@@ -127,7 +131,9 @@
 			<CommonModule>ксп_ВыполнениеКода</CommonModule>
 			<CommonModule>ОчередьЗаданийСлужебный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
+			<CommonModule>РозничныеПродажи</CommonModule>
 			<CommonModule>ОбменДаннымиПереопределяемый</CommonModule>
+			<CommonModule>КСП_ЗагрузкаЗаказовКлиентов</CommonModule>
 			<ExchangePlan>Кодерлайн_интеграция</ExchangePlan>
 			<ExchangePlan>КСП_ИнтеграцияУПП13</ExchangePlan>
 			<XDTOPackage>PFS_FE_714</XDTOPackage>
@@ -149,9 +155,12 @@
 			<DefinedType>РаспоряжениеНаОтгрузку</DefinedType>
 			<DefinedType>ОжидаемаяОтгрузка</DefinedType>
 			<DefinedType>ОжидаемоеПоступление</DefinedType>
+			<DefinedType>ПрисоединенныйФайл</DefinedType>
 			<CommonCommand>КСП_СоздатьТаможеннуюЭкспортНаОснованииПередачи</CommonCommand>
 			<CommonCommand>мис_УровеньЛогов</CommonCommand>
 			<CommonCommand>мис_ОтчетПоЛогуКоманда</CommonCommand>
+			<CommonCommand>КСП_СценарииСинхронизации</CommonCommand>
+			<CommonCommand>КСП_ЗагрузитьКомплектПравил</CommonCommand>
 			<Constant>ксп_УзелОбменаRabbit</Constant>
 			<Constant>ксп_ТекущаяВерсияНастроекФФ</Constant>
 			<Constant>ксп_СтрокаПодключенияКРабочейБазе</Constant>
@@ -160,6 +169,8 @@
 			<Constant>КСП_Последний_ID_Заказа_RCRM</Constant>
 			<Constant>КСП_КаталогЗагрузкиЗаказовКлиента</Constant>
 			<Constant>мис_ЛимитФоновыхЗаданий</Constant>
+			<Constant>ксп_АктивныеНастройкиОбменаRetailCRM</Constant>
+			<Constant>ксп_АктивныеНастройкиОбменаФулфилмент</Constant>
 			<CommonForm>мис_УровеньЛогов</CommonForm>
 			<Catalog>Валюты</Catalog>
 			<Catalog>мис_ИндексЛога</Catalog>
@@ -241,6 +252,9 @@
 			<Catalog>БизнесРегионы</Catalog>
 			<Catalog>ЭтапыПроизводства</Catalog>
 			<Catalog>кспВыгрузкаКарточекТовара</Catalog>
+			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
+			<Catalog>Марки</Catalog>
+			<Catalog>СкладскиеПомещения</Catalog>
 			<Document>ВнесениеДенежныхСредствВКассуККМ</Document>
 			<Document>ВозвратВОборотИСМП</Document>
 			<Document>ВозвратТоваровОтКлиента</Document>
@@ -307,6 +321,11 @@
 			<Document>ЗаказНаРемонт</Document>
 			<Document>ЗаказДавальца</Document>
 			<Document>ПередачаМатериаловВПроизводство</Document>
+			<Document>РеализацияПодарочныхСертификатов</Document>
+			<Document>КСП_УстановкаИдентификаторовТоваровДляПоказа</Document>
+			<Document>КСП_ПротоколСогласованияИзмененияЦен</Document>
+			<Document>ПересчетТоваров</Document>
+			<DocumentNumerator>КСП_НумераторТаможенной</DocumentNumerator>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
@@ -357,6 +376,14 @@
 			<Enum>мис_СтатусВыполнения</Enum>
 			<Enum>мис_СтатусыСообщений</Enum>
 			<Enum>ВидыСтрокСтруктурыЗаказаНаПроизводство</Enum>
+			<Enum>ксп_ВидыДоговоровСПокупателемОТП</Enum>
+			<Enum>ВариантыВыбытияМаркируемойПродукции</Enum>
+			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
+			<Enum>КСП_СтатусыСогласованияЦен</Enum>
+			<Enum>КСП_РозницаТипСклада</Enum>
+			<Enum>ИсточникиИнформацииОЦенахДляПечати</Enum>
+			<Enum>ТипыСкладов</Enum>
+			<Enum>НазначенияВидовЦен</Enum>
 			<Report>КСП_ЗаказыRetailCRM</Report>
 			<Report>КСП_Отчет_ОшибкиИмпортаУПП</Report>
 			<Report>мис_ОтчетПоЛогу</Report>
@@ -365,6 +392,11 @@
 			<Report>кспРаспределениеТовараПоСкладамВывескамДатам</Report>
 			<Report>кспСводныйОтчет</Report>
 			<Report>кспРеестрВозвратаБрака</Report>
+			<Report>КСП_ДиспетчерРаспределения_Форма_1_1</Report>
+			<Report>кспОтчетПоИнтернетМагазину</Report>
+			<Report>кспКонтрольВыполненияИнтернетЗаказов</Report>
+			<Report>КСП_ВыставленныеСчетаПоСтрокамЗаказа</Report>
+			<Report>ВедомостьПоТоварамНаСкладах</Report>
 			<DataProcessor>КСП_ДиспетчерРаспределенияГотовойПродукции</DataProcessor>
 			<DataProcessor>ксп_ПервоначальноеЗаполнениеДляИнтеграций</DataProcessor>
 			<DataProcessor>КСП_ПФ_ТаможеннаяДекларацияЭкспорт</DataProcessor>
@@ -382,6 +414,7 @@
 			<DataProcessor>мис_Logger_Appender_ТекстовыйФайл</DataProcessor>
 			<DataProcessor>мис_класс_ПараллельнаяОбработкаАлгоритма</DataProcessor>
 			<DataProcessor>мис_AdoConnection</DataProcessor>
+			<DataProcessor>КСП_АРМЗагрузчикЗаказовКлиента</DataProcessor>
 			<InformationRegister>ВыгрзкаДанныхВФулфилмент</InformationRegister>
 			<InformationRegister>ЗагрузкаДанныхИзФулфилмент</InformationRegister>
 			<InformationRegister>КСП_ВидыНоменклатурыДляАнонсаПоставки</InformationRegister>
@@ -434,7 +467,7 @@
 			<InformationRegister>ксп_МэппингХозяйственныеОперации</InformationRegister>
 			<InformationRegister>КСП_СведенияОФайлахЗагрузкиЗаказовКлиента</InformationRegister>
 			<InformationRegister>КСП_ПоложениеДанныхВДокументеЗагрузки</InformationRegister>
-			<InformationRegister>кспЗначенияПроизвольныхПараметров</InformationRegister>
+			<InformationRegister>КСП_ЗначенияПроизвольныхПараметров</InformationRegister>
 			<InformationRegister>КСП_СвязьРеализацийУППиЦепочекРеализаций</InformationRegister>
 			<InformationRegister>мис_СтатусВыполненияЗаданий</InformationRegister>
 			<InformationRegister>мис_УровеньЛогов</InformationRegister>
@@ -443,6 +476,10 @@
 			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<InformationRegister>СтруктураЗаказа</InformationRegister>
 			<InformationRegister>НормативныйГрафикСтруктурыЗаказа</InformationRegister>
+			<InformationRegister>КСП_ИдентификаторыТоваровДляПоказа</InformationRegister>
+			<InformationRegister>КСП_ДоговорыБанковскаяГарантия</InformationRegister>
+			<InformationRegister>КСП_ИсторияМагазина</InformationRegister>
+			<InformationRegister>КСП_ШаблоныРаспределенияПоМагазинам</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<AccumulationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа_РН</AccumulationRegister>
@@ -451,6 +488,8 @@
 			<AccumulationRegister>ЗапасыИПотребности</AccumulationRegister>
 			<AccumulationRegister>ТоварыКОтгрузке</AccumulationRegister>
 			<AccumulationRegister>ЗаявкиНаВозвратТоваровОтКлиентов</AccumulationRegister>
+			<AccumulationRegister>ВыручкаИСебестоимостьПродаж</AccumulationRegister>
+			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>АналитикиСтатейБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
@@ -459,7 +498,7 @@
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КСП_НастройкиФулфилмент</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КСП_НастройкиRetailCRM</ChartOfCharacteristicTypes>
-			<ChartOfCharacteristicTypes>кспПроизвольныеПараметры</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>КСП_ПроизвольныеПараметры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

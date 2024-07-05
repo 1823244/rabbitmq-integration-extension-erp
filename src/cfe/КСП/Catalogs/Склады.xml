@@ -28,6 +28,8 @@
 			<Name>Склады</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>07b3c407-9a3a-4f94-b798-226c96d66840</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="7fd79c74-6327-4c6f-a02a-0f7737da7b5e">
@@ -42,6 +44,91 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="d4ff2ba9-0259-4676-bd10-6664a229b4d7">
+				<Properties>
+					<Name>КСП_РозницаТипСклада</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Розница тип склада</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.КСП_РозницаТипСклада</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="804aeba5-e481-433d-a6ad-64b8c5e06fd0">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Склады.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>a9e2999a-784b-4fe7-b3c9-5f697dc13a45</xr:TypeId>
+						<xr:ValueId>00ec9df9-0c85-493d-b779-7ccde69412d3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Склады.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>846ceb38-d711-4423-a429-9539b78b22d7</xr:TypeId>
+						<xr:ValueId>32aa7ba2-0f1d-4f57-84ee-12235ab15862</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>733fda55-7600-4f6b-835f-7c1c6c2390f8</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="07aaa3ef-9855-41da-b204-00eb4d19964a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>def842a7-0900-4895-be0f-074a332af0d8</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cef351d0-db16-447b-9cf6-56dc021e17b5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>81a219a0-e656-459e-b693-8c4476f368b0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

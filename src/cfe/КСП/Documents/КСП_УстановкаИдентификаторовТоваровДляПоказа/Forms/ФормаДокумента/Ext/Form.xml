@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="32">
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Проект" id="7">
+			<DataPath>Объект.Проект</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПроектКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="Идентификаторы" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Идентификаторы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИдентификаторыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ИдентификаторыКоманднаяПанель" id="12">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ИдентификаторыДобавить" id="36">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>Form.Item.Идентификаторы.StandardCommand.Add</CommandName>
+						<ExtendedTooltip name="ИдентификаторыДобавитьРасширеннаяПодсказка" id="37"/>
+					</Button>
+					<Button name="ИдентификаторыУдалить" id="38">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>Form.Item.Идентификаторы.StandardCommand.Delete</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИдентификаторыУдалитьРасширеннаяПодсказка" id="39"/>
+					</Button>
+					<Button name="ИдентификаторыСортироватьСписокПоВозрастанию" id="40">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>Form.Item.Идентификаторы.StandardCommand.SortListAsc</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИдентификаторыСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="41"/>
+					</Button>
+					<Button name="ИдентификаторыСортироватьСписокПоУбыванию" id="42">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>Form.Item.Идентификаторы.StandardCommand.SortListDesc</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИдентификаторыСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="43"/>
+					</Button>
+					<Button name="ИдентификаторыСформироватьИдентификаторы" id="34">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СформироватьИдентификаторы</CommandName>
+						<ExtendedTooltip name="ИдентификаторыСформироватьИдентификаторыРасширеннаяПодсказка" id="35"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ИдентификаторыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ИдентификаторыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Идентификаторы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИдентификаторыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ИдентификаторыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИдентификаторыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Идентификаторы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИдентификаторыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ИдентификаторыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИдентификаторыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Идентификаторы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИдентификаторыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ИдентификаторыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ИдентификаторыНомерСтроки" id="23">
+					<DataPath>Объект.Идентификаторы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИдентификаторыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ИдентификаторыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ИдентификаторыНоменклатура" id="26">
+					<DataPath>Объект.Идентификаторы.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИдентификаторыНоменклатураКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ИдентификаторыНоменклатураРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ИдентификаторыИдентификатор" id="29">
+					<DataPath>Объект.Идентификаторы.Идентификатор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИдентификаторыИдентификаторКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ИдентификаторыИдентификаторРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.КСП_УстановкаИдентификаторовТоваровДляПоказа</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьИдентификаторы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать идентификаторы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать идентификаторы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьИдентификаторы</Action>
+		</Command>
+	</Commands>
+</Form>

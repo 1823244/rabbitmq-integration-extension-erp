@@ -42,6 +42,30 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="5cf32481-7d36-4659-b606-886bc2821fc5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецФайла</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>08201b8e-395e-4e1e-b5c2-3be0884a05ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1458e335-9dc6-4064-a9b5-5b8ba676a72c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТекстХранилище</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>23743296-9e31-448b-b974-aef3dd85c8e7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

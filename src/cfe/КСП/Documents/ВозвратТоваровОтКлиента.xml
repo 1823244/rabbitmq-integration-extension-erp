@@ -30,6 +30,31 @@
 			<ExtendedConfigurationObject>69907d01-2fac-4a13-a6a2-2cf0af2a60bf</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="1102c460-6187-4e6a-bde5-a85743e9385f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументРеализации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>482efeb2-6584-4e29-acb0-718c0859e513</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ae75c295-7cf8-43c1-bcf3-aec0cfe7507c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70e9e5a0-95a9-4618-b6cd-151f7f41f9bb</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

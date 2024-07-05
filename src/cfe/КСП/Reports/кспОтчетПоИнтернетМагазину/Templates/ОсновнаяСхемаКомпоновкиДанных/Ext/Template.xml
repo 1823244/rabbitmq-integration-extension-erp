@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Отчет по интернет-магазину</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МесяцЗаказа</dataPath>
+			<field>МесяцЗаказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц заказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОплаты</dataPath>
+			<field>ВидОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид оплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФМ</dataPath>
+			<field>ФМ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФМ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СМ</dataPath>
+			<field>СМ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СМ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЗаказа</dataPath>
+			<field>КоличествоЗаказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество заказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрайсЦенаПроизводителя</dataPath>
+			<field>ПрайсЦенаПроизводителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прайс цена производителя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Прибыль</dataPath>
+			<field>Прибыль</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прибыль</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьДоставки</dataPath>
+			<field>СтоимостьДоставки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость доставки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоВозврат</dataPath>
+			<field>КоличествоВозврат</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество возврат</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресДоставки</dataPath>
+			<field>АдресДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресДоставкиФедеральныйОкруг</dataPath>
+			<field>АдресДоставкиФедеральныйОкруг</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес доставки федеральный округ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокВозврата</dataPath>
+			<field>ДокВозврата</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Док возврата</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВозврата</dataPath>
+			<field>СуммаВозврата</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма возврата</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВозвратТоваровОтКлиента.Ссылка КАК Возврат,
+	РеализацияТоваровУслуг.ЗаказКлиента КАК ЗаказКлиента,
+	ВозвратТоваровОтКлиента.СуммаДокумента КАК СуммаВозврата
+ПОМЕСТИТЬ ДокументыВозврата
+ИЗ
+	Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.РеализацияТоваровУслуг КАК РеализацияТоваровУслуг
+			ЛЕВОЕ СОЕДИНЕНИЕ Документ.ВозвратТоваровОтКлиента КАК ВозвратТоваровОтКлиента
+			ПО РеализацияТоваровУслуг.Ссылка = ВозвратТоваровОтКлиента.ДокументРеализации
+		ПО ЗаказКлиентаТовары.Ссылка = РеализацияТоваровУслуг.ЗаказКлиента
+ГДЕ
+	ВозвратТоваровОтКлиента.Ссылка &lt;&gt; ""
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВыручкаИСебестоимостьПродаж.ЗаказКлиента КАК ЗаказКлиента,
+	СУММА(ВыручкаИСебестоимостьПродаж.СуммаВыручкиРегл) КАК СуммаВыручкиРегл,
+	СУММА(ВыручкаИСебестоимостьПродаж.РасходыНаПродажуСНДС) КАК РасходыНаПродажуСНДС,
+	СУММА(ВыручкаИСебестоимостьПродаж.Количество) КАК Количество
+ПОМЕСТИТЬ ВыручкаИСебестоимость
+ИЗ
+	РегистрНакопления.ВыручкаИСебестоимостьПродаж КАК ВыручкаИСебестоимостьПродаж
+
+СГРУППИРОВАТЬ ПО
+	ВыручкаИСебестоимостьПродаж.ЗаказКлиента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	"ВидОплаты" КАК ВидОплаты,
+	"ФМ" КАК ФМ,
+	"СМ" КАК СМ,
+	СУММА(ЗаказыКлиентов.Заказано) КАК КоличествоЗаказа,
+	СУММА(ЗаказыКлиентов.Сумма) КАК Сумма,
+	СУММА(ЗаказыКлиентов.Сумма / ЗаказыКлиентов.Заказано) КАК ПрайсЦенаПроизводителя,
+	"Прибыль" КАК Прибыль,
+	ЗаказыКлиентов.Склад КАК Склад,
+	ЗаказыКлиентов.Регистратор КАК Регистратор
+ПОМЕСТИТЬ Заказы
+ИЗ
+	РегистрНакопления.ЗаказыКлиентов КАК ЗаказыКлиентов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Склады.ДополнительныеРеквизиты КАК СкладыДополнительныеРеквизиты
+		ПО ЗаказыКлиентов.Склад = СкладыДополнительныеРеквизиты.Ссылка
+ГДЕ
+	ЗаказыКлиентов.Заказано &gt; 0
+	И СкладыДополнительныеРеквизиты.Значение = ИСТИНА
+
+СГРУППИРОВАТЬ ПО
+	ЗаказыКлиентов.Склад,
+	ЗаказыКлиентов.Регистратор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВЫБОР
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 1
+			ТОГДА "Январь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 2
+			ТОГДА "Февраль"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 3
+			ТОГДА "Март"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 4
+			ТОГДА "Апрель"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 5
+			ТОГДА "Май"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 6
+			ТОГДА "Июнь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 7
+			ТОГДА "Июль"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 8
+			ТОГДА "Август"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 9
+			ТОГДА "Сентябрь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 10
+			ТОГДА "Октябрь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 11
+			ТОГДА "Ноябрь"
+		ИНАЧЕ "Декабрь"
+	КОНЕЦ КАК МесяцЗаказа,
+	ЗаказКлиента.АдресДоставки КАК АдресДоставки,
+	ВЫРАЗИТЬ(ЛЕВ(ПОДСТРОКА(ЗаказКлиента.АдресДоставки, СТРНАЙТИ(ЗаказКлиента.АдресДоставки, "г."), 100), СТРНАЙТИ(ПОДСТРОКА(ЗаказКлиента.АдресДоставки, СТРНАЙТИ(ЗаказКлиента.АдресДоставки, "г."), 100), ",") - 1) КАК СТРОКА(150)) КАК АдресДоставкиФедеральныйОкруг,
+	ЗаказКлиента.Дата КАК Дата,
+	ЗаказКлиента.Ссылка КАК ЗаказКлиента,
+	ЗаказКлиента.Номер КАК Номер
+ПОМЕСТИТЬ ДокЗаказ
+ИЗ
+	Документ.ЗаказКлиента КАК ЗаказКлиента
+ГДЕ
+	ЗаказКлиента.Проведен = ИСТИНА
+
+СГРУППИРОВАТЬ ПО
+	ЗаказКлиента.Ссылка,
+	ВЫБОР
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 1
+			ТОГДА "Январь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 2
+			ТОГДА "Февраль"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 3
+			ТОГДА "Март"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 4
+			ТОГДА "Апрель"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 5
+			ТОГДА "Май"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 6
+			ТОГДА "Июнь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 7
+			ТОГДА "Июль"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 8
+			ТОГДА "Август"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 9
+			ТОГДА "Сентябрь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 10
+			ТОГДА "Октябрь"
+		КОГДА МЕСЯЦ(ЗаказКлиента.Дата) = 11
+			ТОГДА "Ноябрь"
+		ИНАЧЕ "Декабрь"
+	КОНЕЦ,
+	ЗаказКлиента.АдресДоставки,
+	ВЫРАЗИТЬ(ЛЕВ(ПОДСТРОКА(ЗаказКлиента.АдресДоставки, СТРНАЙТИ(ЗаказКлиента.АдресДоставки, "г."), 100), СТРНАЙТИ(ПОДСТРОКА(ЗаказКлиента.АдресДоставки, СТРНАЙТИ(ЗаказКлиента.АдресДоставки, "г."), 100), ",") - 1) КАК СТРОКА(150)),
+	ЗаказКлиента.Дата
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Заказы.ВидОплаты КАК ВидОплаты,
+	Заказы.ФМ КАК ФМ,
+	Заказы.СМ КАК СМ,
+	Заказы.КоличествоЗаказа КАК КоличествоЗаказа,
+	Заказы.Сумма КАК Сумма,
+	Заказы.ПрайсЦенаПроизводителя КАК ПрайсЦенаПроизводителя,
+	Заказы.Прибыль КАК Прибыль,
+	ДокументыВозврата.СуммаВозврата КАК СуммаВозврата,
+	ВыручкаИСебестоимость.РасходыНаПродажуСНДС КАК СтоимостьДоставки,
+	ВыручкаИСебестоимость.Количество КАК КоличествоВозврат,
+	ДокЗаказ.АдресДоставки КАК АдресДоставки,
+	ДокЗаказ.Дата КАК Дата,
+	ДокЗаказ.АдресДоставкиФедеральныйОкруг КАК АдресДоставкиФедеральныйОкруг,
+	ДокЗаказ.МесяцЗаказа КАК МесяцЗаказа,
+	Заказы.Регистратор КАК Ссылка,
+	ДокументыВозврата.Возврат КАК ДокВозврата,
+	ДокЗаказ.Номер КАК Номер
+ИЗ
+	Заказы КАК Заказы
+		ЛЕВОЕ СОЕДИНЕНИЕ ДокЗаказ КАК ДокЗаказ
+		ПО Заказы.Регистратор = ДокЗаказ.ЗаказКлиента
+		ЛЕВОЕ СОЕДИНЕНИЕ ВыручкаИСебестоимость КАК ВыручкаИСебестоимость
+		ПО Заказы.Регистратор = ВыручкаИСебестоимость.ЗаказКлиента
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ДокументыВозврата КАК ДокументыВозврата
+		ПО Заказы.Регистратор = ДокументыВозврата.ЗаказКлиента
+ГДЕ
+	ТИПЗНАЧЕНИЯ(Заказы.Регистратор) = ТИП(Документ.ЗаказКлиента)</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Отчет по интернет-магазину</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по интернет-магазину</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по интернет-магазину</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Ссылка</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Номер</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВидОплаты</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>МесяцЗаказа</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>АдресДоставкиФедеральныйОкруг</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>АдресДоставки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ФМ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СМ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДокВозврата</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоЗаказа</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Сумма</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаВозврата</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПрайсЦенаПроизводителя</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Прибыль</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьДоставки</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

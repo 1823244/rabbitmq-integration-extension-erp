@@ -272,6 +272,7 @@
 						<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
+						<v8:Type>cfg:DocumentRef.РеализацияПодарочныхСертификатов</v8:Type>
 						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
 						<v8:Type>cfg:DocumentRef.КСП_Распределение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ИзменениеАссортимента</v8:Type>

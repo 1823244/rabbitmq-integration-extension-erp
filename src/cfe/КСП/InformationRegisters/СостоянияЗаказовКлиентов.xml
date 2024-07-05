@@ -40,6 +40,33 @@
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
+			<Resource uuid="353a12d5-4248-4567-aae2-2858a731a401">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3b7c75dc-9f63-4ed2-aaa6-9baa9da4c61f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b59bdffe-78d2-4ad8-ab2d-b68ced9ce821">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>63aa379a-2fd5-4859-b950-0743407a2f0c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
 			<Attribute uuid="300737c8-d77b-490c-9d5b-28d591ec2159">
 				<InternalInfo/>
 				<Properties>

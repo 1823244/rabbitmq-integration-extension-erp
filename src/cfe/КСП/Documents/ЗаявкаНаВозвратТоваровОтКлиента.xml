@@ -79,6 +79,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="1b0ed808-ef23-4708-9a17-590a9e46201b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументРеализации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3936710c-76b8-4c3c-bf0f-91db58146ab0</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="e58efe78-fb68-48f0-b57f-e1ba4fd58b70">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаявкаНаВозвратТоваровОтКлиента.ВозвращаемыеТовары" category="TabularSection">
@@ -130,6 +142,38 @@
 							<ExtendedConfigurationObject>891d1903-fe59-4941-a73d-7968a16ad0a4</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="0b435904-0059-4834-a012-d0482470bf5e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаявкаНаВозвратТоваровОтКлиента.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>358f8bab-05d9-4330-8da7-4528e07919a4</xr:TypeId>
+						<xr:ValueId>04dfdad9-6aa0-4712-9e91-8d5e1f25ef2f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаявкаНаВозвратТоваровОтКлиента.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>dbe147f5-dbff-4979-b69c-ecc0d0af3cf1</xr:TypeId>
+						<xr:ValueId>69164aaf-264c-4d40-8f52-789ccca57d20</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>77044acb-f0fa-42bf-a1d7-a1c5b9485c81</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="13ae052c-b13d-4e71-b8a1-69a7040e4d31">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0b4ee40d-bcfc-4809-9758-eacec67eb60a</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
 							</Type>
 						</Properties>
 					</Attribute>

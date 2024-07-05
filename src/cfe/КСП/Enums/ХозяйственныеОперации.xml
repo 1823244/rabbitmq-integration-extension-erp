@@ -319,6 +319,42 @@
 					<ExtendedConfigurationObject>39b63e72-b74f-41a5-8d5c-68908eab2196</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="7ea5691a-4306-4360-a96c-d1bd5f6b46ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияЧерезКомиссионера</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8880d304-daf7-4345-ad8d-c81bc5d994b7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8363826b-8ad3-48eb-9c4a-d58bcc3d5a53">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияЧерезКомиссионераБезПереходаПраваСобственности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f24e8e16-21ad-4eeb-a73d-06152c4d9a1e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fab9613e-0e3f-4c98-b723-3b3c2a1a9dde">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияКлиентуРеглУчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3299776f-a304-476e-a0d9-a9132b128869</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2843463e-c727-43b6-83af-e802b7589fae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияБезПереходаПраваСобственности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0789d7c2-8020-4d52-a305-445f9faa9b76</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -44,6 +44,12 @@
 			<ContextMenu name="ОтключеноКонтекстноеМеню" id="88"/>
 			<ExtendedTooltip name="ОтключеноРасширеннаяПодсказка" id="89"/>
 		</CheckBoxField>
+		<CheckBoxField name="ЗагрузкаРазрешена" id="90">
+			<DataPath>Объект.Активность</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагрузкаРазрешенаКонтекстноеМеню" id="91"/>
+			<ExtendedTooltip name="ЗагрузкаРазрешенаРасширеннаяПодсказка" id="92"/>
+		</CheckBoxField>
 		<Pages name="Страницы" id="25">
 			<Title>
 				<v8:item>

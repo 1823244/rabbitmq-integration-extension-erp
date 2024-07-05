@@ -4,4 +4,8 @@
 		<Metadata>Document.РеализацияТоваровУслуг</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
+	<Item>
+		<Metadata>Document.ВозвратТоваровОтКлиента</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
 </ExchangePlanContent>

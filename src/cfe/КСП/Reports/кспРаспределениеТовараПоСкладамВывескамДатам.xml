@@ -21,7 +21,7 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>Report.кспРаспределениеТовараПоСкладамВывескамДатам.Form.ФормаОтчетаСамообслуживание</DefaultForm>
+			<DefaultForm/>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema>Report.кспРаспределениеТовараПоСкладамВывескамДатам.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
 			<DefaultSettingsForm/>

@@ -752,6 +752,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="6a5ad037-bb30-4311-a87e-cb3384f946ce">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИндивидуальныйВидЦены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>02898a07-b84e-4de0-bf02-51d328ec74bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="90ff7d4d-a417-4bb5-be0f-97c94a1c8c22">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.СоглашенияСКлиентами.Товары" category="TabularSection">

@@ -700,6 +700,8 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>МакетЗагрузкиДанных</Template>
+			<Template>МакетПечати</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
