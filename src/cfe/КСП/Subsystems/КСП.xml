@@ -91,6 +91,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.КСП_ВыставленныеСчетаПоСтрокамЗаказа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.кспОтчетПоИнтернетМагазину</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.кспКонтрольВыполненияИнтернетЗаказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ОграниченияИмпортаДокументовУПП</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

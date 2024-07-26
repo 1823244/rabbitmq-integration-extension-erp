@@ -480,6 +480,7 @@
 			<InformationRegister>КСП_ДоговорыБанковскаяГарантия</InformationRegister>
 			<InformationRegister>КСП_ИсторияМагазина</InformationRegister>
 			<InformationRegister>КСП_ШаблоныРаспределенияПоМагазинам</InformationRegister>
+			<InformationRegister>КСП_ОграниченияИмпортаДокументовУПП</InformationRegister>
 			<AccumulationRegister>КСП_ДиспетчерРаспределения</AccumulationRegister>
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<AccumulationRegister>КСП_ВыставленныеСчетаПоСтрокамЗаказа_РН</AccumulationRegister>
