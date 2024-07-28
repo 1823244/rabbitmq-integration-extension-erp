@@ -66,11 +66,11 @@
 		<ChildObjects>
 			<Resource uuid="05082039-2e27-4c1c-b0e5-d68f60653f15">
 				<Properties>
-					<Name>ЗапретитьИмпорт</Name>
+					<Name>РазрешитьИмпорт</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Запретить импорт</v8:content>
+							<v8:content>Разрешить импорт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
