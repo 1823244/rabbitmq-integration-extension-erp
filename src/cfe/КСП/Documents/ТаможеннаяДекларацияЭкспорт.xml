@@ -74,7 +74,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -234,7 +234,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -382,7 +382,6 @@
 			<Template>КСП_ПФ_MXL_ВыпискаИзПрайсЛиста</Template>
 			<Template>КСП_ПФ_MXL_РеализацияТоваровШтрихКоды</Template>
 			<Template>КСП_ПФ_MXL_РеализацияТоваров</Template>
-			<Template>КСП_ПФ_MXL_Спецификация</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

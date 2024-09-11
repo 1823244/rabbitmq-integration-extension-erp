@@ -13,6 +13,15 @@
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="9d072cfd-d293-4bca-b036-72a36e097071">
+		<Name>РаспределятьECOMВРамкахРозницы</Name>
+		<Code>000000003</Code>
+		<Description>Распределять ECOM в рамка</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="7ca986f8-f4fc-4476-8e84-1f9fcd71aba8">
 		<Name>Хрупкий_товар</Name>
 		<Code>000000001</Code>

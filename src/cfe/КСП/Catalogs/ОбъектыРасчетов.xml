@@ -78,6 +78,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="4969adcf-04d1-481f-9257-506a9ef82da9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Объект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9b52c65-7828-4280-a247-e281ed971ffb</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОбъектРасчетов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

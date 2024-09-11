@@ -147,6 +147,168 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="adc29220-bf6e-4d6c-9219-4af965ab1025">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьДлительностьПеремещения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cc4cef92-6259-4589-924f-77d654626df1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7507e42a-5c49-487e-8abe-b4fb5c4b0e9a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПеремещениеПодДеятельность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a888ff0f-d0cf-430c-9b2c-f656dd97abe1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4eeb15cd-a8e5-4cdc-8b05-fe735a312e51">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6f47ce32-1948-4278-bb51-96f4c265a4af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="078d2e3d-0838-4e81-9e48-45414399a91d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОрганизацияПолучатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6620f43d-98be-4303-a4ae-682cd9dda4ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49fcf091-2e54-4c34-abb6-de0d77f271af">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4931e7e0-870b-4fe5-b051-8fbf9edf411d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c3d05750-b1e5-4915-9de1-ce85b0fa412a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЖелаемаяДатаПоступления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a2abdf9d-d57c-4a18-8c62-33b418c0e5a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="07eec05b-777b-476f-bd52-9297c131bdfd">
+				<Properties>
+					<Name>КСП_УровеньРаспределения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП уровень распределения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f707d768-162c-4158-9e01-ed9e45a42e91">
+				<Properties>
+					<Name>КСП_СозданАвтоматически</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создан автоматически</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="464a99d4-d6b6-4256-9695-ea28f72fa2ac">
 				<InternalInfo>
@@ -204,6 +366,50 @@
 									<v8:FractionDigits>3</v8:FractionDigits>
 									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="a290d6be-4883-47e3-b251-33479f03171c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаказНаПеремещение.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>b34364fe-f4c0-4cb0-a3f5-916aabfbd980</xr:TypeId>
+						<xr:ValueId>e4410db8-ffc3-4be2-9ec3-1f4960302891</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказНаПеремещение.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>18496528-f529-4e6e-9039-c72f0d520db3</xr:TypeId>
+						<xr:ValueId>42262566-86dd-4037-87f6-830eabd0f219</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>44e1ae18-4b76-45eb-8435-1b716a5a4d6a</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f8c44f43-3442-4a55-bcf8-848cfe71baf7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>fd1bafa6-78be-4928-84f0-335be76e2f90</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="80f1297c-9e59-4bf7-87c5-91fa3ab44108">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>006b1d94-6e38-4d9b-b314-d14fa1af1ebb</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
 							</Type>
 						</Properties>
 					</Attribute>

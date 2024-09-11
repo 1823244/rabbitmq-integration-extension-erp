@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="a4add7c7-2a0d-476b-9380-d0abdd32e67b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыКарт" category="Ref">
+				<xr:TypeId>a132e7d1-cb89-4226-898b-9e46aabb37ec</xr:TypeId>
+				<xr:ValueId>7ca1d8dd-49ab-4a53-b327-cd25d5a8eb19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыКарт" category="Manager">
+				<xr:TypeId>c1bfcc94-84f5-42cd-84a9-cd8e611a0196</xr:TypeId>
+				<xr:ValueId>c7595c89-ddc0-4d24-a8ae-7a97546dd651</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыКарт" category="List">
+				<xr:TypeId>ef6a17bd-0bd2-4e69-89dd-9406f18765f3</xr:TypeId>
+				<xr:ValueId>6e675953-b86e-48f7-a3af-8210e83d8015</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыКарт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5fa8e9e4-5bb7-45e7-a7da-1c5711b4c0e4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

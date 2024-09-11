@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="9b8d6212-271d-409b-b3f3-ea4b4319f3b6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СезонныеГруппы" category="Object">
+				<xr:TypeId>73628303-4fe4-4dc8-b856-c97cffbec716</xr:TypeId>
+				<xr:ValueId>42c40a97-9849-42ed-9c6e-3bf8f2f118f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СезонныеГруппы" category="Ref">
+				<xr:TypeId>692e6dde-8638-4e25-a74e-e51d280aa853</xr:TypeId>
+				<xr:ValueId>274a4c07-466c-4362-9867-107804bf5484</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СезонныеГруппы" category="Selection">
+				<xr:TypeId>62a9aa22-aaf8-4218-a5dd-7dcae7a6bc03</xr:TypeId>
+				<xr:ValueId>233ca905-ab7e-4d90-bf02-25254535d095</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СезонныеГруппы" category="List">
+				<xr:TypeId>70cd4238-20ad-43c5-a814-3c3df15a6a13</xr:TypeId>
+				<xr:ValueId>b10f225b-90af-4ef4-9a01-621e1c00c611</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СезонныеГруппы" category="Manager">
+				<xr:TypeId>a40af211-6bb7-4de7-940a-5747af218ae8</xr:TypeId>
+				<xr:ValueId>c2989fc3-ba30-4891-a3d4-b90b9c4ada32</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СезонныеГруппы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fb04f2ca-7f86-4692-8545-0b66024c8fd7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

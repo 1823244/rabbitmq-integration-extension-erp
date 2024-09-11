@@ -49,6 +49,30 @@
 					<ExtendedConfigurationObject>2e46dee0-b40d-4bd4-b02a-da83a286ea45</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="49c2769d-f84b-41dc-bbef-001b9f3a0edc">
+				<Properties>
+					<Name>НДС12</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>12%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ставка НДС 12%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="844715c6-1624-4246-a722-3b9dca5a0478">
+				<Properties>
+					<Name>НДС12_112</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>12/112</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Расчетная ставка НДС 18/118</Comment>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

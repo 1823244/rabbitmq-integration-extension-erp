@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомерДата" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Касса" id="7">
+					<DataPath>Объект.Касса</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КассаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="КассаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="НеобнуленнаяСуммаНаНачалоСмены" id="87">
+			<DataPath>НеобнуленнаяСуммаНаНачалоСмены</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="НеобнуленнаяСуммаНаНачалоСменыКонтекстноеМеню" id="88"/>
+			<ExtendedTooltip name="НеобнуленнаяСуммаНаНачалоСменыРасширеннаяПодсказка" id="89"/>
+			<Events>
+				<Event name="OnChange">ПересчитатьДокумент</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="ГруппаОтчетККМ" id="54">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет ККМ (Данные по Z-отчету)
+</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отчет ККМ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаОтчетККМРасширеннаяПодсказка" id="55"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаПродажи" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продажи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа продажи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаПродажиРасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<InputField name="ККМ_ПродажиНаличные" id="10">
+							<DataPath>Объект.ККМ_ПродажиНаличные</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наличные</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ПродажиНаличныеКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ККМ_ПродажиНаличныеРасширеннаяПодсказка" id="12"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ПродажиТерминал" id="13">
+							<DataPath>Объект.ККМ_ПродажиТерминал</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Терминал</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ПродажиТерминалКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ККМ_ПродажиТерминалРасширеннаяПодсказка" id="15"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ПродажиСертификат" id="16">
+							<DataPath>Объект.ККМ_ПродажиСертификат</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сертификат</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ПродажиСертификатКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ККМ_ПродажиСертификатРасширеннаяПодсказка" id="18"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ПродажиВсего" id="58">
+							<DataPath>ККМ_ПродажиВсего</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<ContextMenu name="ККМ_ПродажиВсегоКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ККМ_ПродажиВсегоРасширеннаяПодсказка" id="60"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаВозвратыПокупателей" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возвраты покупателей</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа возвраты покупателей</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаВозвратыПокупателейРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<InputField name="ККМ_ВозвратыНаличные" id="19">
+							<DataPath>Объект.ККМ_ВозвратыНаличные</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наличные</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ВозвратыНаличныеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ККМ_ВозвратыНаличныеРасширеннаяПодсказка" id="21"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ВозвратыТерминал" id="22">
+							<DataPath>Объект.ККМ_ВозвратыТерминал</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Терминал</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ВозвратыТерминалКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ККМ_ВозвратыТерминалРасширеннаяПодсказка" id="24"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ВозвратыСертификат" id="25">
+							<DataPath>Объект.ККМ_ВозвратыСертификат</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сертификат</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ВозвратыСертификатКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ККМ_ВозвратыСертификатРасширеннаяПодсказка" id="27"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ВозвратыВсего" id="78">
+							<DataPath>ККМ_ВозвратыВсего</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<ContextMenu name="ККМ_ВозвратыВсегоКонтекстноеМеню" id="79"/>
+							<ExtendedTooltip name="ККМ_ВозвратыВсегоРасширеннаяПодсказка" id="80"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОшибочныеЧекиНаККТ" id="48">
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибочные чеки на ККТ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ошибочные чеки на ККТ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаОшибочныеЧекиНаККТРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<InputField name="ККМ_ОшибочныеЧекиНаличные" id="28">
+							<DataPath>Объект.ККМ_ОшибочныеЧекиНаличные</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наличные</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ОшибочныеЧекиНаличныеКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ККМ_ОшибочныеЧекиНаличныеРасширеннаяПодсказка" id="30"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ОшибочныеЧекиТерминал" id="31">
+							<DataPath>Объект.ККМ_ОшибочныеЧекиТерминал</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Терминал</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ОшибочныеЧекиТерминалКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ККМ_ОшибочныеЧекиТерминалРасширеннаяПодсказка" id="33"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ОшибочныеЧекиСертификат" id="34">
+							<DataPath>Объект.ККМ_ОшибочныеЧекиСертификат</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сертификат</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ККМ_ОшибочныеЧекиСертификатКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ККМ_ОшибочныеЧекиСертификатРасширеннаяПодсказка" id="36"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ККМ_ОшибочныеЧекиВсего" id="64">
+							<DataPath>ККМ_ОшибочныеЧекиВсего</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<ContextMenu name="ККМ_ОшибочныеЧекиВсегоКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ККМ_ОшибочныеЧекиВсегоРасширеннаяПодсказка" id="66"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИтогиПоЧекамВозврата" id="67">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итоги по чекам возврата</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа итоги по чекам возврата</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаИтогиПоЧекамВозвратаРасширеннаяПодсказка" id="68"/>
+					<ChildItems>
+						<InputField name="ККМ_ЧекиВозвратНаличные" id="69">
+							<DataPath>ККМ_ЧекиВозвратНаличные</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наличные</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<ContextMenu name="ККМ_ЧекиВозвратНаличныеКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="ККМ_ЧекиВозвратНаличныеРасширеннаяПодсказка" id="71"/>
+						</InputField>
+						<InputField name="ККМ_ЧекиВозвратТерминал" id="72">
+							<DataPath>ККМ_ЧекиВозвратТерминал</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Терминал</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<ContextMenu name="ККМ_ЧекиВозвратТерминалКонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="ККМ_ЧекиВозвратТерминалРасширеннаяПодсказка" id="74"/>
+						</InputField>
+						<InputField name="ККМ_ЧекиВозвратСертификат" id="75">
+							<DataPath>ККМ_ЧекиВозвратСертификат</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сертификат</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<ContextMenu name="ККМ_ЧекиВозвратСертификатКонтекстноеМеню" id="76"/>
+							<ExtendedTooltip name="ККМ_ЧекиВозвратСертификатРасширеннаяПодсказка" id="77"/>
+						</InputField>
+						<InputField name="ККМ_ЧекиВозвратВсего" id="81">
+							<DataPath>ККМ_ЧекиВозвратВсего</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<ContextMenu name="ККМ_ЧекиВозвратВсегоКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="ККМ_ЧекиВозвратВсегоРасширеннаяПодсказка" id="83"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОтчетБезналичный" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет безнал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отчет безналичный</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаОтчетБезналичныйРасширеннаяПодсказка" id="108"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаОтчетТерминала" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет терминала (Данные по сверке итогов)</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отчет терминала</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаОтчетТерминалаРасширеннаяПодсказка" id="53"/>
+					<ChildItems>
+						<InputField name="Терминал_Продажи" id="37">
+							<DataPath>Объект.Терминал_Продажи</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Продажи</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="Терминал_ПродажиКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="Терминал_ПродажиРасширеннаяПодсказка" id="39"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="Терминал_Возврат" id="40">
+							<DataPath>Объект.Терминал_Возврат</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Возврат</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="Терминал_ВозвратКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="Терминал_ВозвратРасширеннаяПодсказка" id="42"/>
+							<Events>
+								<Event name="OnChange">ПересчитатьДокумент</Event>
+							</Events>
+						</InputField>
+						<InputField name="ТерминалВсего" id="90">
+							<DataPath>ТерминалВсего</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<ContextMenu name="ТерминалВсегоКонтекстноеМеню" id="91"/>
+							<ExtendedTooltip name="ТерминалВсегоРасширеннаяПодсказка" id="92"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОтчетСБП" id="109">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет СБП (QR-коды)</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отчет СБП</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаОтчетСБПРасширеннаяПодсказка" id="110"/>
+					<ChildItems>
+						<InputField name="СБП_Продажи" id="111">
+							<DataPath>Объект.СБП_Продажи</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Продажи</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СБП_ПродажиКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="СБП_ПродажиРасширеннаяПодсказка" id="113"/>
+						</InputField>
+						<InputField name="СБП_Возврат" id="114">
+							<DataPath>Объект.СБП_Возврат</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Возврат</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СБП_ВозвратКонтекстноеМеню" id="115"/>
+							<ExtendedTooltip name="СБП_ВозвратРасширеннаяПодсказка" id="116"/>
+						</InputField>
+						<Button name="ЗаполнитьСБППоЧекам" id="117">
+							<Type>UsualButton</Type>
+							<Visible>false</Visible>
+							<CommandName>Form.Command.ЗаполнитьСБППоЧекам</CommandName>
+							<ExtendedTooltip name="ЗаполнитьСБППоЧекамРасширеннаяПодсказка" id="118"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОтчетПодели" id="119">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет Подели</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отчет подели</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаОтчетПоделиРасширеннаяПодсказка" id="120"/>
+					<ChildItems>
+						<InputField name="Подели_Продажи" id="121">
+							<DataPath>Объект.Подели_Продажи</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Продажи</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Подели_ПродажиКонтекстноеМеню" id="122"/>
+							<ExtendedTooltip name="Подели_ПродажиРасширеннаяПодсказка" id="123"/>
+						</InputField>
+						<InputField name="Подели_Возврат" id="124">
+							<DataPath>Объект.Подели_Возврат</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Возврат</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Подели_ВозвратКонтекстноеМеню" id="125"/>
+							<ExtendedTooltip name="Подели_ВозвратРасширеннаяПодсказка" id="126"/>
+						</InputField>
+						<Button name="ЗаполнитьПоделиПоЧекам" id="127">
+							<Type>UsualButton</Type>
+							<Visible>false</Visible>
+							<CommandName>Form.Command.ЗаполнитьПоделиПоЧекам</CommandName>
+							<ExtendedTooltip name="ЗаполнитьПоделиПоЧекамРасширеннаяПодсказка" id="128"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИтогоВыручка" id="93">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Итого выручка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа итого выручка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ГруппаИтогоВыручкаРасширеннаяПодсказка" id="94"/>
+			<ChildItems>
+				<InputField name="ВыручкаНаличные" id="95">
+					<DataPath>ВыручкаНаличные</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наличные</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ВыручкаНаличныеКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ВыручкаНаличныеРасширеннаяПодсказка" id="97"/>
+				</InputField>
+				<InputField name="ВыручкаТерминал" id="98">
+					<DataPath>ВыручкаТерминал</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Терминал</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ВыручкаТерминалКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ВыручкаТерминалРасширеннаяПодсказка" id="100"/>
+				</InputField>
+				<InputField name="ВыручкаСертификат" id="101">
+					<DataPath>ВыручкаСертификат</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сертификат</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ВыручкаСертификатКонтекстноеМеню" id="102"/>
+					<ExtendedTooltip name="ВыручкаСертификатРасширеннаяПодсказка" id="103"/>
+				</InputField>
+				<InputField name="ВыручкаВсего" id="104">
+					<DataPath>ВыручкаВсего</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<ContextMenu name="ВыручкаВсегоКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="ВыручкаВсегоРасширеннаяПодсказка" id="106"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="НеобнуленнаяСуммаНаКонецСмены" id="84">
+			<DataPath>НеобнуленнаяСуммаНаКонецСмены</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="НеобнуленнаяСуммаНаКонецСменыКонтекстноеМеню" id="85"/>
+			<ExtendedTooltip name="НеобнуленнаяСуммаНаКонецСменыРасширеннаяПодсказка" id="86"/>
+		</InputField>
+		<InputField name="Комментарий" id="43">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="45"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.КСП_СуточныйОтчетСГашением</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="НеобнуленнаяСуммаНаНачалоСмены" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Необнуленная сумма на начало смены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НеобнуленнаяСуммаНаКонецСмены" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Необнуленная сумма на конец смены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ЧекиВозвратНаличные" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ чеки возврат наличные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ЧекиВозвратТерминал" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ чеки возврат наличные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ЧекиВозвратСертификат" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ чеки возврат наличные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ЧекиВозвратВсего" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ чеки возврат наличные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ОшибочныеЧекиВсего" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ ошибочные чеки всего</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ВозвратыВсего" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ возвраты всего</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ККМ_ПродажиВсего" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ККМ продажи всего</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТерминалВсего" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Терминал всего</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыручкаНаличные" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка наличные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыручкаТерминал" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка терминал</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыручкаСертификат" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка сертификат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыручкаВсего" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка всего</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьСБППоЧекам" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить СБП по чекам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить СБППо чекам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьСБППоЧекам</Action>
+		</Command>
+		<Command name="ЗаполнитьПоделиПоЧекам" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить "Подели" по чекам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить подели по чекам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоделиПоЧекам</Action>
+		</Command>
+	</Commands>
+</Form>

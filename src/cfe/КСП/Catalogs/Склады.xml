@@ -84,6 +84,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="00eb69f1-999a-4d56-9c49-09994a2e60db">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСклада</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5bcff01-098c-4767-97ce-2ea12d0b26a3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыСкладов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="804aeba5-e481-433d-a6ad-64b8c5e06fd0">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.Склады.ДополнительныеРеквизиты" category="TabularSection">

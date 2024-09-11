@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="f2619853-d0ca-425c-9f36-c4b6391a90fe">
+		<Name>ДополнительныеЗатраты</Name>
+		<Code>П00000004</Code>
+		<Description>Дополнительные затраты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0ff35b25-575c-4c16-b71c-7a2af2766257">
+		<Name>ПринтованиеНаКарусельнойМашине</Name>
+		<Code>П00000001</Code>
+		<Description>Принтование на карусельной машине</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aca9b4b8-32e4-4bf5-b4f7-a79fc7aa77a2">
+		<Name>ТуннельнаяСушка</Name>
+		<Code>П00000002</Code>
+		<Description>Туннельная сушка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2d5e3a8f-be5e-4e14-8f95-dc00c35b8c84">
+		<Name>Фольгирование</Name>
+		<Code>П00000003</Code>
+		<Description>Фольгирование</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

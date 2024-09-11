@@ -16,22 +16,21 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗагрузкаДанныхИзФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ДвиженияКМФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ФорматFE720</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыгрзкаДанныхВФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ОбменСФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыДвиженийКМФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ФорматFE714</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ЗагрузкаДанныхИзФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КСП_ДвиженияКМФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ФорматFE720</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ВыгрзкаДанныхВФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ОбменСФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_ВидыДвиженийКМФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ФорматFE714</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.КСП_НастройкиФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_ТекущаяВерсияНастроекФФ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСФулфилментСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КСП_ТекущаяВерсияНастроекФФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КСП_ОбменСФулфилментСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ВидыНоменклатурыДляАнонсаПоставки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ксп_ЗначенияНастроекФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КСП_ЗначенияНастроекФулфилмент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.КСП_ОстаткиДляФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ксп_ФорматFE770</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КСП_ФорматFE770</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КСП_СтатусыДанныхИзФулфилмент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_АктивныеНастройкиОбменаRetailCRM</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="ce901191-b377-43e2-b380-532204999da9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОРозничныхВозвратах" category="Object">
+				<xr:TypeId>465f9bf2-e799-487a-b157-aa26035caa1a</xr:TypeId>
+				<xr:ValueId>6e0b09d2-1f46-49bb-9a20-cfed94304805</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОРозничныхВозвратах" category="Ref">
+				<xr:TypeId>e402c425-8ddd-4027-9e29-e9d69d7959d1</xr:TypeId>
+				<xr:ValueId>8ec09b52-8ddb-4668-a3c7-4cee043bc440</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОРозничныхВозвратах" category="Selection">
+				<xr:TypeId>0acdca81-c289-471e-9cbc-87ca8b118fc2</xr:TypeId>
+				<xr:ValueId>50e3bd75-11f7-4f03-a5f8-2a1c13d0f528</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОРозничныхВозвратах" category="List">
+				<xr:TypeId>47d053a5-6c24-41c4-a9e8-5bf86bee6fb6</xr:TypeId>
+				<xr:ValueId>ca5dadb2-b143-404d-a371-26009d4a9ebf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОРозничныхВозвратах" category="Manager">
+				<xr:TypeId>8b4def78-2ae4-42ed-b982-d27caab7b491</xr:TypeId>
+				<xr:ValueId>23e51d35-9eaf-4928-bd7b-f2938af4f313</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОРозничныхВозвратах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ed0cdd3f-d72b-4f55-b40a-1e6507d3c55b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="4953c3df-feaa-44be-8fca-b34d2b8773f1">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетОРозничныхВозвратах.Товары" category="TabularSection">
+						<xr:TypeId>917ad70c-ef76-4109-8190-0204b7c4f597</xr:TypeId>
+						<xr:ValueId>7b98a0ca-58b6-41a6-b359-f4cac850769b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетОРозничныхВозвратах.Товары" category="TabularSectionRow">
+						<xr:TypeId>b6e2463e-9c67-466c-a2df-d310637f6b78</xr:TypeId>
+						<xr:ValueId>deb99c80-40a2-4b49-9160-0e0902464c7e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b0b0b4ab-e264-442f-947c-bd9c28827bdf</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="24b67d79-7adc-48f5-9b7f-07939ed367bb">
+						<Properties>
+							<Name>КСП_Заказ</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КСП заказ</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

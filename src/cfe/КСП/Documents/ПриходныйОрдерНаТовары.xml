@@ -30,6 +30,115 @@
 			<ExtendedConfigurationObject>6a90e124-5af0-4a37-8ff7-14481b8cb2dd</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="15b315cf-8e1f-4350-bc52-3c4120722032">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распоряжение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5dcdee8c-9444-4bd3-ae94-e55f618ed216</ExtendedConfigurationObject>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="75a620e2-0c95-4502-af40-331e8d637a5e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриходныйОрдерНаТовары.Товары" category="TabularSection">
+						<xr:TypeId>3a35b9b9-32bf-46cf-a5e8-6bb5b28aed23</xr:TypeId>
+						<xr:ValueId>82e09044-7200-40b4-a983-a3824f76270e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходныйОрдерНаТовары.Товары" category="TabularSectionRow">
+						<xr:TypeId>69e78770-2e58-4297-92f8-9c7da0c76b78</xr:TypeId>
+						<xr:ValueId>32fc0797-b3a2-4036-a8ac-ed51a8fda91a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4c33a3ea-7a9b-4d40-8f7d-a7581e73da16</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1723a718-ef9e-42d0-8d71-36b1dd15b9f0">
+						<Properties>
+							<Name>КСП_ПроверочнаяВедомость</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КСП проверочная ведомость</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:DocumentRef.КСП_ПроверочнаяВедомость</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6feb4c12-431a-43e7-81f0-0769eae514f9">
+						<Properties>
+							<Name>КСП_КлючСтроки</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КСП ключ строки</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>36</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

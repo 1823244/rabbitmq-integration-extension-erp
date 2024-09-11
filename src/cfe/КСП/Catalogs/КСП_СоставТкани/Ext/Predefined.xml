@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="0c6868f0-b9db-4717-b065-c387aa44b2b0">
+		<Name>AB</Name>
+		<Code>AB </Code>
+		<Description>АБАКА</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5fd633a8-1ccf-4d13-bbc5-0737eca7374b">
+		<Name>AC</Name>
+		<Code>AC </Code>
+		<Description>Ацетат</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7c2ddec5-99cb-417a-9c3d-4e2dd67eedbd">
+		<Name>AF</Name>
+		<Code>AF </Code>
+		<Description>AF</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56faf7bb-0b87-4989-8e49-e245ef07a8a3">
+		<Name>AG</Name>
+		<Code>AG </Code>
+		<Description>Альгинатное</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3dc58e15-f4ee-41f2-ac74-fca2dcd2967a">
+		<Name>AL</Name>
+		<Code>AL </Code>
+		<Description>Альфа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="46028648-561d-4a04-800c-cea1c34f65c6">
+		<Name>AS</Name>
+		<Code>AS </Code>
+		<Description>Асбест</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5cba6227-f790-49eb-903b-ffdf25635c54">
+		<Name>CC</Name>
+		<Code>CC </Code>
+		<Description>Кокос</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="800ccf3a-98e9-4afd-bafe-39b4b5b74d09">
+		<Name>CL</Name>
+		<Code>CL </Code>
+		<Description>Полихлорид</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4735ac79-6a33-4ca5-b22f-6f77b1ce3375">
+		<Name>CO</Name>
+		<Code>CO </Code>
+		<Description>Коттон</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f3c4b882-671b-4b2f-8444-b27adae657db">
+		<Name>CU</Name>
+		<Code>CU </Code>
+		<Description>Купра</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca5a9936-1527-4113-a46e-e0e55a59a9a8">
+		<Name>EA</Name>
+		<Code>EA </Code>
+		<Description>Эластик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="98482d76-0979-4198-b160-20d8da16cc46">
+		<Name>FL</Name>
+		<Code>FL </Code>
+		<Description>Фтор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f572348f-94a3-4537-91b1-78b98487264e">
+		<Name>GI</Name>
+		<Code>GI </Code>
+		<Description>Ракитник</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fe788de9-0116-4f18-b1c4-9d7bc2dabc88">
+		<Name>GL</Name>
+		<Code>GL </Code>
+		<Description>Стекловолокно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6685055-5570-48bd-ab36-d2b47ec2a4aa">
+		<Name>HA</Name>
+		<Code>HA </Code>
+		<Description>Хаер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="12917342-5fca-4d1c-951b-380e49563c53">
+		<Name>HE</Name>
+		<Code>HE </Code>
+		<Description>Хенегойн</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="548fa734-ef5b-4d5c-83df-52a838546252">
+		<Name>HL</Name>
+		<Code>HL </Code>
+		<Description>HL</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5f0d5c23-6bd8-44e4-900d-c52af7bc7507">
+		<Name>IWS</Name>
+		<Code>IWS</Code>
+		<Description>Шерсть</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb1ffdc5-2d44-4024-87c7-bece73d68edc">
+		<Name>JU</Name>
+		<Code>JU </Code>
+		<Description>Джут</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="58c79ea3-bd81-4512-9b1a-47c672fbf5e1">
+		<Name>KP</Name>
+		<Code>KP </Code>
+		<Description>Капок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="10866f48-ec9a-45cd-b7f5-b63afa350e36">
+		<Name>LA</Name>
+		<Code>LA </Code>
+		<Description>Шерсть</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7fb94de3-9d70-4172-8f45-7a15b3934248">
+		<Name>LI</Name>
+		<Code>LI </Code>
+		<Description>Лен</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="444637c8-ffea-4948-8845-0f940e5506f9">
+		<Name>ME</Name>
+		<Code>ME </Code>
+		<Description>Метанить</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a56bc96a-7fb3-4050-8f16-40ef33c024c2">
+		<Name>NY</Name>
+		<Code>NY </Code>
+		<Description>Нейлон</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8a64042c-b9b3-4352-8fbd-9b940a18dc87">
+		<Name>PA</Name>
+		<Code>PA </Code>
+		<Description>Полиамид</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9e803ded-65e1-41e0-b10b-0eecd99f48b9">
+		<Name>PB</Name>
+		<Code>PB </Code>
+		<Description>Полиуретан</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2589c00b-9dd6-488c-9e02-5257921ba496">
+		<Name>PC</Name>
+		<Code>PC </Code>
+		<Description>Акрил</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="231fd5df-2dc4-4542-88af-aaa393330dfe">
+		<Name>PE</Name>
+		<Code>PE </Code>
+		<Description>Полиэтилен</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7be899fe-e6cf-41f0-81b3-ab82de6868cd">
+		<Name>PI</Name>
+		<Code>PI </Code>
+		<Description>Бумага</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a41562d0-580a-4c17-8cf2-2603dd8e2399">
+		<Name>PL</Name>
+		<Code>PL </Code>
+		<Description>Полиэстер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0497449d-1433-4094-bb8e-0c788e783e86">
+		<Name>PP</Name>
+		<Code>PP </Code>
+		<Description>Полипропилен</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9385b414-4dcb-415b-902e-a5a93116ed9a">
+		<Name>PR</Name>
+		<Code>PR </Code>
+		<Description>Протеин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c54f94b-5ca8-4ae7-948c-27fcb5acef21">
+		<Name>RA</Name>
+		<Code>RA </Code>
+		<Description>Рами</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34f365ef-c44c-4a86-81ac-71d3aec3ee37">
+		<Name>SE</Name>
+		<Code>SE </Code>
+		<Description>Шелк</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="19ae1fa8-0e3b-4f3e-a019-9efe9d038acc">
+		<Name>SI</Name>
+		<Code>SI </Code>
+		<Description>Сизаль</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="94116060-30f4-4328-aef0-49ebba5b31bc">
+		<Name>TA</Name>
+		<Code>TA </Code>
+		<Description>Триацетат</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d87685b7-aade-4e77-a612-617b769d94c8">
+		<Name>CA</Name>
+		<Code>VA </Code>
+		<Description>Пенька</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="93f80dbc-53ec-4be5-a3f7-96f7eebbe030">
+		<Name>VI</Name>
+		<Code>VI </Code>
+		<Description>Вискоза</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9dba2333-1de8-4754-ab23-847f51b9d2fa">
+		<Name>VY</Name>
+		<Code>VY </Code>
+		<Description>Ванилан</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fbfa2ee1-89a6-4077-8653-2a4ed0406ba3">
+		<Name>WA</Name>
+		<Code>WA </Code>
+		<Description>Ангора</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eabf64f1-6420-428f-84c4-13d326259029">
+		<Name>WB</Name>
+		<Code>WB </Code>
+		<Description>WB</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36e3d9c8-70a1-4c49-836a-e7f1cf0d554d">
+		<Name>WJ</Name>
+		<Code>WJ </Code>
+		<Description>Як</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34a8d6e7-7660-40d3-b55e-b3be07c812b3">
+		<Name>WK</Name>
+		<Code>WK </Code>
+		<Description>Камэл</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e5980474-484b-4fdc-9a55-7de50590a47a">
+		<Name>WL</Name>
+		<Code>WL </Code>
+		<Description>Лама</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a658248b-d8e7-4c42-864c-d41380c89a82">
+		<Name>WM</Name>
+		<Code>WM </Code>
+		<Description>Мохер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="50ea96ad-b358-40c7-a423-aa0c690b8599">
+		<Name>WO</Name>
+		<Code>WO </Code>
+		<Description>Шерсть</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="efac8b26-0faf-420d-abcb-a3d11670c343">
+		<Name>WP</Name>
+		<Code>WP </Code>
+		<Description>Альпака</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0aadb270-b46e-4a78-98b8-20c94ae31e50">
+		<Name>WS</Name>
+		<Code>WS </Code>
+		<Description>Кашемир</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1e36732c-a281-487e-9178-815dbd376fff">
+		<Name>WT</Name>
+		<Code>WT </Code>
+		<Description>WT</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c72f38e5-f424-4e60-ad9b-be05d9780469">
+		<Name>WV</Name>
+		<Code>WV </Code>
+		<Description>Шерсть</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4eaff033-20ce-40e7-bd69-951bd760a844">
+		<Name>МА</Name>
+		<Code>МА </Code>
+		<Description>Акрил модифицир</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6dbdd33a-8a1d-4374-b228-a17c500443a1">
+		<Name>ПрочиеВолокна</Name>
+		<Code>Прч</Code>
+		<Description>Прочие волокна</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

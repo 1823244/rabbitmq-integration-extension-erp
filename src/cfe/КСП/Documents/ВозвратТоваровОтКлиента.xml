@@ -55,6 +55,91 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="aae2e38f-61d3-402a-abc2-155b771ea97c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратТоваровОтКлиента.Товары" category="TabularSection">
+						<xr:TypeId>bd285509-66bc-4b11-b5d9-777f63f1d24e</xr:TypeId>
+						<xr:ValueId>8e4c4b65-4e44-4f10-8ec7-075a4d2e120c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратТоваровОтКлиента.Товары" category="TabularSectionRow">
+						<xr:TypeId>bdd33cca-205a-4b28-9ea3-0fcdbb82eb8e</xr:TypeId>
+						<xr:ValueId>f64920b9-d177-4393-964b-e7ac66eb8ea9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d97593cc-9e00-40de-8188-964163b9a47f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2250bcc4-1773-4f61-aefa-1db5321b3e46">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументРеализации</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c1a2594d-47b7-4648-b8df-bf2ad27ebc9c</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5fb9e712-da6c-41e3-ad38-7c178f7cefe2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0d5ab1a1-c2ec-4fef-b6aa-cf48e114f62d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fed539d2-eed3-4af5-b894-6b738621594c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Количество</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>72338e32-64c3-4932-9afe-432c94be8596</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="376d8928-faea-4b81-85c5-8313781b95f2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>dda0c316-494c-49fa-8dc3-0f2b7fb432c7</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8ceec3ad-56e4-43d7-8905-08ae4b1cded2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Характеристика</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8ec9788f-c232-4ca8-b273-1948648ca8c8</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

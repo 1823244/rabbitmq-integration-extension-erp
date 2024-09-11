@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="239778f3-e2f9-4af5-89c1-bebfb4e49d98">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторВидовЭкономическойДеятельности" category="Object">
+				<xr:TypeId>fcb50ce3-7df4-4294-af18-69cd6684f933</xr:TypeId>
+				<xr:ValueId>4823673e-a9fd-4b9c-8cc5-792eb8d7d310</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторВидовЭкономическойДеятельности" category="Ref">
+				<xr:TypeId>27d0696e-eb02-4f1d-83f9-f51f1d20f729</xr:TypeId>
+				<xr:ValueId>2f4a2d3b-abcc-4ca9-bbdb-6ec58a43c628</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторВидовЭкономическойДеятельности" category="Selection">
+				<xr:TypeId>ee08ff2d-89aa-47af-8528-9b53bd62e090</xr:TypeId>
+				<xr:ValueId>0b596af9-dbef-4dee-929b-234d93670719</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторВидовЭкономическойДеятельности" category="List">
+				<xr:TypeId>3b146307-10f9-46ef-a669-7cbe9317218c</xr:TypeId>
+				<xr:ValueId>3e15a890-b793-4d04-b375-cdadc9ca25cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторВидовЭкономическойДеятельности" category="Manager">
+				<xr:TypeId>8b843aaf-0e4d-41c5-ab3d-9e9143a2902c</xr:TypeId>
+				<xr:ValueId>f40999ab-4bde-4b27-904a-cdeb3a6d52f5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторВидовЭкономическойДеятельности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8655e27f-b246-41c0-94c6-1d5f81f47d28</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

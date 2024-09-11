@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="464631d7-0801-4edb-bc4a-a486d544a2fd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковОПродажахЗаПрошлыеПериоды" category="Object">
+				<xr:TypeId>87f05082-4d7f-4689-85d2-b04ffad8f282</xr:TypeId>
+				<xr:ValueId>722f944c-888d-4b99-ac8d-f5a94be05102</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковОПродажахЗаПрошлыеПериоды" category="Ref">
+				<xr:TypeId>c192b06c-7b4b-4920-905d-6cc3dbafb0c2</xr:TypeId>
+				<xr:ValueId>534c666c-b2e0-4433-bc5c-25986acb30c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковОПродажахЗаПрошлыеПериоды" category="Selection">
+				<xr:TypeId>c8c3eeb5-17ff-4ffd-b318-265eea7a8629</xr:TypeId>
+				<xr:ValueId>de6bf3bb-488e-4501-aa56-a78a2c1b1120</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковОПродажахЗаПрошлыеПериоды" category="List">
+				<xr:TypeId>e4fc05fc-783b-4201-a485-63d2946252aa</xr:TypeId>
+				<xr:ValueId>5fa01115-c426-4fc2-a663-0f6fb04ca4bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковОПродажахЗаПрошлыеПериоды" category="Manager">
+				<xr:TypeId>cf82842a-4edf-4554-b354-06fd522e4b0b</xr:TypeId>
+				<xr:ValueId>89d501e7-4e13-4c6c-a41f-e3a0592f5c4b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковОПродажахЗаПрошлыеПериоды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9cb247d3-38db-4216-94ed-471363a6e853</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="5fb9cbe9-a6f6-42e7-83da-3c82b4b1666e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВводОстатковОПродажахЗаПрошлыеПериоды.ПодарочныеСертификаты" category="TabularSection">
+						<xr:TypeId>d4ca0e06-18f7-44ac-8e3d-7d874af83f8a</xr:TypeId>
+						<xr:ValueId>a46de117-9482-4bff-8e86-84d19eba695b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВводОстатковОПродажахЗаПрошлыеПериоды.ПодарочныеСертификаты" category="TabularSectionRow">
+						<xr:TypeId>feae7e40-2ff8-4a5c-8c8b-2240a98d2208</xr:TypeId>
+						<xr:ValueId>de222fb8-465d-4a1b-83a6-93ade06b3b37</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПодарочныеСертификаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7e935795-a9b2-4f74-8dd3-0dcfa6e3ca75</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="204e9740-35cd-4757-808a-28f618c7d795">
+						<InternalInfo>
+							<xr:PropertyState>
+								<xr:Property>Type</xr:Property>
+								<xr:State>MultiState</xr:State>
+							</xr:PropertyState>
+						</InternalInfo>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СерийныйНомер</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7bb57ed1-8ed8-4a97-85bb-a16cd063b253</ExtendedConfigurationObject>
+							<Type xsi:type="xr:ExtendedProperty">
+								<xr:ExtendValue xsi:type="v8:TypeDescription">
+									<v8:Type>xs:string</v8:Type>
+									<v8:StringQualifiers>
+										<v8:Length>50</v8:Length>
+										<v8:AllowedLength>Variable</v8:AllowedLength>
+									</v8:StringQualifiers>
+								</xr:ExtendValue>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

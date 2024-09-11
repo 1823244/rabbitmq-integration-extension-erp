@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Subsystem uuid="6d34a1cc-196f-47cd-a323-8cba23a59ec2">
+		<Properties>
+			<Name>Фурнитура</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фурнитура</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">adc6dd98-30ed-4c35-95c4-0043991454ab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">1efd7181-3edf-4b69-9941-9b94408bdf6d</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидОбработкиМеха</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">879ae2e1-fc24-4d0b-aff2-a31761f1210e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">22dd0b68-f73d-4ce7-a6a4-9180f67781bc</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2b7ec9b2-e544-4aad-951d-de5f46b70bfe</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">1e6f07b9-e4b5-4cd2-92f3-141a48b48bcf</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">567b0d0c-fc63-46be-b5f1-64c728e20460</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d7732ddd-10cd-45c5-8b2d-457967e761cc</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d7eca7ed-3e2c-4ccb-b4b3-02f05a566c34</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">158ef4f1-0c5c-498c-b0c4-24672c041480</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e328b42f-22a0-4ba9-8ed9-cdb41c51782b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">846dfb1c-5c53-422e-be7f-924d147ace16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a81317bd-6c32-496f-85d7-6e3609c2d297</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">93e6f1da-ac00-4933-8533-38a643c2a231</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

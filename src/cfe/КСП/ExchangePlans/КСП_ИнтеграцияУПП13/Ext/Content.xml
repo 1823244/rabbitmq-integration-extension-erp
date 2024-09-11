@@ -2,10 +2,30 @@
 <ExchangePlanContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Item>
 		<Metadata>Document.РеализацияТоваровУслуг</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.ПринятиеКУчетуОС</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Document.ВозвратТоваровОтКлиента</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.ИзменениеПараметровОС</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.СписаниеОС</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.ВнутреннееПотребление</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.ПрочиеДоходыРасходы</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 </ExchangePlanContent>

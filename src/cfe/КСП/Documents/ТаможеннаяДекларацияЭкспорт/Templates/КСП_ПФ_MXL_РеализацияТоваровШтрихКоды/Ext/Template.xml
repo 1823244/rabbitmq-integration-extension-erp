@@ -139,16 +139,12 @@
 					</tl>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>14</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>3</index>
 		<row>
+			<formatIndex>14</formatIndex>
 			<c>
 				<c>
 					<f>15</f>
@@ -185,15 +181,10 @@
 					<parameter>Код</parameter>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>14</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>14</defaultFormatIndex>
+	<defaultFormatIndex>21</defaultFormatIndex>
 	<height>4</height>
 	<vgRows>4</vgRows>
 	<merge>
@@ -231,6 +222,13 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
+	<printArea>
+		<type>Rectangle</type>
+		<beginRow>0</beginRow>
+		<endRow>3</endRow>
+		<beginColumn>0</beginColumn>
+		<endColumn>5</endColumn>
+	</printArea>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
@@ -301,36 +299,45 @@
 		<backColor>#D2C5B5</backColor>
 	</format>
 	<format>
-		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<border>0</border>
 		<width>146</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>101</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>147</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>231</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>124</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>91</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>72</width>
 	</format>
 </document>

@@ -100,6 +100,23 @@
 					</Type>
 				</Properties>
 			</Dimension>
+			<Dimension uuid="cf029bf5-cd32-4947-b890-dc116cafde84">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КодСтроки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b886c88d-d2b5-4928-9f2e-c785ea19a41c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

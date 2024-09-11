@@ -47,6 +47,18 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="ca3ffd04-0c0d-469a-95a4-8cb5c0143eea">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Оплачивается</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>38b6b894-514c-40dc-9a4d-f114be9f1a16</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
 			<Dimension uuid="7083b647-6cdf-472e-9dc3-31245cf25700">
 				<InternalInfo/>
 				<Properties>

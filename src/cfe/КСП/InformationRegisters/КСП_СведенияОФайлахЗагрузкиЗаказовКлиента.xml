@@ -43,7 +43,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
-			<DefaultListForm/>
+			<DefaultListForm>InformationRegister.КСП_СведенияОФайлахЗагрузкиЗаказовКлиента.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<StandardAttributes>
@@ -376,6 +376,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

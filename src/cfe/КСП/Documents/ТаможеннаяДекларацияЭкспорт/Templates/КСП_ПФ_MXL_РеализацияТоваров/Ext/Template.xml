@@ -38,31 +38,31 @@
 		<columnsItem>
 			<index>4</index>
 			<column>
-				<formatIndex>5</formatIndex>
+				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>5</index>
 			<column>
-				<formatIndex>6</formatIndex>
+				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>8</index>
 			<column>
-				<formatIndex>1</formatIndex>
+				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>9</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>10</index>
 			<column>
-				<formatIndex>6</formatIndex>
+				<formatIndex>8</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -71,7 +71,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -93,7 +93,7 @@
 		<row>
 			<c>
 				<c>
-					<f>8</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -104,7 +104,7 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -115,7 +115,7 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -126,18 +126,19 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Полное наименование</v8:content>
+							<v8:content>Полное
+наименование</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -148,7 +149,7 @@
 			</c>
 			<c>
 				<c>
-					<f>13</f>
+					<f>15</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -159,7 +160,7 @@
 			</c>
 			<c>
 				<c>
-					<f>14</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -170,7 +171,7 @@
 			</c>
 			<c>
 				<c>
-					<f>14</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -181,18 +182,19 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Торговая марка</v8:content>
+							<v8:content>Торговая
+марка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -203,7 +205,7 @@
 			</c>
 			<c>
 				<c>
-					<f>13</f>
+					<f>15</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -217,76 +219,77 @@
 	<rowsItem>
 		<index>3</index>
 		<row>
+			<formatIndex>17</formatIndex>
 			<c>
 				<c>
-					<f>15</f>
+					<f>18</f>
 					<parameter>Штрихкод</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>19</f>
 					<parameter>Артикул</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>20</f>
 					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>21</f>
 					<parameter>ПолноеНаименование</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>22</f>
 					<parameter>Характеристика</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>23</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>24</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>24</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>15</f>
+					<f>18</f>
 					<parameter>ТорговаяМарка</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>19</f>
 					<parameter>Коллекция</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>23</f>
 					<parameter>Капсула</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>22</defaultFormatIndex>
+	<defaultFormatIndex>25</defaultFormatIndex>
 	<height>4</height>
 	<vgRows>4</vgRows>
 	<merge>
@@ -324,28 +327,41 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
+	<printArea>
+		<type>Rectangle</type>
+		<beginRow>0</beginRow>
+		<endRow>3</endRow>
+		<beginColumn>0</beginColumn>
+		<endColumn>10</endColumn>
+	</printArea>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>146</width>
+		<width>124</width>
 	</format>
 	<format>
 		<width>101</width>
 	</format>
 	<format>
-		<width>147</width>
+		<width>125</width>
 	</format>
 	<format>
-		<width>231</width>
-	</format>
-	<format>
-		<width>124</width>
+		<width>151</width>
 	</format>
 	<format>
 		<width>91</width>
+	</format>
+	<format>
+		<width>108</width>
+	</format>
+	<format>
+		<width>90</width>
+	</format>
+	<format>
+		<width>82</width>
 	</format>
 	<format>
 		<font>0</font>
@@ -401,38 +417,56 @@
 		<backColor>#D2C5B5</backColor>
 	</format>
 	<format>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
 		<border>0</border>
 		<width>146</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>101</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>147</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>231</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>124</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>91</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<border>0</border>
 		<width>72</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>

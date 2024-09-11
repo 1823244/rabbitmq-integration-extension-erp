@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="5b0d1081-a650-4989-ae7f-f6b0cc2af4f7">
+		<Name>ВведеныПриходныеДокументы</Name>
+		<Code>000000002</Code>
+		<Description>Введены приходные документы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9651c36f-19c6-4b8e-9df5-97b9235f1a73">
+		<Name>ВыставленаПретензия</Name>
+		<Code>000000004</Code>
+		<Description>Выставлена претензия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa84f76f-cd20-4365-8051-02a8ddf60bc2">
+		<Name>ЗачтенаПретензия</Name>
+		<Code>000000005</Code>
+		<Description>Зачтена претензия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bb7c648b-2c0f-4583-98db-b5b1ba88db54">
+		<Name>ОтработалСТК</Name>
+		<Code>000000003</Code>
+		<Description>Отработал СТК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cca4cd10-0421-407b-bf32-b9bb0360f56d">
+		<Name>ОформленПриходСкладом</Name>
+		<Code>000000001</Code>
+		<Description>Оформлен приход складом</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

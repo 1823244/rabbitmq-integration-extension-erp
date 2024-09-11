@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="5969e5f3-ae98-4852-87ba-133532ab0235">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Сторно" category="Object">
+				<xr:TypeId>6cda6ce3-12c2-4ab7-829f-162aeacbb27a</xr:TypeId>
+				<xr:ValueId>27f1872d-6383-4273-ac10-859130fc8999</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Сторно" category="Ref">
+				<xr:TypeId>fada94d6-19f2-47f8-996e-11c8debdecce</xr:TypeId>
+				<xr:ValueId>a6783697-595e-4a27-a352-7b1518533f8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Сторно" category="Selection">
+				<xr:TypeId>fe89a837-28f5-402f-a25d-a7a97757e711</xr:TypeId>
+				<xr:ValueId>b83df4ee-4967-4a8d-ba05-d41ce466b55c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Сторно" category="List">
+				<xr:TypeId>a8fc13c2-4e94-47bc-9c8f-fc897f871f8e</xr:TypeId>
+				<xr:ValueId>98302499-ba0e-4f8a-b058-b11815c276c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Сторно" category="Manager">
+				<xr:TypeId>014f820c-7fb4-4c98-bd4f-76de4ac22feb</xr:TypeId>
+				<xr:ValueId>5d9efa86-7a1d-422c-a1c4-5ffa25f05516</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Сторно</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f0442962-5a65-433f-a7ef-1d4968ea3e4a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

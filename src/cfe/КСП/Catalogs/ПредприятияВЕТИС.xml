@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="20c4d670-5729-4abe-967c-490a2fd52bff">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПредприятияВЕТИС" category="Object">
+				<xr:TypeId>36c4b17f-5e7b-4130-b558-0a6f60f236b7</xr:TypeId>
+				<xr:ValueId>f76f0a5f-b025-4964-ae00-be8da6114164</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПредприятияВЕТИС" category="Ref">
+				<xr:TypeId>bfef346a-6f75-47f8-96d9-eafdb01926b3</xr:TypeId>
+				<xr:ValueId>f53f822a-a539-447b-bab1-52496c6451e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПредприятияВЕТИС" category="Selection">
+				<xr:TypeId>5aaf1c85-7a58-492c-ae5f-abb0db83bc1e</xr:TypeId>
+				<xr:ValueId>f35cae99-ccc3-4146-9ba7-256a858cd00a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПредприятияВЕТИС" category="List">
+				<xr:TypeId>986325c1-1518-4d34-bc07-3996343e11bd</xr:TypeId>
+				<xr:ValueId>31f42d72-28a6-4a0a-b715-4572f6ad94f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПредприятияВЕТИС" category="Manager">
+				<xr:TypeId>64037977-1709-40af-b360-bba10c5dc194</xr:TypeId>
+				<xr:ValueId>990264e2-ccb6-4cfe-a16d-f5f5407da752</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПредприятияВЕТИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1f8b655c-6850-4a8a-afe1-7a11031e8616</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

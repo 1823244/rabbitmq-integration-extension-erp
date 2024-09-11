@@ -649,7 +649,7 @@
 								<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>
 								<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
 								<v8:Type>cfg:DocumentRef.ОрдерНаОтражениеИзлишковТоваров</v8:Type>
-								<v8:Type>cfg:DocumentRef.ксп_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</v8:Type>
+								<v8:Type>cfg:DocumentRef.КСП_УстановкаПорядковыхНомеровНоменклатурыДляПоказа</v8:Type>
 								<v8:Type>cfg:DocumentRef.КСП_КурсовоеСоглашение</v8:Type>
 								<v8:Type>cfg:DocumentRef.ВыводИзОборотаИСМП</v8:Type>
 								<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
@@ -690,7 +690,7 @@
 								<v8:Type>cfg:DocumentRef.ВозвратТоваровОтКлиента</v8:Type>
 								<v8:Type>cfg:DocumentRef.СчетНаОплатуКлиенту</v8:Type>
 								<v8:Type>cfg:DocumentRef.ОперацияПоПлатежнойКарте</v8:Type>
-								<v8:Type>cfg:DocumentRef.ДвиженияКМФулфилмент</v8:Type>
+								<v8:Type>cfg:DocumentRef.КСП_ДвиженияКМФулфилмент</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

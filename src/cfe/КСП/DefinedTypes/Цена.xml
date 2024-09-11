@@ -12,6 +12,14 @@
 			<Name>Цена</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>37a7f30a-b679-4465-91fb-c63c1884f78d</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Properties>
 	</DefinedType>
 </MetaDataObject>

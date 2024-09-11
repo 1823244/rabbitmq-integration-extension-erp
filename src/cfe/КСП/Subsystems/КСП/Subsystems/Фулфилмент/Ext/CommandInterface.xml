@@ -11,12 +11,12 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.ЗагрузкаДанныхИзФулфилмент.StandardCommand.OpenList">
+		<Command name="InformationRegister.КСП_ЗагрузкаДанныхИзФулфилмент.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.ВыгрзкаДанныхВФулфилмент.StandardCommand.OpenList">
+		<Command name="InformationRegister.КСП_ВыгрзкаДанныхВФулфилмент.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -26,12 +26,12 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ксп_ТекущаяВерсияНастроекФФ.StandardCommand.Open">
+		<Command name="Constant.КСП_ТекущаяВерсияНастроекФФ.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ксп_ОбменСФулфилмент.StandardCommand.Open">
+		<Command name="DataProcessor.КСП_ОбменСФулфилмент.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -46,11 +46,11 @@
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="InformationRegister.ЗагрузкаДанныхИзФулфилмент.StandardCommand.OpenList">
+		<Command name="InformationRegister.КСП_ЗагрузкаДанныхИзФулфилмент.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="InformationRegister.ВыгрзкаДанныхВФулфилмент.StandardCommand.OpenList">
+		<Command name="InformationRegister.КСП_ВыгрзкаДанныхВФулфилмент.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -62,10 +62,10 @@
 		<Command name="InformationRegister.КСП_ВидыНоменклатурыДляАнонсаПоставки.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ЗагрузкаДанныхИзФулфилмент.StandardCommand.OpenList">
+		<Command name="InformationRegister.КСП_ЗагрузкаДанныхИзФулфилмент.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ВыгрзкаДанныхВФулфилмент.StandardCommand.OpenList">
+		<Command name="InformationRegister.КСП_ВыгрзкаДанныхВФулфилмент.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 	</CommandsOrder>

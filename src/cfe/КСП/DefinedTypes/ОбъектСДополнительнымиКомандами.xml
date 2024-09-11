@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<DefinedType uuid="1ee9277a-abeb-4167-8dac-1cd7165b9e0d">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОбъектСДополнительнымиКомандами" category="DefinedType">
+				<xr:TypeId>efd9fe5e-4333-4546-ab94-5b76b36ad37a</xr:TypeId>
+				<xr:ValueId>e921b1f7-5bd4-4df4-83a3-2d4b785df92d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Type</xr:Property>
+				<xr:State>MultiState</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектСДополнительнымиКомандами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cdef5df6-f3a1-4950-b197-4f375914f885</ExtendedConfigurationObject>
+			<Type xsi:type="xr:ExtendedProperty">
+				<xr:ExtendValue xsi:type="v8:TypeDescription">
+					<v8:Type>cfg:DocumentRef.КСП_ПроверочнаяВедомость</v8:Type>
+				</xr:ExtendValue>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

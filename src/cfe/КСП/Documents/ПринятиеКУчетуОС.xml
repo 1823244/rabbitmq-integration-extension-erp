@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="2880802d-ae1d-4da4-ae70-726b68d5062b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПринятиеКУчетуОС" category="Object">
+				<xr:TypeId>a0db6e68-fcb2-47ad-98f2-1511be8b625e</xr:TypeId>
+				<xr:ValueId>2f0d528e-aa2c-421a-9c41-8e5d1b419999</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПринятиеКУчетуОС" category="Ref">
+				<xr:TypeId>f7ae9d3a-deef-43e5-a59b-253dd8ffd301</xr:TypeId>
+				<xr:ValueId>81284704-b153-4dc7-a37e-f770c160a1be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПринятиеКУчетуОС" category="Selection">
+				<xr:TypeId>bd727e47-bdca-44ea-b1b5-a9fa86c8bd67</xr:TypeId>
+				<xr:ValueId>2873e4a8-82cc-4209-9c23-85548041c2ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПринятиеКУчетуОС" category="List">
+				<xr:TypeId>343cc4bd-446f-44bb-b21e-4d9cfd0f3b01</xr:TypeId>
+				<xr:ValueId>f5c3fc67-62c0-4830-80d2-0ecde936afca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПринятиеКУчетуОС" category="Manager">
+				<xr:TypeId>269ec41d-b24c-435a-ab93-328b0d58813b</xr:TypeId>
+				<xr:ValueId>3bcec83b-0da0-4101-87f2-396d8bce75da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПринятиеКУчетуОС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>22d39da4-403d-480e-a9cb-4e595f7eb5dd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -317,6 +317,8 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnOpen" callType="After">КСП_ПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">КСП_ПриСозданииНаСервереПосле</Event>
 		<Event name="FillCheckProcessingAtServer" callType="After">КСП_ОбработкаПроверкиЗаполненияНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
@@ -546,10 +548,11 @@
 													<v8:content>Header</v8:content>
 												</v8:item>
 											</Title>
-											<Group>Horizontal</Group>
+											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
+											<ThroughAlign>Use</ThroughAlign>
 											<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="1113"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаШапкаЛево" id="563">
@@ -904,23 +907,42 @@
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
+													<United>false</United>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="КСПГруппаШапкаЛевоРасширеннаяПодсказка" id="2412"/>
 													<ChildItems>
 														<InputField name="КСП_ПланПродаж" id="2419">
 															<DataPath>КСП_ПланПродаж</DataPath>
 															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>План продаж*</v8:content>
+																</v8:item>
+															</Title>
 															<ContextMenu name="КСП_ПланПродажКонтекстноеМеню" id="2420"/>
 															<ExtendedTooltip name="КСП_ПланПродажРасширеннаяПодсказка" id="2421"/>
 														</InputField>
 														<InputField name="КСП_СуммаДокумента" id="2416">
 															<DataPath>СуммаЗаказаноСЗалоговойТарой</DataPath>
 															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Всего*</v8:content>
+																</v8:item>
+															</Title>
 															<ContextMenu name="КСП_СуммаДокументаКонтекстноеМеню" id="2417"/>
 															<ExtendedTooltip name="КСП_СуммаДокументаРасширеннаяПодсказка" id="2418"/>
 														</InputField>
 														<InputField name="КСП_Коллекция" id="2413">
 															<DataPath>Объект.КСП_Коллекция</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Коллекция*</v8:content>
+																</v8:item>
+															</Title>
 															<ContextMenu name="КСП_КоллекцияКонтекстноеМеню" id="2414"/>
 															<ExtendedTooltip name="КСП_КоллекцияРасширеннаяПодсказка" id="2415"/>
 															<Events>
@@ -929,9 +951,27 @@
 														</InputField>
 														<InputField name="КСП_Канал" id="2422">
 															<DataPath>Объект.КСП_Канал</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Канал сбыта*</v8:content>
+																</v8:item>
+															</Title>
 															<ContextMenu name="КСП_КаналКонтекстноеМеню" id="2423"/>
 															<ExtendedTooltip name="КСП_КаналРасширеннаяПодсказка" id="2424"/>
 														</InputField>
+														<CheckBoxField name="КСП_СпецификацияПодписана" id="2448">
+															<DataPath>Объект.КСП_СпецификацияПодписана</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Спецификация подписана*</v8:content>
+																</v8:item>
+															</Title>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="КСП_СпецификацияПодписанаКонтекстноеМеню" id="2449"/>
+															<ExtendedTooltip name="КСП_СпецификацияПодписанаРасширеннаяПодсказка" id="2450"/>
+														</CheckBoxField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -1771,6 +1811,9 @@
 												<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="1417"/>
 												<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="1418"/>
 											</SearchControlAddition>
+											<Events>
+												<Event name="OnChange" callType="After">КСП_ТоварыПриИзмененииПосле</Event>
+											</Events>
 											<ChildItems>
 												<InputField name="ТоварыНомерСтроки" id="468">
 													<DataPath>Объект.Товары.LineNumber</DataPath>
@@ -2023,6 +2066,9 @@
 													<Wrap>false</Wrap>
 													<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="477"/>
 													<ExtendedTooltip name="ТоварыКоличествоУпаковокExtendedTooltip" id="1202"/>
+													<Events>
+														<Event name="OnChange" callType="After">КСП_ТоварыКоличествоУпаковокПриИзмененииПосле</Event>
+													</Events>
 												</InputField>
 												<LabelField name="ТоварыДоступно" id="1829">
 													<EditMode>EnterOnInput</EditMode>
@@ -2140,24 +2186,24 @@
 													<ContextMenu name="ТоварыВидЦеныКонтекстноеМеню" id="481"/>
 													<ExtendedTooltip name="ТоварыВидЦеныExtendedTooltip" id="1206"/>
 												</InputField>
-												<InputField name="ТоварыКСП_БазоваяЦена" id="2443">
-													<DataPath>Объект.Товары.КСП_БазоваяЦена</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Базовая цена</v8:content>
-														</v8:item>
-													</Title>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="ТоварыКСП_БазоваяЦенаКонтекстноеМеню" id="2444"/>
-													<ExtendedTooltip name="ТоварыКСП_БазоваяЦенаРасширеннаяПодсказка" id="2445"/>
-												</InputField>
 												<InputField name="ТоварыЦена" id="482">
 													<DataPath>Объект.Товары.Цена</DataPath>
 													<Width>9</Width>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="483"/>
 													<ExtendedTooltip name="ТоварыЦенаExtendedTooltip" id="1207"/>
+												</InputField>
+												<InputField name="ТоварыКСП_БазоваяЦена" id="2443">
+													<DataPath>Объект.Товары.КСП_БазоваяЦена</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Цена со скидкой</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТоварыКСП_БазоваяЦенаКонтекстноеМеню" id="2444"/>
+													<ExtendedTooltip name="ТоварыКСП_БазоваяЦенаРасширеннаяПодсказка" id="2445"/>
 												</InputField>
 												<InputField name="ТоварыПроцентАвтоматическойСкидки" id="498">
 													<DataPath>Объект.Товары.ПроцентАвтоматическойСкидки</DataPath>
@@ -5008,6 +5054,23 @@ notes</v8:content>
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="СчетаНаОплату" id="1000000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счета на оплату</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счета на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">КСП_СчетаНаОплатуПеред</Action>
+		</Command>
+	</Commands>
 	<BaseForm version="2.16">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandSet>

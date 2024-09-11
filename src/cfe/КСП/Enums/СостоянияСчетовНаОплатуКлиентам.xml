@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="5bd94803-a318-4dd4-acf3-1a6813be7d5a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияСчетовНаОплатуКлиентам" category="Ref">
+				<xr:TypeId>e20a3272-aca4-487f-af90-ee60a1199191</xr:TypeId>
+				<xr:ValueId>47fd86cc-ff1b-482d-8c3d-5817d5284b28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияСчетовНаОплатуКлиентам" category="Manager">
+				<xr:TypeId>1d9582e9-9b88-424e-b9b4-7f9cb774d665</xr:TypeId>
+				<xr:ValueId>247aca37-4957-48dd-b09c-647171b77d65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияСчетовНаОплатуКлиентам" category="List">
+				<xr:TypeId>26c2c13b-46bf-47aa-aafd-b28f3110f8eb</xr:TypeId>
+				<xr:ValueId>ea734a86-fc02-4c53-8a44-5bfc43ae6aa2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияСчетовНаОплатуКлиентам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9d252f5a-3c1e-4197-a461-2e8cda090f91</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f647ea94-373e-45f4-96e6-863b3936cecd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выставлен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>103b8afb-87ff-4592-9184-564f025a1775</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="065bb1d6-d297-48cf-a1ee-2863bafaf04f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Аннулирован</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>59513229-73c9-437f-9a1d-25121ece60bc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

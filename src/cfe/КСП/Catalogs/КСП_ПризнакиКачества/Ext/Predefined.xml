@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="10b4d7b5-81b7-4d66-8655-a6f0402fded3">
+		<Name>Другое</Name>
+		<Code>Д </Code>
+		<Description>Другое</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7f7b73de-5a1f-4569-b944-398911671964">
+		<Name>Мушковатость</Name>
+		<Code>М </Code>
+		<Description>Мушковатость</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9963162f-8800-428d-9006-6ccdc256d49e">
+		<Name>Окраска</Name>
+		<Code>О </Code>
+		<Description>Окраска</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8cd860b1-61f7-425a-bea5-c0f8cfea052f">
+		<Name>Перекос</Name>
+		<Code>Пр</Code>
+		<Description>Перекос</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7a68b273-704a-4750-9925-22b4d3474bf6">
+		<Name>Полосатость</Name>
+		<Code>Пс</Code>
+		<Description>Полосатость</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b86756f-ff32-44a4-8c7d-6f0a1757b80f">
+		<Name>Разнооттеночность</Name>
+		<Code>Р </Code>
+		<Description>Разнооттеночность</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -91,6 +91,38 @@
 			<Explanation/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="d96d3185-bf1f-4271-a758-d97cc5f1a22e">
+				<Properties>
+					<Name>Склад</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3de593f5-46fe-4e23-b9a7-1c52840f92b8">
+				<Properties>
+					<Name>ТорговыйЗал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Торговый зал</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="15a65a52-8749-4c27-b708-8c74c980c23c">
+				<Properties>
+					<Name>ЗначениеПеречисления1</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

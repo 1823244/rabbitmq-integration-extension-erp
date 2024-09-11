@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="5589b6ab-a7d8-49f8-8ca0-140ef92eb2dd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПодарочныеСертификаты" category="Object">
+				<xr:TypeId>4e5f7564-d9bd-4d2f-b351-db967ce20a19</xr:TypeId>
+				<xr:ValueId>337e9ecc-aeb8-484f-94e2-8d6aaf302f82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПодарочныеСертификаты" category="Ref">
+				<xr:TypeId>0e2dfb6c-8092-4001-85b0-4f4393fa3428</xr:TypeId>
+				<xr:ValueId>3a742e0e-e724-4084-83e8-d1a5069587f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПодарочныеСертификаты" category="Selection">
+				<xr:TypeId>8a414ab1-3a3a-4e84-a07c-a412e9e8ae92</xr:TypeId>
+				<xr:ValueId>5aa957e6-5e63-4177-9276-2594464b51e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПодарочныеСертификаты" category="List">
+				<xr:TypeId>b5739fab-c449-443a-8f6b-c95cfcce8602</xr:TypeId>
+				<xr:ValueId>396d5dbb-1b89-421e-a84e-077fe4a3ae9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПодарочныеСертификаты" category="Manager">
+				<xr:TypeId>390e851d-ba4d-4c73-888d-0a331596611b</xr:TypeId>
+				<xr:ValueId>70ef4b81-5cad-48d1-b08d-d57b5e056641</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>CodeLength</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПодарочныеСертификаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6573c190-3da4-40db-bb97-5f160948f7cc</ExtendedConfigurationObject>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыПодарочныхСертификатов</xr:Item>
+			</Owners>
+			<CodeLength>50</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0dc9f5bb-02f6-432d-bd3a-96d6a5b4cd9b">
+				<Properties>
+					<Name>КСП_ШтрихкодЧисловой</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП штрихкод числовой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>25</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7797e979-989f-4b0b-8ce1-1688d1a8253a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МагнитныйКод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>101ac7fe-6abc-4de9-9c83-eddcbb3de147</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3592e9a3-dece-4ef6-aa04-7f3e07a1fc08">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Штрихкод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fa150229-1459-4266-869d-e1cd65095243</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<InformationRegister uuid="b68b2c93-da9a-4ef2-af23-3653c3866da6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиПечатиОбъектов" category="Record">
+				<xr:TypeId>d2db9a67-7b41-4174-abc1-53262cf87865</xr:TypeId>
+				<xr:ValueId>edfc8eb9-53a5-445c-85f7-f4b4ea13015a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиПечатиОбъектов" category="Manager">
+				<xr:TypeId>d50823e5-9e05-4ea5-9b28-834edcfd0f6e</xr:TypeId>
+				<xr:ValueId>f333bf18-060e-48e4-af9c-e0f482b66264</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиПечатиОбъектов" category="Selection">
+				<xr:TypeId>5c5b3da8-6529-4b0a-a805-51480727b658</xr:TypeId>
+				<xr:ValueId>2d3c08a4-af26-4b47-951a-0ade09aa7a50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиПечатиОбъектов" category="List">
+				<xr:TypeId>7361bfe7-811b-4384-ac3d-ff2d6962c11b</xr:TypeId>
+				<xr:ValueId>8dbc8d09-2344-4def-827e-9076e94a7c7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиПечатиОбъектов" category="RecordSet">
+				<xr:TypeId>d9a7419a-0e7a-4b26-8cea-3d55011af343</xr:TypeId>
+				<xr:ValueId>adb8feab-8f69-428f-b350-dcc35b4a80fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиПечатиОбъектов" category="RecordKey">
+				<xr:TypeId>d1030532-1214-4089-a17a-6e7ca8e3923f</xr:TypeId>
+				<xr:ValueId>76c1e16e-2025-4416-a42d-d35970dddbca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиПечатиОбъектов" category="RecordManager">
+				<xr:TypeId>d3d93df8-acaf-43ab-ab33-3f7fcfa4122d</xr:TypeId>
+				<xr:ValueId>93243afc-f2d9-4c11-bcaa-01aa2fa54ae7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиПечатиОбъектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>eeab126a-e003-40b9-a896-0eefbee608cd</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

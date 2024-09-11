@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="53e2a8eb-326e-4c12-8d4a-658b2ec736a1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВзаимозачетЗадолженности" category="Object">
+				<xr:TypeId>dffd9050-96bf-48a8-ae49-a9201f9490eb</xr:TypeId>
+				<xr:ValueId>e97ac3fd-077f-4674-a9c3-41981f5b0286</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВзаимозачетЗадолженности" category="Ref">
+				<xr:TypeId>494d5ff2-4d6a-48b4-bb44-bd9083732608</xr:TypeId>
+				<xr:ValueId>8fa11150-bcc7-4868-bf59-15f6552747d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВзаимозачетЗадолженности" category="Selection">
+				<xr:TypeId>b0a01208-4858-4a28-82fb-2452197e266c</xr:TypeId>
+				<xr:ValueId>b16709a8-4da1-47b7-8223-26180218f8f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВзаимозачетЗадолженности" category="List">
+				<xr:TypeId>c72dac46-1b57-43e6-a411-4edadadb3299</xr:TypeId>
+				<xr:ValueId>1dd9c7fb-d19d-4e20-a24b-4798377d3dbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВзаимозачетЗадолженности" category="Manager">
+				<xr:TypeId>a7cc74f7-5b75-4b9f-979c-4b7c5c6c5cbe</xr:TypeId>
+				<xr:ValueId>66adf66a-7299-4b61-b81b-e4f2fa0d14ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВзаимозачетЗадолженности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e607e7b9-ef7c-448d-84b9-25ad0192be1d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

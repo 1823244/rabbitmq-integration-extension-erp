@@ -66,6 +66,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Form>ФормаВыбораНазначений</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

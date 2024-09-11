@@ -30,6 +30,7 @@
 		<ChildObjects>
 			<Form>Форма</Form>
 			<Template>КСП_Макет</Template>
+			<Template>КСП_БланкЗаказа</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

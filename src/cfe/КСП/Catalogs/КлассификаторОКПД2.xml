@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="5925a610-ebde-44e2-afe3-4b4f66361f00">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторОКПД2" category="Object">
+				<xr:TypeId>4b05ddab-afc1-4889-ae2c-1b1a3d8f1393</xr:TypeId>
+				<xr:ValueId>8eeb02f2-38af-45d0-bf6e-bf26c6fd4a82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторОКПД2" category="Ref">
+				<xr:TypeId>b0573bba-2f19-42c2-b7d2-e9726fddbd94</xr:TypeId>
+				<xr:ValueId>7a099e64-593a-4834-9472-c0e268ddce4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторОКПД2" category="Selection">
+				<xr:TypeId>60a277ee-6fc1-44c9-8abb-7907fd35ab9d</xr:TypeId>
+				<xr:ValueId>227c6f43-c074-449c-b24b-11ec97bedff1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторОКПД2" category="List">
+				<xr:TypeId>a63a908d-05bc-4055-afab-67acdd812c50</xr:TypeId>
+				<xr:ValueId>11286dc3-c5c6-45c6-8013-f21f4489e7cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторОКПД2" category="Manager">
+				<xr:TypeId>cecb05df-5d5f-42d2-946f-8513c73f511a</xr:TypeId>
+				<xr:ValueId>3198324a-da0c-4122-b493-d3db64df81d7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторОКПД2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2e21616d-d3b3-463e-aab6-32bf856b4a9d</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

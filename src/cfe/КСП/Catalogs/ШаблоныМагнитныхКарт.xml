@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="cb3ea823-6ea0-4a4c-9c05-f5404a11529f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныМагнитныхКарт" category="Object">
+				<xr:TypeId>2549618b-2e9b-4dbf-8030-19ebba13f11a</xr:TypeId>
+				<xr:ValueId>1055f469-b157-4c75-b628-1e5eb94bd31e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныМагнитныхКарт" category="Ref">
+				<xr:TypeId>d29cb5d1-3d46-4089-a75a-ce9e3a29d8c1</xr:TypeId>
+				<xr:ValueId>6e10d4b0-6572-4d43-84c7-fe9809d9177c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныМагнитныхКарт" category="Selection">
+				<xr:TypeId>793d7e6b-b0c9-4fba-88a8-c05530dd0ef7</xr:TypeId>
+				<xr:ValueId>d20204ce-43f4-4053-a1e6-d8c788d142dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныМагнитныхКарт" category="List">
+				<xr:TypeId>49149b16-8314-47f2-9469-3a35baf1b3e2</xr:TypeId>
+				<xr:ValueId>f924dfe1-9f71-4f97-bb8b-99192b6919d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныМагнитныхКарт" category="Manager">
+				<xr:TypeId>c8c9431c-265f-4689-b359-a248e5c131ce</xr:TypeId>
+				<xr:ValueId>f09fb682-fa03-4278-8586-d15b41b7d294</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ШаблоныМагнитныхКарт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e0cfe1c0-054e-4289-add3-6e5bce6ef3a6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

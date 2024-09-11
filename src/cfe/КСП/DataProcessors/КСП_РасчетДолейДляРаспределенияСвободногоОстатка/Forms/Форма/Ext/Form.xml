@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗагрузитьПланПродаж" id="84">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьПланПродаж</CommandName>
+				<ExtendedTooltip name="ФормаЗагрузитьПланПродажРасширеннаяПодсказка" id="85"/>
+			</Button>
+			<Button name="ФормаРассчитатьДолиДляРаспределения" id="47">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.РассчитатьДолиДляРаспределения</CommandName>
+				<ExtendedTooltip name="ФормаРассчитатьДолиДляРаспределенияРасширеннаяПодсказка" id="48"/>
+			</Button>
+			<Button name="ФормаЗаписатьПроцентыРаспределения" id="49">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаписатьПроцентыРаспределения</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать доли для распределения</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗаписатьПроцентыРаспределенияРасширеннаяПодсказка" id="50"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="51">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="53">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="54"/>
+					<ChildItems>
+						<InputField name="Организация" id="1">
+							<DataPath>Объект.Организация</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Подразделение" id="4">
+							<DataPath>Объект.Подразделение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Статус" id="92">
+							<DataPath>Объект.Статус</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СтатусКонтекстноеМеню" id="93"/>
+							<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="94"/>
+						</InputField>
+						<InputField name="Склад" id="13">
+							<DataPath>Объект.Склад</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СкладКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="15"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="55">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="56"/>
+					<ChildItems>
+						<InputField name="Сценарий" id="10">
+							<DataPath>Объект.Сценарий</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СценарийКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="СценарийРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="Коллекция" id="7">
+							<DataPath>Объект.Коллекция</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КоллекцияКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="КоллекцияРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа4" id="57">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="58"/>
+			<ChildItems>
+				<InputField name="ДатаНачала" id="16">
+					<DataPath>Объект.ДатаНачала</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="ДатаОкончания" id="19">
+					<DataPath>Объект.ДатаОкончания</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="21"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа5" id="86">
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="87"/>
+			<ChildItems>
+				<Page name="Группа6" id="88">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План продаж</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="89"/>
+					<ChildItems>
+						<Table name="ПланПродаж" id="59">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПланПродаж</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПланПродажКонтекстноеМеню" id="60"/>
+							<AutoCommandBar name="ПланПродажКоманднаяПанель" id="61"/>
+							<ExtendedTooltip name="ПланПродажРасширеннаяПодсказка" id="62"/>
+							<SearchStringAddition name="ПланПродажСтрокаПоиска" id="63">
+								<AdditionSource>
+									<Item>ПланПродаж</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПланПродажСтрокаПоискаКонтекстноеМеню" id="64"/>
+								<ExtendedTooltip name="ПланПродажСтрокаПоискаРасширеннаяПодсказка" id="65"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПланПродажСостояниеПросмотра" id="66">
+								<AdditionSource>
+									<Item>ПланПродаж</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПланПродажСостояниеПросмотраКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="ПланПродажСостояниеПросмотраРасширеннаяПодсказка" id="68"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПланПродажУправлениеПоиском" id="69">
+								<AdditionSource>
+									<Item>ПланПродаж</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПланПродажУправлениеПоискомКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="ПланПродажУправлениеПоискомРасширеннаяПодсказка" id="71"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПланПродажНомерСтроки" id="72">
+									<DataPath>Объект.ПланПродаж.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПланПродажНомерСтрокиКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="ПланПродажНомерСтрокиРасширеннаяПодсказка" id="74"/>
+								</LabelField>
+								<InputField name="ПланПродажНоменклатура" id="75">
+									<DataPath>Объект.ПланПродаж.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПланПродажНоменклатураКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="ПланПродажНоменклатураРасширеннаяПодсказка" id="77"/>
+								</InputField>
+								<InputField name="ПланПродажХарактеристикаНоменклатуры" id="78">
+									<DataPath>Объект.ПланПродаж.ХарактеристикаНоменклатуры</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПланПродажХарактеристикаНоменклатурыКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="ПланПродажХарактеристикаНоменклатурыРасширеннаяПодсказка" id="80"/>
+								</InputField>
+								<InputField name="ПланПродажКоличество" id="81">
+									<DataPath>Объект.ПланПродаж.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПланПродажКоличествоКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="ПланПродажКоличествоРасширеннаяПодсказка" id="83"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа7" id="90">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доли для распределения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="91"/>
+					<ChildItems>
+						<Table name="ДолиРаспределенияПоНоменкалтуре" id="22">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ДолиРаспределенияПоНоменкалтуре</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДолиРаспределенияПоНоменкалтуреКонтекстноеМеню" id="23"/>
+							<AutoCommandBar name="ДолиРаспределенияПоНоменкалтуреКоманднаяПанель" id="24">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреРасширеннаяПодсказка" id="25"/>
+							<SearchStringAddition name="ДолиРаспределенияПоНоменкалтуреСтрокаПоиска" id="26">
+								<AdditionSource>
+									<Item>ДолиРаспределенияПоНоменкалтуре</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДолиРаспределенияПоНоменкалтуреСтрокаПоискаКонтекстноеМеню" id="27"/>
+								<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДолиРаспределенияПоНоменкалтуреСостояниеПросмотра" id="29">
+								<AdditionSource>
+									<Item>ДолиРаспределенияПоНоменкалтуре</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДолиРаспределенияПоНоменкалтуреСостояниеПросмотраКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДолиРаспределенияПоНоменкалтуреУправлениеПоиском" id="32">
+								<AdditionSource>
+									<Item>ДолиРаспределенияПоНоменкалтуре</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДолиРаспределенияПоНоменкалтуреУправлениеПоискомКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДолиРаспределенияПоНоменкалтуреНомерСтроки" id="35">
+									<DataPath>Объект.ДолиРаспределенияПоНоменкалтуре.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДолиРаспределенияПоНоменкалтуреНомерСтрокиКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреНомерСтрокиРасширеннаяПодсказка" id="37"/>
+								</LabelField>
+								<InputField name="ДолиРаспределенияПоНоменкалтуреНоменклатура" id="38">
+									<DataPath>Объект.ДолиРаспределенияПоНоменкалтуре.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДолиРаспределенияПоНоменкалтуреНоменклатураКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреНоменклатураРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<InputField name="ДолиРаспределенияПоНоменкалтуреХарактеристикаНоменклатуры" id="41">
+									<DataPath>Объект.ДолиРаспределенияПоНоменкалтуре.ХарактеристикаНоменклатуры</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДолиРаспределенияПоНоменкалтуреХарактеристикаНоменклатурыКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреХарактеристикаНоменклатурыРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<InputField name="ДолиРаспределенияПоНоменкалтуреПроцентРаспределения" id="44">
+									<DataPath>Объект.ДолиРаспределенияПоНоменкалтуре.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДолиРаспределенияПоНоменкалтуреПроцентРаспределенияКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ДолиРаспределенияПоНоменкалтуреПроцентРаспределенияРасширеннаяПодсказка" id="46"/>
+									<Events>
+										<Event name="OnChange">ДолиРаспределенияПоНоменкалтуреПроцентРаспределенияПриИзменении</Event>
+										<Event name="EditTextChange">ДолиРаспределенияПоНоменкалтуреПроцентРаспределенияИзменениеТекстаРедактирования</Event>
+										<Event name="StartChoice">ДолиРаспределенияПоНоменкалтуреПроцентРаспределенияНачалоВыбора</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КСП_РасчетДолейДляРаспределенияСвободногоОстатка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РассчитатьДолиДляРаспределения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать доли для распределения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать доли для распределения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РассчитатьДолиДляРаспределения</Action>
+		</Command>
+		<Command name="ЗаписатьПроцентыРаспределения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать проценты распределения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать проценты распределения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьПроцентыРаспределения</Action>
+		</Command>
+		<Command name="ЗагрузитьПланПродаж" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить план продаж</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить план продаж</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьПланПродаж</Action>
+		</Command>
+	</Commands>
+</Form>

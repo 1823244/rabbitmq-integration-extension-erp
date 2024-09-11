@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Контроль выполнения интернет-заказов</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПоДаннымКлиента</dataPath>
+			<field>НомерПоДаннымКлиента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Формируется</dataPath>
+			<field>Формируется</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формируется</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоставленВпунктВыдачи</dataPath>
+			<field>ДоставленВпунктВыдачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доставлен впункт выдачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГотовКотправке</dataPath>
+			<field>ГотовКотправке</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Готов котправке</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказПринят</dataPath>
+			<field>ЗаказПринят</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ принят</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВРаботе</dataPath>
+			<field>ВРаботе</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В работе</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоставленВМагазин</dataPath>
+			<field>ДоставленВМагазин</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доставлен в магазин</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоставленПолучателю</dataPath>
+			<field>ДоставленПолучателю</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доставлен получателю</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СогласованиеИзм</dataPath>
+			<field>СогласованиеИзм</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Согласование изм</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отменен</dataPath>
+			<field>Отменен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменен</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникИнтернетЗаказа</dataPath>
+			<field>ИсточникИнтернетЗаказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник интернет заказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПереданВСлужбуДоставки</dataPath>
+			<field>ПереданВСлужбуДоставки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передан в службу доставки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	ЗаказКлиентаТовары.Ссылка.Дата КАК Дата,
+	Склады.Ссылка КАК ИсточникИнтернетЗаказа,
+	ЗаказКлиентаТовары.Ссылка.НомерПоДаннымКлиента КАК НомерПоДаннымКлиента,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "podtverzhden"
+			ТОГДА "Заказ принят"
+		КОГДА КСП_ИсторияЗаказов.Статус = "obrabotka"
+			ТОГДА "В работе"
+		КОГДА КСП_ИсторияЗаказов.Статус = "gotov-k-otpravke"
+			ТОГДА "Готов к отправке"
+		КОГДА КСП_ИсторияЗаказов.Статус = "otgruzhen"
+			ТОГДА "Передан в службу доставки"
+		КОГДА КСП_ИсторияЗаказов.Статус = "dostavlen-v-magazin"
+			ТОГДА "Доставлен в магазин"
+		КОГДА КСП_ИсторияЗаказов.Статус = "send-to-delivery"
+			ТОГДА "Доставлен в пункт выдачи"
+		КОГДА КСП_ИсторияЗаказов.Статус = "complete"
+			ТОГДА "Доставлен получателю"
+		КОГДА КСП_ИсторияЗаказов.Статус = "cancel"
+			ТОГДА "Отменен"
+		КОГДА КСП_ИсторияЗаказов.Статус = "ozhidaet-oplaty"
+			ТОГДА "Согласование изменений"
+		КОГДА КСП_ИсторияЗаказов.Статус = "new"
+			ТОГДА "Формируется"
+	КОНЕЦ КАК Статус,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "new"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК Формируется,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "podtverzhden"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ЗаказПринят,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "obrabotka"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ВРаботе,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "gotov-k-otpravke"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ГотовКотправке,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "dostavlen-v-magazin"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ДоставленВМагазин,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "send-to-delivery"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ДоставленВпунктВыдачи,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "complete"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ДоставленПолучателю,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "ozhidaet-oplaty"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК СогласованиеИзм,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "cancel"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК Отменен,
+	ВЫБОР
+		КОГДА КСП_ИсторияЗаказов.Статус = "otgruzhen"
+			ТОГДА КСП_ИсторияЗаказов.Период
+	КОНЕЦ КАК ПереданВСлужбуДоставки,
+	ЗаказыКлиентов.ЗаказКлиента КАК Заказ
+ИЗ
+	РегистрНакопления.ЗаказыКлиентов КАК ЗаказыКлиентов
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Склады КАК Склады
+		ПО ЗаказыКлиентов.Склад = Склады.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КСП_ИсторияЗаказов КАК КСП_ИсторияЗаказов
+		ПО ЗаказыКлиентов.ЗаказКлиента = КСП_ИсторияЗаказов.ЗаказКлиента
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ПО ЗаказыКлиентов.Регистратор = ЗаказКлиентаТовары.Ссылка
+			И ЗаказыКлиентов.ЗаказКлиента = ЗаказКлиентаТовары.Ссылка
+ГДЕ
+	Склады.ДополнительныеРеквизиты.Значение = ИСТИНА
+	И ЗаказКлиентаТовары.Ссылка.Дата &lt;&gt; ""</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Контроль выполнения интернет-заказов</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль выполнения интернет-заказов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контроль выполнения интернет-заказов</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Заказ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>НомерПоДаннымКлиента</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Дата</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ИсточникИнтернетЗаказа</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Статус</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Формируется</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЗаказПринят</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВРаботе</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ГотовКотправке</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПереданВСлужбуДоставки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоставленВМагазин</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоставленВпунктВыдачи</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоставленПолучателю</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Отменен</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СогласованиеИзм</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

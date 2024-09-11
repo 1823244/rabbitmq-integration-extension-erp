@@ -621,6 +621,61 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="ed42a3ad-518a-4d10-aae0-9f00fd5cde52">
+				<Properties>
+					<Name>КСП_ДекларацияСсылка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декларация ссылка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияЭкспорт</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd615de3-45ad-4df6-b916-c9c6df579548">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0a117075-34db-4fb2-9221-b3b3dfa3ce3a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>300</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="c28c363d-53b0-4969-8420-4cd98de550cb">
 				<InternalInfo>
@@ -1006,6 +1061,15 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="2945d698-1d39-4c12-937a-08a232bd196d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Количество</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>680ae0ca-e1f8-48ba-b136-aaa160965f42</ExtendedConfigurationObject>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="d22ed66a-de26-44b7-b4ae-2ffb780c71ad">
@@ -1044,12 +1108,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Template>КСП_ПФ_MXL_УпаковочныйЛист</Template>
-			<Template>КСП_ПФ_MXL_ДекларацияБеларусь</Template>
+			<Template>КСП_ПФ_MXL_УпаковочныйЛистБеларусьАрмения</Template>
+			<Template>КСП_ПФ_MXL_ДекларацияБеларусьАрмения</Template>
 			<Template>КСП_ПФ_MXL_ДекларацияАрмения</Template>
 			<Template>КСП_ПФ_MXL_СпецификацияНаТовар</Template>
 			<Template>КСП_ПФ_MXL_СоставТкани</Template>
 			<Template>КСП_ПФ_MXL_ВесИСостав</Template>
+			<Template>КСП_ПФ_MXL_Спецификация</Template>
+			<Template>КСП_ПФ_MXL_УпаковочныйЛистКазахстан</Template>
+			<Template>КСП_ПФ_MXL_УпаковочныйЛистГрузия</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

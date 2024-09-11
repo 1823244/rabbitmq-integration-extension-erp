@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗагрузитьФайл" id="35">
@@ -11,6 +11,18 @@
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ЗагрузитьИзКаталога</CommandName>
 				<ExtendedTooltip name="ФормаЗагрузитьИзКаталогаРасширеннаяПодсказка" id="38"/>
+			</Button>
+			<Button name="ЗагруженныеФайлыОбновить" id="39">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Item.ЗагруженныеФайлы.StandardCommand.Refresh</CommandName>
+				<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+				<ExtendedTooltip name="ЗагруженныеФайлыОбновитьРасширеннаяПодсказка" id="40"/>
+			</Button>
+			<Button name="ФормаВыгрузитьБланкЗаказа" id="41">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыгрузитьБланкЗаказа</CommandName>
+				<ExtendedTooltip name="ФормаВыгрузитьБланкЗаказаРасширеннаяПодсказка" id="42"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -50,13 +62,6 @@
 			<ContextMenu name="ЗагруженныеФайлыКонтекстноеМеню" id="5"/>
 			<AutoCommandBar name="ЗагруженныеФайлыКоманднаяПанель" id="6">
 				<Autofill>false</Autofill>
-				<ChildItems>
-					<Button name="ЗагруженныеФайлыОбновить" id="39">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Item.ЗагруженныеФайлы.StandardCommand.Refresh</CommandName>
-						<ExtendedTooltip name="ЗагруженныеФайлыОбновитьРасширеннаяПодсказка" id="40"/>
-					</Button>
-				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="ЗагруженныеФайлыРасширеннаяПодсказка" id="7"/>
 			<SearchStringAddition name="ЗагруженныеФайлыСтрокаПоиска" id="8">
@@ -83,6 +88,9 @@
 				<ContextMenu name="ЗагруженныеФайлыУправлениеПоискомКонтекстноеМеню" id="15"/>
 				<ExtendedTooltip name="ЗагруженныеФайлыУправлениеПоискомРасширеннаяПодсказка" id="16"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ЗагруженныеФайлыВыбор</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="ЗагруженныеФайлыПериод" id="17">
 					<DataPath>ЗагруженныеФайлы.Period</DataPath>
@@ -99,20 +107,15 @@
 					<ContextMenu name="ЗагруженныеФайлыЗаказКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="ЗагруженныеФайлыЗаказРасширеннаяПодсказка" id="25"/>
 				</LabelField>
-				<LabelField name="ЗагруженныеФайлыСтатус" id="26">
-					<DataPath>ЗагруженныеФайлы.Статус</DataPath>
-					<ContextMenu name="ЗагруженныеФайлыСтатусКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="ЗагруженныеФайлыСтатусРасширеннаяПодсказка" id="28"/>
+				<LabelField name="ЗагруженныеФайлыЗаказСтатус" id="43">
+					<DataPath>ЗагруженныеФайлы.Заказ.Статус</DataPath>
+					<ContextMenu name="ЗагруженныеФайлыЗаказСтатусКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ЗагруженныеФайлыЗаказСтатусРасширеннаяПодсказка" id="45"/>
 				</LabelField>
 				<LabelField name="ЗагруженныеФайлыРежим" id="29">
 					<DataPath>ЗагруженныеФайлы.Режим</DataPath>
 					<ContextMenu name="ЗагруженныеФайлыРежимКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ЗагруженныеФайлыРежимРасширеннаяПодсказка" id="31"/>
-				</LabelField>
-				<LabelField name="ЗагруженныеФайлыЖурнал" id="32">
-					<DataPath>ЗагруженныеФайлы.Журнал</DataPath>
-					<ContextMenu name="ЗагруженныеФайлыЖурналКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ЗагруженныеФайлыЖурналРасширеннаяПодсказка" id="34"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -203,20 +206,20 @@
 			</ToolTip>
 			<Action>РегламентноеЗадание</Action>
 		</Command>
-		<Command name="ВыгрузитьБланЗаказа" id="3">
+		<Command name="ВыгрузитьБланкЗаказа" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить блан заказа</v8:content>
+					<v8:content>Выгрузить бланк заказа</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить блан заказа</v8:content>
+					<v8:content>Выгрузить бланк заказа</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ВыгрузитьБланЗаказа</Action>
+			<Action>ВыгрузитьБланкЗаказа</Action>
 		</Command>
 		<Command name="ЗагрузитьИзКаталога" id="4">
 			<Title>

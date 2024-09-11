@@ -29,7 +29,7 @@
 			<Comment/>
 			<ExtendedConfigurationObject>35a6d3c8-3832-419f-81ef-fc7c113af6a4</ExtendedConfigurationObject>
 			<DescriptionLength>50</DescriptionLength>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Catalog.Организации.Form.ФормаЭлемента</DefaultObjectForm>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="a32b2599-2f3e-4963-88af-dbc0867b8776">

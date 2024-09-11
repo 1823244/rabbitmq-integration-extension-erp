@@ -76,6 +76,50 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="14ae122a-7e1d-4d73-95a9-0c271ebdacbc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриходныйКассовыйОрдер.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>2ea1e8a6-66e2-4be4-bcc4-b2acb9b4e252</xr:TypeId>
+						<xr:ValueId>cda00e06-a176-4632-a521-b9e5d690d2b1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходныйКассовыйОрдер.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>f7ca4bf5-f922-406f-963f-536652528592</xr:TypeId>
+						<xr:ValueId>347cc209-474c-458b-b444-e36ac7782b44</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b6069978-b5aa-4bfa-bbb0-2a9f2a186b21</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="158d219d-0a20-4d1e-9ebd-299a2a215252">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОснованиеПлатежа</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c413f240-10ee-429b-a749-b4c20fce8919</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="93bc597a-20fa-4339-a74e-145555cca570">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>dcc778ec-2253-46de-8e60-f7df18284799</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

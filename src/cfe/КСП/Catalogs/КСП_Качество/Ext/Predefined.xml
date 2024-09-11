@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="4d7a11f9-1d1e-4413-b4fc-990deb32ded1">
+		<Name>ПризнакиКачества</Name>
+		<Code>ПКачества</Code>
+		<Description>Признаки качества</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="5b748567-5e97-4eaf-96d2-94443f2a61bd">
+		<Name>Брак</Name>
+		<Code>Брак     </Code>
+		<Description>Брак</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e7f0b35d-b503-45ca-a834-8f3a2e4abba6">
+		<Name>Новый</Name>
+		<Code>НеБрак   </Code>
+		<Description>НеБрак</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

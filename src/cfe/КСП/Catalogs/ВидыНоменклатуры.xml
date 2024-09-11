@@ -29,6 +29,31 @@
 			<Comment/>
 			<ExtendedConfigurationObject>f3b86010-6dc9-4bd6-9fda-850ce2f2ea58</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="d96acfd6-8c4a-4332-beb0-6f7ecd8df4ee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ШаблонЭтикетки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aef15f0f-9fa4-4bc5-a195-0c0fe7bcec89</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныЭтикетокИЦенников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="935843ea-59c6-4084-bdc2-03824b585823">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ШаблонЦенника</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>256af2db-4492-4f45-89a9-36f035e9d95a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныЭтикетокИЦенников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

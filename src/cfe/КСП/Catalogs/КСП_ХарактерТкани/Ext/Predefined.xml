@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="846e515e-360b-4604-b422-2886b0e40c6a">
+		<Name>ТрикотажВязанный</Name>
+		<Code>ВязанныйТрикотаж              </Code>
+		<Description>Тр</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="06e2ae6e-947e-44d3-84a8-96d920b5cc8b">
+				<Name>ВязанныйТрикотаж</Name>
+				<Code>Вязаный Трикотаж              </Code>
+				<Description>Вя</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="9b4321ea-4a73-411b-8e4f-b1844132c847">
+						<Name>ВязаныйТрикотажЭлемент</Name>
+						<Code>Вязаный_трикотаж              </Code>
+						<Description>Вя</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="398c2041-d352-42b5-9f12-086df611bf32">
+		<Name>ГруппаНеТкань</Name>
+		<Code>ГруппаНеТкань                 </Code>
+		<Description>Нт</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1f857298-2130-43df-b2bd-ba647cf3a0f0">
+				<Name>НеТкань_</Name>
+				<Code>НеТкань                       </Code>
+				<Description/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="6fc59d33-4efd-458b-bd86-41cc206831e2">
+						<Name>НеТкань</Name>
+						<Code>Не Ткань                      </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="cacf5265-01aa-4fbb-9293-0ea15be0d5ba">
+		<Name>Комбинированные</Name>
+		<Code>Комбинированные               </Code>
+		<Description>Ко</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="fc51bf62-1a4d-4df8-b8d8-0dba51dfa452">
+				<Name>КомбинированныеТкани</Name>
+				<Code>КомбинированныеТкани          </Code>
+				<Description>Кт</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="ff4a8643-d84f-45eb-b81b-4b122b08e6b9">
+						<Name>ВязанныйТр_КроенныйТр</Name>
+						<Code>ВязанныйТр_КроенныйТр         </Code>
+						<Description>ВК</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b9880639-1c8c-42d7-9b4f-d2ee41b78da7">
+						<Name>ВязанныйТр_Текстиль</Name>
+						<Code>ВязанныйТр_Текстиль           </Code>
+						<Description>Вт</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="ee0efe77-2ecd-497f-8a69-427986fba032">
+		<Name>КроеныйТрикотаж</Name>
+		<Code>Кроеный Трикотаж              </Code>
+		<Description>Кр</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="7a0d626f-a478-4c7c-940e-58ae9410305a">
+				<Name>ТрикотажПолотно</Name>
+				<Code>ТрикотажПолотно               </Code>
+				<Description>Тр</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="1eef0b45-268c-400a-8366-9d8ae3573a32">
+						<Name>ТрикотажПолотноЭлемент</Name>
+						<Code>Трикотаж  полотно             </Code>
+						<Description>Тр</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="1136bc73-899a-45e3-a8da-726a6aa3e844">
+		<Name>МехНатуральный_</Name>
+		<Code>Мех_Натуральный               </Code>
+		<Description/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="69fdc5fc-c0c1-4fdf-8b31-e3f607b68ca5">
+				<Name>НатуральныйМех</Name>
+				<Code>НатуральныйМех                </Code>
+				<Description/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="3ff730dd-42f4-475c-bfe0-c6d3940a5af8">
+						<Name>МехНатуральный</Name>
+						<Code>МехНатуральный                </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="de321a65-8d3d-42f6-a5d4-1a9e21900778">
+		<Name>ПрочиеТкани</Name>
+		<Code>Текстиль                      </Code>
+		<Description>Пр</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="758dd28e-56c4-443e-9986-32fff92029c7">
+				<Name>Блузочные</Name>
+				<Code>Блузочные                     </Code>
+				<Description>Бл</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="72512ce6-59f1-4180-9871-fdaa30bea803">
+						<Name>Атлас</Name>
+						<Code>Атлас                         </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="8de33e03-dd49-402b-9cfc-d9186fe50e7d">
+						<Name>БлузочныеПрочие</Name>
+						<Code>Блузочные прочие              </Code>
+						<Description>Бл</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2f45b556-b265-463c-b172-c248c7895023">
+						<Name>ВышивкаНаСетке</Name>
+						<Code>ВышивкаНаСетке                </Code>
+						<Description>ВС</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f935aeba-e5e9-4eea-99a2-0e5d13f4d568">
+						<Name>Кружево</Name>
+						<Code>Кружево                       </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="322bd0f9-267d-43ea-ad38-4bc12c966afa">
+						<Name>НатуральныйШелк</Name>
+						<Code>Натуральный шелк              </Code>
+						<Description>НШ</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="e5a6818f-cb93-42c4-b4bd-ef7eb9af82fa">
+						<Name>Шифон</Name>
+						<Code>Шифон                         </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="41290d26-c8d8-4d32-8b2d-96aa7cfa745f">
+				<Name>Костюмные</Name>
+				<Code>Костюмные                     </Code>
+				<Description>Ко</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="4af46da8-5370-46e8-9e33-4db3becbc320">
+						<Name>Бархат</Name>
+						<Code>Бархат                        </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="e06a3806-4d69-423a-aa44-61670e92521c">
+						<Name>Вельвет</Name>
+						<Code>Вельвет                       </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="92fbae5b-8bc3-41b8-b733-ce29c3e697ce">
+						<Name>Джинс</Name>
+						<Code>Джинс                         </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2b567d5e-05a7-4f9b-8ff2-21d6359a3825">
+						<Name>Костюмная</Name>
+						<Code>Костюмные прочие              </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="3cbabf87-2b00-4721-8691-4af165b68d18">
+						<Name>Лен</Name>
+						<Code>Лен                           </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="dd81d72c-9121-49c4-a313-13d8233cfa77">
+						<Name>Хлопок</Name>
+						<Code>Хлопок                        </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="573376f1-b47d-4b10-af90-d0c0677f33df">
+				<Name>Пальтовые</Name>
+				<Code>Пальтовые                     </Code>
+				<Description>Па</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="e758425a-c478-4328-ae78-332a3ba2f243">
+						<Name>Букле</Name>
+						<Code>Букле                         </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="1190759c-2deb-4d94-a884-63ba8ce63ab2">
+						<Name>Велюр</Name>
+						<Code>Велюр                         </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="871595e7-fcfd-4ae6-84f5-661235a0b76a">
+						<Name>Ворс</Name>
+						<Code>Ворс                          </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="57a0c03b-88ac-4a52-b3bf-55cad0c6ec3b">
+						<Name>ВорсПудра</Name>
+						<Code>Ворс пудра                    </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="93f67a52-1917-4189-8fda-7706b900b646">
+						<Name>Лоден</Name>
+						<Code>Лоден                         </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f963794f-648f-4a37-badb-bbb00f02815b">
+						<Name>ПальтовыеПрочие</Name>
+						<Code>Пальтовые прочие              </Code>
+						<Description>Па</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="5a4ddb06-18a2-46d1-8d40-4ea03b8791ad">
+						<Name>Пестроткань</Name>
+						<Code>Пестроткань                   </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ca9a1caa-5909-4a62-8aad-4ffa4ea40496">
+						<Name>Рогожка</Name>
+						<Code>Рогожка                       </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="fb490e0d-a342-4515-8f4c-09669357a5f7">
+				<Name>Плащевые</Name>
+				<Code>Плащевые                      </Code>
+				<Description>Пл</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="abe8b72a-163c-42c6-b054-24cfad2ad6c5">
+						<Name>Болония</Name>
+						<Code>Болония                       </Code>
+						<Description>Бо</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="9828e76c-c32e-4f2e-843d-dcffeb4d8f45">
+						<Name>ПлащевыеПрочие</Name>
+						<Code>Плащевые прочие               </Code>
+						<Description>Пл</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="513b4722-7d5f-4973-9863-60633d72dddc">
+						<Name>Смесовка</Name>
+						<Code>Смесовка                      </Code>
+						<Description>См</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="e508dfbc-c20e-411b-9f28-9f4b398c471e">
+				<Name>Подкладочные</Name>
+				<Code>Подкладочные                  </Code>
+				<Description>По</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="d85c548b-4562-4df4-a1fd-3b2625adae4d">
+						<Name>Вискозные</Name>
+						<Code>Вискозные подкладочные &gt;10%   </Code>
+						<Description>Ви</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="71e81fc4-e593-494e-89c1-6ab924443196">
+						<Name>ПодкладочныеПрочие</Name>
+						<Code>Подкладочные прочие           </Code>
+						<Description>По</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="a90d4ee2-6f6f-460c-ad56-02d7bd84f055">
+						<Name>СинтетическиеПодкладки</Name>
+						<Code>Синтетические подкладочные    </Code>
+						<Description>Си</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="139354e4-8032-43a5-adee-1bae6083d9fd">
+				<Name>Прикладные</Name>
+				<Code>Прикладные                    </Code>
+				<Description>Пр</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="d5307c64-5edb-4b03-b8ec-edbf67e48a58">
+						<Name>КлееваяБумага</Name>
+						<Code>КлееваяБумага                 </Code>
+						<Description>КБ</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f2561be6-ffda-49e8-8803-80358833a37c">
+						<Name>Пленки</Name>
+						<Code>Пленки                        </Code>
+						<Description>Пи</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ffafba6c-5461-4682-92b0-ada452c449d8">
+						<Name>ПрикладочныеПрочие</Name>
+						<Code>Прикладочные прочие           </Code>
+						<Description>Пр</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="a33354ea-29a0-4538-b4c1-61bf9e74fc68">
+						<Name>Стеганные</Name>
+						<Code>Стеганные  прикладочные       </Code>
+						<Description>Ст</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ce4a3d03-290a-4a32-a585-e4b16e1b5420">
+						<Name>Утеплители</Name>
+						<Code>Утеплители                    </Code>
+						<Description>Ут</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="4d51e667-d8e2-4a93-820d-98153b17bb64">
+						<Name>Флизелин</Name>
+						<Code>Флизелин                      </Code>
+						<Description>Фл</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="5b2ffc88-48ba-426e-8a74-61beb3ec2efe">
+						<Name>Фольга</Name>
+						<Code>Фольга                        </Code>
+						<Description>ФГ</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="1b2ba7df-a8dd-47bc-9ecf-7d02f9480d24">
+				<Name>Прочие</Name>
+				<Code>Прочие                        </Code>
+				<Description>Пр</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="581bf2ac-b5ec-4592-9675-157607e227c9">
+						<Name>Замша</Name>
+						<Code>Замша                         </Code>
+						<Description>За</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="842099d3-cc93-41cc-b349-029fcc0b7dbf">
+						<Name>ИскКожа</Name>
+						<Code>Иск Кожа                      </Code>
+						<Description>Ис</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="cd29161d-bf6b-4bf7-9133-a3507af38960">
+						<Name>ИскМех</Name>
+						<Code>Иск. мех                      </Code>
+						<Description>Ис</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="9405b0ca-0e09-4bd4-99a0-af1a76ec2587">
+						<Name>Кожа</Name>
+						<Code>Натур. Кожа                   </Code>
+						<Description/>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="6a5403d1-53ec-473b-9046-19f3b7af230e">
+						<Name>ПрочиеОстальные</Name>
+						<Code>Прочие остальные              </Code>
+						<Description>Пр</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

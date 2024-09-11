@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="d3c526fe-9940-4f75-8efe-538ad32c8490">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыПодарочныхСертификатов" category="Object">
+				<xr:TypeId>3df96468-3f0b-49e7-8462-970d90c855fb</xr:TypeId>
+				<xr:ValueId>8f234b08-2323-4f2f-a870-494e238e9c67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыПодарочныхСертификатов" category="Ref">
+				<xr:TypeId>15079d23-5384-44c6-8b49-237ef9fa8e0d</xr:TypeId>
+				<xr:ValueId>6ed9e85a-8328-49e6-8558-eb6b43b50c71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыПодарочныхСертификатов" category="Selection">
+				<xr:TypeId>44524e68-9128-43a2-919f-98c9bfe37c04</xr:TypeId>
+				<xr:ValueId>c2153399-a571-401b-8009-95d77991c78b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыПодарочныхСертификатов" category="List">
+				<xr:TypeId>65f9308d-da74-4148-9088-e8ce0f9944aa</xr:TypeId>
+				<xr:ValueId>ce0f40dd-4f85-4a38-ad2a-b0e2ff27515b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыПодарочныхСертификатов" category="Manager">
+				<xr:TypeId>66cb7955-3793-4cb6-b142-b4d416f16ec3</xr:TypeId>
+				<xr:ValueId>115608d4-08c6-4c48-bdcf-6cd7bf784376</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыПодарочныхСертификатов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf2156e7-b02c-499b-b96a-d573d7bd8336</ExtendedConfigurationObject>
+			<DescriptionLength>25</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d5b41120-5db1-4922-a065-7cf2b82fc604">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>66664988-b912-4c0e-9868-4d67bbf9c65f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4d89504e-90eb-4918-9a73-b9a25bd9f191">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номинал</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8ffd4687-efb5-474d-9126-33c019176c0f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="510454c4-6918-4cfb-bafa-aeb7cc94e5a4">
+				<Properties>
+					<Name>КСП_НоменклатураСертификата</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КСП номенклатура сертификата</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="64bcfcce-8c53-4f26-a46e-90845c18e0f0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатьяДоходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2bcba93e-2506-49fc-a55f-996cb2247320</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7547cfc6-c6fb-47f6-a693-b15b9d206be2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипКарты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f225066a-86a4-4b8e-b110-6fa8d059e84d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыКарт</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9c843848-16f7-4729-a234-b6298eb283a8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5a79076a-4d5c-434b-a0e2-876b6acca107</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="117fb93a-5e59-4f90-a20f-a6efe2d4a7f4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодДействия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>626c936a-749e-4214-95c0-0b0c60bf8c86</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.Периодичность</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bc1b49a8-0f08-41fc-828e-9cb1777c9a9f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоПериодовДействия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bfad6cca-36c4-4755-adad-f0f4ad2bdd4a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1a560490-2cbf-41eb-8af7-4e909be18877">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a7c81b2-305d-4ade-a75e-0f1685f5108c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3bd4527c-ad30-4981-acb6-edf1026d61fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаправлениеДеятельности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>83d40ea5-6570-43c2-acb2-dd3b92252a43</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6695bf6a-09d9-4f19-9c5f-903720974d9c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаДоходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8ba53d25-f860-4d9d-bb7a-ee1e5b31c7e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиДоходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="75e7e381-75d0-4f5b-87c4-2f39e060f7e3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатьяДвиженияДенежныхСредствПродажа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dea3883b-8695-4298-857a-ef0009b80352</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="522e4949-6e17-4e83-9d83-bd7eb96e9846">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатьяДвиженияДенежныхСредствВозврат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ad2016ff-4b5a-4a5a-9f81-67d44e78ff42</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ca5c9234-7e59-4257-aaf5-ab257736f3a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГруппаФинансовогоУчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>04028450-7f99-46c4-bb47-b826c0bbff51</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыФинансовогоУчетаРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7e063bbe-158f-4af1-b020-1e6d96b13639">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УчетПодарочныхСертификатов2_5</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ffac6721-8990-422b-955e-70c81dfbf89a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49f51361-b4fc-4d72-b5f4-b5986dcace87">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Бессрочный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dd11fef0-555e-4dcb-963a-1fcf202b1313</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eafc0950-11ef-4e7a-b965-522acd7cd2ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СегментНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>abd6f29e-5fd9-4b8b-a31c-809a35a197bf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="e008312a-4a6f-49ed-b2c0-47cf78d0bd26">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыПодарочныхСертификатов.ШаблоныКодовПодарочныхСертификатов" category="TabularSection">
+						<xr:TypeId>a0c8ab03-71fd-47a6-a5ae-79af3449f478</xr:TypeId>
+						<xr:ValueId>e2633e94-a567-4b90-9337-52bcfd231256</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыПодарочныхСертификатов.ШаблоныКодовПодарочныхСертификатов" category="TabularSectionRow">
+						<xr:TypeId>b9d126ab-6e98-4926-859d-40deb7153c13</xr:TypeId>
+						<xr:ValueId>11fa6bd6-57b9-4dbb-b442-8b4e0ccbf595</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ШаблоныКодовПодарочныхСертификатов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93d77f5d-4ed3-4a55-ac83-bb2238543ac0</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7674af6c-04e6-45ad-b9e5-d4f80db69a00">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДлинаШтрихкода</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>1a733840-34e4-45c7-bd7b-fabc14b0c78c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>3</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="875fcf9e-f089-4076-b19b-a24e7102a5ee">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КонецДиапазонаМагнитногоКода</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6e1f1e5d-1238-4951-afb7-3eb4800c52aa</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>99</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7bcd9049-b867-4768-9ba9-c5902b04cd44">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ШаблонМагнитнойКарты</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>87606f92-7bc1-4c4c-8a97-2ccae296469c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ШаблоныМагнитныхКарт</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="00ce66ec-f8fa-4364-bffc-48cd2aa74992">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НачалоДиапазонаШтрихкода</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6657cd92-89c7-4e7e-87ee-ad293f7329c7</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>99</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="51e33938-356b-4ee6-bff0-386eba5b4817">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КонецДиапазонаШтрихкода</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a790a335-c997-485f-902b-fb506cf7cf77</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>99</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9f14f0dc-c536-45e0-8834-a4d44052e245">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДлинаМагнитногоКода</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>bb2d627d-0b3d-4c39-9ec5-09080482c582</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>3</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1e418308-8e9e-4afd-93b9-b2e468c791c3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НачалоДиапазонаМагнитногоКода</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ff81a8f8-bc22-4f3e-b753-22e55b9eea51</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>99</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

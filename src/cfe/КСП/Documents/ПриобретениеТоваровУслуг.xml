@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="ea498821-fe60-4c48-ae5b-7189e1556960">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриобретениеТоваровУслуг" category="Object">
+				<xr:TypeId>8aaab63d-4875-458f-bb18-a8da597e46ba</xr:TypeId>
+				<xr:ValueId>7864f948-8166-4f29-bc2d-2628a4731fbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриобретениеТоваровУслуг" category="Ref">
+				<xr:TypeId>2dfb4741-bd60-400b-9aaa-6ac41137a456</xr:TypeId>
+				<xr:ValueId>af01fae6-e81e-4bde-a4ae-84f7f8be8fb6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриобретениеТоваровУслуг" category="Selection">
+				<xr:TypeId>9b2629b9-ca14-4799-aa45-d74c7632ca89</xr:TypeId>
+				<xr:ValueId>f5157ef4-0189-4ea3-9ba4-05b1d1b00253</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриобретениеТоваровУслуг" category="List">
+				<xr:TypeId>7d820af1-34a8-4ad0-9515-3f5321f6ba36</xr:TypeId>
+				<xr:ValueId>207b460d-5562-4ead-9780-e75a8903776b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриобретениеТоваровУслуг" category="Manager">
+				<xr:TypeId>2c940a39-8db8-4814-add8-09b7f89a53dd</xr:TypeId>
+				<xr:ValueId>28bcea21-5cdd-4665-a601-c533b81dc4c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриобретениеТоваровУслуг</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5e0d9dd9-464c-4fa3-984a-2a2da8517f38</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fae0a476-a4d6-45a4-a199-4057518270f0">
+				<InternalInfo>
+					<xr:PropertyState>
+						<xr:Property>ExtendedConfigurationObject</xr:Property>
+						<xr:State>Notify</xr:State>
+					</xr:PropertyState>
+					<xr:PropertyState>
+						<xr:Property>Type</xr:Property>
+						<xr:State>MultiState</xr:State>
+					</xr:PropertyState>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказПоставщику</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5a272903-ac15-4c54-83f5-b82f1b6b646d</ExtendedConfigurationObject>
+					<Type xsi:type="xr:ExtendedProperty">
+						<xr:CheckValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+						</xr:CheckValue>
+						<xr:ExtendValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+						</xr:ExtendValue>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="87c54c02-3d1a-4dcd-be68-e546e51d82b3">
+				<Properties>
+					<Name>КСП_Основание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основание реализация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="820cee49-9208-4926-9966-4b969111c038">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриобретениеТоваровУслуг.Товары" category="TabularSection">
+						<xr:TypeId>95f335f1-519b-44a5-ad43-b2dbd9444ab4</xr:TypeId>
+						<xr:ValueId>3c1f2305-2b63-442d-a39d-ca22f6f863c2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриобретениеТоваровУслуг.Товары" category="TabularSectionRow">
+						<xr:TypeId>8f5cbbb1-c233-445a-95ac-5a72eeef304e</xr:TypeId>
+						<xr:ValueId>d6c33ae7-605f-4e59-80f5-f3f8544e3cef</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>941aa10e-3657-48ec-8f9d-92e38e90ecbf</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

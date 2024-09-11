@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<CommandBarLocation>None</CommandBarLocation>
+	<ReportResult>Результат</ReportResult>
+	<DetailsData>ДанныеРасшифровки</DetailsData>
+	<ReportFormType>Main</ReportFormType>
+	<AutoShowState>DontShow</AutoShowState>
+	<CustomSettingsFolder>КомпоновщикНастроекПользовательскиеНастройки</CustomSettingsFolder>
+	<ReportResultViewMode>Auto</ReportResultViewMode>
+	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="КомпоновщикНастроекПользовательскиеНастройки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="4"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДата" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДатаРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="ДатаНачала" id="12">
+					<DataPath>ДатаНачала</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="14"/>
+				</InputField>
+				<InputField name="ДатаОкончания" id="15">
+					<DataPath>ДатаОкончания</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="17"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="СценарийПланирования1" id="21">
+			<DataPath>СценарийПолный</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий (полный)</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СценарийПланирования1КонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="СценарийПланирования1РасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="СценарийПланирования2" id="24">
+			<DataPath>СценарийТекущий</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий (текущий)</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СценарийПланирования2КонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="СценарийПланирования2РасширеннаяПодсказка" id="26"/>
+		</InputField>
+		<InputField name="Статус" id="18">
+			<DataPath>Статус</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<Button name="Сформировать" id="8">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Сформировать</CommandName>
+			<ExtendedTooltip name="СформироватьРасширеннаяПодсказка" id="9"/>
+		</Button>
+		<SpreadSheetDocumentField name="Результат" id="5">
+			<DataPath>Результат</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<TitleLocation>None</TitleLocation>
+			<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
+			<Width>100</Width>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="7"/>
+		</SpreadSheetDocumentField>
+		<Table name="ДеревоОтчета" id="27">
+			<Representation>Tree</Representation>
+			<Visible>false</Visible>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ДеревоОтчета</DataPath>
+			<ContextMenu name="ДеревоОтчетаКонтекстноеМеню" id="28"/>
+			<AutoCommandBar name="ДеревоОтчетаКоманднаяПанель" id="29">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДеревоОтчетаРасширеннаяПодсказка" id="30"/>
+			<SearchStringAddition name="ДеревоОтчетаСтрокаПоиска" id="31">
+				<AdditionSource>
+					<Item>ДеревоОтчета</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоОтчетаСтрокаПоискаКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="ДеревоОтчетаСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДеревоОтчетаСостояниеПросмотра" id="34">
+				<AdditionSource>
+					<Item>ДеревоОтчета</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоОтчетаСостояниеПросмотраКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="ДеревоОтчетаСостояниеПросмотраРасширеннаяПодсказка" id="36"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДеревоОтчетаУправлениеПоиском" id="37">
+				<AdditionSource>
+					<Item>ДеревоОтчета</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоОтчетаУправлениеПоискомКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="ДеревоОтчетаУправлениеПоискомРасширеннаяПодсказка" id="39"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ДеревоОтчетаНоменкатура" id="40">
+					<DataPath>ДеревоОтчета.Номенкатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДеревоОтчетаНоменкатураКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ДеревоОтчетаНоменкатураРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="ДеревоОтчетаХарактеристика" id="43">
+					<DataPath>ДеревоОтчета.Характеристика</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДеревоОтчетаХарактеристикаКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ДеревоОтчетаХарактеристикаРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="ДеревоОтчетаОбеспечено" id="49">
+					<DataPath>ДеревоОтчета.Обеспечено</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДеревоОтчетаОбеспеченоКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ДеревоОтчетаОбеспеченоРасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="ДеревоОтчетаОсталосьОбеспечить" id="52">
+					<DataPath>ДеревоОтчета.ОсталосьОбеспечить</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДеревоОтчетаОсталосьОбеспечитьКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ДеревоОтчетаОсталосьОбеспечитьРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="ДеревоОтчетаПлан" id="55">
+					<DataPath>ДеревоОтчета.План</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДеревоОтчетаПланКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ДеревоОтчетаПланРасширеннаяПодсказка" id="57"/>
+				</InputField>
+				<InputField name="ДеревоОтчетаРегистратор" id="46">
+					<DataPath>ДеревоОтчета.Регистратор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДеревоОтчетаРегистраторКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ДеревоОтчетаРегистраторРасширеннаяПодсказка" id="48"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Отчет" id="1">
+			<Type>
+				<v8:Type>cfg:ReportObject.КСП_ПотребностиПоДатеВозникновенияИОбъему</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Результат" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеРасшифровки" id="3">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаНачала" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаОкончания" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Статус" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.СтатусыПланов</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СценарийПолный" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий (полный)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СценарииТоварногоПланирования</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СценарийТекущий" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий (текущий)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СценарииТоварногоПланирования</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеревоОтчета" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево отчета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенкатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенкатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Характеристика" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Регистратор" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистратор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.КорректировкаРегистров</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Обеспечено" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обеспечено</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОсталосьОбеспечить" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Осталось обеспечить</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="План" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сформировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сформировать</Action>
+		</Command>
+	</Commands>
+</Form>

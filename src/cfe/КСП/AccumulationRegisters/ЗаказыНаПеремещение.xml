@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AccumulationRegister uuid="184a1666-6663-48a4-be91-483655601e8c">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ЗаказыНаПеремещение" category="Record">
+				<xr:TypeId>0028ec53-7df3-4efd-876b-c20fa4b2d63c</xr:TypeId>
+				<xr:ValueId>7996eb8c-995b-4158-a8f4-a6ad46bb796d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ЗаказыНаПеремещение" category="Manager">
+				<xr:TypeId>3c4d0dfc-41e0-41fa-97e3-22ca78919980</xr:TypeId>
+				<xr:ValueId>f64892ab-e3ff-4628-8589-88cfbf72a033</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ЗаказыНаПеремещение" category="Selection">
+				<xr:TypeId>61c0d87b-5e19-4d90-9828-74968f7401f8</xr:TypeId>
+				<xr:ValueId>fc779dfd-f1c7-4f89-9108-f00e8341e43e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ЗаказыНаПеремещение" category="List">
+				<xr:TypeId>faf70a9c-7e90-4a2c-8ee6-aa215bc2b28f</xr:TypeId>
+				<xr:ValueId>f6639831-e251-487d-a843-8cd28c33779a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ЗаказыНаПеремещение" category="RecordSet">
+				<xr:TypeId>4fdd2f60-502b-4f7c-9d31-5a586e41d8ec</xr:TypeId>
+				<xr:ValueId>aed91ca7-d541-4bf2-b7c2-c3e8eca8093c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ЗаказыНаПеремещение" category="RecordKey">
+				<xr:TypeId>089d7d98-772b-4a62-8eb2-d2809b1d1bcb</xr:TypeId>
+				<xr:ValueId>4e4237c2-7319-4b7d-b12c-d69d99505166</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказыНаПеремещение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7f7b6a96-cbde-4d89-9c93-ad807b2f3c5c</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="474b8f8c-8379-442d-8960-895ae6dff1a9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заказано</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>335293d0-641f-4108-b4d2-6f551ca8d6cb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="addd3122-3e5e-4c17-bc65-34aba36e6618">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказНаПеремещение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cc34c00e-8881-4720-96ee-3e51e2a85fac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d3208ea7-9e19-448a-894c-dc9a931065fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6ef61743-8150-450e-8c1d-49d75f97c57f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="305ef6f6-8002-4e07-ab42-7e3fbdb76252">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>72a4ee12-daf8-4105-8252-6955eb49de05</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

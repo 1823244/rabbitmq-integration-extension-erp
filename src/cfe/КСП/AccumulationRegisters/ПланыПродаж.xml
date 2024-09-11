@@ -34,6 +34,113 @@
 			<ExtendedConfigurationObject>3984ba59-628f-44a0-9f98-9543d6fd5223</ExtendedConfigurationObject>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="3096cfd4-0f04-434b-95fe-b5e1e80e189c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КЗаказу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c4c7ac3-8dfd-43ac-b8a7-8878d3d1227e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="37555279-3be1-42ee-9e81-c35733a76c7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fefce5d3-71bd-435f-b736-a7be76588da1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a0a7f0b7-40a3-4ee6-9db5-d0360d89c6d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>50b32c94-971d-4b77-b8a3-6b89ade0e338</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="90fabe35-b297-4c8a-b8cf-d2e112efb055">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сценарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2e7b3ef7-e018-4a02-bf7e-f4cb9b18a137</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СценарииТоварногоПланирования</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a8bdf75c-152a-4b50-a238-cf3c2f5f81f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c2a2df7-ba99-4445-8b38-3228bcfab2af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="04168752-f63e-47f2-9a23-c639ab7559c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Статус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8ace560b-795d-4771-aa54-fb1f4166d1f9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыПланов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b63e282f-8af0-40a0-943f-4256d09b828f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>04a7ec6d-e82e-4db3-96d6-e821aa3d1adf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e3e85a51-51fe-4949-90fc-f01334070ac6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7f9c04f4-d8fe-491b-9cdb-12048fc685d3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

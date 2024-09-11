@@ -21,6 +21,43 @@
 			<Comment/>
 			<ExtendedConfigurationObject>951a5403-e1a4-4484-8fda-c18df8f291d3</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="b77e7bb8-758c-4647-9a2d-9f5a1d019863">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товар</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>57507687-e857-4627-84a6-131b6dc5555a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b5956c0a-3886-4517-b1df-bad527a045e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Работа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e654eb8f-cadf-4ea9-b106-6855158dcb94</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="71b26d2b-3c99-447a-a523-f933dec1149d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МногооборотнаяТара</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>898c017b-174f-4670-8146-5c6e75af51c1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f4ce054d-b5ba-4308-af04-f53eb59785cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Услуга</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d257be95-baab-4cf8-b5ae-541216c91b07</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>
